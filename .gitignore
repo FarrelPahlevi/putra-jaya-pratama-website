@@ -24,8 +24,7 @@ dist-ssr
 *.sw?
 
 
-# Local-only reference material: unverified rights/attribution
-/public/assets/pjp-preview/
+# Local screenshot previews (not necessary for deployment)
 /preview/
 # Backups and test artifacts
 *.zip

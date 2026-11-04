@@ -76,3 +76,8 @@ Setelah pengujian, screenshot disalin ke folder preview/:
 2. Lengkapi kontak WhatsApp, area layanan, alamat, dan legalitas yang terverifikasi.
 3. Review dengan pengguna; ini alternatif konsep, bukan pengganti otomatis versi Pumpkin.
 4. Lakukan Lighthouse, uji perangkat nyata, dan pengujian lebih dalam sebelum publikasi.
+
+
+## Update 4 November 2026 — Persetujuan publikasi foto
+
+Pemilik PJP menyatakan bahwa seluruh foto proyek pada folder referensi aman digunakan dan telah memiliki izin publikasi. Empat foto WebP ditampilkan pada versi Glass yang di-host di Cloudflare Pages. Ketentuan verifikasi izin dalam bagian historis dokumen ini adalah catatan kondisi sebelumnya. Metadata pekerjaan (lokasi/waktu) masih perlu dilengkapi jika hendak dicantumkan.

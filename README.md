@@ -19,7 +19,7 @@ Artinya push ke GitHub belum otomatis memperbarui website.
 Untuk memperbarui link online dari komputer yang sudah login Cloudflare melalui Wrangler, buka folder proyek dan jalankan:
     powershell -ExecutionPolicy Bypass -File .\scripts\deploy-preview.ps1
 
-Script tersebut membangun aplikasi, memastikan folder foto referensi tidak masuk dist, lalu mengunggah hasilnya ke project Pages pjp-glass-preview.
+Script tersebut membangun aplikasi, memastikan keempat foto berizin ikut di dist, lalu mengunggah hasilnya ke project Pages pjp-glass-preview.
 
 Di GitHub, source code disimpan pada repository private. Perubahan sebaiknya dilakukan di branch terpisah dan digabung lewat Pull Request.
 
@@ -30,11 +30,13 @@ Simpan token sebagai GitHub Actions secret; jangan commit token ke repository.
 
 Sampai token dan workflow deployment disiapkan, gunakan perintah manual di atas. Direct Upload project ini tidak bisa dikonversi langsung menjadi proyek integrasi Git bawaan Cloudflare.
 
-## Privasi materi
+## Dokumentasi foto
 
-- Foto di public/assets/pjp-preview tidak diikutkan dalam Git dan tidak dimuat dalam hasil build publik.
-- Hasil build publik memakai SVG ilustrasi demo, bukan portofolio resmi PJP.
+- Pada 4 November 2026, pemilik proyek menyatakan seluruh foto telah memiliki izin penggunaan dan publikasi.
+- Empat foto WebP di public/assets/pjp-preview kini dipublikasikan lewat Cloudflare Pages dan disertakan ke repository private.
+- Metadata proyek (misalnya lokasi dan tanggal pekerjaan) belum ditambahkan karena belum dilengkapi secara terpisah.
+- Dua kartu galeri tetap berisi ilustrasi demo untuk kategori drainase dan beton.
 - Screenshot lokal di preview/ tidak diunggah ke repository.
-- Izin, detail proyek, nomor kontak dan informasi legal harus dikonfirmasi sebelum website resmi dirilis.
+- Detail proyek, nomor kontak dan informasi legal harus dikonfirmasi sebelum website resmi dirilis.
 
 Detail konsep desain tersedia di docs/GLASS-DESIGN-README.md.

@@ -21,8 +21,6 @@ const filters: { id: Filter; label: string }[] = [
 
 const serviceIcons = [Route, Blocks, Mountain, Layers3, Waves, Droplets]
 
-const isPublishedPreview = import.meta.env.PROD
-
 export const GlassExperience: React.FC<GlassExperienceProps> = ({ onSelectService, onOpenInquiry }) => {
   const [menuOpen, setMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('beranda')
@@ -118,10 +116,10 @@ export const GlassExperience: React.FC<GlassExperienceProps> = ({ onSelectServic
             <div className="glass-hero__stage">
               <div className="glass-hero__halo" aria-hidden="true" />
               <div className="glass-hero__photoframe">
-                <img src={isPublishedPreview ? "/assets/hero-road.svg" : "/assets/pjp-preview/asphalt-road-preview.webp"} width={900} height={1600}
-                  alt={isPublishedPreview ? "Ilustrasi pratinjau konstruksi jalan" : "Foto referensi jalan beraspal melalui area hijau"} fetchPriority="high" />
+                <img src="/assets/pjp-preview/asphalt-road-preview.webp" width={900} height={1600}
+                  alt="Foto dokumentasi jalan beraspal melalui area hijau" fetchPriority="high" />
                 <div className="glass-hero__photogradient" />
-                <div className="glass-photo__tag"><span className="glass-status-dot" /> {isPublishedPreview ? "ILUSTRASI PRATINJAU" : "DOKUMENTASI REFERENSI"}</div>
+                <div className="glass-photo__tag"><span className="glass-status-dot" /> DOKUMENTASI FOTO</div>
                 <div className="glass-photo__footer">
                   <div><span className="glass-mini-label">VISUAL STUDY / 001</span><strong>Ruang yang<br />terhubung.</strong></div>
                   <span className="glass-photo__diagonal" aria-hidden="true">↗</span>
@@ -132,15 +130,15 @@ export const GlassExperience: React.FC<GlassExperienceProps> = ({ onSelectServic
                 <span><small>FOCUS / 01</small><strong>Roadwork</strong></span>
                 <ArrowUpRight size={16} />
               </div>
-              <div className="glass-floating glass-floating--lower" aria-label="Foto sedang dalam tahap verifikasi">
+              <div className="glass-floating glass-floating--lower" aria-label="Foto dipublikasikan dengan izin">
                 <span className="glass-floating__light" />
-                <span><small>STATUS VISUAL</small><strong>{isPublishedPreview ? "Ilustrasi demo" : "Menunggu verifikasi"}</strong></span>
+                <span><small>STATUS VISUAL</small><strong>Foto berizin</strong></span>
               </div>
               <div className="glass-hero__index">01 <span>/</span> 06</div>
             </div>
           </div>
           <div className="glass-container glass-hero__foot">
-            <span>{isPublishedPreview ? "ILUSTRASI DEMO · FOTO PROYEK ASLI TIDAK DIPUBLIKASIKAN" : "FOTO DIGUNAKAN UNTUK PREVIEW INTERNAL · IZIN DAN DETAIL PROYEK BELUM DIVERIFIKASI"}</span>
+            <span>FOTO DOKUMENTASI DIGUNAKAN DENGAN IZIN · WEBSITE DALAM TAHAP PREVIEW</span>
             <a href="#layanan" onClick={e => scrollToSection(e, '#layanan')}>SCROLL TO EXPLORE <ArrowDownRight size={18}/></a>
           </div>
         </section>
@@ -214,9 +212,9 @@ export const GlassExperience: React.FC<GlassExperienceProps> = ({ onSelectServic
           <div className="glass-container glass-capability__layout">
             <div className="glass-capability__visual">
               <div className="glass-capability__picture">
-                <img src={isPublishedPreview ? "/assets/hero-road.svg" : "/assets/pjp-preview/road-roller-preview.webp"} loading="lazy" width={1200} height={900}
-                  alt={isPublishedPreview ? "Ilustrasi alat kerja konstruksi" : "Foto referensi pengerjaan pemadatan dengan alat roller"} />
-                <div className="glass-capability__picnote">{isPublishedPreview ? "ILUSTRASI KONSEP / PREVIEW" : "FOTO REFERENSI / BELUM DIVERIFIKASI"}</div>
+                <img src="/assets/pjp-preview/road-roller-preview.webp" loading="lazy" width={1200} height={900}
+                  alt="Foto dokumentasi pengerjaan pemadatan menggunakan road roller" />
+                <div className="glass-capability__picnote">DOKUMENTASI PENGERJAAN</div>
               </div>
               <div className="glass-capability__detail" aria-hidden="true">
                 <span className="glass-mini-label">PERHATIAN PADA DETAIL</span>
@@ -252,7 +250,7 @@ export const GlassExperience: React.FC<GlassExperienceProps> = ({ onSelectServic
               <div><span className="glass-overline glass-overline--light">04 / VISUAL JOURNAL</span>
                 <h2 id="glass-gallery-title">Lebih dekat<br /><em>ke lapangan.</em></h2>
               </div>
-              <p>{isPublishedPreview ? "Galeri visual demo untuk meninjau desain. Foto proyek asli belum ditayangkan hingga izin publikasinya terkonfirmasi." : "Galeri foto dari folder referensi PJP. Status kepemilikan, detail pekerjaan, dan izin foto masih menunggu verifikasi."}</p>
+              <p>Dokumentasi visual pengaspalan dan pengerjaan yang telah mendapat izin publikasi, dilengkapi ilustrasi untuk kategori layanan lainnya.</p>
             </div>
             <div className="glass-gallery__toolbar">
               <div className="glass-gallery__filters" role="group" aria-label="Filter galeri">
@@ -260,26 +258,26 @@ export const GlassExperience: React.FC<GlassExperienceProps> = ({ onSelectServic
                   {item.label}{item.id === 'semua' && <span> {PROJECTS_LIST.length.toString().padStart(2,'0')}</span>}
                 </button>)}
               </div>
-              <span>REFERENCE MATERIAL / NOT YET PORTFOLIO</span>
+              <span>DOKUMENTASI FOTO / GALLERY</span>
             </div>
             <div className="glass-gallery__grid">
               {projects.map((project, index) => <article key={project.id}
                 className={'glass-gallery-card' + (project.isWide && filter === 'semua' ? ' glass-gallery-card--wide' : '')}>
                 <div className="glass-gallery-card__image">
-                  <img src={isPublishedPreview ? (project.category === 'aspal' ? '/assets/asphalt.svg' : project.category === 'beton' ? '/assets/concrete.svg' : '/assets/drainage.svg') : project.image}
-                    alt={(isPublishedPreview ? 'Ilustrasi pratinjau: ' : project.needsReview ? 'Foto referensi: ' : 'Ilustrasi contoh: ') + project.title} loading="lazy" />
+                  <img src={project.image}
+                    alt={(project.sourceFilename ? 'Foto dokumentasi: ' : 'Ilustrasi kategori: ') + project.title} loading="lazy" />
                   <div className="glass-gallery-card__top"><span>VISUAL / {String(index+1).padStart(2,'0')}</span><span>{project.categoryLabel}</span></div>
                 </div>
                 <div className="glass-gallery-card__content">
-                  <div><small>{isPublishedPreview ? 'ILUSTRASI DEMO · BUKAN PORTOFOLIO' : project.needsReview ? 'FOTO REFERENSI · PERLU VERIFIKASI' : 'ILUSTRASI DEMO'}</small>
-                    <h3>{project.title}</h3><p>{isPublishedPreview ? 'Ilustrasi sementara. Foto asli belum dipublikasikan.' : project.sourceFilename ?? 'Ilustrasi kategori layanan, bukan foto proyek.'}</p>
+                  <div><small>{project.sourceFilename ? 'FOTO DOKUMENTASI · BERIZIN' : 'ILUSTRASI DEMO'}</small>
+                    <h3>{project.title}</h3><p>{project.sourceFilename ? 'Foto dipublikasikan dengan izin.' : 'Ilustrasi kategori layanan, bukan foto pengerjaan.'}</p>
                   </div>
                   <button type="button" aria-label={'Bahas jenis pekerjaan terkait ' + project.title}
                     onClick={() => onOpenInquiry(project.category === 'aspal' ? 'Asphalt Hotmix' : project.title)}><ArrowUpRight size={20}/></button>
                 </div>
               </article>)}
             </div>
-            <p className="glass-gallery__disclaimer">{isPublishedPreview ? "Website ini merupakan pratinjau desain. Seluruh gambar adalah ilustrasi dan bukan bukti proyek resmi." : "Foto dan ilustrasi dipakai untuk pratinjau desain internal. Tidak boleh diklaim sebagai portofolio resmi sebelum disetujui."}</p>
+            <p className="glass-gallery__disclaimer">Dokumentasi foto telah mendapat izin publikasi. Data proyek seperti lokasi dan waktu pengerjaan akan dilengkapi secara bertahap.</p>
           </div>
         </section>
 
@@ -316,7 +314,7 @@ export const GlassExperience: React.FC<GlassExperienceProps> = ({ onSelectServic
           <div><strong>KONSULTASI</strong><button type="button" onClick={() => onOpenInquiry()}>Bahas proyek <ChevronRight size={14}/></button>
             <p>Nomor WhatsApp dan informasi kontak resmi akan ditambahkan setelah terverifikasi.</p></div>
         </div>
-        <div className="glass-container glass-footer__bottom"><span>© {new Date().getFullYear()} PUTRA JAYA PRATAMA · PROTOTYPE</span><span>FOTO REFERENSI BELUM TERVERIFIKASI</span>
+        <div className="glass-container glass-footer__bottom"><span>© {new Date().getFullYear()} PUTRA JAYA PRATAMA · PROTOTYPE</span><span>FOTO DOKUMENTASI BERIZIN</span>
           <a href="#beranda" onClick={e => scrollToSection(e, '#beranda')}>BACK TO TOP ↑</a></div>
       </footer>
     </div>

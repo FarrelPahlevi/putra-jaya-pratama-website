@@ -24,9 +24,9 @@ jobs:
         run: npm ci
       - name: Typecheck and build
         run: npm run build
-      - name: Verify unpublished photographs are excluded
+      - name: Verify authorized photographs in public build
         run: |
-          if [ -d dist/assets/pjp-preview ]; then
-            echo "Unverified photographs must not be deployed."
-            exit 1
-          fi
+          test -s dist/assets/pjp-preview/asphalt-road-preview.webp
+          test -s dist/assets/pjp-preview/road-roller-preview.webp
+          test -s dist/assets/pjp-preview/asphalt-access-preview.webp
+          test -s dist/assets/pjp-preview/tree-lined-road-preview.webp
