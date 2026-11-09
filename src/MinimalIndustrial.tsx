@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {
-  ArrowDown, ArrowRight, ArrowUpRight, Blocks, Droplets,
+  ArrowRight, ArrowUpRight, Blocks, Droplets,
   Layers3, Menu, Mountain, Route, Waves, X
 } from 'lucide-react'
 import { NAV_LINKS, PROCESS_STEPS, SERVICES_LIST } from './data/mockData'
@@ -98,10 +98,6 @@ export const MinimalIndustrial: React.FC<Props> = ({ onSelectService, onOpenInqu
             ))}
           </nav>
           <div className="minimal-header__actions">
-            <button type="button" className="minimal-button minimal-button--primary minimal-header__cta"
-              onClick={() => onOpenInquiry()}>
-              Konsultasi Proyek <ArrowUpRight size={17} aria-hidden="true" />
-            </button>
             <button type="button" className="minimal-mobile-toggle"
               aria-label={menuOpen ? 'Tutup navigasi' : 'Buka navigasi'}
               aria-expanded={menuOpen} aria-controls="minimal-mobile-nav"
@@ -144,12 +140,6 @@ export const MinimalIndustrial: React.FC<Props> = ({ onSelectService, onOpenInqu
               <button type="button" className="minimal-button minimal-button--outline"
                 onClick={() => onOpenInquiry()}>Bahas Kebutuhan <ArrowRight size={17} /></button>
             </div>
-          </div>
-          <div className="minimal-container minimal-hero__bottom">
-            <span>JASA PENGASPALAN & KONSTRUKSI JALAN</span>
-            <a href="#layanan" onClick={(event) => goTo(event, '#layanan')}>
-              SCROLL UNTUK JELAJAHI <ArrowDown size={15} aria-hidden="true" />
-            </a>
           </div>
         </section>
 

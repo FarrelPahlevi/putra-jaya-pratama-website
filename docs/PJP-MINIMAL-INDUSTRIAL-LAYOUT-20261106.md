@@ -57,3 +57,13 @@ Nama: pjp-minimal-{1440,390}-{hero,layanan,tentang,proses,proyek,kontak}.png
 - Metadata foto (lokasi/tanggal pekerjaan) belum ditambahkan karena informasinya belum tersedia.
 - Tombol konsultasi masih membuka formulir pembuat ringkasan untuk disalin, bukan mengirim WhatsApp langsung; nomor resmi belum terpasang.
 - Uji otomatis dengan Chrome sudah lulus. Pengujian Safari/Firefox dan Lighthouse penuh belum dilakukan.
+
+## Update 9 November 2026 — Header transparan dan Hero tengah
+Referensi tambahan dari pengguna: header pada layout Universal Metals dan headline/CTA tengah pada layout PEIShip.
+- Navbar desktop menjadi logo kiri + navigasi kanan tanpa CTA tambahan; mode mobile tetap memiliki drawer dan tombol konsultasi.
+- Hero kini menyajikan headline, deskripsi, serta dua CTA terpusat secara horizontal dan vertikal.
+- Overlay foto dibuat merata agar teks tengah terbaca; foto pekerjaan dan seluruh section lain tetap.
+- Bar informasi kecil di bagian paling bawah hero dihilangkan agar komposisi lebih bersih.
+- CSS tetap mendukung prefers-reduced-motion, dan header berubah gelap ketika scroll.
+- Pengujian 320, 360, 390, 414, 768, 950, 1024, 1280, 1440px: tanpa overflow, gambar rusak, tautan internal putus, maupun error JS. Modal konsultasi dan menu mobile berfungsi.
+- Backup sebelum edit: C:\Projects\PJP-Backups\PJP-Minimal-before-centered-hero-20261109.zip
