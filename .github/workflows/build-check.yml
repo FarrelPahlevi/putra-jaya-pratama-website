@@ -1,4 +1,4 @@
-name: Check PJP Website
+name: Validate PJP Minimal Industrial
 
 on:
   push:
@@ -13,20 +13,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout source
         uses: actions/checkout@v4
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: npm
       - name: Install dependencies
         run: npm ci
-      - name: Typecheck and build
+      - name: TypeScript check and Vite production build
         run: npm run build
-      - name: Verify authorized photographs in public build
+      - name: Validate design and authorized images
         run: |
+          test -s src/MinimalIndustrial.tsx
+          test -s src/minimal-industrial.css
+          test ! -e src/GlassExperience.tsx
+          test -s dist/assets/pjp-preview/asphalt-access-preview.webp
           test -s dist/assets/pjp-preview/asphalt-road-preview.webp
           test -s dist/assets/pjp-preview/road-roller-preview.webp
-          test -s dist/assets/pjp-preview/asphalt-access-preview.webp
           test -s dist/assets/pjp-preview/tree-lined-road-preview.webp

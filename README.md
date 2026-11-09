@@ -1,42 +1,47 @@
-# Putra Jaya Pratama · Atmospheric Glass
+# Putra Jaya Pratama (PJP)
 
-Website company profile PJP berbasis React, TypeScript, dan Vite. Proyek ini terpisah dari versi Pumpkin Industrial.
+Source website **PJP Minimal Industrial**, pengembangan terbaru dari versi Pumpkin Industrial. Layout dirancang ulang pada 6 November 2026 dengan referensi komposisi industri dari 99designs. **Versi Glassmorphism sudah bukan desain aktif.**
 
-Live preview: https://pjp-glass-preview.pages.dev/
-Repository: https://github.com/FarrelPahlevi/pjp-website-glass (private)
+## Status
+- **Branch aktif:** `main` berisi Minimal Industrial, dengan React 19, TypeScript, Vite.
+- **Branch arsip:** `archive/glassmorphism-20261109` menyimpan kondisi Glass terakhir.
+- **Cloudflare Pages:** project preview sebelumnya menggunakan Direct Upload dan **tidak otomatis terbarui dari push GitHub**. Jangan menganggap tautan Cloudflare sudah beralih ke layout baru sampai deployment dilakukan dan diuji.
 
-## Menjalankan di komputer
+## Menjalankan di PC lain
 
-Jalankan di PowerShell dari folder proyek:
-    npm ci
-    npm.cmd run dev
+Install Node.js LTS dan Git, lalu:
 
-## Hosting preview saat ini
+```bash
+git clone https://github.com/FarrelPahlevi/pjp-website-glass.git
+cd pjp-website-glass
+npm ci
+npm run dev
+```
 
-Situs menggunakan Cloudflare Pages Direct Upload karena Cloudflare Git integration mengembalikan error 8000011.
-Artinya push ke GitHub belum otomatis memperbarui website.
+Buka alamat localhost yang muncul di terminal. Untuk mengecek build:
 
-Untuk memperbarui link online dari komputer yang sudah login Cloudflare melalui Wrangler, buka folder proyek dan jalankan:
-    powershell -ExecutionPolicy Bypass -File .\scripts\deploy-preview.ps1
+```bash
+npm run build
+npm run preview
+```
 
-Script tersebut membangun aplikasi, memastikan keempat foto berizin ikut di dist, lalu mengunggah hasilnya ke project Pages pjp-glass-preview.
+## Susunan desain terbaru
+- Hero foto full-width dengan headline “Membangun jalan. Membuka akses.”
+- Header minimal, navigasi responsif.
+- Grid enam layanan, section editorial alat dan cara kerja, timeline empat tahap.
+- Galeri empat foto dokumentasi WebP dan CTA konsultasi.
+- Komponen dialog detail layanan dan ringkasan konsultasi masih aktif.
 
-Di GitHub, source code disimpan pada repository private. Perubahan sebaiknya dilakukan di branch terpisah dan digabung lewat Pull Request.
+## Referensi tata letak
+- https://99designs.com/profiles/kwikrelease/designs/1149098
+- https://99designs.com/profiles/sudipdutta/designs/1233964
 
-## Otomatisasi deployment di masa mendatang
+Referensi hanya untuk prinsip tata letak. Kode, konten, dan visual website PJP dikembangkan secara terpisah.
 
-Direct Upload tetap bisa memakai GitHub Actions + Wrangler, tetapi memerlukan API token Cloudflare khusus berizin Account → Cloudflare Pages → Edit.
-Simpan token sebagai GitHub Actions secret; jangan commit token ke repository.
+## Catatan
+- Empat foto dokumentasi telah dinyatakan berizin oleh pemilik PJP.
+- Nomor WhatsApp resmi belum dikonfigurasi. Form konsultasi membuat ringkasan yang bisa disalin, belum mengirim pesan langsung.
+- Sebelum rilis resmi, finalisasi profil perusahaan, rincian proyek, serta informasi kontak yang sudah diverifikasi.
+- Screenshot lokal dan `node_modules` tidak disimpan di repository.
 
-Sampai token dan workflow deployment disiapkan, gunakan perintah manual di atas. Direct Upload project ini tidak bisa dikonversi langsung menjadi proyek integrasi Git bawaan Cloudflare.
-
-## Dokumentasi foto
-
-- Pada 4 November 2026, pemilik proyek menyatakan seluruh foto telah memiliki izin penggunaan dan publikasi.
-- Empat foto WebP di public/assets/pjp-preview kini dipublikasikan lewat Cloudflare Pages dan disertakan ke repository private.
-- Metadata proyek (misalnya lokasi dan tanggal pekerjaan) belum ditambahkan karena belum dilengkapi secara terpisah.
-- Dua kartu galeri tetap berisi ilustrasi demo untuk kategori drainase dan beton.
-- Screenshot lokal di preview/ tidak diunggah ke repository.
-- Detail proyek, nomor kontak dan informasi legal harus dikonfirmasi sebelum website resmi dirilis.
-
-Detail konsep desain tersedia di docs/GLASS-DESIGN-README.md.
+Lihat `docs/PJP-MINIMAL-INDUSTRIAL-LAYOUT-20261106.md` untuk catatan implementasi, atau buka folder `src` untuk source utama.

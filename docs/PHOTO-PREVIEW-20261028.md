@@ -32,8 +32,3 @@ Semua original JPG dibiarkan tetap di Drive. Versi optimasi disimpan lokal. Wate
 ## Recovery
 Backup sebelum integrasi: C:\Projects\PJP-Backups\PJP-pre-photo-integration-20261028.zip
 Jangan menghapus atau overwrite arsip backup ini.
-
-
-## Update 4 November 2026 — Persetujuan publikasi foto
-
-Pemilik PJP menyatakan bahwa seluruh foto proyek pada folder referensi aman digunakan dan telah memiliki izin publikasi. Empat foto WebP ditampilkan pada versi Glass yang di-host di Cloudflare Pages. Ketentuan verifikasi izin dalam bagian historis dokumen ini adalah catatan kondisi sebelumnya. Metadata pekerjaan (lokasi/waktu) masih perlu dilengkapi jika hendak dicantumkan.

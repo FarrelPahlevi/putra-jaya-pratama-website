@@ -1,40 +1,22 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Dependencies and compiled builds
+node_modules/
+dist/
+dist-ssr/
+*.tsbuildinfo
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Local previews and tool artifacts
+preview/
+.wrangler/
+.vscode/
+.idea/
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-
-# Local screenshot previews (not necessary for deployment)
-/preview/
-# Backups and test artifacts
+opencode.jsonc
 *.zip
 *.bak
-*~ 
-# Never publish credentials
+*.log
+
+# Secrets and local environment variables
 .env
 .env.*
 !.env.example
-
-# Local AI tool settings and build cache
-opencode.jsonc
-.wrangler/
+*.local
