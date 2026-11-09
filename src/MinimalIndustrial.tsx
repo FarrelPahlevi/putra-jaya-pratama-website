@@ -1,17 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import {
-  ArrowRight, ArrowUpRight, Blocks, Droplets,
-  Layers3, Menu, Mountain, Route, Waves, X
-} from 'lucide-react'
+import { ArrowRight, ArrowUpRight, Menu, X } from 'lucide-react'
 import { NAV_LINKS, PROCESS_STEPS, SERVICES_LIST } from './data/mockData'
-import type { ServiceItem } from './types'
+import { SERVICE_ILLUSTRATIONS } from './data/serviceIllustrations'
 
 type Props = {
-  onSelectService: (service: ServiceItem) => void
   onOpenInquiry: (serviceName?: string) => void
 }
-
-const serviceIcons = [Route, Blocks, Mountain, Layers3, Waves, Droplets]
 
 const photoStories = [
   {
@@ -44,7 +38,7 @@ const photoStories = [
   },
 ]
 
-export const MinimalIndustrial: React.FC<Props> = ({ onSelectService, onOpenInquiry }) => {
+export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
   const [menuOpen, setMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [current, setCurrent] = useState('beranda')
@@ -151,27 +145,26 @@ export const MinimalIndustrial: React.FC<Props> = ({ onSelectService, onOpenInqu
               <p>Pekerjaan jalan dan area pendukungnya memerlukan pendekatan yang tepat untuk setiap kondisi lapangan.</p>
             </div>
             <div className="minimal-service-grid">
-              {SERVICES_LIST.map((service, index) => {
-                const Icon = serviceIcons[index] ?? Route
+              {SERVICES_LIST.map((service) => {
+                const illustration = SERVICE_ILLUSTRATIONS[service.id]
+                const asset = '/assets/services/' + illustration.file
                 return (
-                  <article key={service.id} className="minimal-service">
-                    <div className="minimal-service__head">
-                      <span className="minimal-service__icon"><Icon size={27} strokeWidth={1.55} aria-hidden="true" /></span>
-                      <span className="minimal-service__index">{String(index + 1).padStart(2,'0')}</span>
+                  <article key={service.id} className="minimal-service"
+                    aria-labelledby={'service-' + service.id}>
+                    <div className="minimal-service__visual">
+                      <img
+                        src={asset + '-800.webp'}
+                        srcSet={asset + '-400.webp 400w, ' + asset + '-800.webp 800w'}
+                        sizes="(min-width: 1100px) 340px, (min-width: 800px) 340px, (min-width: 520px) calc((90vw - 32px) / 2), (min-width: 380px) 304px, calc(100vw - 44px)"
+                        width={800} height={640}
+                        loading="lazy" decoding="async"
+                        alt={illustration.alt}
+                      />
                     </div>
-                    <h3>{service.title}</h3>
-                    <p>{service.summary}</p>
-                    <button type="button" onClick={() => onSelectService(service)}
-                      aria-label={'Pelajari layanan ' + service.title}>
-                      Detail layanan <ArrowUpRight size={16} aria-hidden="true" />
-                    </button>
+                    <h3 id={'service-' + service.id}>{service.title}</h3>
                   </article>
                 )
               })}
-            </div>
-            <div className="minimal-services__tail">
-              <span>Tidak yakin layanan yang sesuai dengan lokasi Anda?</span>
-              <button onClick={() => onOpenInquiry()} type="button">Diskusikan kebutuhan <ArrowUpRight size={17} /></button>
             </div>
           </div>
         </section>

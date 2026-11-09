@@ -33,3 +33,7 @@ jobs:
           test -s dist/assets/pjp-preview/asphalt-road-preview.webp
           test -s dist/assets/pjp-preview/road-roller-preview.webp
           test -s dist/assets/pjp-preview/tree-lined-road-preview.webp
+          for service in asphalt-hotmix paving-block cut-and-fill cor-beton saluran-u-ditch resapan-air; do
+            test -s "dist/assets/services/$service-400.webp"
+            test -s "dist/assets/services/$service-800.webp"
+          done
