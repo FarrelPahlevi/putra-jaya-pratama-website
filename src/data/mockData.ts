@@ -3,7 +3,7 @@ import type { NavLink, ServiceItem, ProcessStep, ProjectItem } from '../types'
 export const NAV_LINKS: NavLink[] = [
   { label: 'Beranda', href: '#beranda' },
   { label: 'Layanan', href: '#layanan' },
-  { label: 'Galeri Proyek', href: '#proyek' },
+  { label: 'Galeri Proyek', href: '/galeri-proyek' },
   { label: 'Tentang Kami', href: '#tentang' },
   { label: 'Kontak', href: '#kontak' },
 ]
