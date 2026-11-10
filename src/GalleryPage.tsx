@@ -79,17 +79,8 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
             <img src="/assets/pjp-preview/asphalt-road-preview.webp" alt="" width={1600} height={900} />
           </div>
           <div className="minimal-container project-hero__content">
-            <nav aria-label="Breadcrumb" className="project-breadcrumb">
-              <a href="/">Beranda</a><span aria-hidden="true">/</span><span aria-current="page">Galeri Proyek</span>
-            </nav>
-            <span className="minimal-kicker minimal-kicker--light">DOKUMENTASI PEKERJAAN / PJP</span>
             <h1 id="project-page-title">Pekerjaan nyata.<br /><em>Hasil yang terlihat.</em></h1>
             <p>Jelajahi dokumentasi pekerjaan Putra Jaya Pratama menurut jenis layanan. Foto-foto lapangan, ditampilkan dengan sederhana dan apa adanya.</p>
-            <div className="project-hero__meta">
-              <span>{String(PROJECT_PHOTOS.length).padStart(2, '0')} FOTO DOKUMENTASI</span>
-              <span className="project-hero__separator" />
-              <span>{String(categories.length).padStart(2, '0')} KATEGORI TERSEDIA</span>
-            </div>
           </div>
         </section>
 
