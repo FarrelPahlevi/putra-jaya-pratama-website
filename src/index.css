@@ -18,9 +18,9 @@
   --gutter: clamp(20px, 4.2vw, 68px);
 }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 110px; font-family: 'Bricolage Grotesque',Arial,sans-serif; -webkit-font-smoothing: antialiased; }
+html { scroll-behavior: smooth; scroll-padding-top: 110px; font-family: 'Barlow',Arial,sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0; background: var(--paper); color: var(--ink); }
-h1,h2,h3,h4,h5,h6 { letter-spacing: -.05em; }
+h1,h2,h3,h4,h5,h6 { letter-spacing: -.02em; }
 button,a { -webkit-tap-highlight-color: transparent; }
 button { cursor:pointer; }
 a { text-decoration:none; }
@@ -35,7 +35,7 @@ a { text-decoration:none; }
 .pjp-eyebrow--light:before { background:var(--pumpkin-light); }
 .pjp-h2 { font-size:clamp(2.7rem,5.1vw,5.6rem); line-height:.98; font-weight:800; letter-spacing:-.065em; text-transform:uppercase; }
 .pjp-copy { font-size:clamp(.98rem,1.3vw,1.13rem); line-height:1.75; max-width:540px; }
-.pjp-label { text-transform:uppercase; letter-spacing:.15em; font:800 10px/1.4 'Bricolage Grotesque',sans-serif; }
+.pjp-label { text-transform:uppercase; letter-spacing:.15em; font:800 10px/1.4 'Barlow',sans-serif; }
 .pjp-button { display:inline-flex; align-items:center; justify-content:center; gap:20px; min-height:52px; padding:14px 22px; border-radius:999px; border:1px solid transparent; font-size:13px; font-weight:800; transition:background .25s var(--ease),border-color .25s var(--ease),color .25s var(--ease),transform .25s var(--ease); }
 .pjp-button:hover { transform:translateY(-2px); }
 .pjp-button--orange { background:var(--pumpkin-hover); color:#fff; }
