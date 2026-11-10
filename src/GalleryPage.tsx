@@ -145,14 +145,6 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
                             <img src={photo.image} alt={photo.alt} loading={index === 0 ? 'eager' : 'lazy'}
                               decoding="async" width={1100} height={750} />
                             <span className="project-photo__shade" aria-hidden="true" />
-                            <span className="project-photo__top">
-                              <span>DOKUMENTASI / {String(index + 1).padStart(2,'0')}</span>
-                              <span className="project-photo__expand" aria-hidden="true"><ArrowUpRight size={18}/></span>
-                            </span>
-                            <span className="project-photo__bottom">
-                              <span className="project-photo__text"><small>{photo.caption}</small><strong>{photo.title}</strong></span>
-                              <span className="project-photo__view">LIHAT FOTO <ArrowUpRight size={15}/></span>
-                            </span>
                           </button>
                         </article>
                       )
