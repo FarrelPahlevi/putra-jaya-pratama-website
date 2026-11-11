@@ -46,6 +46,10 @@ Referensi hanya untuk prinsip tata letak. Kode, konten, dan visual website PJP d
 
 Lihat `docs/PJP-MINIMAL-INDUSTRIAL-LAYOUT-20261106.md` untuk catatan implementasi, atau buka folder `src` untuk source utama.
 
+## Motion dan prerender (11 November 2026)
+
+Website terbaru menyertakan animasi scroll responsif menggunakan paket Motion yang sudah ada, termasuk dukungan `prefers-reduced-motion`. Build sekarang menjalankan TypeScript, Vite client, SSR bundle, dan prerender statis untuk `/` serta `/galeri-proyek`. Jalankan `npm run build` pada PC lain sebelum menerbitkan direktori `dist/` ke Cloudflare Pages. Detail dan hasil uji tersedia di `docs/PJP-MOTION-20261111.md`.
+
 ## Melanjutkan proyek dari PC lain
 
-Source utama dan revisi terbaru (termasuk penyederhanaan galeri serta perbaikan copywriting 11 November 2026) tersinkron melalui repository ini. Lihat [`docs/SETUP-PC-LAIN.md`](docs/SETUP-PC-LAIN.md) untuk cara clone, menjalankan project, menginstal ulang skill Codex, dan memakai script QA. Screenshot QA besar, dependency lokal, serta rahasia PC tidak termasuk commit. Push ke GitHub **tidak otomatis meng-deploy Cloudflare Pages**.
+Source utama dan revisi terbaru (termasuk penyederhanaan galeri, perbaikan copywriting, dan motion 11 November 2026) tersinkron melalui repository ini. Lihat [`docs/SETUP-PC-LAIN.md`](docs/SETUP-PC-LAIN.md) untuk cara clone, menjalankan project, menginstal ulang skill Codex, dan memakai script QA. Screenshot QA besar, dependency lokal, serta rahasia PC tidak termasuk commit. Push ke GitHub **tidak otomatis meng-deploy Cloudflare Pages**.

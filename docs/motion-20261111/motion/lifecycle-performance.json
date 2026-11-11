@@ -1,0 +1,85 @@
+{
+  "checks": [
+    {
+      "name": "duplicate initialization replaces the previous scene",
+      "pass": true
+    },
+    {
+      "name": "stale cleanup does not stop the replacement scene",
+      "pass": true
+    },
+    {
+      "name": "unmount cleanup removes animations and restores original inline styles",
+      "pass": true
+    },
+    {
+      "name": "twenty mount/unmount cycles leave no animation effects",
+      "pass": true
+    },
+    {
+      "name": "missing Intersection Observer falls back to visible static content",
+      "pass": true
+    },
+    {
+      "name": "short desktop and height-only resize keep the hero image covering its frame",
+      "pass": true
+    },
+    {
+      "name": "CPU 4x 390: forward/reverse scroll stays usable without overflow",
+      "pass": true
+    },
+    {
+      "name": "CPU 4x 1440: forward/reverse scroll stays usable without overflow",
+      "pass": true
+    }
+  ],
+  "profiles": [
+    {
+      "width": 390,
+      "height": 900,
+      "cpuSlowdown": 4,
+      "cls": 0.003100212883823995,
+      "lcp": 536,
+      "longTasks": [
+        {
+          "start": 487.60000002384186,
+          "duration": 136
+        },
+        {
+          "start": 859.2000000476837,
+          "duration": 70
+        }
+      ],
+      "frames": 360,
+      "medianFrameMs": 16.699999999999818,
+      "p95FrameMs": 16.799999999999727,
+      "framesOver50ms": 0,
+      "scrollLongTasks": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "cpuSlowdown": 4,
+      "cls": 0.004824547368639617,
+      "lcp": 600,
+      "longTasks": [
+        {
+          "start": 546.7000000476837,
+          "duration": 131
+        },
+        {
+          "start": 976.6000000238419,
+          "duration": 79
+        }
+      ],
+      "frames": 360,
+      "medianFrameMs": 16.699999999999818,
+      "p95FrameMs": 16.799999999999272,
+      "framesOver50ms": 0,
+      "scrollLongTasks": [],
+      "overflow": false
+    }
+  ],
+  "limitation": "Single local headless Chrome sample with 4x CPU slowdown; network unthrottled. rAF samples are diagnostics, not a field FPS/CWV guarantee."
+}

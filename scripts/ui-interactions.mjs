@@ -188,7 +188,7 @@ try {
     await check('every internal navigation link has an existing destination', async () => {
       for (const route of ['/', '/galeri-proyek']) {
         await page.goto(baseURL + route, { waitUntil: 'networkidle' })
-        const links = await page.locator('a[href]').evaluateAll(elements => elements.map(element => element.getAttribute('href')))
+        const links = await page.locator('a[href]:not(.project-photo__button)').evaluateAll(elements => elements.map(element => element.getAttribute('href')))
         for (const href of new Set(links)) {
           const url = new URL(href, baseURL + route)
           const target = await context.newPage()

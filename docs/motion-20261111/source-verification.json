@@ -1,0 +1,305 @@
+{
+  "backup": "C:/Projects/PJP-Website-backups/motion-20261111-162417",
+  "content": [
+    {
+      "file": "src/MinimalIndustrial.tsx",
+      "jsxTextPreserved": true
+    },
+    {
+      "file": "src/GalleryPage.tsx",
+      "jsxTextPreserved": true
+    }
+  ],
+  "untouched": [
+    {
+      "file": "src/SiteHeader.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/SiteFooter.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/InquiryModal.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/project-gallery.css",
+      "unchanged": true
+    },
+    {
+      "file": "src/inquiry-modal.css",
+      "unchanged": true
+    },
+    {
+      "file": "src/index.css",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/mockData.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/projectGallery.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/serviceIllustrations.ts",
+      "unchanged": true
+    },
+    {
+      "file": "vite.config.ts",
+      "unchanged": true
+    },
+    {
+      "file": "index.html",
+      "unchanged": true
+    },
+    {
+      "file": "package-lock.json",
+      "unchanged": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "public/assets/asphalt.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/concrete.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/drainage.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/hero-road.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/asphalt-access-preview-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/asphalt-access-preview-700.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/asphalt-access-preview.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/asphalt-road-preview-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/asphalt-road-preview-700.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/asphalt-road-preview.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/road-roller-preview-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/road-roller-preview-700.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/road-roller-preview.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/tree-lined-road-preview-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/tree-lined-road-preview.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/asphalt-hotmix-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/asphalt-hotmix-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/cor-beton-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/cor-beton-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/cut-and-fill-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/cut-and-fill-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/paving-block-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/paving-block-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/resapan-air-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/resapan-air-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/saluran-u-ditch-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/saluran-u-ditch-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/favicon.svg",
+      "unchanged": true
+    }
+  ],
+  "layout": [
+    {
+      "page": "home",
+      "width": 320,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "gallery",
+      "width": 320,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "home",
+      "width": 360,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "gallery",
+      "width": 360,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "home",
+      "width": 390,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "gallery",
+      "width": 390,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "home",
+      "width": 430,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "gallery",
+      "width": 430,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "home",
+      "width": 768,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "gallery",
+      "width": 768,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "home",
+      "width": 1024,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "gallery",
+      "width": 1024,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "home",
+      "width": 1280,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "gallery",
+      "width": 1280,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "home",
+      "width": 1440,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "gallery",
+      "width": 1440,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "home",
+      "width": 1920,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    },
+    {
+      "page": "gallery",
+      "width": 1920,
+      "sectionsUnchanged": true,
+      "visibleCopyPreserved": true,
+      "errors": 0
+    }
+  ]
+}

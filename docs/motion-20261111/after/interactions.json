@@ -1,0 +1,150 @@
+[
+  {
+    "name": "form 320: initial focus inside dialog",
+    "pass": true
+  },
+  {
+    "name": "form 320: labels programmatically associated",
+    "pass": true
+  },
+  {
+    "name": "form 320: keyboard focus stays inside",
+    "pass": true
+  },
+  {
+    "name": "form 320: no accessibility violations",
+    "pass": true
+  },
+  {
+    "name": "form 320: Escape restores trigger focus",
+    "pass": true
+  },
+  {
+    "name": "form 390: initial focus inside dialog",
+    "pass": true
+  },
+  {
+    "name": "form 390: labels programmatically associated",
+    "pass": true
+  },
+  {
+    "name": "form 390: keyboard focus stays inside",
+    "pass": true
+  },
+  {
+    "name": "form 390: no accessibility violations",
+    "pass": true
+  },
+  {
+    "name": "form 390: Escape restores trigger focus",
+    "pass": true
+  },
+  {
+    "name": "form 768: initial focus inside dialog",
+    "pass": true
+  },
+  {
+    "name": "form 768: labels programmatically associated",
+    "pass": true
+  },
+  {
+    "name": "form 768: keyboard focus stays inside",
+    "pass": true
+  },
+  {
+    "name": "form 768: no accessibility violations",
+    "pass": true
+  },
+  {
+    "name": "form 768: Escape restores trigger focus",
+    "pass": true
+  },
+  {
+    "name": "form 1440: initial focus inside dialog",
+    "pass": true
+  },
+  {
+    "name": "form 1440: labels programmatically associated",
+    "pass": true
+  },
+  {
+    "name": "form 1440: keyboard focus stays inside",
+    "pass": true
+  },
+  {
+    "name": "form 1440: no accessibility violations",
+    "pass": true
+  },
+  {
+    "name": "form 1440: Escape restores trigger focus",
+    "pass": true
+  },
+  {
+    "name": "skip link receives first focus and reaches main",
+    "pass": true
+  },
+  {
+    "name": "mobile menu: tap, scroll lock, current state, focus trap and Escape",
+    "pass": true
+  },
+  {
+    "name": "mobile section navigation closes menu and focuses destination",
+    "pass": true
+  },
+  {
+    "name": "mobile menu closes on desktop resize and restores scrolling",
+    "pass": true
+  },
+  {
+    "name": "all home consultation triggers open and cancel the form",
+    "pass": true
+  },
+  {
+    "name": "form: validation, clipboard success, retry and retained values",
+    "pass": true
+  },
+  {
+    "name": "form: denied clipboard offers selectable manual copy",
+    "pass": true
+  },
+  {
+    "name": "gallery link navigates to its own page",
+    "pass": true
+  },
+  {
+    "name": "gallery filter selection announces count",
+    "pass": true
+  },
+  {
+    "name": "lightbox: every photo, arrows, keyboard, Escape and focus restore",
+    "pass": true
+  },
+  {
+    "name": "lightbox: touch swipe advances, vertical gesture leaves photo unchanged",
+    "pass": true
+  },
+  {
+    "name": "gallery consultation and footer consultation work",
+    "pass": true
+  },
+  {
+    "name": "every internal navigation link has an existing destination",
+    "pass": true
+  },
+  {
+    "name": "short landscape: menu, form and lightbox stay scrollable",
+    "pass": true
+  },
+  {
+    "name": "200% text scaling keeps copy and controls within viewport",
+    "pass": true
+  },
+  {
+    "name": "normal motion: keyboard focus rings remain visible below fixed header",
+    "pass": true
+  },
+  {
+    "name": "reduced motion: hero and hover transforms stay at rest",
+    "pass": true
+  }
+]

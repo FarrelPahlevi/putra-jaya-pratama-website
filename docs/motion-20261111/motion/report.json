@@ -1,0 +1,792 @@
+{
+  "engine": "157.0.8103.50",
+  "checks": [
+    {
+      "name": "home 360: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 360: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 360: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 360: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 360: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 360: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 360: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 360: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 360: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 390: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 390: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 390: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 390: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 390: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 390: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 390: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 390: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 390: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 430: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 430: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 430: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 430: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 430: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 430: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 430: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 430: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 430: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 768: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 768: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 768: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 768: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 768: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 768: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 768: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 768: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 768: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 1024: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 1024: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 1024: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 1024: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 1024: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 1024: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 1024: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 1024: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 1024: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 1440: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 1440: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 1440: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 1440: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 1440: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 1440: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 1440: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 1440: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 1440: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 1920: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 1920: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 1920: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 1920: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 1920: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 1920: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 1920: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 1920: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 1920: console clean",
+      "pass": true
+    },
+    {
+      "name": "runtime reduced-motion toggles and restores all animated styles",
+      "pass": true
+    },
+    {
+      "name": "repeated breakpoint changes do not duplicate scroll animations",
+      "pass": true
+    },
+    {
+      "name": "touch input scrolls without trapping",
+      "pass": true
+    },
+    {
+      "name": "failed motion chunk keeps content and enhanced controls usable",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled home 390: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled gallery 390: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled home 768: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled gallery 768: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled home 1440: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled gallery 1440: content, navigation, summary and native images",
+      "pass": true
+    }
+  ],
+  "viewports": [
+    {
+      "name": "home",
+      "width": 360,
+      "height": 800,
+      "maxActive": 25,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.004395480482313367,
+      "shifts": [
+        {
+          "value": 0.0005345000542534722,
+          "time": 341.89999997615814,
+          "nodes": [
+            "motion-hero-line"
+          ]
+        },
+        {
+          "value": 0.0038609804280598952,
+          "time": 373.2999999523163,
+          "nodes": [
+            "",
+            null,
+            "minimal-kicker minimal-kicker--light",
+            {},
+            {}
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 360,
+      "height": 800,
+      "maxActive": 11,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.00034111151801215277,
+      "shifts": [
+        {
+          "value": 0.00022626776801215278,
+          "time": 292.1999999284744,
+          "nodes": [
+            "project-filter",
+            ""
+          ]
+        },
+        {
+          "value": 0.00011484375,
+          "time": 329.60000002384186,
+          "nodes": [
+            null
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "height": 844,
+      "maxActive": 26,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.0024707864381487503,
+      "shifts": [
+        {
+          "value": 0.0005256090614685435,
+          "time": 322,
+          "nodes": [
+            "",
+            "motion-hero-line"
+          ]
+        },
+        {
+          "value": 0.001945177376680207,
+          "time": 360.2999999523163,
+          "nodes": [
+            null,
+            "motion-hero-line",
+            "minimal-kicker minimal-kicker--light",
+            {},
+            {}
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 390,
+      "height": 844,
+      "maxActive": 11,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.00018765306717112467,
+      "shifts": [
+        {
+          "value": 0.00018765306717112467,
+          "time": 337.1999999284744,
+          "nodes": [
+            "project-filter",
+            ""
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 430,
+      "height": 932,
+      "maxActive": 29,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.002341975775800657,
+      "shifts": [
+        {
+          "value": 0.0012705367915231446,
+          "time": 349.10000002384186,
+          "nodes": [
+            "",
+            "motion-hero-line",
+            "minimal-kicker minimal-kicker--light",
+            {},
+            {}
+          ]
+        },
+        {
+          "value": 0.0010714389842775122,
+          "time": 370.60000002384186,
+          "nodes": [
+            null,
+            "motion-hero-line"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 430,
+      "height": 932,
+      "maxActive": 11,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.00013957411644806197,
+      "shifts": [
+        {
+          "value": 0.00013957411644806197,
+          "time": 336.89999997615814,
+          "nodes": [
+            "project-filter",
+            ""
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 768,
+      "height": 1024,
+      "maxActive": 46,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 1,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.0027736818495516973,
+      "shifts": [
+        {
+          "value": 0.0005722170074780781,
+          "time": 360.7000000476837,
+          "nodes": [
+            "",
+            "motion-hero-line"
+          ]
+        },
+        {
+          "value": 0.0022014648420736194,
+          "time": 408.7999999523163,
+          "nodes": [
+            null,
+            "motion-hero-line",
+            "minimal-hero__buttons",
+            "minimal-button minimal-button--outline",
+            "minimal-kicker minimal-kicker--light"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 768,
+      "height": 1024,
+      "maxActive": 7,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 3,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.0002732192709421118,
+      "shifts": [
+        {
+          "value": 0.00006505501611779134,
+          "time": 327.89999997615814,
+          "nodes": [
+            "project-filter",
+            ""
+          ]
+        },
+        {
+          "value": 0.00020816425482432047,
+          "time": 348.5,
+          "nodes": [
+            null,
+            null,
+            null
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 1024,
+      "height": 768,
+      "maxActive": 45,
+      "overflow": false,
+      "root": "active",
+      "active": 1,
+      "effects": 1,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.003958164908302328,
+      "shifts": [
+        {
+          "value": 0.0006306656481077274,
+          "time": 338.39999997615814,
+          "nodes": [
+            "",
+            "motion-hero-line"
+          ]
+        },
+        {
+          "value": 0.0010650642216205597,
+          "time": 360.5,
+          "nodes": [
+            "minimal-nav"
+          ]
+        },
+        {
+          "value": 0.00226243503857404,
+          "time": 399.8000000715256,
+          "nodes": [
+            "motion-hero-line",
+            null,
+            "minimal-hero__buttons",
+            "minimal-button minimal-button--outline",
+            "minimal-kicker minimal-kicker--light"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 1024,
+      "height": 768,
+      "maxActive": 6,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.001281158106091122,
+      "shifts": [
+        {
+          "value": 0.0002281968869889776,
+          "time": 321.39999997615814,
+          "nodes": [
+            null,
+            "project-filter",
+            null,
+            ""
+          ]
+        },
+        {
+          "value": 0.0010529612191021442,
+          "time": 342,
+          "nodes": [
+            "minimal-nav"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 1440,
+      "height": 900,
+      "maxActive": 52,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 2,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.004006697005074374,
+      "shifts": [
+        {
+          "value": 0.0021718371397837365,
+          "time": 384.8000000715256,
+          "nodes": [
+            "",
+            null,
+            null,
+            "minimal-hero__buttons",
+            "minimal-button minimal-button--outline"
+          ]
+        },
+        {
+          "value": 0.0018348598652906379,
+          "time": 415.60000002384186,
+          "nodes": [
+            null,
+            "minimal-nav",
+            ""
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 1440,
+      "height": 900,
+      "maxActive": 12,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.005487495730050797,
+      "shifts": [
+        {
+          "value": 0.002562533724226252,
+          "time": 354,
+          "nodes": [
+            "project-category",
+            "project-filter-area",
+            null,
+            ""
+          ]
+        },
+        {
+          "value": 0.0021973674339849105,
+          "time": 378.2000000476837,
+          "nodes": [
+            "project-category",
+            "project-filter-area",
+            null,
+            ""
+          ]
+        },
+        {
+          "value": 0.0007275945718396348,
+          "time": 388.39999997615814,
+          "nodes": [
+            "minimal-nav",
+            ""
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 1920,
+      "height": 1080,
+      "maxActive": 51,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 2,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.002304502126120736,
+      "shifts": [
+        {
+          "value": 0.0015988480838728541,
+          "time": 365.6999999284744,
+          "nodes": [
+            "",
+            null,
+            "minimal-nav",
+            ""
+          ]
+        },
+        {
+          "value": 0.0007056540422478822,
+          "time": 414.1999999284744,
+          "nodes": [
+            null,
+            null,
+            "minimal-hero__buttons",
+            "minimal-button minimal-button--outline",
+            "minimal-kicker minimal-kicker--light"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 1920,
+      "height": 1080,
+      "maxActive": 17,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.0007167870164408116,
+      "shifts": [
+        {
+          "value": 0.0007036928169030712,
+          "time": 352.09999990463257,
+          "nodes": [
+            null,
+            "minimal-nav",
+            ""
+          ]
+        },
+        {
+          "value": 0.000013094199537740325,
+          "time": 361.89999997615814,
+          "nodes": [
+            "project-filter",
+            ""
+          ]
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "Emulated viewports/touch; no physical device or field Core Web Vitals measurement."
+  ]
+}

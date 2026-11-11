@@ -4,12 +4,14 @@ import { PROCESS_STEPS, SERVICES_LIST } from './data/mockData'
 import { SiteHeader } from './SiteHeader'
 import { SiteFooter } from './SiteFooter'
 import { SERVICE_ILLUSTRATIONS } from './data/serviceIllustrations'
+import { useSiteMotion } from './motion/useSiteMotion'
 
 type Props = {
   onOpenInquiry: (serviceName?: string) => void
 }
 
 export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
+  const motionRoot = useSiteMotion()
   useEffect(() => {
     if (window.location.hash) {
       requestAnimationFrame(() => {
@@ -32,7 +34,7 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
   }
 
   return (
-    <div className="minimal-site">
+    <div ref={motionRoot} className="minimal-site">
       <a className="minimal-skip" href="#main">Lewati ke konten</a>
       <SiteHeader onOpenInquiry={onOpenInquiry} />
 
@@ -47,9 +49,9 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
             <div className="minimal-kicker minimal-kicker--light">
               <span className="minimal-kicker__line" /> PUTRA JAYA PRATAMA / KONSTRUKSI JALAN
             </div>
-            <h1 id="minimal-hero-title">Pengaspalan dan<br /><em>konstruksi jalan.</em></h1>
-            <p>Kami melayani pengaspalan hotmix, perkerasan, dan pekerjaan pendukung jalan. Ceritakan kondisi lokasi dan rencana Anda.</p>
-            <div className="minimal-hero__buttons">
+            <h1 id="minimal-hero-title"><span className="motion-hero-line" data-hero-line>Pengaspalan dan</span><br /><em className="motion-hero-line" data-hero-line>konstruksi jalan.</em></h1>
+            <p data-hero-support>Kami melayani pengaspalan hotmix, perkerasan, dan pekerjaan pendukung jalan. Ceritakan kondisi lokasi dan rencana Anda.</p>
+            <div className="minimal-hero__buttons" data-hero-support>
               <a className="minimal-button minimal-button--primary" href="#layanan" onClick={(event) => goTo(event, '#layanan')}>
                 Lihat layanan <ArrowUpRight size={17} aria-hidden="true" />
               </a>
@@ -63,17 +65,17 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
           <div className="minimal-container">
             <div className="minimal-section-heading minimal-section-heading--center">
               <span className="minimal-kicker">01 / LAYANAN</span>
-              <h2 id="minimal-services-title">Pekerjaan yang<br /><em>kami tangani.</em></h2>
-              <p>Setiap lokasi punya kebutuhan yang berbeda. Kami menyesuaikan jenis pekerjaan dengan kondisi di lapangan.</p>
+              <h2 id="minimal-services-title" data-motion="title">Pekerjaan yang<br /><em>kami tangani.</em></h2>
+              <p data-motion="copy">Setiap lokasi punya kebutuhan yang berbeda. Kami menyesuaikan jenis pekerjaan dengan kondisi di lapangan.</p>
             </div>
             <div className="minimal-service-grid">
-              {SERVICES_LIST.map((service) => {
+              {SERVICES_LIST.map((service, index) => {
                 const illustration = SERVICE_ILLUSTRATIONS[service.id]
                 const asset = '/assets/services/' + illustration.file
                 return (
                   <article key={service.id} className="minimal-service"
                     aria-labelledby={'service-' + service.id}>
-                    <div className="minimal-service__visual">
+                    <div className="minimal-service__visual" data-motion="illustration" data-motion-order={index}>
                       <img
                         src={asset + '-800.webp'}
                         srcSet={asset + '-400.webp 400w, ' + asset + '-800.webp 800w'}
@@ -102,9 +104,9 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
           <div className="minimal-story__copy">
             <div className="minimal-story__copy-inner">
               <span className="minimal-kicker minimal-kicker--light">02 / PENDEKATAN KAMI</span>
-              <h2 id="minimal-story-title">Kami mulai dari <em>kondisi lapangan.</em></h2>
-              <p>Kami mulai dengan memahami kondisi jalan dan lahan, beban kendaraan, serta aliran air. Setelah itu, kami bahas cara pengerjaan yang sesuai dengan kebutuhan Anda.</p>
-              <div className="minimal-story__facts">
+              <h2 id="minimal-story-title" data-motion="title">Kami mulai dari <em>kondisi lapangan.</em></h2>
+              <p data-motion="copy">Kami mulai dengan memahami kondisi jalan dan lahan, beban kendaraan, serta aliran air. Setelah itu, kami bahas cara pengerjaan yang sesuai dengan kebutuhan Anda.</p>
+              <div className="minimal-story__facts" data-motion="copy">
                 <div><span>01</span><strong>Mengenali kondisi lokasi</strong></div>
                 <div><span>02</span><strong>Membahas cara pengerjaan</strong></div>
                 <div><span>03</span><strong>Menjaga komunikasi selama pekerjaan</strong></div>
@@ -120,13 +122,13 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
           <div className="minimal-container">
             <div className="minimal-section-heading minimal-section-heading--center">
               <span className="minimal-kicker">03 / PROSES KERJA</span>
-              <h2 id="minimal-process-title">Empat tahap<br /><em>pengerjaan proyek.</em></h2>
+              <h2 id="minimal-process-title" data-motion="title">Empat tahap<br /><em>pengerjaan proyek.</em></h2>
               <p>Sebelum mulai, kami membahas kebutuhan dan rencana kerja dengan Anda. Setelah pengerjaan, kami memeriksa hasilnya bersama.</p>
             </div>
             <div className="minimal-process__grid">
-              {PROCESS_STEPS.map(step => (
-                <article key={step.number} className="minimal-process__step">
-                  <span className="minimal-process__number">{step.number}<i /></span>
+              {PROCESS_STEPS.map((step, index) => (
+                <article key={step.number} className="minimal-process__step" data-motion="step" data-motion-order={index}>
+                  <span className="minimal-process__number">{step.number}<i data-motion="line" data-motion-order={index} /></span>
                   <h3>{step.title}</h3>
                   <p>{step.description}</p>
                 </article>
@@ -139,7 +141,7 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
           <div className="minimal-container minimal-gallery-teaser__inner">
             <div>
               <span className="minimal-kicker">04 / DOKUMENTASI PROYEK</span>
-              <h2 id="minimal-gallery-teaser-title">Dokumentasi <em>pekerjaan jalan.</em></h2>
+              <h2 id="minimal-gallery-teaser-title" data-motion="title">Dokumentasi <em>pekerjaan jalan.</em></h2>
               <p>Lihat dokumentasi pengaspalan dan pemadatan jalan, tersusun berdasarkan jenis pekerjaan.</p>
             </div>
             <a className="minimal-gallery-teaser__link" href="/galeri-proyek">
@@ -152,10 +154,10 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
           <div className="minimal-container minimal-contact__inner">
             <div>
               <span className="minimal-kicker minimal-kicker--light">05 / KONSULTASI</span>
-              <h2 id="minimal-contact-title">Ada rencana<br />pekerjaan <em>jalan?</em></h2>
+              <h2 id="minimal-contact-title" data-motion="title">Ada rencana<br />pekerjaan <em>jalan?</em></h2>
               <p>Ceritakan kondisi lokasi dan pekerjaan yang Anda butuhkan. Kami mulai dari informasi tersebut untuk membahas rencana pengerjaannya.</p>
             </div>
-            <button type="button" onClick={() => onOpenInquiry()} className="minimal-button minimal-button--dark">
+            <button type="button" onClick={() => onOpenInquiry()} className="minimal-button minimal-button--dark" data-motion="settle">
               Isi kebutuhan proyek <ArrowUpRight size={18} aria-hidden="true" />
             </button>
           </div>

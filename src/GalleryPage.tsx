@@ -5,14 +5,16 @@ import { PROJECT_PHOTOS, projectPhotoSrcSet } from './data/projectGallery'
 import { SiteHeader } from './SiteHeader'
 import { SiteFooter } from './SiteFooter'
 import { keepDialogFocus } from './utils/focus'
+import { useSiteMotion } from './motion/useSiteMotion'
 
 type Props = { onOpenInquiry: (serviceName?: string) => void }
 
 export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
+  const motionRoot = useSiteMotion()
   const [selected, setSelected] = useState('semua')
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
   const dialogRef = useRef<HTMLDialogElement>(null)
-  const triggerRef = useRef<HTMLButtonElement | null>(null)
+  const triggerRef = useRef<HTMLAnchorElement | null>(null)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
   const categories = useMemo(
@@ -61,7 +63,7 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
     return () => document.removeEventListener('keydown', onKeyDown)
   }, [activeIndex !== null, filtered.length])
 
-  const openPhoto = (index: number, element: HTMLButtonElement) => {
+  const openPhoto = (index: number, element: HTMLAnchorElement) => {
     triggerRef.current = element
     setActiveIndex(index)
   }
@@ -71,14 +73,14 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
   }
 
   return (
-    <div className="minimal-site gallery-page">
+    <div ref={motionRoot} className="minimal-site gallery-page">
       <a className="minimal-skip" href="#main">Lewati ke galeri</a>
       <SiteHeader onOpenInquiry={onOpenInquiry} galleryPage />
       <main id="main" tabIndex={-1}>
         <section id="dokumentasi" className="project-gallery-section" aria-labelledby="project-gallery-title">
           <div className="minimal-container">
             <div className="project-gallery-heading">
-              <h1 id="project-gallery-title">Galeri <em>Proyek.</em></h1>
+              <h1 id="project-gallery-title" data-motion="title">Galeri <em>Proyek.</em></h1>
               <p>Pilih jenis pekerjaan untuk melihat fotonya. Dokumentasi akan kami tambahkan saat foto lainnya tersedia.</p>
             </div>
 
@@ -104,20 +106,24 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
               return (
                 <section key={service.id} className="project-category" aria-labelledby={'category-' + service.id}>
                   <div className="project-category__head">
-                    <div className="project-category__heading"><span className="project-category__line" />
+                    <div className="project-category__heading"><span className="project-category__line" data-motion="line" />
                       <h2 id={'category-' + service.id}>{service.title}</h2>
                     </div>
                     <span>{String(photos.length).padStart(2,'0')} FOTO</span>
                   </div>
-                  <div className="project-photo-grid">
+                  <div className="project-photo-grid" key={selected + service.id}>
                     {photos.map((photo, index) => {
                       const absoluteIndex = filtered.findIndex(item => item.id === photo.id)
                       const wide = index === 0 || index === 3
                       return (
                         <article className={'project-photo' + (index === 0 ? ' project-photo--feature' : '') + (index === 3 ? ' project-photo--last' : '')}
-                          key={photo.id}>
-                          <button type="button" className="project-photo__button"
-                            onClick={event => openPhoto(absoluteIndex, event.currentTarget)}
+                          key={photo.id} data-motion="photo" data-motion-order={index}>
+                          <a href={photo.image} className="project-photo__button"
+                            onClick={event => {
+                              if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
+                              event.preventDefault()
+                              openPhoto(absoluteIndex, event.currentTarget)
+                            }}
                             aria-label={'Perbesar foto ' + photo.title}>
                             <img src={photo.image} srcSet={projectPhotoSrcSet(photo)}
                               sizes={'(max-width:360px) calc(100vw - 32px), (max-width:620px) 90vw, (max-width:900px) ' + (wide ? '90vw' : '44vw') + ', (max-width:1440px) ' + (wide ? '60vw, 842px' : '30vw, 415px')}
@@ -125,7 +131,7 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
                               fetchPriority={absoluteIndex === 0 ? 'high' : undefined}
                               decoding="async" width={photo.width} height={photo.height} />
                             <span className="project-photo__shade" aria-hidden="true" />
-                          </button>
+                          </a>
                         </article>
                       )
                     })}
@@ -145,9 +151,9 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
           <div className="minimal-container project-bottom-cta__inner">
             <div>
               <span className="minimal-kicker minimal-kicker--light">RENCANA PEKERJAAN ANDA</span>
-              <h2>Ceritakan rencana <em>pekerjaan Anda.</em></h2>
+              <h2 data-motion="title">Ceritakan rencana <em>pekerjaan Anda.</em></h2>
             </div>
-            <button type="button" className="minimal-button minimal-button--primary"
+            <button type="button" className="minimal-button minimal-button--primary" data-motion="settle"
               onClick={() => onOpenInquiry()}>
               Isi kebutuhan proyek <ArrowUpRight size={17} aria-hidden="true" />
             </button>

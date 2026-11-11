@@ -6,10 +6,10 @@ import { MinimalIndustrial } from './MinimalIndustrial'
 import { GalleryPage } from './GalleryPage'
 import { InquiryModal } from './components/InquiryModal'
 
-export const App: React.FC = () => {
+export const App: React.FC<{ pathname?: string }> = ({ pathname }) => {
   const [isInquiryOpen, setIsInquiryOpen] = useState(false)
   const [defaultInquiryService, setDefaultInquiryService] = useState<string | undefined>()
-  const galleryPage = window.location.pathname.replace(/\/+$/, '') === '/galeri-proyek'
+  const galleryPage = (pathname ?? (typeof window === 'undefined' ? '/' : window.location.pathname)).replace(/\/+$/, '') === '/galeri-proyek'
 
   const handleOpenInquiry = (serviceName?: string) => {
     setDefaultInquiryService(serviceName)

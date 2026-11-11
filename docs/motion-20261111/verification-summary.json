@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-11-11T09:46:24.206Z",
+  "motionVersion": "12.43.0",
+  "layout": {
+    "total": 18,
+    "errors": [],
+    "overflow": 0,
+    "accessibilityViolations": 0
+  },
+  "interactions": {
+    "pass": 37,
+    "total": 37
+  },
+  "motion": {
+    "pass": 73,
+    "total": 73,
+    "consoleErrors": [],
+    "maxObservedCLS": 0.005487495730050797
+  },
+  "lifecycle": {
+    "pass": 8,
+    "total": 8
+  },
+  "assets": [
+    {
+      "file": "index-BgtNJmv1.js",
+      "bytes": 264384,
+      "gzipBytes": 80863
+    },
+    {
+      "file": "index-DaSGbs3G.css",
+      "bytes": 82676,
+      "gzipBytes": 17034
+    },
+    {
+      "file": "siteMotion-CsV9uz-n.js",
+      "bytes": 27021,
+      "gzipBytes": 10282
+    }
+  ],
+  "build": {
+    "command": "npm.cmd run build",
+    "result": "exit 0; TypeScript, Vite client/SSR and both prerender routes complete"
+  },
+  "lint": "No lint script/configuration installed; not run",
+  "backup": "C:/Projects/PJP-Website-backups/motion-20261111-162417"
+}
