@@ -1,0 +1,25 @@
+{
+  "browser": "157.0.8103.50",
+  "baseURL": "http://127.0.0.1:4173",
+  "viewportChecks": 18,
+  "interactionChecks": 37,
+  "consoleErrors": 0,
+  "failedRequests": 0,
+  "performanceFailures": 0,
+  "tasteGate": {
+    "status": "open",
+    "open": 46,
+    "waivers": 0
+  },
+  "buildAssets": [
+    "asphalt.svg",
+    "concrete.svg",
+    "drainage.svg",
+    "hero-road.svg",
+    "index-B_wGaqfU.js",
+    "index-D1DVnOcB.css",
+    "pjp-preview",
+    "services"
+  ],
+  "backup": "C:/Projects/PJP-Website-backups/ui-ux-20261111-135757"
+}

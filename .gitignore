@@ -20,3 +20,17 @@ opencode.jsonc
 .env.*
 !.env.example
 *.local
+
+# AI agent installations and private state (reinstall on each PC)
+.agents/
+.taste-skill/
+.codex/*
+!.codex/hooks.json
+.impeccable/*
+!.impeccable/config.json
+!.impeccable/design.json
+
+# Locally generated QA screenshots and verbose logs
+docs/ui-ux-20261111/after/
+docs/ui-ux-20261111/before/
+docs/ui-ux-20261111/*.log

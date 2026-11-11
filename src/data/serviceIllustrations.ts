@@ -7,26 +7,26 @@ type ServiceIllustration = {
 export const SERVICE_ILLUSTRATIONS: Record<string, ServiceIllustration> = {
   'asphalt-hotmix': {
     file: 'asphalt-hotmix',
-    alt: 'Ilustrasi isometrik asphalt paver oranye menghamparkan aspal hotmix',
+    alt: 'Ilustrasi alat penghampar aspal hotmix berwarna oranye.',
   },
   'paving-block': {
     file: 'paving-block',
-    alt: 'Ilustrasi isometrik susunan paving beton abu-abu dengan palu karet oranye',
+    alt: 'Ilustrasi paving block abu-abu dengan palu karet oranye.',
   },
   'cut-and-fill': {
     file: 'cut-and-fill',
-    alt: 'Ilustrasi isometrik ekskavator oranye membentuk elevasi tanah',
+    alt: 'Ilustrasi ekskavator oranye untuk pekerjaan cut and fill.',
   },
   'cor-beton': {
     file: 'cor-beton',
-    alt: 'Ilustrasi isometrik truk pengaduk beton oranye dan putih',
+    alt: 'Ilustrasi truk pengaduk beton berwarna oranye dan putih.',
   },
   'saluran-u-ditch': {
     file: 'saluran-u-ditch',
-    alt: 'Ilustrasi isometrik saluran beton U-ditch terbuka dengan pelat penutup',
+    alt: 'Ilustrasi saluran beton U-Ditch dan pelat penutupnya.',
   },
   'resapan-air': {
     file: 'resapan-air',
-    alt: 'Ilustrasi isometrik potongan sumur resapan dengan pipa masuk dan lapisan kerikil',
+    alt: 'Ilustrasi bagian dalam sumur resapan dengan pipa dan lapisan kerikil.',
   },
 }

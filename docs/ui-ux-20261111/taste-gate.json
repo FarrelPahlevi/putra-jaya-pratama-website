@@ -1,0 +1,1826 @@
+{
+ "start": "2026-11-11T06:59:12.653Z",
+ "round": 3,
+ "idle": 0,
+ "errors": 0,
+ "status": "open",
+ "history": [
+  {
+   "at": "2026-11-11T07:16:00.372Z",
+   "mode": "manual",
+   "status": "fail",
+   "fails": 46,
+   "round": 1,
+   "reused": false,
+   "stopHookActive": false
+  },
+  {
+   "at": "2026-11-11T07:28:33.100Z",
+   "mode": "manual",
+   "status": "fail",
+   "fails": 1,
+   "round": 2,
+   "reused": false,
+   "stopHookActive": false
+  },
+  {
+   "at": "2026-11-11T07:34:15.853Z",
+   "mode": "manual",
+   "status": "open",
+   "fails": 46,
+   "round": 3,
+   "reused": false,
+   "stopHookActive": false
+  }
+ ],
+ "max": 3,
+ "marker": {
+  "page": null,
+  "url": "http://127.0.0.1:4173/",
+  "root": null,
+  "kind": "service",
+  "category": "pengaspalan dan konstruksi jalan",
+  "primary": "Mulai Konsultasi",
+  "rounds": 3,
+  "start": "2026-11-11T06:59:12.653Z",
+  "by": "gate.mjs --start"
+ },
+ "manual": true,
+ "roundKey": "cc6fa0442acc359f:da39a3ee",
+ "roundFree": false,
+ "idleFree": false,
+ "blockKey": null,
+ "fp": "cc6fa0442acc359f",
+ "page": "http://127.0.0.1:4173/",
+ "found": {
+  "fails": [
+   {
+    "check": "flush",
+    "where": "section#tentang > div.minimal-story__image > img \"img: Dokumentasi pemadatan area pekerjaa\"",
+    "msg": "its first line sits 0px under the top edge of section#tentang, where the ground changes",
+    "fix": "give the section its padding at the edge where the ground changes (the closing call keeps a clear gap above the footer)",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "flush"
+    ],
+    "wheres": [
+     "section#tentang > div.minimal-story__image > img \"img: Dokumentasi pemadatan area pekerjaa\""
+    ]
+   },
+   {
+    "check": "nav",
+    "where": "div.minimal-site > header.minimal-header > div.minimal-container.minimal-header__inner > a.minimal-brand \"P . PUTRA JAYA PRATAMA\"",
+    "msg": "nav link wraps to a second line",
+    "fix": "make the nav one bar from the content's left edge to its right edge, with every link and action inside it",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "nav"
+    ],
+    "wheres": [
+     "div.minimal-site > header.minimal-header > div.minimal-container.minimal-header__inner > a.minimal-brand \"P . PUTRA JAYA PRATAMA\""
+    ]
+   },
+   {
+    "check": "nav",
+    "where": "div.minimal-site > header.minimal-header.minimal-header--scrolled > div.minimal-container.minimal-header__inner > a.minimal-brand \"P . PUTRA JAYA PRATAMA\"",
+    "msg": "nav link wraps to a second line",
+    "fix": "make the nav one bar from the content's left edge to its right edge, with every link and action inside it",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "nav"
+    ],
+    "wheres": [
+     "div.minimal-site > header.minimal-header.minimal-header--scrolled > div.minimal-container.minimal-header__inner > a.minimal-brand \"P . PUTRA JAYA PRATAMA\""
+    ]
+   },
+   {
+    "check": "no-visual",
+    "where": "section#proses \"Dari kebutuhan, hingga pelaksanaan.\"",
+    "msg": "no picture, effect or mock in this section; a feature section needs a visual",
+    "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "no-visual"
+    ],
+    "wheres": [
+     "section#proses \"Dari kebutuhan, hingga pelaksanaan.\""
+    ]
+   },
+   {
+    "check": "no-visual",
+    "where": "section#proyek \"Lihat hasil kerja di lapangan.\"",
+    "msg": "no picture, effect or mock in this section; a feature section needs a visual",
+    "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "no-visual"
+    ],
+    "wheres": [
+     "section#proyek \"Lihat hasil kerja di lapangan.\""
+    ]
+   },
+   {
+    "check": "text-only",
+    "where": "section#kontak \"Ada rencana jalan yang perlu dikerjakan?\"",
+    "msg": "the closing section is only text: no picture, icon, mock or effect in it",
+    "fix": "give the section a visual: a photograph that fits, the real icons, or a UI fragment on a ground",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "text-only"
+    ],
+    "wheres": [
+     "section#kontak \"Ada rencana jalan yang perlu dikerjakan?\""
+    ]
+   },
+   {
+    "check": "button-styles",
+    "where": "(the page)",
+    "msg": "3 button styles on the page: soft, fill #b55514, outline #b55514 x1 (\"Lihat Layanan\"); soft, outline #ffffff x1 (\"Bahas Kebutuhan\"); soft, fill #151513 x1 (\"Mulai Konsultasi\")",
+    "fix": "one primary and one secondary button: one shape, one height per size, one label size",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "button-styles"
+    ],
+    "wheres": [
+     "(the page)"
+    ]
+   },
+   {
+    "check": "copy-fact",
+    "where": "h1#minimal-hero-title \"Membangun jalan. Membuka akses.\"",
+    "msg": "the first screen holds no number, price, date, place, platform or genre",
+    "fix": "put one hard fact from the brief on the first screen: a number, a price, a date, the place, the platforms it runs on or a game's genre; take it from the brief or remove the claim",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "copy-fact"
+    ],
+    "wheres": [
+     "h1#minimal-hero-title \"Membangun jalan. Membuka akses.\""
+    ]
+   },
+   {
+    "check": "copy-headings",
+    "where": "h3#service-asphalt-hotmix \"Asphalt Hotmix\"",
+    "msg": "\"Asphalt Hotmix\" names no product, part, place or section (10 headings like it; at most one brand line per page) (and 9 more like it: \"Paving Block\", \"Cut and Fill\", \"Cor Beton\", \"Resapan Air\", ...)",
+    "fix": "name the thing in every heading: the product, a part, the place or a section noun",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "copy-headings"
+    ],
+    "wheres": [
+     "h3#service-asphalt-hotmix \"Asphalt Hotmix\""
+    ]
+   },
+   {
+    "check": "centre-axis",
+    "where": "section#beranda > div.minimal-container.minimal-hero__content > div.minimal-kicker.minimal-kicker--light \"PUTRA JAYA PRATAMA / KONSTRUKSI JALAN\"",
+    "msg": "centred text 21px right of the middle of its page (741px against 720px)",
+    "fix": "centre the block on its container (margin-inline: auto), or set it on the left grid",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "centre-axis"
+    ],
+    "wheres": [
+     "section#beranda > div.minimal-container.minimal-hero__content > div.minimal-kicker.minimal-kicker--light \"PUTRA JAYA PRATAMA / KONSTRUKSI JALAN\""
+    ]
+   },
+   {
+    "check": "text-contrast",
+    "where": "section#layanan > div.minimal-container > div.minimal-section-heading.minimal-section-heading--center > p \"Pekerjaan jalan dan area pendukungnya me\"",
+    "msg": "body text in #64615c on #f5f3ef reads 5.56:1 (needs 7:1)",
+    "fix": "body text in the ink at 7:1 or more; grey (4.5:1 or more) only for captions and labels",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "text-contrast"
+    ],
+    "wheres": [
+     "section#layanan > div.minimal-container > div.minimal-section-heading.minimal-section-heading--center > p \"Pekerjaan jalan dan area pendukungnya me\""
+    ]
+   },
+   {
+    "check": "text-contrast",
+    "where": "section#proses > div.minimal-container > div.minimal-section-heading.minimal-section-heading--center > p \"Empat tahapan awal untuk menyamakan gamb\"",
+    "msg": "body text in #64615c on #f1eee9 reads 5.33:1 (needs 7:1)",
+    "fix": "body text in the ink at 7:1 or more; grey (4.5:1 or more) only for captions and labels",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "text-contrast"
+    ],
+    "wheres": [
+     "section#proses > div.minimal-container > div.minimal-section-heading.minimal-section-heading--center > p \"Empat tahapan awal untuk menyamakan gamb\""
+    ]
+   },
+   {
+    "check": "text-contrast",
+    "where": "div.minimal-container > div.minimal-process__grid > article.minimal-process__step:nth-of-type(1) > p \"Diskusikan jenis pekerjaan, gambaran are\"",
+    "msg": "body text in #625e58 on #f1eee9 reads 5.56:1 (needs 7:1)",
+    "fix": "body text in the ink at 7:1 or more; grey (4.5:1 or more) only for captions and labels",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "text-contrast"
+    ],
+    "wheres": [
+     "div.minimal-container > div.minimal-process__grid > article.minimal-process__step:nth-of-type(1) > p \"Diskusikan jenis pekerjaan, gambaran are\""
+    ]
+   },
+   {
+    "check": "text-contrast",
+    "where": "section#proyek > div.minimal-container.minimal-gallery-teaser__inner > div > p \"Dokumentasi pekerjaan sekarang punya hal\"",
+    "msg": "body text in #68635d on #f3f0eb reads 5.23:1 (needs 7:1)",
+    "fix": "body text in the ink at 7:1 or more; grey (4.5:1 or more) only for captions and labels",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "text-contrast"
+    ],
+    "wheres": [
+     "section#proyek > div.minimal-container.minimal-gallery-teaser__inner > div > p \"Dokumentasi pekerjaan sekarang punya hal\""
+    ]
+   },
+   {
+    "check": "text-contrast",
+    "where": "section#kontak > div.minimal-container.minimal-contact__inner > div > p \"Ceritakan kondisi area dan kebutuhan pek\"",
+    "msg": "body text in #ffffff on #a74f16 reads 5.57:1 (needs 7:1)",
+    "fix": "body text in the ink at 7:1 or more; grey (4.5:1 or more) only for captions and labels",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "text-contrast"
+    ],
+    "wheres": [
+     "section#kontak > div.minimal-container.minimal-contact__inner > div > p \"Ceritakan kondisi area dan kebutuhan pek\""
+    ]
+   },
+   {
+    "check": "section-gaps",
+    "where": "section#proses / section#proyek",
+    "msg": "240px between these sections, +95% against the median 123px",
+    "fix": "use one gap between sections (all within 25% of each other)",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-gaps"
+    ],
+    "wheres": [
+     "section#proses / section#proyek"
+    ]
+   },
+   {
+    "check": "section-gaps",
+    "where": "section#proyek / section#kontak",
+    "msg": "218px between these sections, +77% against the median 123px of gaps at a change of ground",
+    "fix": "use one gap between sections (all within 25% of each other)",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-gaps"
+    ],
+    "wheres": [
+     "section#proyek / section#kontak"
+    ]
+   },
+   {
+    "check": "photo-upscale",
+    "where": "section#tentang > div.minimal-story__image > img \"img: Dokumentasi pemadatan area pekerjaa\"",
+    "msg": "road-roller-preview.webp: 720x540 shown at 720x803, blown up 1.49x",
+    "fix": "use a source at least as wide as the picture is shown (twice that for sharp screens)",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "photo-upscale"
+    ],
+    "wheres": [
+     "section#tentang > div.minimal-story__image > img \"img: Dokumentasi pemadatan area pekerjaa\""
+    ]
+   },
+   {
+    "check": "focus-ring",
+    "where": ".focus\\:outline-none:focus",
+    "msg": "\".focus\\:outline-none:focus\" in index-D1DVnOcB.css removes the focus outline and sets nothing in its place",
+    "fix": "keep the kit's :focus-visible ring, or put a change of the same strength (a 2px line in --action) in the rule that removes it",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "focus-ring"
+    ],
+    "wheres": [
+     ".focus\\:outline-none:focus"
+    ]
+   },
+   {
+    "check": "focus-ring",
+    "where": ".minimal-site :is(main, section)[tabindex=\"-1\"]:focus",
+    "msg": "\".minimal-site :is(main, section)[tabindex=\"-1\"]:focus\" in index-D1DVnOcB.css removes the focus outline and sets nothing in its place",
+    "fix": "keep the kit's :focus-visible ring, or put a change of the same strength (a 2px line in --action) in the rule that removes it",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "focus-ring"
+    ],
+    "wheres": [
+     ".minimal-site :is(main, section)[tabindex=\"-1\"]:focus"
+    ]
+   },
+   {
+    "check": "focus-visible",
+    "where": "section#tentang > div.minimal-story__copy:nth-of-type(2) > div.minimal-story__copy-inner > button.minimal-text-button.minimal-text-button--light \"Diskusikan pekerjaan\"",
+    "msg": "Tab stop 10, button \"Diskusikan pekerjaan\": the focus lands on something you cannot see",
+    "fix": "keep the kit's ring (system.css :focus-visible, 2px in --action, there at once); a control that hides itself shows on focus",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "focus-visible"
+    ],
+    "wheres": [
+     "section#tentang > div.minimal-story__copy:nth-of-type(2) > div.minimal-story__copy-inner > button.minimal-text-button.minimal-text-button--light \"Diskusikan pekerjaan\""
+    ]
+   },
+   {
+    "check": "focus-visible",
+    "where": "section#proyek > div.minimal-container.minimal-gallery-teaser__inner > a.minimal-gallery-teaser__link \"Jelajahi Galeri Proyek\"",
+    "msg": "Tab stop 11, a \"Jelajahi Galeri Proyek\": the focus lands on something you cannot see",
+    "fix": "keep the kit's ring (system.css :focus-visible, 2px in --action, there at once); a control that hides itself shows on focus",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "focus-visible"
+    ],
+    "wheres": [
+     "section#proyek > div.minimal-container.minimal-gallery-teaser__inner > a.minimal-gallery-teaser__link \"Jelajahi Galeri Proyek\""
+    ]
+   },
+   {
+    "check": "focus-visible",
+    "where": "section#kontak > div.minimal-container.minimal-contact__inner > button.minimal-button.minimal-button--dark \"Mulai Konsultasi\"",
+    "msg": "Tab stop 12, button \"Mulai Konsultasi\": the focus lands on something you cannot see",
+    "fix": "keep the kit's ring (system.css :focus-visible, 2px in --action, there at once); a control that hides itself shows on focus",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "focus-visible"
+    ],
+    "wheres": [
+     "section#kontak > div.minimal-container.minimal-contact__inner > button.minimal-button.minimal-button--dark \"Mulai Konsultasi\""
+    ]
+   },
+   {
+    "check": "focus-visible",
+    "where": "footer.minimal-footer > div.minimal-container.minimal-footer__main:nth-of-type(1) > div.minimal-footer__links:nth-of-type(2) > a:nth-of-type(1) \"Beranda\"",
+    "msg": "Tab stop 13, a \"Beranda\": the focus lands on something you cannot see",
+    "fix": "keep the kit's ring (system.css :focus-visible, 2px in --action, there at once); a control that hides itself shows on focus",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "focus-visible"
+    ],
+    "wheres": [
+     "footer.minimal-footer > div.minimal-container.minimal-footer__main:nth-of-type(1) > div.minimal-footer__links:nth-of-type(2) > a:nth-of-type(1) \"Beranda\""
+    ]
+   },
+   {
+    "check": "moment-none",
+    "where": "(the page)",
+    "msg": "a service page (--type) deals no moment: every kind carries one, two on a long page (moments.md)",
+    "fix": "deal one (moments.mjs pick --page service --photo) and mount it in its own section",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "moment-none"
+    ],
+    "wheres": [
+     "(the page)"
+    ]
+   },
+   {
+    "check": "section-height",
+    "where": "section#proyek \"04 / DOKUMENTASI PROYEKLihat hasil kerja\"",
+    "msg": "the section is 385px tall (0.4 screens), 515px short of one screen (900px): every section after the hero is one screen or two, 2px either way (SR-2)",
+    "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-height"
+    ],
+    "wheres": [
+     "section#proyek \"04 / DOKUMENTASI PROYEKLihat hasil kerja\""
+    ]
+   },
+   {
+    "check": "section-height",
+    "where": "div#root > div.minimal-site > footer.minimal-footer \"P.PUTRA JAYAPRATAMAJasa pengaspalan, per\"",
+    "msg": "the section is 463px tall (0.5 screens), 437px short of one screen (900px): every section after the hero is one screen or two, 2px either way (SR-2)",
+    "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-height"
+    ],
+    "wheres": [
+     "div#root > div.minimal-site > footer.minimal-footer \"P.PUTRA JAYAPRATAMAJasa pengaspalan, per\""
+    ]
+   },
+   {
+    "check": "section-height",
+    "where": "section#kontak \"05 / KONSULTASIAda rencana jalanyang per\"",
+    "msg": "the section is 477px tall (0.5 screens), 423px short of one screen (900px): every section after the hero is one screen or two, 2px either way (and 3 more like it: \"01 / LAYANANBerbagai keb\", \"PROSES PENGERJAAN / DOKU\", \"03 / PROSES KERJADari ke\") (SR-2)",
+    "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-height"
+    ],
+    "wheres": [
+     "section#kontak \"05 / KONSULTASIAda rencana jalanyang per\""
+    ]
+   },
+   {
+    "check": "section-height",
+    "where": "section#tentang \"PROSES PENGERJAAN / DOKUMENTASI02 / PEND\"",
+    "msg": "the section starts at 2191px, 391px below the screen grid (2 x 900px): sections start on whole screens (SR-2)",
+    "fix": "make every section above it exactly one or two screens tall, so this one starts on a whole screen",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-height"
+    ],
+    "wheres": [
+     "section#tentang \"PROSES PENGERJAAN / DOKUMENTASI02 / PEND\""
+    ]
+   },
+   {
+    "check": "section-height",
+    "where": "section#proses \"03 / PROSES KERJADari kebutuhan,hingga p\"",
+    "msg": "the section starts at 2993px, 293px below the screen grid (3 x 900px): sections start on whole screens (SR-2)",
+    "fix": "make every section above it exactly one or two screens tall, so this one starts on a whole screen",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-height"
+    ],
+    "wheres": [
+     "section#proses \"03 / PROSES KERJADari kebutuhan,hingga p\""
+    ]
+   },
+   {
+    "check": "section-air",
+    "where": "section#proses > div.minimal-container > div.minimal-process__grid \"01Konsultasi kebutuhanDiskusikan jenis p\"",
+    "msg": "a top border across 100% of the container, between the section's content: sections and their parts are told apart by air and ground, not lines (SR-3)",
+    "fix": "take the rule out: sections and their parts are parted by their ground and the air between them",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "section-air"
+    ],
+    "wheres": [
+     "section#proses > div.minimal-container > div.minimal-process__grid \"01Konsultasi kebutuhanDiskusikan jenis p\""
+    ]
+   },
+   {
+    "check": "one-section",
+    "where": "h2#minimal-contact-title \"Ada rencana jalanyang perlu dikerjakan?\"",
+    "msg": "the screen at scroll 4216px (the top of section 6) shows 390px of section 6 and the heading of section 6 whole and the content of 2 sections, over 24px each beside section 7: a screen shows one section (another may peek 8px, 24px WARN) (SR-4)",
+    "fix": "make each section exactly one screen or two, so a screen shows one section and no neighbour peeks",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "one-section"
+    ],
+    "wheres": [
+     "h2#minimal-contact-title \"Ada rencana jalanyang perlu dikerjakan?\""
+    ]
+   },
+   {
+    "check": "one-section",
+    "where": "section#layanan \"01 / LAYANANBerbagai kebutuhan.Satu mitr\"",
+    "msg": "the screen at scroll 1800px (stride 2) shows 303px of section 2 and the content of 2 sections, over 24px each beside section 3: a screen shows one section (another may peek 8px, 24px WARN) (SR-4)",
+    "fix": "make each section exactly one screen or two, so a screen shows one section and no neighbour peeks",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "one-section"
+    ],
+    "wheres": [
+     "section#layanan \"01 / LAYANANBerbagai kebutuhan.Satu mitr\""
+    ]
+   },
+   {
+    "check": "one-section",
+    "where": "h2#minimal-gallery-teaser-title \"Lihat hasil kerja di lapangan.\"",
+    "msg": "the screen at scroll 3831px (the top of section 5) shows 297px of section 5 and the heading of section 5 whole and the content of 2 sections, over 24px each beside section 6: a screen shows one section (another may peek 8px, 24px WARN) (and 4 more like it: scroll 3600px, scroll 2700px, scroll 2191px) (SR-4)",
+    "fix": "make each section exactly one screen or two, so a screen shows one section and no neighbour peeks",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "one-section"
+    ],
+    "wheres": [
+     "h2#minimal-gallery-teaser-title \"Lihat hasil kerja di lapangan.\""
+    ]
+   },
+   {
+    "check": "one-heading",
+    "where": "h2#minimal-contact-title \"Ada rencana jalanyang perlu dikerjakan?\"",
+    "msg": "headings of two sections show whole on one screen at 5 of 86 scroll positions (5.8%; at scroll 3650, 3700, 3750, 3800px), here with \"Lihat hasil kerja di lapangan.\": at most 3% on a desktop (SR-5)",
+    "fix": "make the sections one screen tall so their headings sit a screen apart and two never share one",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "one-heading"
+    ],
+    "wheres": [
+     "h2#minimal-contact-title \"Ada rencana jalanyang perlu dikerjakan?\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "section#tentang \"PROSES PENGERJAAN / DOKUMENTASI02 / PEND\"",
+    "msg": "the content of section 3 runs 0px from the left and 0px from the right (read from its outermost blocks: no .wrap): the page's container starts at 85px; the margin is 64-120px at 1440px (one container, equal margins, 2px either way) (SR-6)",
+    "fix": "use one container on every section and the nav (.wrap): one margin left and right, 64-120px on a desktop, 16-24px on a phone",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "section#tentang \"PROSES PENGERJAAN / DOKUMENTASI02 / PEND\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "div#root \"Lewati ke kontenP.PUTRA JAYAPRATAMABeran\"",
+    "msg": "a <div> at the top of the page, outside header.nav, main, footer.closing and nav.actionbar (SR-6)",
+    "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "div#root \"Lewati ke kontenP.PUTRA JAYAPRATAMABeran\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "section#beranda \"PUTRA JAYA PRATAMA / KONSTRUKSI JALANMem\"",
+    "msg": "the section needs exactly one in-flow child .wrap (it has 1 in-flow child, 0 .wrap) (and 9 more like it: \"Dokumentasi pekerjaan pe\", section#beranda > div.minimal-hero__shade, \"PUTRA JAYA PRATAMA / KON\") (SR-6)",
+    "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "section#beranda \"PUTRA JAYA PRATAMA / KONSTRUKSI JALANMem\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "section#beranda > div.minimal-hero__shade",
+    "msg": "a box runs 0-1440px, outside the container lines of section 1 at 85-1355px: full width is for background layers and grounds only (SR-6)",
+    "fix": "keep it inside the container lines (.wrap): full width is for background layers and grounds only",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "section#beranda > div.minimal-hero__shade"
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "h2#minimal-story-title \"Pekerjaan yang baik dimulai dari pemaham\"",
+    "msg": "the h2 starts 793px right of the container's left: every h1 and h2 starts on it, 2px either way (SR-6)",
+    "fix": "start the text on the container's left, or on the one split line every split shares",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "h2#minimal-story-title \"Pekerjaan yang baik dimulai dari pemaham\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "h2#minimal-process-title \"Dari kebutuhan,hingga pelaksanaan.\"",
+    "msg": "1 text block starts on a left line at x 498, 413px from the container's left: text starts on the container's left, or on one split line (x 624, 732, 840) (and 7 more like it: \"Dari kebutuhan,hingga pe\", x 438, x 427) (SR-6)",
+    "fix": "start the text on the container's left, or on the one split line every split shares",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "h2#minimal-process-title \"Dari kebutuhan,hingga pelaksanaan.\""
+    ]
+   },
+   {
+    "check": "container-edges",
+    "where": "h2#minimal-services-title \"Berbagai kebutuhan.Satu mitra kerja.\"",
+    "msg": "\"Berbagai kebutuhan.Satu mitra ke\" is set centred across 1270px, over half the 1270px container: text that wide is set left (and 1 more like it: \"Dari kebutuhan,hingga pe\") (SR-6)",
+    "fix": "set the text left (text-align: start)",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "container-edges"
+    ],
+    "wheres": [
+     "h2#minimal-services-title \"Berbagai kebutuhan.Satu mitra kerja.\""
+    ]
+   },
+   {
+    "check": "row-lines",
+    "where": "section#layanan > div.minimal-container > div.minimal-service-grid \"Asphalt HotmixPaving BlockCut and FillCo\"",
+    "msg": "a row of 3 items: its first item starts at 140px, the container's left line at 85px; its last item ends at 1300px, the container's right line at 1355px (2px either way) (SR-7)",
+    "fix": "start the row's first item on the container's left line and end its last on the right line, every item one height",
+    "widths": [
+     1440
+    ],
+    "from": "consistency",
+    "ids": [
+     "row-lines"
+    ],
+    "wheres": [
+     "section#layanan > div.minimal-container > div.minimal-service-grid \"Asphalt HotmixPaving BlockCut and FillCo\""
+    ]
+   },
+   {
+    "check": "collide",
+    "where": "div#root > div.minimal-site > header.minimal-header \"P . PUTRA JAYA PRATAMA\"",
+    "msg": "at the top of the page the fixed bar covers the picture \"img: Dokumentasi pekerjaan penga\": nothing scrolls it out from under the bar",
+    "fix": "on a phone nothing lies on anything else: let the section grow with its content (min-height for its screens, never a fixed height; --hm: 2 when it needs two) or cut what it holds; keep pictures and cards off the buttons; pad the page under a fixed bar by the bar's height (top: the first section; end: the footer)",
+    "widths": [
+     390,
+     320
+    ],
+    "from": "consistency",
+    "ids": [
+     "collide"
+    ],
+    "wheres": [
+     "div#root > div.minimal-site > header.minimal-header \"P . PUTRA JAYA PRATAMA\""
+    ]
+   },
+   {
+    "check": "photo-upscale",
+    "where": "section#beranda > img.minimal-hero__image \"img: Dokumentasi pekerjaan pengaspalan d\"",
+    "msg": "asphalt-access-preview-400.webp: 390x292 shown at 390x844, blown up 2.89x",
+    "fix": "use a source at least as wide as the picture is shown (twice that for sharp screens)",
+    "widths": [
+     390
+    ],
+    "from": "consistency",
+    "ids": [
+     "photo-upscale"
+    ],
+    "wheres": [
+     "section#beranda > img.minimal-hero__image \"img: Dokumentasi pekerjaan pengaspalan d\""
+    ]
+   },
+   {
+    "check": "container",
+    "where": "page",
+    "msg": "no .wrap",
+    "fix": "put the content in one .wrap",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "layout",
+    "ids": [
+     "container"
+    ],
+    "wheres": [
+     "page"
+    ]
+   }
+  ],
+  "warns": [
+   {
+    "check": "nav",
+    "where": "div.minimal-site > header.minimal-header > div.minimal-container.minimal-header__inner > a.minimal-brand \"P . PUTRA JAYA PRATAMA\"",
+    "msg": "the nav is lopsided: its first item starts 12px inside the content's edge (85px), while its last ends on the other edge",
+    "fix": "start the nav's first item and end its last on the content's two edges",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "copy-buttons",
+    "where": "div#root > div.minimal-site > a.minimal-skip \"Lewati ke konten\"",
+    "msg": "\"Lewati ke konten\" does not start with a verb (book, buy, try, start, get, see...) (and 3 more like it: \"Lihat Layanan\", \"Bahas Kebutuhan\", \"Mulai Konsultasi\")",
+    "fix": "label buttons with a verb and what the visitor gets (\"Book a room\", \"Start free trial\")",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "copy-actions",
+    "where": "(the page)",
+    "msg": "the main action \"Mulai Konsultasi\" does not read word for word the same in the nav or hero",
+    "fix": "few actions, one wording: at most 2 in the hero, the main action word for word in nav, hero and close",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "heading-scale",
+    "where": "h2#minimal-services-title \"Berbagai kebutuhan. Satu mitra kerja.\"",
+    "msg": "h2 headings in 4 sizes, 61.9px (\"Pekerjaan yang baik dimu\") to 74.9px (x1.21)",
+    "fix": "size headings by level: the h1 largest, one size per level, each level below the one above",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "busy-ground",
+    "where": "section#beranda > div.minimal-container.minimal-hero__content > div.minimal-kicker.minimal-kicker--light \"PUTRA JAYA PRATAMA / KONSTRUKSI JALAN\"",
+    "msg": "text over a detailed part of a picture (its ground changes by 1.8 L* from one pixel to the next under the words) (and 3 more like it: \"Membangun jalan. Membuka\", \"Membuka akses.\", \"PROSES PENGERJAAN / DOKU\")",
+    "fix": "move the text to a calm part of the picture, or put it on a panel",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "photo-set",
+    "where": "section#beranda > img.minimal-hero__image \"asphalt-access-preview.webp\"",
+    "msg": "7 photographs in more than one look: lightness from 0.20 to 0.80; the odd one out is asphalt-access-preview.webp",
+    "fix": "grade the photographs to one look (light, colour, warmth), or replace the odd one out",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-family",
+    "where": "div#root > div.minimal-site > header.minimal-header.minimal-header--scrolled",
+    "msg": "the nav changes form as the page scrolls: header.minimal-header gives way to header.minimal-header.minimal-header--scrolled",
+    "fix": "keep one nav on every screen: the same bar, fill, links and type",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-labels",
+    "where": "header.minimal-header > div.minimal-container.minimal-header__inner > nav.minimal-nav > a:nth-of-type(1) \"Beranda\"",
+    "msg": "\"Beranda\" opens a section headed \"Membangun jalan. Membuka akses.\"",
+    "fix": "name each nav link after the heading of the section it opens",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-labels",
+    "where": "header.minimal-header > div.minimal-container.minimal-header__inner > nav.minimal-nav > a:nth-of-type(2) \"Layanan\"",
+    "msg": "\"Layanan\" opens a section headed \"Berbagai kebutuhan. Satu mitra kerja.\"",
+    "fix": "name each nav link after the heading of the section it opens",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-labels",
+    "where": "header.minimal-header > div.minimal-container.minimal-header__inner > nav.minimal-nav > a:nth-of-type(4) \"Tentang Kami\"",
+    "msg": "\"Tentang Kami\" opens a section headed \"Pekerjaan yang baik dimulai dari pemahaman.\"",
+    "fix": "name each nav link after the heading of the section it opens",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "nav-labels",
+    "where": "header.minimal-header > div.minimal-container.minimal-header__inner > nav.minimal-nav > a:nth-of-type(5) \"Kontak\"",
+    "msg": "\"Kontak\" opens a section headed \"Ada rencana jalan yang perlu dikerjakan?\"",
+    "fix": "name each nav link after the heading of the section it opens",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "link-styles",
+    "where": "section#proyek > div.minimal-container.minimal-gallery-teaser__inner > a.minimal-gallery-teaser__link \"Jelajahi Galeri Proyek\"",
+    "msg": "text links in 3 looks: border 1px, bold (1, like \"Jelajahi Galeri Proy\"); no line, regular (5, like \"Beranda\"); no line, bold (1, like \"KEMBALI KE ATAS ↑\")",
+    "fix": "give text links one look wherever they sit: one underline, one weight",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "stranded-action",
+    "where": "section#kontak > div.minimal-container.minimal-contact__inner > button.minimal-button.minimal-button--dark \"Mulai Konsultasi\"",
+    "msg": "stands 433px across from the nearest text of its block (\"Ada rencana jalan yang perlu d\")",
+    "fix": "put the button under or beside the text it belongs to",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "visual-caption",
+    "where": "section#tentang > div.minimal-story__image > span \"PROSES PENGERJAAN / DOKUMENTASI\"",
+    "msg": "a small 10px line is laid over the lower half of the picture road-roller-preview.webp: \"PROSES PENGERJAAN / DOKUMENTASI\"; no caption or description under any image, render or visual (house rule)",
+    "fix": "take the line away: no caption or description under, over or on any image, render or visual; a licence credit goes in one footer line",
+    "widths": [
+     1440,
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "skip-link",
+    "where": "div#root > div.minimal-site > a.minimal-skip \"Lewati ke konten\"",
+    "msg": "the first Tab stop is \"Lewati ke konten\", not a skip link: a keyboard user tabs through the whole nav on every visit",
+    "fix": "add the starter's skip link as the header's first child: <a class=\"skip-link\" href=\"#top\">Skip to content</a>",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "share-meta",
+    "where": "head",
+    "msg": "the head lacks og:title, og:description, og:image, twitter:card: a shared link shows no picture or title of its own",
+    "fix": "copy the head block of starter.html: og tags, twitter:card, the icon and theme-color (references/system.md, Head)",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "section-air",
+    "where": "section#layanan / section#tentang",
+    "msg": "115px of air between the content of these two sections: 128-480px (64-600px WARN) (every gap out of the band at 1440px, top to bottom: 115px after \"01 / LAYANANBerbagai\", 123px after \"PROSES PENGERJAAN / \") (SR-3)",
+    "fix": "keep 128-480px of air between the content of neighbouring sections (112-420px on a phone): the sections' padding (--padt, --padb)",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "section-air",
+    "where": "section#tentang / section#proses",
+    "msg": "123px of air between the content of these two sections: 128-480px (64-600px WARN) (SR-3)",
+    "fix": "keep 128-480px of air between the content of neighbouring sections (112-420px on a phone): the sections' padding (--padt, --padb)",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "section-air",
+    "where": "section#proyek \"04 / DOKUMENTASI PROYEKLihat hasil kerja\"",
+    "msg": "the content fills 42.3% of the section's height (163 of 385px): 55% or more (40% WARN) (SR-3)",
+    "fix": "fill the section to 55%: more content, a picture or a background layer, or merge it into the section above as its last block",
+    "widths": [
+     1440
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "cta",
+    "where": "section#layanan \"Berbagai kebutuhan. Satu mitra kerja.\"",
+    "msg": "a section over 1.5 screens long with no link or button in it",
+    "fix": "add the action: a button in the hero, one on every priced item, one in the closing section",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "off-grid",
+    "where": "section#tentang > div.minimal-story__image > span \"PROSES PENGERJAAN / DOKUMENTASI\"",
+    "msg": "left edge at 22px, 2px off the page margin at 20px (31 elements, none of them near it)",
+    "fix": "move it onto the page margin, or the column edge its section uses",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "busy-ground",
+    "where": "section#tentang > div.minimal-story__image > span \"PROSES PENGERJAAN / DOKUMENTASI\"",
+    "msg": "text over a detailed part of a picture (its ground changes by 2.7 L* from one pixel to the next under the words)",
+    "fix": "move the text to a calm part of the picture, or put it on a panel",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "photo-set",
+    "where": "section#beranda > img.minimal-hero__image \"asphalt-access-preview-400.webp\"",
+    "msg": "7 photographs in more than one look: lightness from 0.22 to 0.80; the odd one out is asphalt-access-preview-400.webp",
+    "fix": "grade the photographs to one look (light, colour, warmth), or replace the odd one out",
+    "widths": [
+     390
+    ],
+    "from": "consistency"
+   },
+   {
+    "check": "copy-two-fragment",
+    "msg": "two-fragment headings \"X. Y.\": 2, budget 1",
+    "fix": "spend it once where it lands hardest; give the other headings a plain label, a claim or the thing they name (references/copy-tells.md)",
+    "widths": [],
+    "from": "copy",
+    "where": "copy x2: \"Membangun jalan. Memb...\", \"Berbagai kebutuhan. S...\"",
+    "exact": false
+   },
+   {
+    "check": "copy-numbered",
+    "msg": "7 step numbers",
+    "fix": "number only steps that happen in order (references/copy-tells.md)",
+    "widths": [],
+    "from": "copy",
+    "where": "(the copy)",
+    "exact": false
+   }
+  ],
+  "crashed": [],
+  "seconds": {
+   "consistency": 113,
+   "layout": 13
+  }
+ },
+ "open": [
+  {
+   "check": "flush",
+   "where": "section#tentang > div.minimal-story__image > img \"img: Dokumentasi pemadatan area pekerjaa\"",
+   "msg": "its first line sits 0px under the top edge of section#tentang, where the ground changes",
+   "fix": "give the section its padding at the edge where the ground changes (the closing call keeps a clear gap above the footer)",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "flush"
+   ],
+   "wheres": [
+    "section#tentang > div.minimal-story__image > img \"img: Dokumentasi pemadatan area pekerjaa\""
+   ]
+  },
+  {
+   "check": "nav",
+   "where": "div.minimal-site > header.minimal-header > div.minimal-container.minimal-header__inner > a.minimal-brand \"P . PUTRA JAYA PRATAMA\"",
+   "msg": "nav link wraps to a second line",
+   "fix": "make the nav one bar from the content's left edge to its right edge, with every link and action inside it",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "nav"
+   ],
+   "wheres": [
+    "div.minimal-site > header.minimal-header > div.minimal-container.minimal-header__inner > a.minimal-brand \"P . PUTRA JAYA PRATAMA\""
+   ]
+  },
+  {
+   "check": "nav",
+   "where": "div.minimal-site > header.minimal-header.minimal-header--scrolled > div.minimal-container.minimal-header__inner > a.minimal-brand \"P . PUTRA JAYA PRATAMA\"",
+   "msg": "nav link wraps to a second line",
+   "fix": "make the nav one bar from the content's left edge to its right edge, with every link and action inside it",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "nav"
+   ],
+   "wheres": [
+    "div.minimal-site > header.minimal-header.minimal-header--scrolled > div.minimal-container.minimal-header__inner > a.minimal-brand \"P . PUTRA JAYA PRATAMA\""
+   ]
+  },
+  {
+   "check": "no-visual",
+   "where": "section#proses \"Dari kebutuhan, hingga pelaksanaan.\"",
+   "msg": "no picture, effect or mock in this section; a feature section needs a visual",
+   "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "no-visual"
+   ],
+   "wheres": [
+    "section#proses \"Dari kebutuhan, hingga pelaksanaan.\""
+   ]
+  },
+  {
+   "check": "no-visual",
+   "where": "section#proyek \"Lihat hasil kerja di lapangan.\"",
+   "msg": "no picture, effect or mock in this section; a feature section needs a visual",
+   "fix": "give the section a visual: a UI fragment on a ground, real icons, or a photograph that fits",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "no-visual"
+   ],
+   "wheres": [
+    "section#proyek \"Lihat hasil kerja di lapangan.\""
+   ]
+  },
+  {
+   "check": "text-only",
+   "where": "section#kontak \"Ada rencana jalan yang perlu dikerjakan?\"",
+   "msg": "the closing section is only text: no picture, icon, mock or effect in it",
+   "fix": "give the section a visual: a photograph that fits, the real icons, or a UI fragment on a ground",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "text-only"
+   ],
+   "wheres": [
+    "section#kontak \"Ada rencana jalan yang perlu dikerjakan?\""
+   ]
+  },
+  {
+   "check": "button-styles",
+   "where": "(the page)",
+   "msg": "3 button styles on the page: soft, fill #b55514, outline #b55514 x1 (\"Lihat Layanan\"); soft, outline #ffffff x1 (\"Bahas Kebutuhan\"); soft, fill #151513 x1 (\"Mulai Konsultasi\")",
+   "fix": "one primary and one secondary button: one shape, one height per size, one label size",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "button-styles"
+   ],
+   "wheres": [
+    "(the page)"
+   ]
+  },
+  {
+   "check": "copy-fact",
+   "where": "h1#minimal-hero-title \"Membangun jalan. Membuka akses.\"",
+   "msg": "the first screen holds no number, price, date, place, platform or genre",
+   "fix": "put one hard fact from the brief on the first screen: a number, a price, a date, the place, the platforms it runs on or a game's genre; take it from the brief or remove the claim",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "copy-fact"
+   ],
+   "wheres": [
+    "h1#minimal-hero-title \"Membangun jalan. Membuka akses.\""
+   ]
+  },
+  {
+   "check": "copy-headings",
+   "where": "h3#service-asphalt-hotmix \"Asphalt Hotmix\"",
+   "msg": "\"Asphalt Hotmix\" names no product, part, place or section (10 headings like it; at most one brand line per page) (and 9 more like it: \"Paving Block\", \"Cut and Fill\", \"Cor Beton\", \"Resapan Air\", ...)",
+   "fix": "name the thing in every heading: the product, a part, the place or a section noun",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "copy-headings"
+   ],
+   "wheres": [
+    "h3#service-asphalt-hotmix \"Asphalt Hotmix\""
+   ]
+  },
+  {
+   "check": "centre-axis",
+   "where": "section#beranda > div.minimal-container.minimal-hero__content > div.minimal-kicker.minimal-kicker--light \"PUTRA JAYA PRATAMA / KONSTRUKSI JALAN\"",
+   "msg": "centred text 21px right of the middle of its page (741px against 720px)",
+   "fix": "centre the block on its container (margin-inline: auto), or set it on the left grid",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "centre-axis"
+   ],
+   "wheres": [
+    "section#beranda > div.minimal-container.minimal-hero__content > div.minimal-kicker.minimal-kicker--light \"PUTRA JAYA PRATAMA / KONSTRUKSI JALAN\""
+   ]
+  },
+  {
+   "check": "text-contrast",
+   "where": "section#layanan > div.minimal-container > div.minimal-section-heading.minimal-section-heading--center > p \"Pekerjaan jalan dan area pendukungnya me\"",
+   "msg": "body text in #64615c on #f5f3ef reads 5.56:1 (needs 7:1)",
+   "fix": "body text in the ink at 7:1 or more; grey (4.5:1 or more) only for captions and labels",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "text-contrast"
+   ],
+   "wheres": [
+    "section#layanan > div.minimal-container > div.minimal-section-heading.minimal-section-heading--center > p \"Pekerjaan jalan dan area pendukungnya me\""
+   ]
+  },
+  {
+   "check": "text-contrast",
+   "where": "section#proses > div.minimal-container > div.minimal-section-heading.minimal-section-heading--center > p \"Empat tahapan awal untuk menyamakan gamb\"",
+   "msg": "body text in #64615c on #f1eee9 reads 5.33:1 (needs 7:1)",
+   "fix": "body text in the ink at 7:1 or more; grey (4.5:1 or more) only for captions and labels",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "text-contrast"
+   ],
+   "wheres": [
+    "section#proses > div.minimal-container > div.minimal-section-heading.minimal-section-heading--center > p \"Empat tahapan awal untuk menyamakan gamb\""
+   ]
+  },
+  {
+   "check": "text-contrast",
+   "where": "div.minimal-container > div.minimal-process__grid > article.minimal-process__step:nth-of-type(1) > p \"Diskusikan jenis pekerjaan, gambaran are\"",
+   "msg": "body text in #625e58 on #f1eee9 reads 5.56:1 (needs 7:1)",
+   "fix": "body text in the ink at 7:1 or more; grey (4.5:1 or more) only for captions and labels",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "text-contrast"
+   ],
+   "wheres": [
+    "div.minimal-container > div.minimal-process__grid > article.minimal-process__step:nth-of-type(1) > p \"Diskusikan jenis pekerjaan, gambaran are\""
+   ]
+  },
+  {
+   "check": "text-contrast",
+   "where": "section#proyek > div.minimal-container.minimal-gallery-teaser__inner > div > p \"Dokumentasi pekerjaan sekarang punya hal\"",
+   "msg": "body text in #68635d on #f3f0eb reads 5.23:1 (needs 7:1)",
+   "fix": "body text in the ink at 7:1 or more; grey (4.5:1 or more) only for captions and labels",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "text-contrast"
+   ],
+   "wheres": [
+    "section#proyek > div.minimal-container.minimal-gallery-teaser__inner > div > p \"Dokumentasi pekerjaan sekarang punya hal\""
+   ]
+  },
+  {
+   "check": "text-contrast",
+   "where": "section#kontak > div.minimal-container.minimal-contact__inner > div > p \"Ceritakan kondisi area dan kebutuhan pek\"",
+   "msg": "body text in #ffffff on #a74f16 reads 5.57:1 (needs 7:1)",
+   "fix": "body text in the ink at 7:1 or more; grey (4.5:1 or more) only for captions and labels",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "text-contrast"
+   ],
+   "wheres": [
+    "section#kontak > div.minimal-container.minimal-contact__inner > div > p \"Ceritakan kondisi area dan kebutuhan pek\""
+   ]
+  },
+  {
+   "check": "section-gaps",
+   "where": "section#proses / section#proyek",
+   "msg": "240px between these sections, +95% against the median 123px",
+   "fix": "use one gap between sections (all within 25% of each other)",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-gaps"
+   ],
+   "wheres": [
+    "section#proses / section#proyek"
+   ]
+  },
+  {
+   "check": "section-gaps",
+   "where": "section#proyek / section#kontak",
+   "msg": "218px between these sections, +77% against the median 123px of gaps at a change of ground",
+   "fix": "use one gap between sections (all within 25% of each other)",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-gaps"
+   ],
+   "wheres": [
+    "section#proyek / section#kontak"
+   ]
+  },
+  {
+   "check": "photo-upscale",
+   "where": "section#tentang > div.minimal-story__image > img \"img: Dokumentasi pemadatan area pekerjaa\"",
+   "msg": "road-roller-preview.webp: 720x540 shown at 720x803, blown up 1.49x",
+   "fix": "use a source at least as wide as the picture is shown (twice that for sharp screens)",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "photo-upscale"
+   ],
+   "wheres": [
+    "section#tentang > div.minimal-story__image > img \"img: Dokumentasi pemadatan area pekerjaa\""
+   ]
+  },
+  {
+   "check": "focus-ring",
+   "where": ".focus\\:outline-none:focus",
+   "msg": "\".focus\\:outline-none:focus\" in index-D1DVnOcB.css removes the focus outline and sets nothing in its place",
+   "fix": "keep the kit's :focus-visible ring, or put a change of the same strength (a 2px line in --action) in the rule that removes it",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "focus-ring"
+   ],
+   "wheres": [
+    ".focus\\:outline-none:focus"
+   ]
+  },
+  {
+   "check": "focus-ring",
+   "where": ".minimal-site :is(main, section)[tabindex=\"-1\"]:focus",
+   "msg": "\".minimal-site :is(main, section)[tabindex=\"-1\"]:focus\" in index-D1DVnOcB.css removes the focus outline and sets nothing in its place",
+   "fix": "keep the kit's :focus-visible ring, or put a change of the same strength (a 2px line in --action) in the rule that removes it",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "focus-ring"
+   ],
+   "wheres": [
+    ".minimal-site :is(main, section)[tabindex=\"-1\"]:focus"
+   ]
+  },
+  {
+   "check": "focus-visible",
+   "where": "section#tentang > div.minimal-story__copy:nth-of-type(2) > div.minimal-story__copy-inner > button.minimal-text-button.minimal-text-button--light \"Diskusikan pekerjaan\"",
+   "msg": "Tab stop 10, button \"Diskusikan pekerjaan\": the focus lands on something you cannot see",
+   "fix": "keep the kit's ring (system.css :focus-visible, 2px in --action, there at once); a control that hides itself shows on focus",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "focus-visible"
+   ],
+   "wheres": [
+    "section#tentang > div.minimal-story__copy:nth-of-type(2) > div.minimal-story__copy-inner > button.minimal-text-button.minimal-text-button--light \"Diskusikan pekerjaan\""
+   ]
+  },
+  {
+   "check": "focus-visible",
+   "where": "section#proyek > div.minimal-container.minimal-gallery-teaser__inner > a.minimal-gallery-teaser__link \"Jelajahi Galeri Proyek\"",
+   "msg": "Tab stop 11, a \"Jelajahi Galeri Proyek\": the focus lands on something you cannot see",
+   "fix": "keep the kit's ring (system.css :focus-visible, 2px in --action, there at once); a control that hides itself shows on focus",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "focus-visible"
+   ],
+   "wheres": [
+    "section#proyek > div.minimal-container.minimal-gallery-teaser__inner > a.minimal-gallery-teaser__link \"Jelajahi Galeri Proyek\""
+   ]
+  },
+  {
+   "check": "focus-visible",
+   "where": "section#kontak > div.minimal-container.minimal-contact__inner > button.minimal-button.minimal-button--dark \"Mulai Konsultasi\"",
+   "msg": "Tab stop 12, button \"Mulai Konsultasi\": the focus lands on something you cannot see",
+   "fix": "keep the kit's ring (system.css :focus-visible, 2px in --action, there at once); a control that hides itself shows on focus",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "focus-visible"
+   ],
+   "wheres": [
+    "section#kontak > div.minimal-container.minimal-contact__inner > button.minimal-button.minimal-button--dark \"Mulai Konsultasi\""
+   ]
+  },
+  {
+   "check": "focus-visible",
+   "where": "footer.minimal-footer > div.minimal-container.minimal-footer__main:nth-of-type(1) > div.minimal-footer__links:nth-of-type(2) > a:nth-of-type(1) \"Beranda\"",
+   "msg": "Tab stop 13, a \"Beranda\": the focus lands on something you cannot see",
+   "fix": "keep the kit's ring (system.css :focus-visible, 2px in --action, there at once); a control that hides itself shows on focus",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "focus-visible"
+   ],
+   "wheres": [
+    "footer.minimal-footer > div.minimal-container.minimal-footer__main:nth-of-type(1) > div.minimal-footer__links:nth-of-type(2) > a:nth-of-type(1) \"Beranda\""
+   ]
+  },
+  {
+   "check": "moment-none",
+   "where": "(the page)",
+   "msg": "a service page (--type) deals no moment: every kind carries one, two on a long page (moments.md)",
+   "fix": "deal one (moments.mjs pick --page service --photo) and mount it in its own section",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "moment-none"
+   ],
+   "wheres": [
+    "(the page)"
+   ]
+  },
+  {
+   "check": "section-height",
+   "where": "section#proyek \"04 / DOKUMENTASI PROYEKLihat hasil kerja\"",
+   "msg": "the section is 385px tall (0.4 screens), 515px short of one screen (900px): every section after the hero is one screen or two, 2px either way (SR-2)",
+   "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-height"
+   ],
+   "wheres": [
+    "section#proyek \"04 / DOKUMENTASI PROYEKLihat hasil kerja\""
+   ]
+  },
+  {
+   "check": "section-height",
+   "where": "div#root > div.minimal-site > footer.minimal-footer \"P.PUTRA JAYAPRATAMAJasa pengaspalan, per\"",
+   "msg": "the section is 463px tall (0.5 screens), 437px short of one screen (900px): every section after the hero is one screen or two, 2px either way (SR-2)",
+   "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-height"
+   ],
+   "wheres": [
+    "div#root > div.minimal-site > footer.minimal-footer \"P.PUTRA JAYAPRATAMAJasa pengaspalan, per\""
+   ]
+  },
+  {
+   "check": "section-height",
+   "where": "section#kontak \"05 / KONSULTASIAda rencana jalanyang per\"",
+   "msg": "the section is 477px tall (0.5 screens), 423px short of one screen (900px): every section after the hero is one screen or two, 2px either way (and 3 more like it: \"01 / LAYANANBerbagai keb\", \"PROSES PENGERJAAN / DOKU\", \"03 / PROSES KERJADari ke\") (SR-2)",
+   "fix": "set the section to one screen or two (height: calc(var(--h,1) * 100vh), --h 1 or 2) and cut or split its content to fit",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-height"
+   ],
+   "wheres": [
+    "section#kontak \"05 / KONSULTASIAda rencana jalanyang per\""
+   ]
+  },
+  {
+   "check": "section-height",
+   "where": "section#tentang \"PROSES PENGERJAAN / DOKUMENTASI02 / PEND\"",
+   "msg": "the section starts at 2191px, 391px below the screen grid (2 x 900px): sections start on whole screens (SR-2)",
+   "fix": "make every section above it exactly one or two screens tall, so this one starts on a whole screen",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-height"
+   ],
+   "wheres": [
+    "section#tentang \"PROSES PENGERJAAN / DOKUMENTASI02 / PEND\""
+   ]
+  },
+  {
+   "check": "section-height",
+   "where": "section#proses \"03 / PROSES KERJADari kebutuhan,hingga p\"",
+   "msg": "the section starts at 2993px, 293px below the screen grid (3 x 900px): sections start on whole screens (SR-2)",
+   "fix": "make every section above it exactly one or two screens tall, so this one starts on a whole screen",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-height"
+   ],
+   "wheres": [
+    "section#proses \"03 / PROSES KERJADari kebutuhan,hingga p\""
+   ]
+  },
+  {
+   "check": "section-air",
+   "where": "section#proses > div.minimal-container > div.minimal-process__grid \"01Konsultasi kebutuhanDiskusikan jenis p\"",
+   "msg": "a top border across 100% of the container, between the section's content: sections and their parts are told apart by air and ground, not lines (SR-3)",
+   "fix": "take the rule out: sections and their parts are parted by their ground and the air between them",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "section-air"
+   ],
+   "wheres": [
+    "section#proses > div.minimal-container > div.minimal-process__grid \"01Konsultasi kebutuhanDiskusikan jenis p\""
+   ]
+  },
+  {
+   "check": "one-section",
+   "where": "h2#minimal-contact-title \"Ada rencana jalanyang perlu dikerjakan?\"",
+   "msg": "the screen at scroll 4216px (the top of section 6) shows 390px of section 6 and the heading of section 6 whole and the content of 2 sections, over 24px each beside section 7: a screen shows one section (another may peek 8px, 24px WARN) (SR-4)",
+   "fix": "make each section exactly one screen or two, so a screen shows one section and no neighbour peeks",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "one-section"
+   ],
+   "wheres": [
+    "h2#minimal-contact-title \"Ada rencana jalanyang perlu dikerjakan?\""
+   ]
+  },
+  {
+   "check": "one-section",
+   "where": "section#layanan \"01 / LAYANANBerbagai kebutuhan.Satu mitr\"",
+   "msg": "the screen at scroll 1800px (stride 2) shows 303px of section 2 and the content of 2 sections, over 24px each beside section 3: a screen shows one section (another may peek 8px, 24px WARN) (SR-4)",
+   "fix": "make each section exactly one screen or two, so a screen shows one section and no neighbour peeks",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "one-section"
+   ],
+   "wheres": [
+    "section#layanan \"01 / LAYANANBerbagai kebutuhan.Satu mitr\""
+   ]
+  },
+  {
+   "check": "one-section",
+   "where": "h2#minimal-gallery-teaser-title \"Lihat hasil kerja di lapangan.\"",
+   "msg": "the screen at scroll 3831px (the top of section 5) shows 297px of section 5 and the heading of section 5 whole and the content of 2 sections, over 24px each beside section 6: a screen shows one section (another may peek 8px, 24px WARN) (and 4 more like it: scroll 3600px, scroll 2700px, scroll 2191px) (SR-4)",
+   "fix": "make each section exactly one screen or two, so a screen shows one section and no neighbour peeks",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "one-section"
+   ],
+   "wheres": [
+    "h2#minimal-gallery-teaser-title \"Lihat hasil kerja di lapangan.\""
+   ]
+  },
+  {
+   "check": "one-heading",
+   "where": "h2#minimal-contact-title \"Ada rencana jalanyang perlu dikerjakan?\"",
+   "msg": "headings of two sections show whole on one screen at 5 of 86 scroll positions (5.8%; at scroll 3650, 3700, 3750, 3800px), here with \"Lihat hasil kerja di lapangan.\": at most 3% on a desktop (SR-5)",
+   "fix": "make the sections one screen tall so their headings sit a screen apart and two never share one",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "one-heading"
+   ],
+   "wheres": [
+    "h2#minimal-contact-title \"Ada rencana jalanyang perlu dikerjakan?\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "section#tentang \"PROSES PENGERJAAN / DOKUMENTASI02 / PEND\"",
+   "msg": "the content of section 3 runs 0px from the left and 0px from the right (read from its outermost blocks: no .wrap): the page's container starts at 85px; the margin is 64-120px at 1440px (one container, equal margins, 2px either way) (SR-6)",
+   "fix": "use one container on every section and the nav (.wrap): one margin left and right, 64-120px on a desktop, 16-24px on a phone",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "section#tentang \"PROSES PENGERJAAN / DOKUMENTASI02 / PEND\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "div#root \"Lewati ke kontenP.PUTRA JAYAPRATAMABeran\"",
+   "msg": "a <div> at the top of the page, outside header.nav, main, footer.closing and nav.actionbar (SR-6)",
+   "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "div#root \"Lewati ke kontenP.PUTRA JAYAPRATAMABeran\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "section#beranda \"PUTRA JAYA PRATAMA / KONSTRUKSI JALANMem\"",
+   "msg": "the section needs exactly one in-flow child .wrap (it has 1 in-flow child, 0 .wrap) (and 9 more like it: \"Dokumentasi pekerjaan pe\", section#beranda > div.minimal-hero__shade, \"PUTRA JAYA PRATAMA / KON\") (SR-6)",
+   "fix": "build the page as header.nav, a main of sections (each one in-flow .wrap plus background layers) and footer.closing",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "section#beranda \"PUTRA JAYA PRATAMA / KONSTRUKSI JALANMem\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "section#beranda > div.minimal-hero__shade",
+   "msg": "a box runs 0-1440px, outside the container lines of section 1 at 85-1355px: full width is for background layers and grounds only (SR-6)",
+   "fix": "keep it inside the container lines (.wrap): full width is for background layers and grounds only",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "section#beranda > div.minimal-hero__shade"
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "h2#minimal-story-title \"Pekerjaan yang baik dimulai dari pemaham\"",
+   "msg": "the h2 starts 793px right of the container's left: every h1 and h2 starts on it, 2px either way (SR-6)",
+   "fix": "start the text on the container's left, or on the one split line every split shares",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "h2#minimal-story-title \"Pekerjaan yang baik dimulai dari pemaham\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "h2#minimal-process-title \"Dari kebutuhan,hingga pelaksanaan.\"",
+   "msg": "1 text block starts on a left line at x 498, 413px from the container's left: text starts on the container's left, or on one split line (x 624, 732, 840) (and 7 more like it: \"Dari kebutuhan,hingga pe\", x 438, x 427) (SR-6)",
+   "fix": "start the text on the container's left, or on the one split line every split shares",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "h2#minimal-process-title \"Dari kebutuhan,hingga pelaksanaan.\""
+   ]
+  },
+  {
+   "check": "container-edges",
+   "where": "h2#minimal-services-title \"Berbagai kebutuhan.Satu mitra kerja.\"",
+   "msg": "\"Berbagai kebutuhan.Satu mitra ke\" is set centred across 1270px, over half the 1270px container: text that wide is set left (and 1 more like it: \"Dari kebutuhan,hingga pe\") (SR-6)",
+   "fix": "set the text left (text-align: start)",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "container-edges"
+   ],
+   "wheres": [
+    "h2#minimal-services-title \"Berbagai kebutuhan.Satu mitra kerja.\""
+   ]
+  },
+  {
+   "check": "row-lines",
+   "where": "section#layanan > div.minimal-container > div.minimal-service-grid \"Asphalt HotmixPaving BlockCut and FillCo\"",
+   "msg": "a row of 3 items: its first item starts at 140px, the container's left line at 85px; its last item ends at 1300px, the container's right line at 1355px (2px either way) (SR-7)",
+   "fix": "start the row's first item on the container's left line and end its last on the right line, every item one height",
+   "widths": [
+    1440
+   ],
+   "from": "consistency",
+   "ids": [
+    "row-lines"
+   ],
+   "wheres": [
+    "section#layanan > div.minimal-container > div.minimal-service-grid \"Asphalt HotmixPaving BlockCut and FillCo\""
+   ]
+  },
+  {
+   "check": "collide",
+   "where": "div#root > div.minimal-site > header.minimal-header \"P . PUTRA JAYA PRATAMA\"",
+   "msg": "at the top of the page the fixed bar covers the picture \"img: Dokumentasi pekerjaan penga\": nothing scrolls it out from under the bar",
+   "fix": "on a phone nothing lies on anything else: let the section grow with its content (min-height for its screens, never a fixed height; --hm: 2 when it needs two) or cut what it holds; keep pictures and cards off the buttons; pad the page under a fixed bar by the bar's height (top: the first section; end: the footer)",
+   "widths": [
+    390,
+    320
+   ],
+   "from": "consistency",
+   "ids": [
+    "collide"
+   ],
+   "wheres": [
+    "div#root > div.minimal-site > header.minimal-header \"P . PUTRA JAYA PRATAMA\""
+   ]
+  },
+  {
+   "check": "photo-upscale",
+   "where": "section#beranda > img.minimal-hero__image \"img: Dokumentasi pekerjaan pengaspalan d\"",
+   "msg": "asphalt-access-preview-400.webp: 390x292 shown at 390x844, blown up 2.89x",
+   "fix": "use a source at least as wide as the picture is shown (twice that for sharp screens)",
+   "widths": [
+    390
+   ],
+   "from": "consistency",
+   "ids": [
+    "photo-upscale"
+   ],
+   "wheres": [
+    "section#beranda > img.minimal-hero__image \"img: Dokumentasi pekerjaan pengaspalan d\""
+   ]
+  },
+  {
+   "check": "container",
+   "where": "page",
+   "msg": "no .wrap",
+   "fix": "put the content in one .wrap",
+   "widths": [
+    1440,
+    390
+   ],
+   "from": "layout",
+   "ids": [
+    "container"
+   ],
+   "wheres": [
+    "page"
+   ]
+  }
+ ],
+ "waived": [],
+ "warnCount": 25,
+ "at": "2026-11-11T07:34:15.854Z",
+ "openTold": true
+}

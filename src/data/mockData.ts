@@ -11,7 +11,7 @@ export const NAV_LINKS: NavLink[] = [
 export const SERVICES_LIST: ServiceItem[] = [
   {
     id: 'asphalt-hotmix',
-    title: 'Asphalt Hotmix',
+    title: 'Pengaspalan hotmix',
     metaCode: '01 / HOTMIX',
     summary: 'Pelapisan permukaan menggunakan campuran aspal panas untuk kebutuhan jalan dan area kendaraan.',
     detailText: 'Pekerjaan perkerasan menggunakan campuran aspal panas. Informasi seperti kondisi dasar, ketebalan rencana, luas area, dan penggunaan jalan perlu dievaluasi sebelum penawaran.',
@@ -19,7 +19,7 @@ export const SERVICES_LIST: ServiceItem[] = [
   },
   {
     id: 'paving-block',
-    title: 'Paving Block',
+    title: 'Paving block',
     metaCode: '02 / PAVING',
     summary: 'Pemasangan perkerasan modular untuk area parkir, halaman, akses lingkungan, dan area luar bangunan.',
     detailText: 'Pekerjaan perkerasan dengan elemen paving modular. Perlu mempertimbangkan beban kendaraan, susunan lapisan dasar, elevasi, dan drainase area.',
@@ -28,7 +28,7 @@ export const SERVICES_LIST: ServiceItem[] = [
   },
   {
     id: 'cut-and-fill',
-    title: 'Cut and Fill',
+    title: 'Cut and fill',
     metaCode: '03 / EARTHWORK',
     summary: 'Pekerjaan pemotongan dan penimbunan tanah untuk menyiapkan elevasi dan kondisi lahan.',
     detailText: 'Pemotongan dan penimbunan tanah untuk membentuk elevasi lahan. Volume, kontur, kondisi tanah, serta pemadatan memengaruhi metode pekerjaan.',
@@ -36,7 +36,7 @@ export const SERVICES_LIST: ServiceItem[] = [
   },
   {
     id: 'cor-beton',
-    title: 'Cor Beton',
+    title: 'Cor beton',
     metaCode: '04 / CONCRETE',
     summary: 'Pekerjaan perkerasan beton untuk kebutuhan permukaan kuat sesuai perencanaan dan fungsi area.',
     detailText: 'Pembuatan perkerasan beton dengan spesifikasi yang disesuaikan fungsi dan beban area. Detail desain, tebal, tulangan/sambungan, dan curing harus direncanakan.',
@@ -52,7 +52,7 @@ export const SERVICES_LIST: ServiceItem[] = [
   },
   {
     id: 'resapan-air',
-    title: 'Resapan Air',
+    title: 'Resapan air',
     metaCode: '06 / WATER',
     summary: 'Solusi fasilitas resapan untuk membantu pengelolaan limpasan air sesuai kebutuhan dan kondisi lokasi.',
     detailText: 'Fasilitas pendukung infiltrasi atau pengelolaan air. Pendekatan konstruksi harus mempertimbangkan kondisi tanah, muka air dan kebutuhan setempat.',
@@ -63,23 +63,23 @@ export const SERVICES_LIST: ServiceItem[] = [
 export const PROCESS_STEPS: ProcessStep[] = [
   {
     number: '01',
-    title: 'Konsultasi kebutuhan',
-    description: 'Diskusikan jenis pekerjaan, gambaran area, target hasil, dan informasi awal yang tersedia.',
+    title: 'Pembahasan awal',
+    description: 'Ceritakan pekerjaan yang dibutuhkan dan hasil yang Anda harapkan. Sampaikan juga kondisi lokasi yang Anda ketahui.',
   },
   {
     number: '02',
-    title: 'Peninjauan & perencanaan',
-    description: 'Menilai kebutuhan data lapangan dan menyusun pendekatan pengerjaan sesuai kondisi proyek.',
+    title: 'Rencana kerja',
+    description: 'Kami menilai data lapangan yang diperlukan, lalu menyusun cara pengerjaan sesuai kondisi lokasi.',
   },
   {
     number: '03',
-    title: 'Pelaksanaan pekerjaan',
-    description: 'Pekerjaan dilakukan mengikuti lingkup dan kesepakatan proyek yang telah disusun.',
+    title: 'Pengerjaan di lapangan',
+    description: 'Kami mengerjakan proyek sesuai rencana dan cakupan pekerjaan yang sudah disepakati bersama.',
   },
   {
     number: '04',
     title: 'Pemeriksaan hasil',
-    description: 'Hasil pekerjaan dievaluasi bersama berdasarkan target dan persyaratan yang disepakati.',
+    description: 'Kami memeriksa hasil pekerjaan bersama Anda, mengacu pada target dan persyaratan yang sudah disepakati.',
   },
 ]
 

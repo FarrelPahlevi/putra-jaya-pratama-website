@@ -17,24 +17,24 @@ export const SiteFooter: React.FC<Props> = ({ onOpenInquiry, galleryPage = false
             <span className="minimal-brand__symbol">P<span>.</span></span>
             <span className="minimal-brand__name">PUTRA JAYA<strong>PRATAMA</strong></span>
           </div>
-          <p>Jasa pengaspalan, perkerasan, dan konstruksi jalan untuk berbagai kebutuhan area.</p>
+          <p>Kami melayani pengaspalan, perkerasan, dan pekerjaan konstruksi jalan.</p>
         </div>
         <div className="minimal-footer__links">
           <strong>NAVIGASI</strong>
           {NAV_LINKS.map(link => <a href={hrefFor(link.href)} key={link.href}>{link.label}</a>)}
         </div>
         <div className="minimal-footer__links">
-          <strong>HUBUNGI KAMI</strong>
+          <strong>KONSULTASI PROYEK</strong>
           <button type="button" onClick={() => onOpenInquiry()}>
-            Buat ringkasan konsultasi <ArrowUpRight size={15} />
+            Isi kebutuhan proyek <ArrowUpRight size={15} aria-hidden="true" />
           </button>
-          <p>Kontak dan detail perusahaan akan dilengkapi pada tahap finalisasi.</p>
+          <p>Pratinjau ini belum memuat kontak resmi dan detail perusahaan.</p>
         </div>
       </div>
       <div className="minimal-container minimal-footer__bottom">
         <span>© {new Date().getFullYear()} PUTRA JAYA PRATAMA</span>
-        <span>WEBSITE PREVIEW / MINIMAL INDUSTRIAL</span>
-        <a href={galleryPage ? '/#beranda' : '#beranda'}>KEMBALI KE ATAS ↑</a>
+        <span>PRATINJAU WEBSITE PJP</span>
+        <a href={galleryPage ? '/#beranda' : '#beranda'}>Kembali ke atas ↑</a>
       </div>
     </footer>
   )

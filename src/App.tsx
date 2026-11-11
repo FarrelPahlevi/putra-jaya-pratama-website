@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './minimal-industrial.css'
 import './project-gallery.css'
+import './inquiry-modal.css'
 import { MinimalIndustrial } from './MinimalIndustrial'
 import { GalleryPage } from './GalleryPage'
 import { InquiryModal } from './components/InquiryModal'

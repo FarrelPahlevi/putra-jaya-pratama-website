@@ -1,0 +1,72 @@
+[
+  {
+    "original": "asphalt-access-preview.webp",
+    "width": 1200,
+    "height": 900,
+    "variants": [
+      {
+        "file": "asphalt-access-preview-400.webp",
+        "width": 400,
+        "height": 300,
+        "bytes": 32054
+      },
+      {
+        "file": "asphalt-access-preview-700.webp",
+        "width": 700,
+        "height": 525,
+        "bytes": 83950
+      }
+    ]
+  },
+  {
+    "original": "asphalt-road-preview.webp",
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "file": "asphalt-road-preview-400.webp",
+        "width": 400,
+        "height": 711,
+        "bytes": 101786
+      },
+      {
+        "file": "asphalt-road-preview-700.webp",
+        "width": 700,
+        "height": 1244,
+        "bytes": 294856
+      }
+    ]
+  },
+  {
+    "original": "road-roller-preview.webp",
+    "width": 1200,
+    "height": 900,
+    "variants": [
+      {
+        "file": "road-roller-preview-400.webp",
+        "width": 400,
+        "height": 300,
+        "bytes": 38250
+      },
+      {
+        "file": "road-roller-preview-700.webp",
+        "width": 700,
+        "height": 525,
+        "bytes": 103820
+      }
+    ]
+  },
+  {
+    "original": "tree-lined-road-preview.webp",
+    "width": 650,
+    "height": 1156,
+    "variants": [
+      {
+        "file": "tree-lined-road-preview-400.webp",
+        "width": 400,
+        "height": 711,
+        "bytes": 81558
+      }
+    ]
+  }
+]

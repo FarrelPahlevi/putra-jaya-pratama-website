@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import "tailwindcss" source("./");
 
 :root {
   --pumpkin: #c96a1b;
@@ -18,14 +18,18 @@
   --gutter: clamp(20px, 4.2vw, 68px);
 }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 110px; font-family: 'Barlow',Arial,sans-serif; -webkit-font-smoothing: antialiased; }
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--mi-header-height, 88px) + 24px); font-family: 'Barlow',Arial,sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0; background: var(--paper); color: var(--ink); }
 h1,h2,h3,h4,h5,h6 { letter-spacing: -.02em; }
 button,a { -webkit-tap-highlight-color: transparent; }
-button { cursor:pointer; }
+a[href],button,summary,select,label[for],input[type="checkbox"],input[type="radio"] { cursor:pointer; touch-action:manipulation; }
+button:disabled {cursor:not-allowed;}
+input,textarea {caret-color:var(--pumpkin-hover);}
+body {scrollbar-color:#9e8b78 #eeeae2;}
+@media(prefers-reduced-motion:reduce) {html {scroll-behavior:auto;}}
 a { text-decoration:none; }
-::selection { background: var(--pumpkin); color: white; }
-:focus-visible { outline: 3px solid var(--pumpkin-light); outline-offset: 4px; }
+::selection { background: var(--pumpkin-hover); color: white; }
+:focus-visible { outline: 3px solid var(--mi-action, var(--pumpkin-hover)); outline-offset: 4px; }
 .site-container { width: min(var(--max), calc(100% - var(--gutter)*2)); margin-inline: auto; }
 .pjp-section { padding-block: clamp(76px, 9vw, 136px); }
 .pjp-eyebrow { display:inline-flex; gap:12px; align-items:center; text-transform:uppercase; font-size:11px; font-weight:800; letter-spacing:.2em; line-height:1.35; }

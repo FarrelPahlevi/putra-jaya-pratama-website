@@ -28,6 +28,7 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
       block: 'start',
     })
     window.history.replaceState(null, '', target)
+    section.focus({ preventScroll: true })
   }
 
   return (
@@ -35,34 +36,35 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
       <a className="minimal-skip" href="#main">Lewati ke konten</a>
       <SiteHeader onOpenInquiry={onOpenInquiry} />
 
-      <main id="main">
-        <section className="minimal-hero" id="beranda" aria-labelledby="minimal-hero-title">
+      <main id="main" tabIndex={-1}>
+        <section className="minimal-hero" id="beranda" tabIndex={-1} aria-labelledby="minimal-hero-title">
           <img className="minimal-hero__image" src="/assets/pjp-preview/asphalt-access-preview.webp"
-            alt="Dokumentasi pekerjaan pengaspalan dan konstruksi akses jalan" width={1600} height={960}
+            srcSet="/assets/pjp-preview/asphalt-access-preview-400.webp 400w, /assets/pjp-preview/asphalt-access-preview-700.webp 700w, /assets/pjp-preview/asphalt-access-preview.webp 1200w"
+            sizes="max(100vw, 134svh)" alt="Area jalan akses dengan permukaan beraspal." width={1200} height={900}
             fetchPriority="high" />
           <div className="minimal-hero__shade" aria-hidden="true" />
           <div className="minimal-container minimal-hero__content">
             <div className="minimal-kicker minimal-kicker--light">
               <span className="minimal-kicker__line" /> PUTRA JAYA PRATAMA / KONSTRUKSI JALAN
             </div>
-            <h1 id="minimal-hero-title">Membangun jalan.<br /><em>Membuka akses.</em></h1>
-            <p>Solusi pengaspalan hotmix, perkerasan, dan pekerjaan infrastruktur untuk kebutuhan area Anda. Dimulai dengan rencana yang jelas.</p>
+            <h1 id="minimal-hero-title">Pengaspalan dan<br /><em>konstruksi jalan.</em></h1>
+            <p>Kami melayani pengaspalan hotmix, perkerasan, dan pekerjaan pendukung jalan. Ceritakan kondisi lokasi dan rencana Anda.</p>
             <div className="minimal-hero__buttons">
               <a className="minimal-button minimal-button--primary" href="#layanan" onClick={(event) => goTo(event, '#layanan')}>
-                Lihat Layanan <ArrowUpRight size={17} />
+                Lihat layanan <ArrowUpRight size={17} aria-hidden="true" />
               </a>
               <button type="button" className="minimal-button minimal-button--outline"
-                onClick={() => onOpenInquiry()}>Bahas Kebutuhan <ArrowRight size={17} /></button>
+                onClick={() => onOpenInquiry()}>Isi kebutuhan proyek <ArrowRight size={17} aria-hidden="true" /></button>
             </div>
           </div>
         </section>
 
-        <section id="layanan" className="minimal-services minimal-section" aria-labelledby="minimal-services-title">
+        <section id="layanan" tabIndex={-1} className="minimal-services minimal-section" aria-labelledby="minimal-services-title">
           <div className="minimal-container">
             <div className="minimal-section-heading minimal-section-heading--center">
               <span className="minimal-kicker">01 / LAYANAN</span>
-              <h2 id="minimal-services-title">Berbagai kebutuhan.<br /><em>Satu mitra kerja.</em></h2>
-              <p>Pekerjaan jalan dan area pendukungnya memerlukan pendekatan yang tepat untuk setiap kondisi lapangan.</p>
+              <h2 id="minimal-services-title">Pekerjaan yang<br /><em>kami tangani.</em></h2>
+              <p>Setiap lokasi punya kebutuhan yang berbeda. Kami menyesuaikan jenis pekerjaan dengan kondisi di lapangan.</p>
             </div>
             <div className="minimal-service-grid">
               {SERVICES_LIST.map((service) => {
@@ -75,7 +77,7 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
                       <img
                         src={asset + '-800.webp'}
                         srcSet={asset + '-400.webp 400w, ' + asset + '-800.webp 800w'}
-                        sizes="(min-width: 1100px) 340px, (min-width: 800px) 340px, (min-width: 520px) calc((90vw - 32px) / 2), (min-width: 380px) 304px, calc(100vw - 44px)"
+                        sizes="(min-width: 1100px) 340px, (min-width: 800px) 340px, (min-width: 520px) calc((90vw - 32px) / 2), (min-width: 380px) 304px, calc(100vw - 32px)"
                         width={800} height={640}
                         loading="lazy" decoding="async"
                         alt={illustration.alt}
@@ -89,35 +91,37 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
           </div>
         </section>
 
-        <section id="tentang" className="minimal-story" aria-labelledby="minimal-story-title">
+        <section id="tentang" tabIndex={-1} className="minimal-story" aria-labelledby="minimal-story-title">
           <div className="minimal-story__image">
             <img src="/assets/pjp-preview/road-roller-preview.webp" loading="lazy"
-              alt="Dokumentasi pemadatan area pekerjaan menggunakan road roller" width={1200} height={920} />
-            <span>PROSES PENGERJAAN / DOKUMENTASI</span>
+              srcSet="/assets/pjp-preview/road-roller-preview-400.webp 400w, /assets/pjp-preview/road-roller-preview-700.webp 700w, /assets/pjp-preview/road-roller-preview.webp 1200w"
+              sizes="(max-width:950px) 100vw, 50vw"
+              alt="Pemadatan jalan menggunakan road roller." width={1200} height={900} />
+            <span>DOKUMENTASI PEMADATAN JALAN</span>
           </div>
           <div className="minimal-story__copy">
             <div className="minimal-story__copy-inner">
               <span className="minimal-kicker minimal-kicker--light">02 / PENDEKATAN KAMI</span>
-              <h2 id="minimal-story-title">Pekerjaan yang baik dimulai dari <em>pemahaman.</em></h2>
-              <p>Kondisi jalan, beban kendaraan, keadaan lahan, dan aliran air menentukan kebutuhan suatu proyek. Karena itu, kami mulai dengan memahami apa yang benar-benar dibutuhkan.</p>
+              <h2 id="minimal-story-title">Kami mulai dari <em>kondisi lapangan.</em></h2>
+              <p>Kami mulai dengan memahami kondisi jalan dan lahan, beban kendaraan, serta aliran air. Setelah itu, kami bahas cara pengerjaan yang sesuai dengan kebutuhan Anda.</p>
               <div className="minimal-story__facts">
-                <div><span>01</span><strong>Memahami kondisi area</strong></div>
-                <div><span>02</span><strong>Menentukan metode pekerjaan</strong></div>
-                <div><span>03</span><strong>Menjaga komunikasi selama proses</strong></div>
+                <div><span>01</span><strong>Mengenali kondisi lokasi</strong></div>
+                <div><span>02</span><strong>Membahas cara pengerjaan</strong></div>
+                <div><span>03</span><strong>Menjaga komunikasi selama pekerjaan</strong></div>
               </div>
               <button type="button" onClick={() => onOpenInquiry()} className="minimal-text-button minimal-text-button--light">
-                Diskusikan pekerjaan <ArrowUpRight size={19} />
+                Isi kebutuhan proyek <ArrowUpRight size={19} aria-hidden="true" />
               </button>
             </div>
           </div>
         </section>
 
-        <section id="proses" className="minimal-process minimal-section" aria-labelledby="minimal-process-title">
+        <section id="proses" tabIndex={-1} className="minimal-process minimal-section" aria-labelledby="minimal-process-title">
           <div className="minimal-container">
             <div className="minimal-section-heading minimal-section-heading--center">
               <span className="minimal-kicker">03 / PROSES KERJA</span>
-              <h2 id="minimal-process-title">Dari kebutuhan,<br /><em>hingga pelaksanaan.</em></h2>
-              <p>Empat tahapan awal untuk menyamakan gambaran pekerjaan sebelum dan selama proses berlangsung.</p>
+              <h2 id="minimal-process-title">Empat tahap<br /><em>pengerjaan proyek.</em></h2>
+              <p>Sebelum mulai, kami membahas kebutuhan dan rencana kerja dengan Anda. Setelah pengerjaan, kami memeriksa hasilnya bersama.</p>
             </div>
             <div className="minimal-process__grid">
               {PROCESS_STEPS.map(step => (
@@ -131,28 +135,28 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
           </div>
         </section>
 
-        <section id="proyek" className="minimal-gallery-teaser" aria-labelledby="minimal-gallery-teaser-title">
+        <section id="proyek" tabIndex={-1} className="minimal-gallery-teaser" aria-labelledby="minimal-gallery-teaser-title">
           <div className="minimal-container minimal-gallery-teaser__inner">
             <div>
               <span className="minimal-kicker">04 / DOKUMENTASI PROYEK</span>
-              <h2 id="minimal-gallery-teaser-title">Lihat hasil kerja <em>di lapangan.</em></h2>
-              <p>Dokumentasi pekerjaan sekarang punya halaman tersendiri, tersusun berdasarkan jenis layanan agar lebih mudah dijelajahi.</p>
+              <h2 id="minimal-gallery-teaser-title">Dokumentasi <em>pekerjaan jalan.</em></h2>
+              <p>Lihat dokumentasi pengaspalan dan pemadatan jalan, tersusun berdasarkan jenis pekerjaan.</p>
             </div>
             <a className="minimal-gallery-teaser__link" href="/galeri-proyek">
-              Jelajahi Galeri Proyek <ArrowUpRight size={20} aria-hidden="true" />
+              Lihat foto proyek <ArrowUpRight size={20} aria-hidden="true" />
             </a>
           </div>
         </section>
 
-        <section id="kontak" className="minimal-contact" aria-labelledby="minimal-contact-title">
+        <section id="kontak" tabIndex={-1} className="minimal-contact" aria-labelledby="minimal-contact-title">
           <div className="minimal-container minimal-contact__inner">
             <div>
               <span className="minimal-kicker minimal-kicker--light">05 / KONSULTASI</span>
-              <h2 id="minimal-contact-title">Ada rencana jalan<br />yang perlu <em>dikerjakan?</em></h2>
-              <p>Ceritakan kondisi area dan kebutuhan pekerjaan Anda. Kami bantu mulai dari pembahasan awal.</p>
+              <h2 id="minimal-contact-title">Ada rencana<br />pekerjaan <em>jalan?</em></h2>
+              <p>Ceritakan kondisi lokasi dan pekerjaan yang Anda butuhkan. Kami mulai dari informasi tersebut untuk membahas rencana pengerjaannya.</p>
             </div>
             <button type="button" onClick={() => onOpenInquiry()} className="minimal-button minimal-button--dark">
-              Mulai Konsultasi <ArrowUpRight size={18}/>
+              Isi kebutuhan proyek <ArrowUpRight size={18} aria-hidden="true" />
             </button>
           </div>
         </section>
