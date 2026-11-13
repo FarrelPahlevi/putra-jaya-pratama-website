@@ -1,55 +1,75 @@
-# Putra Jaya Pratama (PJP)
+# Putra Jaya Pratama
 
-Source website **PJP Minimal Industrial**, pengembangan terbaru dari versi Pumpkin Industrial. Layout dirancang ulang pada 6 November 2026 dengan referensi komposisi industri dari 99designs. **Versi Glassmorphism sudah bukan desain aktif.**
+Website profil usaha dan portofolio pekerjaan **Putra Jaya Pratama (PJP)**, penyedia jasa pengaspalan dan konstruksi jalan.
 
-## Status
-- **Branch aktif:** `main` berisi Minimal Industrial, dengan React 19, TypeScript, Vite.
-- **Branch arsip:** `archive/glassmorphism-20261109` menyimpan kondisi Glass terakhir.
-- **Cloudflare Pages:** project preview sebelumnya menggunakan Direct Upload dan **tidak otomatis terbarui dari push GitHub**. Jangan menganggap tautan Cloudflare sudah beralih ke layout baru sampai deployment dilakukan dan diuji.
+**Website:** https://putra-jaya-pratama.pages.dev
 
-## Menjalankan di PC lain
+**Repository:** https://github.com/FarrelPahlevi/putra-jaya-pratama-website
 
-Install Node.js LTS dan Git, lalu:
+## Tentang Proyek
+
+Website ini membantu calon pelanggan mengenal layanan PJP, melihat dokumentasi pekerjaan, dan menyiapkan informasi awal untuk konsultasi.
+
+**Layanan:** Asphalt Hotmix, Paving Block, Cut & Fill, Cor Beton, Saluran U-Ditch, dan Resapan Air.
+
+Tampilan menggunakan identitas **Minimal Industrial** dengan palet oranye, hitam, putih, tipografi Barlow, ilustrasi layanan isometrik, dan animasi scroll responsif. Animasi mendukung `prefers-reduced-motion`, sementara kedua halaman utama sudah memiliki HTML hasil prerender.
+
+## Halaman dan Fitur
+
+- **Beranda (`/`):** pengenalan PJP, enam layanan, dokumentasi, alur pekerjaan, dan ajakan konsultasi.
+- **Galeri Proyek (`/galeri-proyek`):** dokumentasi pekerjaan, filter layanan, dan galeri interaktif.
+- **Form konsultasi:** menyusun serta menyalin ringkasan kebutuhan pekerjaan. Pengiriman WhatsApp otomatis **belum diaktifkan**, karena kontak bisnis resmi belum ditambahkan.
+- **Responsivitas dan aksesibilitas:** layout desktop, tablet, dan mobile; interaksi keyboard; dukungan reduced motion.
+
+## Teknologi
+
+React 19 · TypeScript · Vite 6 · Tailwind CSS 4 · Motion · Lucide React.
+
+## Menjalankan Secara Lokal
+
+Persyaratan: Node.js versi kompatibel dengan proyek (CI menggunakan Node.js 24), npm, dan Git.
 
 ```bash
-git clone https://github.com/FarrelPahlevi/pjp-website-glass.git
-cd pjp-website-glass
+git clone https://github.com/FarrelPahlevi/putra-jaya-pratama-website.git
+cd putra-jaya-pratama-website
 npm ci
 npm run dev
 ```
 
-Buka alamat localhost yang muncul di terminal. Untuk mengecek build:
+Alamat lokal akan ditampilkan oleh Vite. Untuk memeriksa hasil produksi:
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Susunan desain terbaru
-- Hero foto full-width dengan headline “Membangun jalan. Membuka akses.”
-- Header minimal, navigasi responsif.
-- Grid enam layanan, section editorial alat dan cara kerja, timeline empat tahap.
-- Galeri empat foto dokumentasi WebP dan CTA konsultasi.
-- Komponen dialog detail layanan dan ringkasan konsultasi masih aktif.
+Build menjalankan TypeScript, Vite client/SSR, serta prerender untuk Beranda dan Galeri Proyek.
 
-## Referensi tata letak
-- https://99designs.com/profiles/kwikrelease/designs/1149098
-- https://99designs.com/profiles/sudipdutta/designs/1233964
+## Struktur Proyek
 
-Referensi hanya untuk prinsip tata letak. Kode, konten, dan visual website PJP dikembangkan secara terpisah.
+| Lokasi | Isi |
+| --- | --- |
+| `src/` | Komponen React, style, data layanan, dan motion |
+| `public/` | Foto, ilustrasi, dan favicon |
+| `scripts/` | Prerender, optimasi aset, dan pengujian |
+| `docs/` | Dokumentasi desain, QA, dan deployment |
+| `DESIGN.md` | Acuan visual dan sistem desain |
+| `.github/workflows/` | Build validation di GitHub Actions |
 
-## Catatan
-- Empat foto dokumentasi telah dinyatakan berizin oleh pemilik PJP.
-- Nomor WhatsApp resmi belum dikonfigurasi. Form konsultasi membuat ringkasan yang bisa disalin, belum mengirim pesan langsung.
-- Sebelum rilis resmi, finalisasi profil perusahaan, rincian proyek, serta informasi kontak yang sudah diverifikasi.
-- Screenshot lokal dan `node_modules` tidak disimpan di repository.
+Berkas dependency, cache, hasil build, dan screenshot QA berukuran besar tidak disimpan di Git.
 
-Lihat `docs/PJP-MINIMAL-INDUSTRIAL-LAYOUT-20261106.md` untuk catatan implementasi, atau buka folder `src` untuk source utama.
+## Dokumentasi
 
-## Motion dan prerender (11 November 2026)
+- [Panduan melanjutkan di PC lain](docs/SETUP-PC-LAIN.md)
+- [Deployment Cloudflare Pages](docs/DEPLOYMENT.md)
+- [Audit tampilan terbaru](docs/PJP-VISUAL-QA-20261113.md)
+- [Sistem motion](docs/PJP-MOTION-20261111.md)
+- [Sistem desain](DESIGN.md)
 
-Website terbaru menyertakan animasi scroll responsif menggunakan paket Motion yang sudah ada, termasuk dukungan `prefers-reduced-motion`. Build sekarang menjalankan TypeScript, Vite client, SSR bundle, dan prerender statis untuk `/` serta `/galeri-proyek`. Jalankan `npm run build` pada PC lain sebelum menerbitkan direktori `dist/` ke Cloudflare Pages. Detail dan hasil uji tersedia di `docs/PJP-MOTION-20261111.md`.
+Dokumen bertanggal sebelumnya tetap disimpan sebagai riwayat pekerjaan, bukan acuan identitas brand terkini.
 
-## Melanjutkan proyek dari PC lain
+## Status dan Batasan
 
-Source utama dan revisi terbaru (termasuk penyederhanaan galeri, perbaikan copywriting, dan motion 11 November 2026) tersinkron melalui repository ini. Lihat [`docs/SETUP-PC-LAIN.md`](docs/SETUP-PC-LAIN.md) untuk cara clone, menjalankan project, menginstal ulang skill Codex, dan memakai script QA. Screenshot QA besar, dependency lokal, serta rahasia PC tidak termasuk commit. Push ke GitHub **tidak otomatis meng-deploy Cloudflare Pages**.
+Situs saat ini masih dalam tahap finalisasi informasi bisnis. Kontak resmi dan detail perusahaan perlu dikonfirmasi sebelum peluncuran penuh. Karena itu, metadata `robots` tetap diatur `noindex,nofollow` untuk sementara.
+
+**Cloudflare Pages menggunakan Direct Upload.** Push ke GitHub hanya menyinkronkan source; untuk memperbarui website publik, jalankan build dan deployment secara terpisah sesuai panduan.

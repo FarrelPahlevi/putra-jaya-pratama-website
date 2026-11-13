@@ -27,7 +27,12 @@ for (const pathname of ['/', '/galeri-proyek']) {
   let html = template.replace('<div id="root"></div>', `${fallback}<div id="root">${render(pathname)}</div>${summary}`)
   if (pathname === '/galeri-proyek') {
     html = html.replace(/<title>.*?<\/title>/, '<title>Galeri Proyek | Putra Jaya Pratama</title>')
-      .replace(/(name="description"\s+content=")[^"]*/, '$1Foto pengaspalan dan pekerjaan jalan Putra Jaya Pratama. Pilih jenis pekerjaan untuk melihat dokumentasi yang tersedia.')
+      .replace(/(name="description"\s+content=")[^"]*/, '$1Foto pengaspalan dan pekerjaan jalan Putra Jaya Pratama. Lihat dokumentasi pekerjaan berdasarkan jenis layanan.')
+      .replace(/(property="og:title"\s+content=")[^"]*/, '$1Galeri Proyek | Putra Jaya Pratama')
+      .replace(/(property="og:description"\s+content=")[^"]*/, '$1Dokumentasi foto pekerjaan pengaspalan dan konstruksi jalan Putra Jaya Pratama.')
+      .replace(/(property="og:url"\s+content=")[^"]*/, '$1https://putra-jaya-pratama.pages.dev/galeri-proyek')
+      .replace(/(name="twitter:title"\s+content=")[^"]*/, '$1Galeri Proyek | Putra Jaya Pratama')
+      .replace(/(name="twitter:description"\s+content=")[^"]*/, '$1Dokumentasi pekerjaan pengaspalan dan konstruksi jalan Putra Jaya Pratama.')
     await fs.mkdir(new URL('../dist/galeri-proyek/', import.meta.url), { recursive: true })
     // Vite's clean-URL fallback checks this file before the SPA index.
     await fs.writeFile(new URL('../dist/galeri-proyek.html', import.meta.url), html)

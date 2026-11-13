@@ -1,4 +1,4 @@
-name: Validate PJP Minimal Industrial
+name: Verify Putra Jaya Pratama Website
 
 on:
   push:
@@ -28,7 +28,8 @@ jobs:
         run: |
           test -s src/MinimalIndustrial.tsx
           test -s src/minimal-industrial.css
-          test ! -e src/GlassExperience.tsx
+          test -s src/GalleryPage.tsx
+          test -s dist/galeri-proyek/index.html
           test -s dist/assets/pjp-preview/asphalt-access-preview.webp
           test -s dist/assets/pjp-preview/asphalt-road-preview.webp
           test -s dist/assets/pjp-preview/road-roller-preview.webp

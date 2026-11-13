@@ -40,7 +40,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenInquiry }) => {
             <div className="pjp-photo-bottom">
               <div>
                 <strong>Infrastruktur dimulai dari detail.</strong>
-                <small>Foto pratinjau. Izin publikasi dan data proyek belum diverifikasi.</small>
+                <small>Dokumentasi foto dan informasi proyek masih dalam tahap verifikasi.</small>
               </div>
               <span style={{ fontSize: 29, color: '#e58a2a' }} aria-hidden="true">↗</span>
             </div>

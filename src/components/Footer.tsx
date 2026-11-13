@@ -34,7 +34,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenInquiry }) => {
           </div>
         </div>
         <div className="pjp-footer__bottom">
-          <span>© {year} Putra Jaya Pratama · Preview desain</span>
+          <span>© {year} Putra Jaya Pratama · Website perusahaan</span>
           <span>Foto referensi belum terverifikasi untuk publikasi</span>
           <a href="#beranda">Kembali ke atas ↑</a>
         </div>

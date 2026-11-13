@@ -28,12 +28,12 @@ export const SiteFooter: React.FC<Props> = ({ onOpenInquiry, galleryPage = false
           <button type="button" onClick={() => onOpenInquiry()}>
             Isi kebutuhan proyek <ArrowUpRight size={15} aria-hidden="true" />
           </button>
-          <p>Pratinjau ini belum memuat kontak resmi dan detail perusahaan.</p>
+          <p>Informasi kontak resmi sedang dilengkapi sebelum peluncuran.</p>
         </div>
       </div>
       <div className="minimal-container minimal-footer__bottom">
         <span>© {new Date().getFullYear()} PUTRA JAYA PRATAMA</span>
-        <span>PRATINJAU WEBSITE PJP</span>
+        <span>SITUS DALAM PENGEMBANGAN</span>
         <a href={galleryPage ? '/#beranda' : '#beranda'}>Kembali ke atas ↑</a>
       </div>
     </footer>
