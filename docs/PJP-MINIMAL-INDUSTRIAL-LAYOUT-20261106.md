@@ -53,7 +53,7 @@ C:\Projects\PJP-Website\preview
 Nama: pjp-minimal-{1440,390}-{hero,layanan,tentang,proses,proyek,kontak}.png
 
 ## Batasan yang perlu diketahui
-- Perubahan belum dideploy ke Cloudflare. Website Glass di https://pjp-glass-preview.pages.dev tetap versi Glass.
+- Pada tanggal dokumentasi ini dibuat, deployment Cloudflare lama belum diperbarui dan masih menampilkan desain sebelumnya. Catatan ini bersifat historis.
 - Metadata foto (lokasi/tanggal pekerjaan) belum ditambahkan karena informasinya belum tersedia.
 - Tombol konsultasi masih membuka formulir pembuat ringkasan untuk disalin, bukan mengirim WhatsApp langsung; nomor resmi belum terpasang.
 - Uji otomatis dengan Chrome sudah lulus. Pengujian Safari/Firefox dan Lighthouse penuh belum dilakukan.

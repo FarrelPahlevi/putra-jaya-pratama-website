@@ -53,7 +53,7 @@ Snapshot mencakup source, public assets, konfigurasi build, dependencies manifes
 
 Folder source utama: `C:\Projects\PJP-Website`.
 Checkout GitHub: `C:\Projects\PJP-GitHub-Minimal-20261109`.
-Repository: https://github.com/FarrelPahlevi/pjp-website-glass
+Repository saat ini: https://github.com/FarrelPahlevi/putra-jaya-pratama-website
 Production preview lokal: http://127.0.0.1:4173/#layanan
 
 Untuk rollback source lokal, pulihkan tiga file source lama dari ZIP dan hapus `src/data/serviceIllustrations.ts` serta `public/assets/services/`, kemudian build ulang. Untuk rollback Git, revert commit redesign agar riwayat tetap terjaga.

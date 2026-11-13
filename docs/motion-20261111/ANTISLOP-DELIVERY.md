@@ -36,7 +36,7 @@ Mode: DURING, explicit session choice. Scope: requested motion refinement of the
 | R-07: background patterns | PASS | No background pattern added. |
 | R-08: arrows | PASS | Existing action/navigation affordances preserved; no new decorative arrow. |
 | R-09: badges/pills | PASS | Existing rounded filters communicate selection. No status/marketing badge added. |
-| R-10: glass | PASS | Existing header appearance preserved; no extra glass surface. |
+| R-10: translucent surfaces | PASS | Existing header appearance preserved; no extra translucent surface. |
 | R-12: elevation | PASS | No new card shadow or floating surface. Dialog/header elevation unchanged. |
 | R-13: glow | PASS | No glow added. |
 | R-14: uniform cards | PASS | Six existing service illustrations retain their content-driven grid without added card containers. |
