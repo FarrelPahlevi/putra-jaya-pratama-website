@@ -1,0 +1,188 @@
+{
+  "backup": "C:/Projects/PJP-Website-backups/visual-qa-20261113-081304",
+  "backupFiles": 88,
+  "changed": [
+    ".impeccable/hook.cache.json",
+    "scripts/motion-audit.mjs",
+    "scripts/motion-lifecycle.mjs",
+    "src/inquiry-modal.css",
+    "src/motion/motion.css",
+    "src/motion/siteMotion.ts"
+  ],
+  "preserved": [
+    {
+      "file": "src/MinimalIndustrial.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/GalleryPage.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/SiteHeader.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/SiteFooter.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/InquiryModal.tsx",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/mockData.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/projectGallery.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/serviceIllustrations.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/index.css",
+      "unchanged": true
+    },
+    {
+      "file": "src/minimal-industrial.css",
+      "unchanged": true
+    },
+    {
+      "file": "src/project-gallery.css",
+      "unchanged": true
+    },
+    {
+      "file": "package.json",
+      "unchanged": true
+    },
+    {
+      "file": "package-lock.json",
+      "unchanged": true
+    },
+    {
+      "file": "index.html",
+      "unchanged": true
+    },
+    {
+      "file": "vite.config.ts",
+      "unchanged": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "public/assets/asphalt.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/concrete.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/drainage.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/hero-road.svg",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/asphalt-access-preview-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/asphalt-access-preview-700.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/asphalt-access-preview.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/asphalt-road-preview-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/asphalt-road-preview-700.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/asphalt-road-preview.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/road-roller-preview-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/road-roller-preview-700.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/road-roller-preview.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/tree-lined-road-preview-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/pjp-preview/tree-lined-road-preview.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/asphalt-hotmix-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/asphalt-hotmix-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/cor-beton-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/cor-beton-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/cut-and-fill-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/cut-and-fill-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/paving-block-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/paving-block-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/resapan-air-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/resapan-air-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/saluran-u-ditch-400.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/assets/services/saluran-u-ditch-800.webp",
+      "unchanged": true
+    },
+    {
+      "file": "public/favicon.svg",
+      "unchanged": true
+    }
+  ]
+}

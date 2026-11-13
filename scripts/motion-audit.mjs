@@ -6,7 +6,7 @@ import { createRequire } from 'node:module'
 const require = createRequire(path.resolve('../PJP-Website-tools/package.json'))
 const { chromium } = require('playwright')
 const baseURL = process.env.PJP_QA_URL || 'http://127.0.0.1:4173'
-const output = path.resolve('docs/motion-20261111/motion')
+const output = path.resolve(process.env.PJP_QA_OUTPUT || 'docs/motion-20261111', 'motion')
 await fs.mkdir(output, { recursive: true })
 const browser = await chromium.launch({ channel: 'chrome', headless: true })
 const report = { engine: browser.version(), checks: [], viewports: [], limitations: ['Emulated viewports/touch; no physical device or field Core Web Vitals measurement.'] }
@@ -28,7 +28,7 @@ const stats = page => page.evaluate(() => ({
 }))
 
 try {
-  for (const [width, height] of [[360,800],[390,844],[430,932],[768,1024],[1024,768],[1440,900],[1920,1080]]) {
+  for (const [width, height] of [[320,740],[360,800],[390,844],[430,932],[768,1024],[1024,768],[1280,800],[1440,900],[1920,1080]]) {
     for (const [name, route] of [['home','/'],['gallery','/galeri-proyek']]) {
       const context = await browser.newContext({ viewport: { width, height }, reducedMotion: 'no-preference', hasTouch: width <= 1024 })
       await context.addInitScript(() => {
@@ -130,6 +130,13 @@ try {
       const metrics = await stats(page)
       report.viewports.push({ name, width, height, maxActive, ...metrics, errors })
       await check(`${name} ${width}: console clean`, async () => assert.deepEqual(errors, []))
+      await check(`${name} ${width}: refresh preserves visible content and initialized motion`, async () => {
+        await page.reload({ waitUntil: 'networkidle' })
+        await page.waitForFunction(() => document.querySelector('.minimal-site')?.dataset.motionState === 'active')
+        assert.equal((await stats(page)).hidden, 0)
+        assert.equal((await stats(page)).overflow, false)
+        assert(await page.locator('h1').isVisible())
+      })
       await context.close()
     }
   }
@@ -187,7 +194,7 @@ try {
     await failureContext.close()
   })
 
-  for (const width of [390,768,1440]) {
+  for (const width of [320,360,390,430,768,1024,1280,1440,1920]) {
     for (const [name,route] of [['home','/'],['gallery','/galeri-proyek']]) {
       await check(`JavaScript disabled ${name} ${width}: content, navigation, summary and native images`, async () => {
         const staticContext = await browser.newContext({ javaScriptEnabled: false, viewport: { width, height: 900 } })

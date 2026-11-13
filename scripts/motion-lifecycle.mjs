@@ -8,18 +8,58 @@ const { chromium } = require('playwright')
 const baseURL = process.env.PJP_QA_URL || 'http://127.0.0.1:4173'
 const motionChunk = (await fs.readdir('dist/assets')).find(name => /^siteMotion-.*\.js$/.test(name))
 assert(motionChunk)
-const output = 'docs/motion-20261111/motion'
+const output = path.resolve(process.env.PJP_QA_OUTPUT || 'docs/motion-20261111', 'motion')
 await fs.mkdir(output, { recursive: true })
 const browser = await chromium.launch({ channel: 'chrome', headless: true })
 const checks = []
 const profiles = []
+let subscriptionEvidence
 const check = async (name, action) => {
   try { await action(); checks.push({ name, pass: true }); console.log('PASS ' + name) }
   catch (error) { checks.push({ name, pass: false, error: error.message }); console.log('FAIL ' + name + ': ' + error.message) }
 }
 
+function trackSubscriptions() {
+  const intersections = []
+  const mutations = []
+  const mediaListeners = new Map()
+  const NativeIntersection = window.IntersectionObserver
+  const NativeMutation = window.MutationObserver
+  window.IntersectionObserver = class extends NativeIntersection {
+    constructor(...args) { super(...args); this.targets = new Set(); intersections.push(this) }
+    observe(target) { this.targets.add(target); return super.observe(target) }
+    unobserve(target) { this.targets.delete(target); return super.unobserve(target) }
+    disconnect() { this.targets.clear(); return super.disconnect() }
+  }
+  window.MutationObserver = class extends NativeMutation {
+    constructor(...args) { super(...args); this.active = false; this.origin = new Error().stack; mutations.push(this) }
+    observe(...args) { this.active = true; this.target = args[0]?.nodeName; return super.observe(...args) }
+    disconnect() { this.active = false; return super.disconnect() }
+  }
+  const add = EventTarget.prototype.addEventListener
+  const remove = EventTarget.prototype.removeEventListener
+  EventTarget.prototype.addEventListener = function (type, listener, options) {
+    if (this instanceof MediaQueryList && type === 'change') {
+      if (!mediaListeners.has(this)) mediaListeners.set(this, new Set())
+      mediaListeners.get(this).add(listener)
+    }
+    return add.call(this, type, listener, options)
+  }
+  EventTarget.prototype.removeEventListener = function (type, listener, options) {
+    if (this instanceof MediaQueryList && type === 'change') mediaListeners.get(this)?.delete(listener)
+    return remove.call(this, type, listener, options)
+  }
+  window.__liveSubscriptions = () => ({
+    intersectionTargets: intersections.reduce((sum, observer) => sum + observer.targets.size, 0),
+    mutationObservers: mutations.filter(observer => observer.active && !observer.origin?.includes('InjectedScript._setupGlobalListenersRemovalDetection')).length,
+    mediaListeners: [...mediaListeners.values()].reduce((sum, listeners) => sum + listeners.size, 0),
+  })
+  window.__observerDetails = () => mutations.filter(observer => observer.active).map(observer => ({ target: observer.target, origin: observer.origin }))
+}
+
 try {
   const context = await browser.newContext({ viewport: { width: 1440, height: 900 } })
+  await context.addInitScript(trackSubscriptions)
   const page = await context.newPage()
   await page.route('**/motion-fixture', route => route.fulfill({ contentType: 'text/html', body: `<!doctype html><html><body style="margin:0"><div id="fixture"><main><section class="minimal-hero" style="height:900px;overflow:hidden;position:relative"><img class="minimal-hero__image" style="width:100%;height:100%;object-fit:cover" src="/assets/pjp-preview/asphalt-access-preview.webp" alt="Jalan"><h1 data-motion="title">PJP</h1></section><section style="height:1800px"><h2 data-motion="title">Layanan</h2></section></main></div></body></html>` }))
   await page.goto(baseURL + '/motion-fixture')
@@ -28,6 +68,9 @@ try {
     window.__createMotion = Object.values(module).find(value => typeof value === 'function')
     window.__motionRoot = document.getElementById('fixture')
   }, baseURL + '/assets/' + motionChunk)
+  // Prime Playwright's main-world runtime; its observer is identified separately.
+  await page.locator('#fixture').evaluate(element => element.id)
+  const subscriptionBaseline = await page.evaluate(() => window.__liveSubscriptions())
   await check('duplicate initialization replaces the previous scene', async () => {
     const count = await page.evaluate(() => {
       window.__stopOne = window.__createMotion(window.__motionRoot)
@@ -59,6 +102,15 @@ try {
       return document.getAnimations().length
     })
     assert.equal(count, 0)
+  })
+  await check('observer targets, mutation observers and media listeners are released after repeated mounts', async () => {
+    const subscriptions = await page.evaluate(() => window.__liveSubscriptions())
+    assert.deepEqual(subscriptions, subscriptionBaseline, JSON.stringify(await page.evaluate(() => window.__observerDetails())))
+    await page.evaluate(() => {
+      for (let i = 0; i < 30; i++) window.__createMotion(window.__motionRoot)()
+    })
+    assert.deepEqual(await page.evaluate(() => window.__liveSubscriptions()), subscriptions)
+    subscriptionEvidence = { baseline: subscriptionBaseline, afterFiftyCycles: await page.evaluate(() => window.__liveSubscriptions()), remainingObservers: await page.evaluate(() => window.__observerDetails()) }
   })
   await check('missing Intersection Observer falls back to visible static content', async () => {
     await page.evaluate(() => {
@@ -145,7 +197,7 @@ try {
   }
 } finally {
   await browser.close()
-  await fs.writeFile(path.join(output, 'lifecycle-performance.json'), JSON.stringify({ checks, profiles, limitation: 'Single local headless Chrome sample with 4x CPU slowdown; network unthrottled. rAF samples are diagnostics, not a field FPS/CWV guarantee.' }, null, 2))
+  await fs.writeFile(path.join(output, 'lifecycle-performance.json'), JSON.stringify({ checks, subscriptionEvidence, profiles, limitation: 'Single local headless Chrome sample with 4x CPU slowdown; network unthrottled. rAF samples are diagnostics, not a field FPS/CWV guarantee.' }, null, 2))
 }
 console.log(`${checks.filter(c=>c.pass).length}/${checks.length} checks passed`)
 if (checks.some(c=>!c.pass)) process.exitCode = 1

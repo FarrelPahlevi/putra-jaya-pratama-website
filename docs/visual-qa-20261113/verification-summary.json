@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-13",
+  "engine": "157.0.8103.52",
+  "layout": {
+    "total": 18,
+    "overflow": 0,
+    "violations": 0,
+    "consoleErrors": []
+  },
+  "interactions": {
+    "pass": 37,
+    "total": 37
+  },
+  "typography": {
+    "pass": 521,
+    "total": 521,
+    "rasterComparisons": 405,
+    "glyphLossSamples": 0
+  },
+  "fonts": {
+    "painted": 1592,
+    "mismatched": 0,
+    "unpainted": 36
+  },
+  "motion": {
+    "pass": 121,
+    "total": 121
+  },
+  "lifecycle": {
+    "pass": 9,
+    "total": 9
+  },
+  "edges": {
+    "pass": 13,
+    "total": 13
+  },
+  "subscriptions": {
+    "baseline": {
+      "intersectionTargets": 0,
+      "mutationObservers": 0,
+      "mediaListeners": 0
+    },
+    "afterFiftyCycles": {
+      "intersectionTargets": 0,
+      "mutationObservers": 0,
+      "mediaListeners": 0
+    },
+    "remainingObservers": [
+      {
+        "target": "#document",
+        "origin": "Error\n    at new window.MutationObserver (<anonymous>:15:79)\n    at InjectedScript._setupGlobalListenersRemovalDetection (<anonymous>:8222:5)\n    at new InjectedScript (<anonymous>:7143:10)\n    at <anonymous>:8639:16\n    at <anonymous>:8640:11"
+      }
+    ]
+  },
+  "geometry": [
+    {
+      "width": 1280,
+      "height": 800,
+      "before": {
+        "storyHeight": 719,
+        "processDocumentTop": 2753.484375,
+        "anchorViewportTop": 112.484375
+      },
+      "after": {
+        "storyHeight": 719,
+        "processDocumentTop": 2753.484375,
+        "anchorViewportTop": 112.484375
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "before": {
+        "storyHeight": 764,
+        "processDocumentTop": 2954.828125,
+        "anchorViewportTop": 111.828125
+      },
+      "after": {
+        "storyHeight": 764,
+        "processDocumentTop": 2954.828125,
+        "anchorViewportTop": 111.828125
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "before": {
+        "storyHeight": 800,
+        "processDocumentTop": 3194.71875,
+        "anchorViewportTop": 111.71875
+      },
+      "after": {
+        "storyHeight": 800,
+        "processDocumentTop": 3194.71875,
+        "anchorViewportTop": 111.71875
+      }
+    }
+  ],
+  "productionBuild": {
+    "command": "npm.cmd run build",
+    "exitCode": 0,
+    "completed": "TypeScript, Vite client/SSR and both prerender routes after source fixes"
+  },
+  "backup": "C:/Projects/PJP-Website-backups/visual-qa-20261113-081304",
+  "preview": "http://127.0.0.1:4173"
+}

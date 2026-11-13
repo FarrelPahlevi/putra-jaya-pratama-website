@@ -1,9 +1,9 @@
 .motion-hero-line {display:inline-block;max-width:100%;vertical-align:bottom;}
 [data-motion="line"] {transform-origin:left center;}
 
-/* Native sticky stays inside the existing editorial section, with no spacer. */
+/* Reserve native sticky geometry before the deferred motion module loads. */
 @media(min-width:1200px) and (min-height:800px) and (prefers-reduced-motion:no-preference) {
-  [data-motion-depth="desktop"] .minimal-story__image {
+  .minimal-story__image {
     position:sticky;
     top:calc(var(--mi-header-height) + 24px);
     align-self:start;

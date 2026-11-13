@@ -86,9 +86,9 @@ export function createSiteMotion(root: HTMLElement) {
       } else if (kind === 'line') {
         play(element, { transform: ['scaleX(0.65)', 'scaleX(1)'], opacity: [0.7, 1] }, delay)
       } else if (kind === 'title') {
+        // Barlow's ink extends outside its line box; keep masks on images only.
         play(element, {
           transform: [`translateY(${distance * 0.55}px)`, 'translateY(0px)'],
-          clipPath: [`inset(0 0 ${profile.clip}% 0)`, 'inset(0 0 0% 0)'],
           opacity: [0.85, 1],
         }, 0)
       } else {
@@ -131,7 +131,7 @@ export function createSiteMotion(root: HTMLElement) {
       if (hero && !seen.has(hero) && hero.getBoundingClientRect().bottom > 0 && window.scrollY < 80) {
         seen.add(hero)
         hero.querySelectorAll<HTMLElement>('[data-hero-line]').forEach((line, index) => {
-          play(line, { transform: [`translateY(${profile.distance}px)`, 'translateY(0px)'], clipPath: ['inset(0 0 14% 0)', 'inset(0 0 0% 0)'] }, index * MOTION.hero.stagger, MOTION.hero.duration)
+          play(line, { transform: [`translateY(${profile.distance}px)`, 'translateY(0px)'] }, index * MOTION.hero.stagger, MOTION.hero.duration)
         })
         hero.querySelectorAll<HTMLElement>('[data-hero-support]').forEach((element, index) => {
           play(element, { transform: ['translateY(8px)', 'translateY(0px)'], opacity: [0.9, 1] }, index * 0.06, profile.duration)

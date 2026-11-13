@@ -1,0 +1,2486 @@
+{
+  "sampled": "2026-11-13T01:14:49.004Z",
+  "fontEvidence": [
+    {
+      "width": 320,
+      "selector": "#minimal-hero-title",
+      "fonts": [
+        {
+          "familyName": "Barlow Semi Condensed ExtraBold",
+          "postScriptName": "BarlowSemiCondensed-ExtraBold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        },
+        {
+          "familyName": "Barlow Semi Condensed",
+          "postScriptName": "BarlowSemiCondensed-Bold",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "selector": "[data-hero-line]",
+      "fonts": [
+        {
+          "familyName": "Barlow Semi Condensed ExtraBold",
+          "postScriptName": "BarlowSemiCondensed-ExtraBold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "selector": ".minimal-hero__content>p",
+      "fonts": [
+        {
+          "familyName": "Barlow",
+          "postScriptName": "Barlow-Regular",
+          "isCustomFont": true,
+          "glyphCount": 116
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "selector": ".minimal-nav a",
+      "fonts": []
+    },
+    {
+      "width": 390,
+      "selector": "#minimal-hero-title",
+      "fonts": [
+        {
+          "familyName": "Barlow Semi Condensed ExtraBold",
+          "postScriptName": "BarlowSemiCondensed-ExtraBold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        },
+        {
+          "familyName": "Barlow Semi Condensed",
+          "postScriptName": "BarlowSemiCondensed-Bold",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "selector": "[data-hero-line]",
+      "fonts": [
+        {
+          "familyName": "Barlow Semi Condensed ExtraBold",
+          "postScriptName": "BarlowSemiCondensed-ExtraBold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "selector": ".minimal-hero__content>p",
+      "fonts": [
+        {
+          "familyName": "Barlow",
+          "postScriptName": "Barlow-Regular",
+          "isCustomFont": true,
+          "glyphCount": 117
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "selector": ".minimal-nav a",
+      "fonts": []
+    },
+    {
+      "width": 768,
+      "selector": "#minimal-hero-title",
+      "fonts": [
+        {
+          "familyName": "Barlow Semi Condensed ExtraBold",
+          "postScriptName": "BarlowSemiCondensed-ExtraBold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        },
+        {
+          "familyName": "Barlow Semi Condensed",
+          "postScriptName": "BarlowSemiCondensed-Bold",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "selector": "[data-hero-line]",
+      "fonts": [
+        {
+          "familyName": "Barlow Semi Condensed ExtraBold",
+          "postScriptName": "BarlowSemiCondensed-ExtraBold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "selector": ".minimal-hero__content>p",
+      "fonts": [
+        {
+          "familyName": "Barlow",
+          "postScriptName": "Barlow-Regular",
+          "isCustomFont": true,
+          "glyphCount": 118
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "selector": ".minimal-nav a",
+      "fonts": []
+    },
+    {
+      "width": 1024,
+      "selector": "#minimal-hero-title",
+      "fonts": [
+        {
+          "familyName": "Barlow Semi Condensed ExtraBold",
+          "postScriptName": "BarlowSemiCondensed-ExtraBold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        },
+        {
+          "familyName": "Barlow Semi Condensed",
+          "postScriptName": "BarlowSemiCondensed-Bold",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "selector": "[data-hero-line]",
+      "fonts": [
+        {
+          "familyName": "Barlow Semi Condensed ExtraBold",
+          "postScriptName": "BarlowSemiCondensed-ExtraBold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "selector": ".minimal-hero__content>p",
+      "fonts": [
+        {
+          "familyName": "Barlow",
+          "postScriptName": "Barlow-Regular",
+          "isCustomFont": true,
+          "glyphCount": 118
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "selector": ".minimal-nav a",
+      "fonts": [
+        {
+          "familyName": "Barlow SemiBold",
+          "postScriptName": "Barlow-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 7
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "selector": "#minimal-hero-title",
+      "fonts": [
+        {
+          "familyName": "Barlow Semi Condensed ExtraBold",
+          "postScriptName": "BarlowSemiCondensed-ExtraBold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        },
+        {
+          "familyName": "Barlow Semi Condensed",
+          "postScriptName": "BarlowSemiCondensed-Bold",
+          "isCustomFont": true,
+          "glyphCount": 17
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "selector": "[data-hero-line]",
+      "fonts": [
+        {
+          "familyName": "Barlow Semi Condensed ExtraBold",
+          "postScriptName": "BarlowSemiCondensed-ExtraBold",
+          "isCustomFont": true,
+          "glyphCount": 15
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "selector": ".minimal-hero__content>p",
+      "fonts": [
+        {
+          "familyName": "Barlow",
+          "postScriptName": "Barlow-Regular",
+          "isCustomFont": true,
+          "glyphCount": 118
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "selector": ".minimal-nav a",
+      "fonts": [
+        {
+          "familyName": "Barlow SemiBold",
+          "postScriptName": "Barlow-SemiBold",
+          "isCustomFont": true,
+          "glyphCount": 7
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "width": 320,
+      "name": "hero",
+      "selector": "#minimal-hero-title",
+      "changedPixels": 236,
+      "text": "Pengaspalan dan\nkonstruksi jalan.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "42px",
+      "lineHeight": "45.36px",
+      "clipPath": "none",
+      "maskAnimations": 2
+    },
+    {
+      "width": 320,
+      "name": "services",
+      "selector": "#minimal-services-title",
+      "changedPixels": 30,
+      "text": "Pekerjaan yang\nkami tangani.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "43.2px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 320,
+      "name": "story",
+      "selector": "#minimal-story-title",
+      "changedPixels": 32,
+      "text": "Kami mulai dari kondisi lapangan.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "44px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 320,
+      "name": "process",
+      "selector": "#minimal-process-title",
+      "changedPixels": 27,
+      "text": "Empat tahap\npengerjaan proyek.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "43.2px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 320,
+      "name": "contact",
+      "selector": "#minimal-contact-title",
+      "changedPixels": 48,
+      "text": "Ada rencana\npekerjaan jalan?",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "43.2px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 390,
+      "name": "hero",
+      "selector": "#minimal-hero-title",
+      "changedPixels": 274,
+      "text": "Pengaspalan dan\nkonstruksi jalan.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "45.24px",
+      "lineHeight": "48.8592px",
+      "clipPath": "none",
+      "maskAnimations": 2
+    },
+    {
+      "width": 390,
+      "name": "services",
+      "selector": "#minimal-services-title",
+      "changedPixels": 27,
+      "text": "Pekerjaan yang\nkami tangani.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "43.2px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 390,
+      "name": "story",
+      "selector": "#minimal-story-title",
+      "changedPixels": 23,
+      "text": "Kami mulai dari kondisi lapangan.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "44px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 390,
+      "name": "process",
+      "selector": "#minimal-process-title",
+      "changedPixels": 53,
+      "text": "Empat tahap\npengerjaan proyek.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "43.2px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 390,
+      "name": "contact",
+      "selector": "#minimal-contact-title",
+      "changedPixels": 35,
+      "text": "Ada rencana\npekerjaan jalan?",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "43.2px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 768,
+      "name": "hero",
+      "selector": "#minimal-hero-title",
+      "changedPixels": 1013,
+      "text": "Pengaspalan dan\nkonstruksi jalan.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "69.12px",
+      "lineHeight": "72.576px",
+      "clipPath": "none",
+      "maskAnimations": 2
+    },
+    {
+      "width": 768,
+      "name": "services",
+      "selector": "#minimal-services-title",
+      "changedPixels": 76,
+      "text": "Pekerjaan yang\nkami tangani.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "43.2px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 768,
+      "name": "story",
+      "selector": "#minimal-story-title",
+      "changedPixels": 218,
+      "text": "Kami mulai dari kondisi lapangan.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "56.064px",
+      "lineHeight": "61.6704px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 768,
+      "name": "process",
+      "selector": "#minimal-process-title",
+      "changedPixels": 299,
+      "text": "Empat tahap\npengerjaan proyek.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "40px",
+      "lineHeight": "43.2px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 768,
+      "name": "contact",
+      "selector": "#minimal-contact-title",
+      "changedPixels": 425,
+      "text": "Ada rencana\npekerjaan jalan?",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "51.2px",
+      "lineHeight": "55.296px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 1024,
+      "name": "hero",
+      "selector": "#minimal-hero-title",
+      "changedPixels": 1019,
+      "text": "Pengaspalan dan\nkonstruksi jalan.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "71.68px",
+      "lineHeight": "75.264px",
+      "clipPath": "none",
+      "maskAnimations": 2
+    },
+    {
+      "width": 1024,
+      "name": "services",
+      "selector": "#minimal-services-title",
+      "changedPixels": 127,
+      "text": "Pekerjaan yang\nkami tangani.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "53.248px",
+      "lineHeight": "57.5078px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 1024,
+      "name": "story",
+      "selector": "#minimal-story-title",
+      "changedPixels": 162,
+      "text": "Kami mulai dari kondisi lapangan.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "46.08px",
+      "lineHeight": "50.688px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 1024,
+      "name": "process",
+      "selector": "#minimal-process-title",
+      "changedPixels": 510,
+      "text": "Empat tahap\npengerjaan proyek.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "53.248px",
+      "lineHeight": "57.5078px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 1024,
+      "name": "contact",
+      "selector": "#minimal-contact-title",
+      "changedPixels": 425,
+      "text": "Ada rencana\npekerjaan jalan?",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "51.2px",
+      "lineHeight": "55.296px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 1440,
+      "name": "hero",
+      "selector": "#minimal-hero-title",
+      "changedPixels": 2813,
+      "text": "Pengaspalan dan\nkonstruksi jalan.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "100.8px",
+      "lineHeight": "105.84px",
+      "clipPath": "none",
+      "maskAnimations": 2
+    },
+    {
+      "width": 1440,
+      "name": "services",
+      "selector": "#minimal-services-title",
+      "changedPixels": 1621,
+      "text": "Pekerjaan yang\nkami tangani.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "74.88px",
+      "lineHeight": "80.8704px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 1440,
+      "name": "story",
+      "selector": "#minimal-story-title",
+      "changedPixels": 1558,
+      "text": "Kami mulai dari kondisi lapangan.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "61.92px",
+      "lineHeight": "68.112px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 1440,
+      "name": "process",
+      "selector": "#minimal-process-title",
+      "changedPixels": 2485,
+      "text": "Empat tahap\npengerjaan proyek.",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "74.88px",
+      "lineHeight": "80.8704px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    },
+    {
+      "width": 1440,
+      "name": "contact",
+      "selector": "#minimal-contact-title",
+      "changedPixels": 1891,
+      "text": "Ada rencana\npekerjaan jalan?",
+      "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+      "fontSize": "72px",
+      "lineHeight": "77.76px",
+      "clipPath": "none",
+      "maskAnimations": 1
+    }
+  ],
+  "static": [
+    {
+      "width": 320,
+      "text": [
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "25.6px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 42,
+          "clientHeight": 42
+        },
+        {
+          "tag": "H1",
+          "text": "Pengaspalan dan\nkonstruksi jalan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "42px",
+          "line": "45.36px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 92,
+          "clientHeight": 91
+        },
+        {
+          "tag": "P",
+          "text": "Kami melayani pengaspalan hotmix, perkerasan, dan pekerjaan pendukung jalan. Ceritakan kondisi lokasi dan rencana Anda.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.4px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 106,
+          "clientHeight": 106
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "18.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        },
+        {
+          "tag": "H2",
+          "text": "Pekerjaan yang\nkami tangani.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "40px",
+          "line": "43.2px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 88,
+          "clientHeight": 86
+        },
+        {
+          "tag": "P",
+          "text": "Setiap lokasi punya kebutuhan yang berbeda. Kami menyesuaikan jenis pekerjaan dengan kondisi di lapangan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.52px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 83,
+          "clientHeight": 83
+        },
+        {
+          "tag": "H3",
+          "text": "Pengaspalan hotmix",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Paving block",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Cut and fill",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Cor beton",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Saluran U-Ditch",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Resapan air",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H2",
+          "text": "Kami mulai dari kondisi lapangan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "40px",
+          "line": "44px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 90,
+          "clientHeight": 88
+        },
+        {
+          "tag": "P",
+          "text": "Kami mulai dengan memahami kondisi jalan dan lahan, beban kendaraan, serta aliran air. Setelah itu, kami bahas cara pengerjaan yang sesuai dengan kebutuhan Anda.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.68px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 138,
+          "clientHeight": 138
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "25.6px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 46,
+          "clientHeight": 46
+        },
+        {
+          "tag": "H2",
+          "text": "Empat tahap\npengerjaan proyek.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "40px",
+          "line": "43.2px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 131,
+          "clientHeight": 130
+        },
+        {
+          "tag": "P",
+          "text": "Sebelum mulai, kami membahas kebutuhan dan rencana kerja dengan Anda. Setelah pengerjaan, kami memeriksa hasilnya bersama.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.52px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 110,
+          "clientHeight": 110
+        },
+        {
+          "tag": "H3",
+          "text": "Pembahasan awal",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "22px",
+          "line": "27.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 27,
+          "clientHeight": 27
+        },
+        {
+          "tag": "P",
+          "text": "Ceritakan pekerjaan yang dibutuhkan dan hasil yang Anda harapkan. Sampaikan juga kondisi lokasi yang Anda ketahui.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H3",
+          "text": "Rencana kerja",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "22px",
+          "line": "27.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 27,
+          "clientHeight": 27
+        },
+        {
+          "tag": "P",
+          "text": "Kami menilai data lapangan yang diperlukan, lalu menyusun cara pengerjaan sesuai kondisi lokasi.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H3",
+          "text": "Pengerjaan di lapangan",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "22px",
+          "line": "27.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 27,
+          "clientHeight": 27
+        },
+        {
+          "tag": "P",
+          "text": "Kami mengerjakan proyek sesuai rencana dan cakupan pekerjaan yang sudah disepakati bersama.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H3",
+          "text": "Pemeriksaan hasil",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "22px",
+          "line": "27.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 27,
+          "clientHeight": 27
+        },
+        {
+          "tag": "P",
+          "text": "Kami memeriksa hasil pekerjaan bersama Anda, mengacu pada target dan persyaratan yang sudah disepakati.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H2",
+          "text": "Dokumentasi pekerjaan jalan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "40px",
+          "line": "43.2px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 88,
+          "clientHeight": 86
+        },
+        {
+          "tag": "P",
+          "text": "Lihat dokumentasi pengaspalan dan pemadatan jalan, tersusun berdasarkan jenis pekerjaan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 82,
+          "clientHeight": 82
+        },
+        {
+          "tag": "H2",
+          "text": "Ada rencana\npekerjaan jalan?",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "40px",
+          "line": "43.2px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 88,
+          "clientHeight": 86
+        },
+        {
+          "tag": "P",
+          "text": "Ceritakan kondisi lokasi dan pekerjaan yang Anda butuhkan. Kami mulai dari informasi tersebut untuk membahas rencana pengerjaannya.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 109,
+          "clientHeight": 109
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "18.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        },
+        {
+          "tag": "P",
+          "text": "Kami melayani pengaspalan, perkerasan, dan pekerjaan konstruksi jalan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "15px",
+          "line": "26.25px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "15px",
+          "line": "22.5px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 61,
+          "clientHeight": 61
+        },
+        {
+          "tag": "P",
+          "text": "Pratinjau ini belum memuat kontak resmi dan detail perusahaan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "23.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 95,
+          "clientHeight": 95
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "text": [
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "25.6px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 42,
+          "clientHeight": 42
+        },
+        {
+          "tag": "H1",
+          "text": "Pengaspalan dan\nkonstruksi jalan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "45.24px",
+          "line": "48.8592px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 100,
+          "clientHeight": 98
+        },
+        {
+          "tag": "P",
+          "text": "Kami melayani pengaspalan hotmix, perkerasan, dan pekerjaan pendukung jalan. Ceritakan kondisi lokasi dan rencana Anda.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.4px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 79,
+          "clientHeight": 79
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "18.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        },
+        {
+          "tag": "H2",
+          "text": "Pekerjaan yang\nkami tangani.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "40px",
+          "line": "43.2px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 88,
+          "clientHeight": 86
+        },
+        {
+          "tag": "P",
+          "text": "Setiap lokasi punya kebutuhan yang berbeda. Kami menyesuaikan jenis pekerjaan dengan kondisi di lapangan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.52px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 83,
+          "clientHeight": 83
+        },
+        {
+          "tag": "H3",
+          "text": "Pengaspalan hotmix",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Paving block",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Cut and fill",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Cor beton",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Saluran U-Ditch",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Resapan air",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H2",
+          "text": "Kami mulai dari kondisi lapangan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "40px",
+          "line": "44px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 90,
+          "clientHeight": 88
+        },
+        {
+          "tag": "P",
+          "text": "Kami mulai dengan memahami kondisi jalan dan lahan, beban kendaraan, serta aliran air. Setelah itu, kami bahas cara pengerjaan yang sesuai dengan kebutuhan Anda.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.68px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 111,
+          "clientHeight": 111
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "25.6px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 46,
+          "clientHeight": 46
+        },
+        {
+          "tag": "H2",
+          "text": "Empat tahap\npengerjaan proyek.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "40px",
+          "line": "43.2px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 88,
+          "clientHeight": 86
+        },
+        {
+          "tag": "P",
+          "text": "Sebelum mulai, kami membahas kebutuhan dan rencana kerja dengan Anda. Setelah pengerjaan, kami memeriksa hasilnya bersama.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.52px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 83,
+          "clientHeight": 83
+        },
+        {
+          "tag": "H3",
+          "text": "Pembahasan awal",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "22px",
+          "line": "27.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 27,
+          "clientHeight": 27
+        },
+        {
+          "tag": "P",
+          "text": "Ceritakan pekerjaan yang dibutuhkan dan hasil yang Anda harapkan. Sampaikan juga kondisi lokasi yang Anda ketahui.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H3",
+          "text": "Rencana kerja",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "22px",
+          "line": "27.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 27,
+          "clientHeight": 27
+        },
+        {
+          "tag": "P",
+          "text": "Kami menilai data lapangan yang diperlukan, lalu menyusun cara pengerjaan sesuai kondisi lokasi.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 54,
+          "clientHeight": 54
+        },
+        {
+          "tag": "H3",
+          "text": "Pengerjaan di lapangan",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "22px",
+          "line": "27.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 27,
+          "clientHeight": 27
+        },
+        {
+          "tag": "P",
+          "text": "Kami mengerjakan proyek sesuai rencana dan cakupan pekerjaan yang sudah disepakati bersama.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H3",
+          "text": "Pemeriksaan hasil",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "22px",
+          "line": "27.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 27,
+          "clientHeight": 27
+        },
+        {
+          "tag": "P",
+          "text": "Kami memeriksa hasil pekerjaan bersama Anda, mengacu pada target dan persyaratan yang sudah disepakati.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H2",
+          "text": "Dokumentasi pekerjaan jalan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "40px",
+          "line": "43.2px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 88,
+          "clientHeight": 86
+        },
+        {
+          "tag": "P",
+          "text": "Lihat dokumentasi pengaspalan dan pemadatan jalan, tersusun berdasarkan jenis pekerjaan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 54,
+          "clientHeight": 54
+        },
+        {
+          "tag": "H2",
+          "text": "Ada rencana\npekerjaan jalan?",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "40px",
+          "line": "43.2px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 88,
+          "clientHeight": 86
+        },
+        {
+          "tag": "P",
+          "text": "Ceritakan kondisi lokasi dan pekerjaan yang Anda butuhkan. Kami mulai dari informasi tersebut untuk membahas rencana pengerjaannya.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 82,
+          "clientHeight": 82
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "18.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        },
+        {
+          "tag": "P",
+          "text": "Kami melayani pengaspalan, perkerasan, dan pekerjaan konstruksi jalan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "15px",
+          "line": "26.25px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "15px",
+          "line": "22.5px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 44,
+          "clientHeight": 44
+        },
+        {
+          "tag": "P",
+          "text": "Pratinjau ini belum memuat kontak resmi dan detail perusahaan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "23.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 71,
+          "clientHeight": 71
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "text": [
+        {
+          "tag": "BUTTON",
+          "text": "",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "25.6px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 44,
+          "clientHeight": 44
+        },
+        {
+          "tag": "H1",
+          "text": "Pengaspalan dan\nkonstruksi jalan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "69.12px",
+          "line": "72.576px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 150,
+          "clientHeight": 145
+        },
+        {
+          "tag": "P",
+          "text": "Kami melayani pengaspalan hotmix, perkerasan, dan pekerjaan pendukung jalan. Ceritakan kondisi lokasi dan rencana Anda.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.4px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "18.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "tag": "H2",
+          "text": "Pekerjaan yang\nkami tangani.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "40px",
+          "line": "43.2px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 88,
+          "clientHeight": 86
+        },
+        {
+          "tag": "P",
+          "text": "Setiap lokasi punya kebutuhan yang berbeda. Kami menyesuaikan jenis pekerjaan dengan kondisi di lapangan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.52px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 55,
+          "clientHeight": 55
+        },
+        {
+          "tag": "H3",
+          "text": "Pengaspalan hotmix",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Paving block",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Cut and fill",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Cor beton",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Saluran U-Ditch",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Resapan air",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H2",
+          "text": "Kami mulai dari kondisi lapangan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "56.064px",
+          "line": "61.6704px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 126,
+          "clientHeight": 123
+        },
+        {
+          "tag": "P",
+          "text": "Kami mulai dengan memahami kondisi jalan dan lahan, beban kendaraan, serta aliran air. Setelah itu, kami bahas cara pengerjaan yang sesuai dengan kebutuhan Anda.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.68px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 55,
+          "clientHeight": 55
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "25.6px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 46,
+          "clientHeight": 46
+        },
+        {
+          "tag": "H2",
+          "text": "Empat tahap\npengerjaan proyek.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "40px",
+          "line": "43.2px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 88,
+          "clientHeight": 86
+        },
+        {
+          "tag": "P",
+          "text": "Sebelum mulai, kami membahas kebutuhan dan rencana kerja dengan Anda. Setelah pengerjaan, kami memeriksa hasilnya bersama.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.52px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 55,
+          "clientHeight": 55
+        },
+        {
+          "tag": "H3",
+          "text": "Pembahasan awal",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "20px",
+          "line": "24.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "tag": "P",
+          "text": "Ceritakan pekerjaan yang dibutuhkan dan hasil yang Anda harapkan. Sampaikan juga kondisi lokasi yang Anda ketahui.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H3",
+          "text": "Rencana kerja",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "20px",
+          "line": "24.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "tag": "P",
+          "text": "Kami menilai data lapangan yang diperlukan, lalu menyusun cara pengerjaan sesuai kondisi lokasi.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H3",
+          "text": "Pengerjaan di lapangan",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "20px",
+          "line": "24.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "tag": "P",
+          "text": "Kami mengerjakan proyek sesuai rencana dan cakupan pekerjaan yang sudah disepakati bersama.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H3",
+          "text": "Pemeriksaan hasil",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "20px",
+          "line": "24.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "tag": "P",
+          "text": "Kami memeriksa hasil pekerjaan bersama Anda, mengacu pada target dan persyaratan yang sudah disepakati.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H2",
+          "text": "Dokumentasi pekerjaan jalan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "43.2px",
+          "line": "46.656px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 49,
+          "clientHeight": 47
+        },
+        {
+          "tag": "P",
+          "text": "Lihat dokumentasi pengaspalan dan pemadatan jalan, tersusun berdasarkan jenis pekerjaan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 54,
+          "clientHeight": 54
+        },
+        {
+          "tag": "H2",
+          "text": "Ada rencana\npekerjaan jalan?",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "51.2px",
+          "line": "55.296px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 113,
+          "clientHeight": 111
+        },
+        {
+          "tag": "P",
+          "text": "Ceritakan kondisi lokasi dan pekerjaan yang Anda butuhkan. Kami mulai dari informasi tersebut untuk membahas rencana pengerjaannya.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 54,
+          "clientHeight": 54
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "18.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "tag": "P",
+          "text": "Kami melayani pengaspalan, perkerasan, dan pekerjaan konstruksi jalan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "15px",
+          "line": "26.25px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "15px",
+          "line": "22.5px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 44,
+          "clientHeight": 44
+        },
+        {
+          "tag": "P",
+          "text": "Pratinjau ini belum memuat kontak resmi dan detail perusahaan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "23.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 71,
+          "clientHeight": 71
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "text": [
+        {
+          "tag": "A",
+          "text": "Beranda",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "13px",
+          "line": "20.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 87,
+          "clientHeight": 87
+        },
+        {
+          "tag": "A",
+          "text": "Layanan",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "13px",
+          "line": "20.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 87,
+          "clientHeight": 87
+        },
+        {
+          "tag": "A",
+          "text": "Galeri Proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "13px",
+          "line": "20.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 87,
+          "clientHeight": 87
+        },
+        {
+          "tag": "A",
+          "text": "Tentang Kami",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "13px",
+          "line": "20.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 87,
+          "clientHeight": 87
+        },
+        {
+          "tag": "A",
+          "text": "Kontak",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "13px",
+          "line": "20.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 87,
+          "clientHeight": 87
+        },
+        {
+          "tag": "H1",
+          "text": "Pengaspalan dan\nkonstruksi jalan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "71.68px",
+          "line": "75.264px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 155,
+          "clientHeight": 151
+        },
+        {
+          "tag": "P",
+          "text": "Kami melayani pengaspalan hotmix, perkerasan, dan pekerjaan pendukung jalan. Ceritakan kondisi lokasi dan rencana Anda.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.4px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "18.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "tag": "H2",
+          "text": "Pekerjaan yang\nkami tangani.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "53.248px",
+          "line": "57.5078px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 118,
+          "clientHeight": 115
+        },
+        {
+          "tag": "P",
+          "text": "Setiap lokasi punya kebutuhan yang berbeda. Kami menyesuaikan jenis pekerjaan dengan kondisi di lapangan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.52px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 55,
+          "clientHeight": 55
+        },
+        {
+          "tag": "H3",
+          "text": "Pengaspalan hotmix",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Paving block",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Cut and fill",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Cor beton",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Saluran U-Ditch",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H3",
+          "text": "Resapan air",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "24px",
+          "line": "29.28px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 29,
+          "clientHeight": 29
+        },
+        {
+          "tag": "H2",
+          "text": "Kami mulai dari kondisi lapangan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "46.08px",
+          "line": "50.688px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 103,
+          "clientHeight": 101
+        },
+        {
+          "tag": "P",
+          "text": "Kami mulai dengan memahami kondisi jalan dan lahan, beban kendaraan, serta aliran air. Setelah itu, kami bahas cara pengerjaan yang sesuai dengan kebutuhan Anda.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.68px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 83,
+          "clientHeight": 83
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "25.6px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 46,
+          "clientHeight": 46
+        },
+        {
+          "tag": "H2",
+          "text": "Empat tahap\npengerjaan proyek.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "53.248px",
+          "line": "57.5078px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 118,
+          "clientHeight": 115
+        },
+        {
+          "tag": "P",
+          "text": "Sebelum mulai, kami membahas kebutuhan dan rencana kerja dengan Anda. Setelah pengerjaan, kami memeriksa hasilnya bersama.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.52px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 55,
+          "clientHeight": 55
+        },
+        {
+          "tag": "H3",
+          "text": "Pembahasan awal",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "20px",
+          "line": "24.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "tag": "P",
+          "text": "Ceritakan pekerjaan yang dibutuhkan dan hasil yang Anda harapkan. Sampaikan juga kondisi lokasi yang Anda ketahui.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 134,
+          "clientHeight": 134
+        },
+        {
+          "tag": "H3",
+          "text": "Rencana kerja",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "20px",
+          "line": "24.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "tag": "P",
+          "text": "Kami menilai data lapangan yang diperlukan, lalu menyusun cara pengerjaan sesuai kondisi lokasi.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 134,
+          "clientHeight": 134
+        },
+        {
+          "tag": "H3",
+          "text": "Pengerjaan di lapangan",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "20px",
+          "line": "24.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "tag": "P",
+          "text": "Kami mengerjakan proyek sesuai rencana dan cakupan pekerjaan yang sudah disepakati bersama.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 134,
+          "clientHeight": 134
+        },
+        {
+          "tag": "H3",
+          "text": "Pemeriksaan hasil",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "20px",
+          "line": "24.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 25,
+          "clientHeight": 25
+        },
+        {
+          "tag": "P",
+          "text": "Kami memeriksa hasil pekerjaan bersama Anda, mengacu pada target dan persyaratan yang sudah disepakati.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 134,
+          "clientHeight": 134
+        },
+        {
+          "tag": "H2",
+          "text": "Dokumentasi pekerjaan jalan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "45.056px",
+          "line": "48.6605px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 51,
+          "clientHeight": 49
+        },
+        {
+          "tag": "P",
+          "text": "Lihat dokumentasi pengaspalan dan pemadatan jalan, tersusun berdasarkan jenis pekerjaan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 54,
+          "clientHeight": 54
+        },
+        {
+          "tag": "H2",
+          "text": "Ada rencana\npekerjaan jalan?",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "51.2px",
+          "line": "55.296px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 113,
+          "clientHeight": 111
+        },
+        {
+          "tag": "P",
+          "text": "Ceritakan kondisi lokasi dan pekerjaan yang Anda butuhkan. Kami mulai dari informasi tersebut untuk membahas rencana pengerjaannya.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 54,
+          "clientHeight": 54
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "18.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "tag": "P",
+          "text": "Kami melayani pengaspalan, perkerasan, dan pekerjaan konstruksi jalan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "15px",
+          "line": "26.25px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "15px",
+          "line": "22.5px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 44,
+          "clientHeight": 44
+        },
+        {
+          "tag": "P",
+          "text": "Pratinjau ini belum memuat kontak resmi dan detail perusahaan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "23.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "text": [
+        {
+          "tag": "A",
+          "text": "Beranda",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "22.4px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 87,
+          "clientHeight": 87
+        },
+        {
+          "tag": "A",
+          "text": "Layanan",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "22.4px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 87,
+          "clientHeight": 87
+        },
+        {
+          "tag": "A",
+          "text": "Galeri Proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "22.4px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 87,
+          "clientHeight": 87
+        },
+        {
+          "tag": "A",
+          "text": "Tentang Kami",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "22.4px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 87,
+          "clientHeight": 87
+        },
+        {
+          "tag": "A",
+          "text": "Kontak",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "22.4px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 87,
+          "clientHeight": 87
+        },
+        {
+          "tag": "H1",
+          "text": "Pengaspalan dan\nkonstruksi jalan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "100.8px",
+          "line": "105.84px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 219,
+          "clientHeight": 212
+        },
+        {
+          "tag": "P",
+          "text": "Kami melayani pengaspalan hotmix, perkerasan, dan pekerjaan pendukung jalan. Ceritakan kondisi lokasi dan rencana Anda.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "19px",
+          "line": "31.35px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 63,
+          "clientHeight": 63
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "18.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "tag": "H2",
+          "text": "Pekerjaan yang\nkami tangani.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "74.88px",
+          "line": "80.8704px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 166,
+          "clientHeight": 162
+        },
+        {
+          "tag": "P",
+          "text": "Setiap lokasi punya kebutuhan yang berbeda. Kami menyesuaikan jenis pekerjaan dengan kondisi di lapangan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.52px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 55,
+          "clientHeight": 55
+        },
+        {
+          "tag": "H3",
+          "text": "Pengaspalan hotmix",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "28px",
+          "line": "34.16px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 34,
+          "clientHeight": 34
+        },
+        {
+          "tag": "H3",
+          "text": "Paving block",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "28px",
+          "line": "34.16px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 34,
+          "clientHeight": 34
+        },
+        {
+          "tag": "H3",
+          "text": "Cut and fill",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "28px",
+          "line": "34.16px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 34,
+          "clientHeight": 34
+        },
+        {
+          "tag": "H3",
+          "text": "Cor beton",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "28px",
+          "line": "34.16px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 34,
+          "clientHeight": 34
+        },
+        {
+          "tag": "H3",
+          "text": "Saluran U-Ditch",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "28px",
+          "line": "34.16px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 34,
+          "clientHeight": 34
+        },
+        {
+          "tag": "H3",
+          "text": "Resapan air",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "28px",
+          "line": "34.16px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 34,
+          "clientHeight": 34
+        },
+        {
+          "tag": "H2",
+          "text": "Kami mulai dari kondisi lapangan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "61.92px",
+          "line": "68.112px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 139,
+          "clientHeight": 136
+        },
+        {
+          "tag": "P",
+          "text": "Kami mulai dengan memahami kondisi jalan dan lahan, beban kendaraan, serta aliran air. Setelah itu, kami bahas cara pengerjaan yang sesuai dengan kebutuhan Anda.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.68px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 83,
+          "clientHeight": 83
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "25.6px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 46,
+          "clientHeight": 46
+        },
+        {
+          "tag": "H2",
+          "text": "Empat tahap\npengerjaan proyek.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "74.88px",
+          "line": "80.8704px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 166,
+          "clientHeight": 162
+        },
+        {
+          "tag": "P",
+          "text": "Sebelum mulai, kami membahas kebutuhan dan rencana kerja dengan Anda. Setelah pengerjaan, kami memeriksa hasilnya bersama.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.52px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 55,
+          "clientHeight": 55
+        },
+        {
+          "tag": "H3",
+          "text": "Pembahasan awal",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "25px",
+          "line": "31px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 31,
+          "clientHeight": 31
+        },
+        {
+          "tag": "P",
+          "text": "Ceritakan pekerjaan yang dibutuhkan dan hasil yang Anda harapkan. Sampaikan juga kondisi lokasi yang Anda ketahui.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H3",
+          "text": "Rencana kerja",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "25px",
+          "line": "31px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 31,
+          "clientHeight": 31
+        },
+        {
+          "tag": "P",
+          "text": "Kami menilai data lapangan yang diperlukan, lalu menyusun cara pengerjaan sesuai kondisi lokasi.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H3",
+          "text": "Pengerjaan di lapangan",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "25px",
+          "line": "31px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 31,
+          "clientHeight": 31
+        },
+        {
+          "tag": "P",
+          "text": "Kami mengerjakan proyek sesuai rencana dan cakupan pekerjaan yang sudah disepakati bersama.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 81,
+          "clientHeight": 81
+        },
+        {
+          "tag": "H3",
+          "text": "Pemeriksaan hasil",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "25px",
+          "line": "31px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 31,
+          "clientHeight": 31
+        },
+        {
+          "tag": "P",
+          "text": "Kami memeriksa hasil pekerjaan bersama Anda, mengacu pada target dan persyaratan yang sudah disepakati.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "26.88px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 108,
+          "clientHeight": 108
+        },
+        {
+          "tag": "H2",
+          "text": "Dokumentasi pekerjaan jalan.",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "63.36px",
+          "line": "68.4288px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 72,
+          "clientHeight": 68
+        },
+        {
+          "tag": "P",
+          "text": "Lihat dokumentasi pengaspalan dan pemadatan jalan, tersusun berdasarkan jenis pekerjaan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 54,
+          "clientHeight": 54
+        },
+        {
+          "tag": "H2",
+          "text": "Ada rencana\npekerjaan jalan?",
+          "font": "\"Barlow Semi Condensed\", \"Arial Narrow\", Arial, sans-serif",
+          "size": "72px",
+          "line": "77.76px",
+          "overflow": "visible",
+          "clipPath": "inset(0px 0px 0%)",
+          "scrollHeight": 159,
+          "clientHeight": 156
+        },
+        {
+          "tag": "P",
+          "text": "Ceritakan kondisi lokasi dan pekerjaan yang Anda butuhkan. Kami mulai dari informasi tersebut untuk membahas rencana pengerjaannya.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "16px",
+          "line": "27.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 54,
+          "clientHeight": 54
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "18.2px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 50,
+          "clientHeight": 50
+        },
+        {
+          "tag": "P",
+          "text": "Kami melayani pengaspalan, perkerasan, dan pekerjaan konstruksi jalan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "15px",
+          "line": "26.25px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 53,
+          "clientHeight": 53
+        },
+        {
+          "tag": "BUTTON",
+          "text": "Isi kebutuhan proyek",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "15px",
+          "line": "22.5px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 44,
+          "clientHeight": 44
+        },
+        {
+          "tag": "P",
+          "text": "Pratinjau ini belum memuat kontak resmi dan detail perusahaan.",
+          "font": "Barlow, Arial, sans-serif",
+          "size": "14px",
+          "line": "23.8px",
+          "overflow": "visible",
+          "clipPath": "none",
+          "scrollHeight": 48,
+          "clientHeight": 48
+        }
+      ]
+    }
+  ]
+}

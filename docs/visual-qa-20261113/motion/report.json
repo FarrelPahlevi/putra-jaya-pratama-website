@@ -1,0 +1,1050 @@
+{
+  "engine": "157.0.8103.52",
+  "checks": [
+    {
+      "name": "home 320: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 320: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 320: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 320: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 320: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 320: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "gallery 320: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 320: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 320: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 320: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 320: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "home 360: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 360: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 360: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 360: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 360: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 360: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "gallery 360: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 360: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 360: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 360: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 360: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "home 390: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 390: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 390: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 390: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 390: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 390: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "gallery 390: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 390: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 390: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 390: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 390: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "home 430: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 430: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 430: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 430: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 430: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 430: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "gallery 430: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 430: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 430: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 430: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 430: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "home 768: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 768: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 768: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 768: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 768: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 768: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "gallery 768: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 768: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 768: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 768: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 768: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "home 1024: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 1024: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 1024: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 1024: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 1024: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 1024: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "gallery 1024: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 1024: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 1024: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 1024: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 1024: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "home 1280: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 1280: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 1280: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 1280: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 1280: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 1280: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "gallery 1280: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 1280: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 1280: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 1280: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 1280: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "home 1440: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 1440: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 1440: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 1440: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 1440: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 1440: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "gallery 1440: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 1440: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 1440: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 1440: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 1440: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "home 1920: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "home 1920: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "home 1920: parallax reverses, mobile stays static",
+      "pass": true
+    },
+    {
+      "name": "home 1920: anchor navigation stays below header",
+      "pass": true
+    },
+    {
+      "name": "home 1920: console clean",
+      "pass": true
+    },
+    {
+      "name": "home 1920: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "gallery 1920: initial render, working CTA, no hidden content",
+      "pass": true
+    },
+    {
+      "name": "gallery 1920: slow/fast/reverse scroll and fixed header",
+      "pass": true
+    },
+    {
+      "name": "gallery 1920: group transition and keyboard lightbox",
+      "pass": true
+    },
+    {
+      "name": "gallery 1920: console clean",
+      "pass": true
+    },
+    {
+      "name": "gallery 1920: refresh preserves visible content and initialized motion",
+      "pass": true
+    },
+    {
+      "name": "runtime reduced-motion toggles and restores all animated styles",
+      "pass": true
+    },
+    {
+      "name": "repeated breakpoint changes do not duplicate scroll animations",
+      "pass": true
+    },
+    {
+      "name": "touch input scrolls without trapping",
+      "pass": true
+    },
+    {
+      "name": "failed motion chunk keeps content and enhanced controls usable",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled home 320: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled gallery 320: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled home 360: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled gallery 360: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled home 390: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled gallery 390: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled home 430: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled gallery 430: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled home 768: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled gallery 768: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled home 1024: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled gallery 1024: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled home 1280: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled gallery 1280: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled home 1440: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled gallery 1440: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled home 1920: content, navigation, summary and native images",
+      "pass": true
+    },
+    {
+      "name": "JavaScript disabled gallery 1920: content, navigation, summary and native images",
+      "pass": true
+    }
+  ],
+  "viewports": [
+    {
+      "name": "home",
+      "width": 320,
+      "height": 740,
+      "maxActive": 22,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.00260205541796019,
+      "shifts": [
+        {
+          "value": 0.00260205541796019,
+          "time": 422.89999997615814,
+          "nodes": [
+            "motion-hero-line",
+            "motion-hero-line",
+            null,
+            "",
+            {}
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 320,
+      "height": 740,
+      "maxActive": 10,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.07716218320569303,
+      "shifts": [
+        {
+          "value": 0.07716218320569303,
+          "time": 383,
+          "nodes": [
+            "project-category",
+            "project-filter"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 360,
+      "height": 800,
+      "maxActive": 22,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.0019449964735243055,
+      "shifts": [
+        {
+          "value": 0.0016540955946180555,
+          "time": 390.5,
+          "nodes": [
+            "motion-hero-line",
+            "motion-hero-line",
+            null,
+            ""
+          ]
+        },
+        {
+          "value": 0.00029090087890625,
+          "time": 411.89999997615814,
+          "nodes": [
+            "minimal-kicker minimal-kicker--light",
+            {},
+            {}
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 360,
+      "height": 800,
+      "maxActive": 10,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.00022626776801215278,
+      "shifts": [
+        {
+          "value": 0.00022626776801215278,
+          "time": 343.89999997615814,
+          "nodes": [
+            "project-filter",
+            ""
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 390,
+      "height": 844,
+      "maxActive": 24,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.0036162974075832264,
+      "shifts": [
+        {
+          "value": 0.0005494526063471056,
+          "time": 354.10000002384186,
+          "nodes": [
+            "motion-hero-line"
+          ]
+        },
+        {
+          "value": 0.003066844801236121,
+          "time": 387.7000000476837,
+          "nodes": [
+            "motion-hero-line",
+            "",
+            null,
+            "minimal-kicker minimal-kicker--light",
+            {}
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 390,
+      "height": 844,
+      "maxActive": 10,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.00018765306717112467,
+      "shifts": [
+        {
+          "value": 0.00018765306717112467,
+          "time": 350.2000000476837,
+          "nodes": [
+            "project-filter",
+            ""
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 430,
+      "height": 932,
+      "maxActive": 26,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.002875832566795299,
+      "shifts": [
+        {
+          "value": 0.002875832566795299,
+          "time": 375,
+          "nodes": [
+            "motion-hero-line",
+            "motion-hero-line",
+            "",
+            null,
+            "minimal-kicker minimal-kicker--light"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 430,
+      "height": 932,
+      "maxActive": 10,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.0007087129611999005,
+      "shifts": [
+        {
+          "value": 0.0007087129611999005,
+          "time": 342.39999997615814,
+          "nodes": [
+            null,
+            "project-filter",
+            null,
+            ""
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 768,
+      "height": 1024,
+      "maxActive": 42,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 1,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.0037164885240296526,
+      "shifts": [
+        {
+          "value": 0.0037164885240296526,
+          "time": 382.40000009536743,
+          "nodes": [
+            "motion-hero-line",
+            "motion-hero-line",
+            "",
+            null,
+            "minimal-hero__buttons"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 768,
+      "height": 1024,
+      "maxActive": 6,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 3,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.00006505501611779134,
+      "shifts": [
+        {
+          "value": 0.00006505501611779134,
+          "time": 312.2999999523163,
+          "nodes": [
+            "project-filter",
+            ""
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 1024,
+      "height": 768,
+      "maxActive": 42,
+      "overflow": false,
+      "root": "active",
+      "active": 1,
+      "effects": 1,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.006285413323591153,
+      "shifts": [
+        {
+          "value": 0.0021035684427867336,
+          "time": 353.39999997615814,
+          "nodes": [
+            "motion-hero-line",
+            "",
+            null
+          ]
+        },
+        {
+          "value": 0.0041818448808044195,
+          "time": 390.39999997615814,
+          "nodes": [
+            "motion-hero-line",
+            "minimal-nav",
+            "minimal-hero__buttons",
+            "minimal-button minimal-button--outline",
+            "minimal-kicker minimal-kicker--light"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 1024,
+      "height": 768,
+      "maxActive": 6,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.0011180162352199356,
+      "shifts": [
+        {
+          "value": 0.00006505501611779134,
+          "time": 332.59999990463257,
+          "nodes": [
+            "project-filter",
+            ""
+          ]
+        },
+        {
+          "value": 0.0010529612191021442,
+          "time": 350.59999990463257,
+          "nodes": [
+            "minimal-nav"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 1280,
+      "height": 800,
+      "maxActive": 46,
+      "overflow": false,
+      "root": "active",
+      "active": 1,
+      "effects": 2,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.002968836259841919,
+      "shifts": [
+        {
+          "value": 0.0010105272293090821,
+          "time": 341.8000000715256,
+          "nodes": [
+            "minimal-nav",
+            ""
+          ]
+        },
+        {
+          "value": 0.0011300949096679687,
+          "time": 368.3000000715256,
+          "nodes": [
+            "",
+            "motion-hero-line",
+            "motion-hero-line"
+          ]
+        },
+        {
+          "value": 0.0004125124454498291,
+          "time": 384.3000000715256,
+          "nodes": [
+            null
+          ]
+        },
+        {
+          "value": 0.0004157016754150391,
+          "time": 422.2000000476837,
+          "nodes": [
+            "minimal-hero__buttons",
+            "minimal-button minimal-button--outline",
+            "minimal-kicker minimal-kicker--light"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 1280,
+      "height": 800,
+      "maxActive": 9,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.0012104350566864016,
+      "shifts": [
+        {
+          "value": 0.0012104350566864016,
+          "time": 352,
+          "nodes": [
+            "minimal-nav",
+            "project-filter",
+            "",
+            ""
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 1440,
+      "height": 900,
+      "maxActive": 47,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 2,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.0037814234604070214,
+      "shifts": [
+        {
+          "value": 0.0024122671789266114,
+          "time": 387.5,
+          "nodes": [
+            "",
+            "motion-hero-line",
+            "motion-hero-line",
+            "minimal-hero__buttons",
+            "minimal-button minimal-button--outline"
+          ]
+        },
+        {
+          "value": 0.0013691562814804098,
+          "time": 413,
+          "nodes": [
+            "minimal-nav",
+            null,
+            ""
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 1440,
+      "height": 900,
+      "maxActive": 16,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.000875332620670439,
+      "shifts": [
+        {
+          "value": 0.000875332620670439,
+          "time": 349.2999999523163,
+          "nodes": [
+            "minimal-nav",
+            "project-filter",
+            "",
+            ""
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "home",
+      "width": 1920,
+      "height": 1080,
+      "maxActive": 46,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 2,
+      "styles": 27,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.001649835712134593,
+      "shifts": [
+        {
+          "value": 0.00034771270124019424,
+          "time": 351.2999999523163,
+          "nodes": [
+            "minimal-nav",
+            ""
+          ]
+        },
+        {
+          "value": 0.0013021230108943987,
+          "time": 416.2999999523163,
+          "nodes": [
+            "",
+            "motion-hero-line",
+            "motion-hero-line",
+            null,
+            "minimal-hero__buttons"
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "gallery",
+      "width": 1920,
+      "height": 1080,
+      "maxActive": 11,
+      "overflow": false,
+      "root": "active",
+      "active": 0,
+      "effects": 0,
+      "styles": 4,
+      "headerTop": 0,
+      "hidden": 0,
+      "cls": 0.0008292876506538549,
+      "shifts": [
+        {
+          "value": 0.0008292876506538549,
+          "time": 413.2999999523163,
+          "nodes": [
+            null,
+            "minimal-nav",
+            "project-filter",
+            "",
+            ""
+          ]
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "Emulated viewports/touch; no physical device or field Core Web Vitals measurement."
+  ]
+}

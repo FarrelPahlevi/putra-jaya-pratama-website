@@ -1,0 +1,107 @@
+{
+  "checks": [
+    {
+      "name": "duplicate initialization replaces the previous scene",
+      "pass": true
+    },
+    {
+      "name": "stale cleanup does not stop the replacement scene",
+      "pass": true
+    },
+    {
+      "name": "unmount cleanup removes animations and restores original inline styles",
+      "pass": true
+    },
+    {
+      "name": "twenty mount/unmount cycles leave no animation effects",
+      "pass": true
+    },
+    {
+      "name": "observer targets, mutation observers and media listeners are released after repeated mounts",
+      "pass": true
+    },
+    {
+      "name": "missing Intersection Observer falls back to visible static content",
+      "pass": true
+    },
+    {
+      "name": "short desktop and height-only resize keep the hero image covering its frame",
+      "pass": true
+    },
+    {
+      "name": "CPU 4x 390: forward/reverse scroll stays usable without overflow",
+      "pass": true
+    },
+    {
+      "name": "CPU 4x 1440: forward/reverse scroll stays usable without overflow",
+      "pass": true
+    }
+  ],
+  "subscriptionEvidence": {
+    "baseline": {
+      "intersectionTargets": 0,
+      "mutationObservers": 0,
+      "mediaListeners": 0
+    },
+    "afterFiftyCycles": {
+      "intersectionTargets": 0,
+      "mutationObservers": 0,
+      "mediaListeners": 0
+    },
+    "remainingObservers": [
+      {
+        "target": "#document",
+        "origin": "Error\n    at new window.MutationObserver (<anonymous>:15:79)\n    at InjectedScript._setupGlobalListenersRemovalDetection (<anonymous>:8222:5)\n    at new InjectedScript (<anonymous>:7143:10)\n    at <anonymous>:8639:16\n    at <anonymous>:8640:11"
+      }
+    ]
+  },
+  "profiles": [
+    {
+      "width": 390,
+      "height": 900,
+      "cpuSlowdown": 4,
+      "cls": 0.003100212883823995,
+      "lcp": 656,
+      "longTasks": [
+        {
+          "start": 596.6000000238419,
+          "duration": 152
+        },
+        {
+          "start": 1029.3999999761581,
+          "duration": 72
+        }
+      ],
+      "frames": 360,
+      "medianFrameMs": 16.699999999999818,
+      "p95FrameMs": 16.800000000000182,
+      "framesOver50ms": 0,
+      "scrollLongTasks": [],
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "cpuSlowdown": 4,
+      "cls": 0.004824547368639617,
+      "lcp": 688,
+      "longTasks": [
+        {
+          "start": 632.1000000238419,
+          "duration": 154
+        },
+        {
+          "start": 878.7999999523163,
+          "duration": 76
+        }
+      ],
+      "frames": 360,
+      "medianFrameMs": 16.699999999999818,
+      "p95FrameMs": 16.800000000000182,
+      "framesOver50ms": 0,
+      "scrollLongTasks": [],
+      "overflow": false
+    }
+  ],
+  "limitation": "Single local headless Chrome sample with 4x CPU slowdown; network unthrottled. rAF samples are diagnostics, not a field FPS/CWV guarantee."
+}

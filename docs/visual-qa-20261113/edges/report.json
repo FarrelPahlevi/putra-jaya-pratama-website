@@ -1,0 +1,186 @@
+{
+  "generatedAt": "2026-11-13T01:30:50.642Z",
+  "checks": [
+    {
+      "name": "deferred motion 1280: stable story geometry and deep-link destination",
+      "pass": true
+    },
+    {
+      "name": "deferred motion 1440: stable story geometry and deep-link destination",
+      "pass": true
+    },
+    {
+      "name": "deferred motion 1920: stable story geometry and deep-link destination",
+      "pass": true
+    },
+    {
+      "name": "landscape home: text, controls and dialogs remain usable",
+      "pass": true
+    },
+    {
+      "name": "landscape gallery: text, controls and dialogs remain usable",
+      "pass": true
+    },
+    {
+      "name": "short-desktop home: text, controls and dialogs remain usable",
+      "pass": true
+    },
+    {
+      "name": "short-desktop gallery: text, controls and dialogs remain usable",
+      "pass": true
+    },
+    {
+      "name": "zoom-200-desktop home: text, controls and dialogs remain usable",
+      "pass": true
+    },
+    {
+      "name": "zoom-200-desktop gallery: text, controls and dialogs remain usable",
+      "pass": true
+    },
+    {
+      "name": "zoom-200-tablet home: text, controls and dialogs remain usable",
+      "pass": true
+    },
+    {
+      "name": "zoom-200-tablet gallery: text, controls and dialogs remain usable",
+      "pass": true
+    },
+    {
+      "name": "visual zoom 200%: browser reports doubled visual scale and readable content",
+      "pass": true
+    },
+    {
+      "name": "blocked external fonts: visible fallback text, navigation and form",
+      "pass": true
+    }
+  ],
+  "geometry": [
+    {
+      "width": 1280,
+      "height": 800,
+      "before": {
+        "storyHeight": 719,
+        "processDocumentTop": 2753.484375,
+        "anchorViewportTop": 112.484375
+      },
+      "after": {
+        "storyHeight": 719,
+        "processDocumentTop": 2753.484375,
+        "anchorViewportTop": 112.484375
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "before": {
+        "storyHeight": 764,
+        "processDocumentTop": 2954.828125,
+        "anchorViewportTop": 111.828125
+      },
+      "after": {
+        "storyHeight": 764,
+        "processDocumentTop": 2954.828125,
+        "anchorViewportTop": 111.828125
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "before": {
+        "storyHeight": 800,
+        "processDocumentTop": 3194.71875,
+        "anchorViewportTop": 111.71875
+      },
+      "after": {
+        "storyHeight": 800,
+        "processDocumentTop": 3194.71875,
+        "anchorViewportTop": 111.71875
+      }
+    }
+  ],
+  "zoom": [
+    {
+      "name": "landscape",
+      "pageName": "home",
+      "overflow": false,
+      "hidden": 0,
+      "width": 844,
+      "height": 390,
+      "dpr": 1,
+      "visualScale": 1
+    },
+    {
+      "name": "landscape",
+      "pageName": "gallery",
+      "overflow": false,
+      "hidden": 0,
+      "width": 844,
+      "height": 390,
+      "dpr": 1,
+      "visualScale": 1
+    },
+    {
+      "name": "short-desktop",
+      "pageName": "home",
+      "overflow": false,
+      "hidden": 0,
+      "width": 1280,
+      "height": 500,
+      "dpr": 1,
+      "visualScale": 1
+    },
+    {
+      "name": "short-desktop",
+      "pageName": "gallery",
+      "overflow": false,
+      "hidden": 0,
+      "width": 1280,
+      "height": 500,
+      "dpr": 1,
+      "visualScale": 1
+    },
+    {
+      "name": "zoom-200-desktop",
+      "pageName": "home",
+      "overflow": false,
+      "hidden": 0,
+      "width": 720,
+      "height": 450,
+      "dpr": 2,
+      "visualScale": 1
+    },
+    {
+      "name": "zoom-200-desktop",
+      "pageName": "gallery",
+      "overflow": false,
+      "hidden": 0,
+      "width": 720,
+      "height": 450,
+      "dpr": 2,
+      "visualScale": 1
+    },
+    {
+      "name": "zoom-200-tablet",
+      "pageName": "home",
+      "overflow": false,
+      "hidden": 0,
+      "width": 512,
+      "height": 384,
+      "dpr": 2,
+      "visualScale": 1
+    },
+    {
+      "name": "zoom-200-tablet",
+      "pageName": "gallery",
+      "overflow": false,
+      "hidden": 0,
+      "width": 512,
+      "height": 384,
+      "dpr": 2,
+      "visualScale": 1
+    }
+  ],
+  "limitations": [
+    "Desktop Chrome emulation; physical mobile hardware is not covered. Layout zoom uses a 2x DPR and half-size CSS viewport; pinch zoom separately verifies visualViewport.scale=2."
+  ]
+}

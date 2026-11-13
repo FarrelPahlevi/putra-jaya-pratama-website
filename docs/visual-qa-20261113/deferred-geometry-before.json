@@ -1,0 +1,34 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "before": {
+      "y": 2574,
+      "storyHeight": 734,
+      "processTop": 351.25,
+      "storyPhotoHeight": 734
+    },
+    "after": {
+      "y": 2813,
+      "storyHeight": 764,
+      "processTop": 141.828125,
+      "storyPhotoHeight": 764
+    }
+  },
+  {
+    "width": 1920,
+    "height": 1080,
+    "before": {
+      "y": 2718,
+      "storyHeight": 765,
+      "processTop": 442.109375,
+      "storyPhotoHeight": 765
+    },
+    "after": {
+      "y": 3048,
+      "storyHeight": 800,
+      "processTop": 146.71875,
+      "storyPhotoHeight": 800
+    }
+  }
+]

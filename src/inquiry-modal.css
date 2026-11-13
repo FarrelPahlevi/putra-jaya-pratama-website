@@ -101,6 +101,9 @@
   .inquiry-form__actions { flex-direction: column-reverse; }
   .inquiry-form__actions > button { width: 100%; }
 }
+@media (max-width: 360px) {
+  .inquiry-field select { padding-inline: 6px; }
+}
 @media (prefers-reduced-motion: reduce) {
   .inquiry-dialog *, .inquiry-dialog *::before, .inquiry-dialog *::after { animation: none !important; transition: none !important; }
 }
