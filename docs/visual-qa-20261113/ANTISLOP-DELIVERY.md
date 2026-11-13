@@ -36,7 +36,7 @@ Mode DURING, pilihan eksplisit pengguna pada sesi ini. Scope: audit dan perbaika
 | R-07 pola latar | PASS | Tidak menambah pola latar. |
 | R-08 panah | PASS | Tidak menambah panah dekoratif; affordance lama dipertahankan. |
 | R-09 badges/pills | PASS | Filter tetap menunjukkan selection; tidak ada badge baru. |
-| R-10 glass | PASS | Tidak menambah permukaan glass/blur. |
+| R-10 transparency | PASS | Tidak menambah permukaan transparan atau blur baru. |
 | R-12 shadow | PASS | Tidak menambah shadow/card/elevasi. |
 | R-13 glow | PASS | Tidak ada glow baru. |
 | R-14 cards | PASS | Enam layanan dan komposisi galeri tetap; tidak menambah card/template. |
