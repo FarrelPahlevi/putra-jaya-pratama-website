@@ -1,7 +1,10 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { ArrowUpRight, X } from 'lucide-react'
 import { SERVICES_LIST } from '../data/mockData'
+import { getWhatsAppUrl } from '../config/contact'
 import { keepDialogFocus } from '../utils/focus'
+import { buildInquiryMessage, INQUIRY_LIMITS, UNKNOWN_SERVICE, validateInquiry } from '../utils/inquiry'
+import type { InquiryErrors, InquiryFields } from '../utils/inquiry'
 
 interface InquiryModalProps {
   isOpen: boolean
@@ -9,83 +12,124 @@ interface InquiryModalProps {
   onClose: () => void
 }
 
+const serviceChoices = [UNKNOWN_SERVICE, ...SERVICES_LIST.map(service => service.title)]
+
 export const InquiryModal: React.FC<InquiryModalProps> = ({ isOpen, defaultService, onClose }) => {
-  const [name, setName] = useState('')
-  const [service, setService] = useState('Belum yakin / perlu konsultasi')
-  const [location, setLocation] = useState('')
-  const [details, setDetails] = useState('')
-  const [error, setError] = useState<string | null>(null)
+  const [fields, setFields] = useState<InquiryFields>({ name: '', service: UNKNOWN_SERVICE, location: '', area: '', timing: '', details: '' })
+  const [errors, setErrors] = useState<InquiryErrors>({})
   const [summaryText, setSummaryText] = useState('')
-  const [copyStatus, setCopyStatus] = useState('')
-  const [isOutputVisible, setIsOutputVisible] = useState(false)
+  const [status, setStatus] = useState('')
+  const [copyAttempted, setCopyAttempted] = useState(false)
   const [isCopying, setIsCopying] = useState(false)
   const dialogRef = useRef<HTMLDialogElement>(null)
-  const detailsRef = useRef<HTMLTextAreaElement>(null)
   const textareaRef = useRef<HTMLTextAreaElement>(null)
   const outputRef = useRef<HTMLDivElement>(null)
+  const copyRequest = useRef(0)
 
-  useEffect(() => {
-    if (defaultService) setService(defaultService)
-  }, [defaultService])
+  useLayoutEffect(() => {
+    if (!isOpen) return
+    copyRequest.current++
+    setIsCopying(false)
+    setSummaryText('')
+    setErrors({})
+    setStatus('')
+    setCopyAttempted(false)
+    if (defaultService && serviceChoices.includes(defaultService)) {
+      setFields(previous => ({ ...previous, service: defaultService }))
+    }
+  }, [isOpen, defaultService])
 
   useEffect(() => {
     const dialog = dialogRef.current
     if (!dialog || !isOpen) return
     const trigger = document.activeElement instanceof HTMLElement ? document.activeElement : null
     const previousOverflow = document.body.style.overflow
-    setIsOutputVisible(false)
-    setError(null)
-    setCopyStatus('')
     dialog.showModal()
     document.body.style.overflow = 'hidden'
     return () => {
+      copyRequest.current++
       dialog.close()
       document.body.style.overflow = previousOverflow
-      trigger?.focus({ preventScroll: true })
+      const toggle = document.querySelector<HTMLElement>('.minimal-mobile-toggle')
+      const returnTarget = trigger?.isConnected && trigger !== document.body
+        ? trigger
+        : toggle?.getClientRects().length ? toggle : document.querySelector<HTMLElement>('.minimal-brand[href]')
+      returnTarget?.focus({ preventScroll: true })
     }
-  }, [isOpen])
+  }, [isOpen, defaultService])
+
+  const changeField = (key: keyof InquiryFields, value: string) => {
+    copyRequest.current++
+    setIsCopying(false)
+    setFields(previous => ({ ...previous, [key]: value }))
+    setErrors(previous => ({ ...previous, [key]: undefined }))
+    setSummaryText('')
+    setStatus('')
+    setCopyAttempted(false)
+  }
+
+  const prepareMessage = () => {
+    const nextErrors = validateInquiry(fields, serviceChoices)
+    setErrors(nextErrors)
+    const firstInvalid = (['name', 'service', 'location'] as const).find(key => nextErrors[key])
+    if (firstInvalid) {
+      const control = dialogRef.current?.querySelector<HTMLElement>(`[name="${firstInvalid}"]`)
+      control?.focus({ preventScroll: true })
+      requestAnimationFrame(() => {
+        const dialog = dialogRef.current
+        const field = control?.closest('.inquiry-field')
+        if (!dialog?.open || !field) return
+        const top = field.getBoundingClientRect().top - dialog.getBoundingClientRect().top + dialog.scrollTop - 24
+        dialog.scrollTo({ top: Math.max(0, top), behavior: 'instant' })
+      })
+      return null
+    }
+    const message = buildInquiryMessage(fields)
+    setSummaryText(message)
+    return message
+  }
+
+  const revealSummary = () => requestAnimationFrame(() => outputRef.current?.scrollIntoView({ block: 'nearest', behavior: 'auto' }))
 
   const copyToClipboard = async (text: string) => {
+    const request = ++copyRequest.current
     setIsCopying(true)
+    setCopyAttempted(true)
     try {
       if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable')
       await navigator.clipboard.writeText(text)
-      setCopyStatus('Ringkasan sudah disalin. Anda bisa mengirimkannya saat kontak resmi PJP tersedia.')
+      if (request === copyRequest.current) setStatus('Ringkasan sudah disalin. Anda bisa menempelkannya di WhatsApp PJP.')
     } catch {
-      setCopyStatus('Penyalinan otomatis belum berhasil. Pilih teks ringkasan, lalu salin lewat menu perangkat atau tekan Ctrl+C.')
-      requestAnimationFrame(() => {
-        textareaRef.current?.focus()
-        textareaRef.current?.select()
-      })
+      if (request === copyRequest.current) {
+        setStatus('Penyalinan otomatis belum berhasil. Pilih teks ringkasan, lalu salin lewat menu perangkat atau tekan Ctrl+C.')
+        requestAnimationFrame(() => {
+          textareaRef.current?.focus()
+          textareaRef.current?.select()
+        })
+      }
     } finally {
-      setIsCopying(false)
+      if (request === copyRequest.current) setIsCopying(false)
     }
   }
 
-  const handleSubmit = async (event: React.FormEvent) => {
+  const handleCopy = async () => {
+    if (isCopying) return
+    const message = prepareMessage()
+    if (!message) return
+    revealSummary()
+    await copyToClipboard(message)
+  }
+
+  const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault()
     if (isCopying) return
-    const trimmedDetails = details.trim()
-    if (trimmedDetails.length < 12) {
-      setError('Ceritakan rencana pekerjaan Anda dalam minimal 12 karakter.')
-      detailsRef.current?.focus()
-      return
-    }
-    setError(null)
-    const formatted = [
-      'Halo Putra Jaya Pratama, saya ingin membahas rencana pekerjaan berikut.',
-      '',
-      `Nama: ${name.trim() || '(belum diisi)'}`,
-      `Layanan: ${service}`,
-      `Lokasi pekerjaan: ${location.trim() || '(belum diisi)'}`,
-      `Rencana pekerjaan: ${trimmedDetails}`,
-      '',
-      'Mohon arahan untuk langkah berikutnya dan informasi yang perlu saya siapkan. Terima kasih.',
-    ].join('\n')
-    setSummaryText(formatted)
-    setIsOutputVisible(true)
-    await copyToClipboard(formatted)
-    requestAnimationFrame(() => outputRef.current?.scrollIntoView({ block: 'nearest', behavior: 'auto' }))
+    const message = prepareMessage()
+    if (!message) return
+    setCopyAttempted(false)
+    setStatus('Pesan sudah disiapkan. Periksa dan kirim di WhatsApp. Jika WhatsApp tidak terbuka, pilih Buka WhatsApp atau Salin Ringkasan.')
+    // Keep the handoff synchronous with the user's submit gesture.
+    try { window.open(getWhatsAppUrl(message), '_blank', 'noopener,noreferrer') } catch { /* The native link below remains available. */ }
+    revealSummary()
   }
 
   return (
@@ -97,66 +141,82 @@ export const InquiryModal: React.FC<InquiryModalProps> = ({ isOpen, defaultServi
       <div className="inquiry-dialog__inner">
         <div className="inquiry-dialog__heading">
           <div>
-            <p className="inquiry-dialog__eyebrow">Persiapan konsultasi · Pratinjau</p>
+            <p className="inquiry-dialog__eyebrow">Konsultasi proyek</p>
             <h2 id="inquiryTitle">Ceritakan kebutuhan Anda.</h2>
           </div>
-          <button type="button" className="inquiry-dialog__close" onClick={onClose} aria-label="Tutup formulir">
-            <X size={22} aria-hidden="true" />
-          </button>
+          <button type="button" className="inquiry-dialog__close" onClick={onClose} aria-label="Tutup formulir"><X size={22} aria-hidden="true" /></button>
         </div>
         <p id="inquiryDescription" className="inquiry-dialog__description">
-          Isi rencana pekerjaan Anda, lalu salin ringkasannya.{' '}
-          <strong>Formulir ini tidak mengirim pesan ke PJP atau WhatsApp.</strong>
+          Isi kebutuhan pekerjaan, lalu lanjutkan ke WhatsApp PJP.{' '}
+          <strong>Anda tetap memeriksa dan mengirim pesannya di WhatsApp.</strong>
         </p>
 
         <form onSubmit={handleSubmit} className="inquiry-form" noValidate>
           <div className="inquiry-form__row">
             <div className="inquiry-field">
-              <label htmlFor="inquiry-name">Nama atau penanggung jawab <span>(opsional)</span></label>
-              <input id="inquiry-name" name="name" type="text" autoComplete="name" autoFocus
-                maxLength={80} placeholder="Nama Anda" value={name} onChange={event => setName(event.target.value)} />
+              <label htmlFor="inquiry-name">Nama atau penanggung jawab <span className="inquiry-field__required">(wajib)</span></label>
+              <input id="inquiry-name" name="name" type="text" autoComplete="name" autoFocus required
+                maxLength={INQUIRY_LIMITS.name} placeholder="Nama Anda" value={fields.name} onChange={event => changeField('name', event.target.value)}
+                aria-invalid={errors.name ? true : undefined} aria-describedby={errors.name ? 'inquiry-name-error' : undefined} />
+              {errors.name && <p id="inquiry-name-error" className="inquiry-field__error" role="alert">{errors.name}</p>}
             </div>
             <div className="inquiry-field">
-              <label htmlFor="inquiry-service">Jenis pekerjaan</label>
-              <select id="inquiry-service" name="service" value={service} onChange={event => setService(event.target.value)}>
-                <option value="Belum yakin / perlu konsultasi">Belum yakin / perlu konsultasi</option>
+              <label htmlFor="inquiry-service">Jenis pekerjaan <span className="inquiry-field__required">(wajib)</span></label>
+              <select id="inquiry-service" name="service" required value={fields.service} onChange={event => changeField('service', event.target.value)}
+                aria-invalid={errors.service ? true : undefined} aria-describedby={errors.service ? 'inquiry-service-error' : undefined}>
+                <option value={UNKNOWN_SERVICE}>{UNKNOWN_SERVICE}</option>
                 {SERVICES_LIST.map(item => <option key={item.id} value={item.title}>{item.title}</option>)}
               </select>
+              {errors.service && <p id="inquiry-service-error" className="inquiry-field__error" role="alert">{errors.service}</p>}
             </div>
           </div>
           <div className="inquiry-field">
-            <label htmlFor="inquiry-location">Lokasi pekerjaan <span>(opsional)</span></label>
-            <input id="inquiry-location" name="location" type="text" maxLength={120}
-              placeholder="Kawasan industri atau kota" value={location} onChange={event => setLocation(event.target.value)} />
+            <label htmlFor="inquiry-location">Lokasi pekerjaan <span className="inquiry-field__required">(wajib)</span></label>
+            <input id="inquiry-location" name="location" type="text" required maxLength={INQUIRY_LIMITS.location}
+              placeholder="Kawasan atau kota" value={fields.location} onChange={event => changeField('location', event.target.value)}
+              aria-invalid={errors.location ? true : undefined} aria-describedby={errors.location ? 'inquiry-location-error' : undefined} />
+            {errors.location && <p id="inquiry-location-error" className="inquiry-field__error" role="alert">{errors.location}</p>}
+          </div>
+          <div className="inquiry-form__row">
+            <div className="inquiry-field">
+              <label htmlFor="inquiry-area">Perkiraan luas atau ukuran <span>(opsional)</span></label>
+              <input id="inquiry-area" name="area" type="text" maxLength={INQUIRY_LIMITS.area}
+                placeholder="Contoh: 500 m²" value={fields.area} onChange={event => changeField('area', event.target.value)} />
+            </div>
+            <div className="inquiry-field">
+              <label htmlFor="inquiry-timing">Rencana waktu pengerjaan <span>(opsional)</span></label>
+              <input id="inquiry-timing" name="timing" type="text" maxLength={INQUIRY_LIMITS.timing}
+                placeholder="Contoh: bulan depan" value={fields.timing} onChange={event => changeField('timing', event.target.value)} />
+            </div>
           </div>
           <div className="inquiry-field">
-            <label htmlFor="inquiry-details">Rencana pekerjaan <span className="inquiry-field__required">(wajib)</span></label>
-            <textarea ref={detailsRef} id="inquiry-details" name="details" required rows={3} minLength={12} maxLength={900}
-              aria-invalid={error ? true : undefined} aria-describedby={error ? 'inquiry-hint inquiry-error' : 'inquiry-hint'}
-              placeholder="Contoh: pengaspalan area parkir. Sertakan perkiraan luas dan kondisi lokasi saat ini."
-              value={details} onChange={event => {
-                setDetails(event.target.value)
-                if (error && event.target.value.trim().length >= 12) setError(null)
-              }} />
-            <p id="inquiry-hint" className="inquiry-field__hint">Tulis minimal 12 karakter. Ceritakan kondisi lokasi dan pekerjaan yang Anda butuhkan.</p>
-            {error && <p id="inquiry-error" className="inquiry-field__error" role="alert">{error}</p>}
+            <label htmlFor="inquiry-details">Keterangan tambahan <span>(opsional)</span></label>
+            <textarea id="inquiry-details" name="details" rows={3} maxLength={INQUIRY_LIMITS.details}
+              placeholder="Contoh: jalan akses gudang untuk kendaraan berat."
+              value={fields.details} onChange={event => changeField('details', event.target.value)} />
           </div>
           <div className="inquiry-form__actions">
-            <button type="button" className="inquiry-button inquiry-button--secondary" onClick={onClose}>Batal</button>
-            <button type="submit" className="inquiry-button inquiry-button--primary" disabled={isCopying} aria-busy={isCopying}>
-              {isCopying ? 'Menyalin ringkasan...' : 'Buat dan salin ringkasan'} <ArrowUpRight size={17} aria-hidden="true" />
+            <button type="submit" className="inquiry-button inquiry-button--primary" disabled={isCopying}>
+              Kirim via WhatsApp <ArrowUpRight size={17} aria-hidden="true" />
             </button>
+            <button type="button" className="inquiry-button inquiry-button--secondary" disabled={isCopying} aria-busy={isCopying} onClick={handleCopy}>
+              {isCopying ? 'Menyalin ringkasan...' : 'Salin Ringkasan'}
+            </button>
+            <button type="button" className="inquiry-button inquiry-button--secondary" onClick={onClose}>Batal</button>
           </div>
-          <p className="inquiry-form__status" role="status" aria-atomic="true">{copyStatus}</p>
-          {isOutputVisible && (
+          <p className="inquiry-form__status" role="status" aria-atomic="true">{status}</p>
+          {summaryText && (
             <div ref={outputRef} className="inquiry-output">
-              <h3>Ringkasan Anda sudah siap.</h3>
+              <h3>Ringkasan konsultasi Anda</h3>
               <div className="inquiry-field">
                 <label htmlFor="inquiry-summary">Ringkasan untuk konsultasi</label>
                 <textarea ref={textareaRef} id="inquiry-summary" rows={6} readOnly value={summaryText} />
               </div>
-              <button type="button" className="inquiry-button inquiry-button--secondary" disabled={isCopying}
-                onClick={() => copyToClipboard(summaryText)}>Salin lagi <ArrowUpRight size={17} aria-hidden="true" /></button>
+              <a className="inquiry-button inquiry-button--primary" href={getWhatsAppUrl(summaryText)} target="_blank" rel="noopener noreferrer">
+                Buka WhatsApp <ArrowUpRight size={17} aria-hidden="true" />
+              </a>
+              {copyAttempted && <button type="button" className="inquiry-button inquiry-button--secondary" disabled={isCopying}
+                onClick={() => copyToClipboard(summaryText)}>Salin lagi</button>}
             </div>
           )}
         </form>

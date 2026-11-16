@@ -29,19 +29,19 @@ try {
       let release
       const pending = new Promise(resolve => { release = resolve })
       await page.route('**/assets/siteMotion-*.js', async route => { await pending; await route.continue() })
-      await page.goto(baseURL + '/#proses', { waitUntil: 'domcontentloaded' })
+      await page.goto(baseURL + '/#proyek', { waitUntil: 'domcontentloaded' })
       await page.evaluate(() => document.fonts.ready)
       // Let the browser's initial fragment scroll settle before comparing geometry.
       await page.waitForTimeout(1200)
       await page.evaluate(() => {
         document.documentElement.style.scrollBehavior = 'auto'
-        document.querySelector('#proses').scrollIntoView({ behavior: 'instant' })
+        document.querySelector('#proyek').scrollIntoView({ behavior: 'instant' })
       })
       await page.waitForTimeout(100)
       const measure = () => page.evaluate(() => ({
         storyHeight: document.querySelector('#tentang').offsetHeight,
-        processDocumentTop: document.querySelector('#proses').getBoundingClientRect().top + scrollY,
-        anchorViewportTop: document.querySelector('#proses').getBoundingClientRect().top,
+        galleryDocumentTop: document.querySelector('#proyek').getBoundingClientRect().top + scrollY,
+        anchorViewportTop: document.querySelector('#proyek').getBoundingClientRect().top,
       }))
       const before = await measure()
       release()
@@ -81,8 +81,10 @@ try {
         }
         const trigger = pageName === 'home' ? '#kontak button' : '.project-bottom-cta button'
         await page.locator(trigger).click()
-        await page.getByLabel('Rencana pekerjaan (wajib)').fill('Pengaspalan area parkir dengan kondisi permukaan tidak rata.')
-        await page.getByRole('button', { name: 'Buat dan salin ringkasan' }).click()
+        await page.locator('#inquiry-name').fill('Tim proyek PJP')
+        await page.locator('#inquiry-location').fill('Bekasi')
+        await page.getByLabel('Keterangan tambahan').fill('Pengaspalan area parkir dengan kondisi permukaan tidak rata.')
+        await page.getByRole('button', { name: 'Salin Ringkasan', exact: true }).click()
         await page.locator('#inquiry-summary').waitFor()
         const axe = await new AxeBuilder({ page }).withTags(['wcag2a','wcag2aa','wcag21aa','wcag22aa']).analyze()
         assert.deepEqual(axe.violations.map(v => v.id), [])

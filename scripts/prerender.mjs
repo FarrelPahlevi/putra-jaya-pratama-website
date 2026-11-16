@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises'
-import { render } from '../dist-ssr/entry-server.js'
+import { render, CONTACT, getWhatsAppUrl } from '../dist-ssr/entry-server.js'
 
 const template = await fs.readFile(new URL('../dist/index.html', import.meta.url), 'utf8')
 if (!template.includes('<div id="root"></div>')) throw new Error('Prerender root placeholder is missing')
@@ -14,12 +14,14 @@ const summary = `<noscript>
   <section id="ringkasan-manual" class="pjp-static-summary" aria-labelledby="ringkasan-manual-title"><div>
     <h2 id="ringkasan-manual-title">Tulis kebutuhan proyek</h2>
     <p>JavaScript sedang dinonaktifkan. Anda tetap bisa membaca layanan dan membuka foto proyek. Untuk menyiapkan konsultasi, lengkapi ringkasan di bawah lalu salin melalui menu perangkat.</p>
-    <p>Kontak resmi PJP belum tersedia di situs pratinjau ini. Ringkasan tidak dikirim otomatis.</p>
+    <p>Ringkasan tidak dikirim otomatis. Setelah menyalinnya, buka <a href="${getWhatsAppUrl()}" target="_blank" rel="noopener noreferrer">WhatsApp PJP: ${CONTACT.whatsappDisplay}</a> untuk memeriksa dan mengirim pesan.</p>
     <label for="ringkasan-manual-text">Ringkasan untuk konsultasi</label>
     <textarea id="ringkasan-manual-text" rows="9">Nama atau penanggung jawab:
 Jenis pekerjaan:
 Lokasi pekerjaan:
-Rencana pekerjaan: </textarea>
+Perkiraan luas:
+Rencana pengerjaan:
+Keterangan: </textarea>
   </div></section>
 </noscript>`
 

@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react'
 import { ArrowRight, ArrowUpRight } from 'lucide-react'
-import { PROCESS_STEPS, SERVICES_LIST } from './data/mockData'
+import { SERVICES_LIST } from './data/mockData'
 import { SiteHeader } from './SiteHeader'
 import { SiteFooter } from './SiteFooter'
 import { SERVICE_ILLUSTRATIONS } from './data/serviceIllustrations'
 import { useSiteMotion } from './motion/useSiteMotion'
+import { CONTACT, getWhatsAppUrl } from './config/contact'
 
 type Props = {
   onOpenInquiry: (serviceName?: string) => void
@@ -85,7 +86,12 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
                         alt={illustration.alt}
                       />
                     </div>
-                    <h3 id={'service-' + service.id}>{service.title}</h3>
+                    <h3 id={'service-' + service.id}>
+                      <a href="#kontak" className="minimal-service__inquiry" data-service={service.id} aria-haspopup="dialog"
+                        aria-label={'Konsultasi ' + service.title} onClick={event => { event.preventDefault(); onOpenInquiry(service.title) }}>
+                        {service.title} <ArrowUpRight size={17} aria-hidden="true" />
+                      </a>
+                    </h3>
                   </article>
                 )
               })}
@@ -118,29 +124,10 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
           </div>
         </section>
 
-        <section id="proses" tabIndex={-1} className="minimal-process minimal-section" aria-labelledby="minimal-process-title">
-          <div className="minimal-container">
-            <div className="minimal-section-heading minimal-section-heading--center">
-              <span className="minimal-kicker">03 / PROSES KERJA</span>
-              <h2 id="minimal-process-title" data-motion="title">Empat tahap<br /><em>pengerjaan proyek.</em></h2>
-              <p>Sebelum mulai, kami membahas kebutuhan dan rencana kerja dengan Anda. Setelah pengerjaan, kami memeriksa hasilnya bersama.</p>
-            </div>
-            <div className="minimal-process__grid">
-              {PROCESS_STEPS.map((step, index) => (
-                <article key={step.number} className="minimal-process__step" data-motion="step" data-motion-order={index}>
-                  <span className="minimal-process__number">{step.number}<i data-motion="line" data-motion-order={index} /></span>
-                  <h3>{step.title}</h3>
-                  <p>{step.description}</p>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-
         <section id="proyek" tabIndex={-1} className="minimal-gallery-teaser" aria-labelledby="minimal-gallery-teaser-title">
           <div className="minimal-container minimal-gallery-teaser__inner">
             <div>
-              <span className="minimal-kicker">04 / DOKUMENTASI PROYEK</span>
+              <span className="minimal-kicker">03 / DOKUMENTASI PROYEK</span>
               <h2 id="minimal-gallery-teaser-title" data-motion="title">Dokumentasi <em>pekerjaan jalan.</em></h2>
               <p>Lihat dokumentasi pengaspalan dan pemadatan jalan, tersusun berdasarkan jenis pekerjaan.</p>
             </div>
@@ -153,9 +140,10 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
         <section id="kontak" tabIndex={-1} className="minimal-contact" aria-labelledby="minimal-contact-title">
           <div className="minimal-container minimal-contact__inner">
             <div>
-              <span className="minimal-kicker minimal-kicker--light">05 / KONSULTASI</span>
+              <span className="minimal-kicker minimal-kicker--light">04 / KONSULTASI</span>
               <h2 id="minimal-contact-title" data-motion="title">Ada rencana<br />pekerjaan <em>jalan?</em></h2>
               <p>Ceritakan kondisi lokasi dan pekerjaan yang Anda butuhkan. Kami mulai dari informasi tersebut untuk membahas rencana pengerjaannya.</p>
+              <a className="minimal-contact__whatsapp" href={getWhatsAppUrl()} target="_blank" rel="noopener noreferrer">WhatsApp: {CONTACT.whatsappDisplay}</a>
             </div>
             <button type="button" onClick={() => onOpenInquiry()} className="minimal-button minimal-button--dark" data-motion="settle">
               Isi kebutuhan proyek <ArrowUpRight size={18} aria-hidden="true" />

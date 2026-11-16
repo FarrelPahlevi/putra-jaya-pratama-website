@@ -134,7 +134,7 @@ try {
           assert.equal(select.fontSize, '16px')
         })
         await page.screenshot({ path: path.join(output, `form-${width}.png`) })
-        await page.getByRole('button', { name: 'Buat dan salin ringkasan' }).click()
+        await page.getByRole('button', { name: 'Kirim via WhatsApp' }).click()
         await page.screenshot({ path: path.join(output, `validation-${width}.png`) })
         await page.keyboard.press('Escape')
       }

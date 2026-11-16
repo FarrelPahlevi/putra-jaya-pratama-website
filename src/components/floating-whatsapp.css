@@ -1,0 +1,80 @@
+.pjp-floating-contact {
+  --floating-offset: 24px;
+  position: fixed;
+  z-index: 90;
+  right: max(var(--floating-offset), env(safe-area-inset-right));
+  bottom: calc(var(--floating-offset) + env(safe-area-inset-bottom));
+  font-family: Barlow, sans-serif;
+}
+
+/* The contact shortcut is visible from the first render, independent of scroll. */
+.pjp-floating-contact[data-blocked="true"],
+body:has(dialog[open], [aria-modal="true"]:not(dialog), .minimal-header--menu-open) .pjp-floating-contact {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.pjp-floating-contact__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 10px 20px 10px 16px;
+  box-sizing: border-box;
+  border: 1px solid #ffffff38;
+  border-radius: 999px;
+  background: #b55514;
+  color: #fff;
+  box-shadow: 0 5px 18px #17171326;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.pjp-floating-contact__link img {
+  display: block;
+  flex-shrink: 0;
+  filter: brightness(0) invert(1);
+}
+
+.pjp-floating-contact__link:focus-visible {
+  outline: 3px solid #171713;
+  outline-offset: 4px;
+  box-shadow: 0 0 0 4px #fff, 0 5px 18px #17171326;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .pjp-floating-contact__link:hover {
+    background: #91410e;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 20px #17171330;
+  }
+}
+
+.pjp-floating-contact__link:active {
+  background: #7d380c;
+  transform: translateY(0) scale(0.97);
+}
+
+@media (max-width: 1199px) {
+  .pjp-floating-contact { --floating-offset: 20px; }
+  .pjp-floating-contact__link { min-height: 50px; }
+}
+
+@media (max-width: 479px) {
+  .pjp-floating-contact { --floating-offset: 16px; }
+  .pjp-floating-contact__link { width: 48px; min-height: 48px; padding: 9px; }
+  .pjp-floating-contact__link span { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pjp-floating-contact__link { transition: none; }
+  .pjp-floating-contact__link:hover,
+  .pjp-floating-contact__link:active { transform: none; }
+}

@@ -5,6 +5,7 @@ import './inquiry-modal.css'
 import { MinimalIndustrial } from './MinimalIndustrial'
 import { GalleryPage } from './GalleryPage'
 import { InquiryModal } from './components/InquiryModal'
+import { FloatingWhatsApp } from './components/FloatingWhatsApp'
 
 export const App: React.FC<{ pathname?: string }> = ({ pathname }) => {
   const [isInquiryOpen, setIsInquiryOpen] = useState(false)
@@ -26,6 +27,7 @@ export const App: React.FC<{ pathname?: string }> = ({ pathname }) => {
         defaultService={defaultInquiryService}
         onClose={() => setIsInquiryOpen(false)}
       />
+      <FloatingWhatsApp isInquiryOpen={isInquiryOpen} />
     </>
   )
 }

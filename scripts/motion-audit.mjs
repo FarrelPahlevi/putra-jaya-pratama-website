@@ -118,7 +118,7 @@ try {
       await scrollTo(page, 0)
       await page.waitForTimeout(1100)
       await page.screenshot({ path: path.join(output, `${name}-${width}-initial.png`) })
-      const selectors = name === 'home' ? ['#layanan','#tentang','#proses','#kontak'] : ['.project-photo-grid']
+      const selectors = name === 'home' ? ['#layanan','#tentang','#proyek','#kontak'] : ['.project-photo-grid']
       if ([390,768,1440,1920].includes(width)) {
         for (const selector of selectors) {
           const y = await page.locator(selector).evaluate(e => e.getBoundingClientRect().top + scrollY - 110)

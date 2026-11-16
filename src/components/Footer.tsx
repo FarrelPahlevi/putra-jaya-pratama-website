@@ -22,7 +22,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenInquiry }) => {
             <h3>Jelajahi</h3>
             <a href="#beranda">Beranda</a>
             <a href="#layanan">Layanan</a>
-            <a href="#proses">Alur Kerja</a>
+            <a href="#proyek">Dokumentasi Proyek</a>
             <a href="#tentang">Tentang Kami</a>
             <a href="#proyek">Galeri</a>
           </nav>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { ArrowUpRight } from 'lucide-react'
 import { NAV_LINKS } from './data/mockData'
+import { CONTACT, getWhatsAppUrl } from './config/contact'
 
 type Props = {
   onOpenInquiry: (serviceName?: string) => void
@@ -28,7 +29,7 @@ export const SiteFooter: React.FC<Props> = ({ onOpenInquiry, galleryPage = false
           <button type="button" onClick={() => onOpenInquiry()}>
             Isi kebutuhan proyek <ArrowUpRight size={15} aria-hidden="true" />
           </button>
-          <p>Informasi kontak resmi sedang dilengkapi sebelum peluncuran.</p>
+          <a href={getWhatsAppUrl()} target="_blank" rel="noopener noreferrer">WhatsApp: {CONTACT.whatsappDisplay}</a>
         </div>
       </div>
       <div className="minimal-container minimal-footer__bottom">
