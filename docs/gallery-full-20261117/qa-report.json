@@ -1,0 +1,32 @@
+[
+  {
+    "width": 390,
+    "checks": "passed",
+    "errors": [],
+    "metric": {
+      "overflow": false,
+      "brokenVisible": 0
+    },
+    "axeViolations": 0
+  },
+  {
+    "width": 768,
+    "checks": "passed",
+    "errors": [],
+    "metric": {
+      "overflow": false,
+      "brokenVisible": 0
+    },
+    "axeViolations": 0
+  },
+  {
+    "width": 1440,
+    "checks": "passed",
+    "errors": [],
+    "metric": {
+      "overflow": false,
+      "brokenVisible": 0
+    },
+    "axeViolations": 0
+  }
+]

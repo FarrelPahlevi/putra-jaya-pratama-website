@@ -31,6 +31,11 @@
 .project-photo__button:focus-visible {outline-offset:-5px!important;box-shadow:inset 0 0 0 2px #fff;}
 .project-photo__button:active img {transform:scale(1.01);}
 .project-photo__button:focus-visible .project-photo__shade {opacity:1;}
+.project-gallery-more {display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;margin-top:44px;text-align:center;}
+.project-gallery-more>span {font-size:14px;color:#625e58;font-weight:600;}
+.project-gallery-more>button {display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:48px;padding:12px 22px;background:#a94f13;color:#fff;font-weight:700;font-size:14px;border:1px solid #a94f13;border-radius:4px;cursor:pointer;transition:background .2s ease,transform .2s ease;}
+.project-gallery-more>button:hover {background:#803b0b;transform:translateY(-2px);}
+.project-gallery-more>button:focus-visible {outline:3px solid #944009;outline-offset:3px;}
 .project-gallery-note {display:flex;align-items:flex-start;gap:16px;border-top:1px solid #d5d1c9;margin-top:46px;padding-top:25px;color:#706b65;}
 .project-gallery-note svg {color:#b75c1d;flex:none;margin-top:3px;}
 .project-gallery-note p {font-size:16px;line-height:1.72;max-width:900px;margin:0;}

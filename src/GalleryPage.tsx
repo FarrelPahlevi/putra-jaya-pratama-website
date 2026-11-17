@@ -12,6 +12,7 @@ type Props = { onOpenInquiry: (serviceName?: string) => void }
 export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
   const motionRoot = useSiteMotion()
   const [selected, setSelected] = useState('semua')
+  const [visibleCount, setVisibleCount] = useState(24)
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
   const dialogRef = useRef<HTMLDialogElement>(null)
   const triggerRef = useRef<HTMLAnchorElement | null>(null)
@@ -25,7 +26,8 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
     () => selected === 'semua' ? PROJECT_PHOTOS : PROJECT_PHOTOS.filter(photo => photo.serviceId === selected),
     [selected],
   )
-  const displayedCategories = categories.filter(service => selected === 'semua' || selected === service.id)
+  const visiblePhotos = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount])
+  const displayedCategories = categories.filter(service => selected === 'semua' ? visiblePhotos.some(photo => photo.serviceId === service.id) : selected === service.id)
   const activePhoto = activeIndex === null ? undefined : filtered[activeIndex]
 
   useEffect(() => {
@@ -81,35 +83,36 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
           <div className="minimal-container">
             <div className="project-gallery-heading">
               <h1 id="project-gallery-title" data-motion="title">Galeri <em>Proyek.</em></h1>
-              <p>Pilih jenis pekerjaan untuk melihat fotonya. Dokumentasi akan kami tambahkan saat foto lainnya tersedia.</p>
+              <p>Arsip dokumentasi pekerjaan di lapangan. Pilih jenis pekerjaan atau telusuri seluruh foto yang tersedia.</p>
             </div>
 
             <div className="project-filter-area">
               <div className="project-filter-scroll" role="group" aria-label="Filter berdasarkan layanan">
                 <button type="button" className="project-filter" aria-pressed={selected === 'semua'}
-                  onClick={() => { setSelected('semua'); setActiveIndex(null) }}>
+                  onClick={() => { setSelected('semua'); setVisibleCount(24); setActiveIndex(null) }}>
                   Semua foto
                 </button>
                 {categories.map(service => (
                   <button type="button" key={service.id} className="project-filter"
                     aria-pressed={selected === service.id}
-                    onClick={() => { setSelected(service.id); setActiveIndex(null) }}>
+                    onClick={() => { setSelected(service.id); setVisibleCount(24); setActiveIndex(null) }}>
                     {service.title}
                   </button>
                 ))}
               </div>
-              <span className="project-filter-status" role="status" aria-live="polite" aria-atomic="true">{filtered.length} foto ditampilkan</span>
+              <span className="project-filter-status" role="status" aria-live="polite" aria-atomic="true">{visiblePhotos.length} dari {filtered.length} foto ditampilkan</span>
             </div>
 
             {displayedCategories.map(service => {
-              const photos = filtered.filter(photo => photo.serviceId === service.id)
+              const photos = visiblePhotos.filter(photo => photo.serviceId === service.id)
+              const totalInCategory = filtered.filter(photo => photo.serviceId === service.id).length
               return (
                 <section key={service.id} className="project-category" aria-labelledby={'category-' + service.id}>
                   <div className="project-category__head">
                     <div className="project-category__heading"><span className="project-category__line" data-motion="line" />
                       <h2 id={'category-' + service.id}>{service.title}</h2>
                     </div>
-                    <span>{String(photos.length).padStart(2,'0')} FOTO</span>
+                    <span>{String(totalInCategory).padStart(2,'0')} FOTO</span>
                   </div>
                   <div className="project-photo-grid" key={selected + service.id}>
                     {photos.map((photo, index) => {
@@ -117,7 +120,7 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
                       const wide = index === 0 || index === 3
                       return (
                         <article className={'project-photo' + (index === 0 ? ' project-photo--feature' : '') + (index === 3 ? ' project-photo--last' : '')}
-                          key={photo.id} data-motion="photo" data-motion-order={index}>
+                          key={photo.id} data-motion="photo" data-motion-order={Math.min(index, 5)}>
                           <a href={photo.image} className="project-photo__button"
                             onClick={event => {
                               if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
@@ -140,9 +143,18 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
               )
             })}
 
+            {visibleCount < filtered.length && (
+              <div className="project-gallery-more">
+                <span>Menampilkan {visiblePhotos.length} dari {filtered.length} foto</span>
+                <button type="button" onClick={() => setVisibleCount(count => Math.min(count + 24, filtered.length))}>
+                  Muat 24 foto berikutnya <ArrowUpRight size={18} aria-hidden="true" />
+                </button>
+              </div>
+            )}
+
             <div className="project-gallery-note">
               <Images size={21} strokeWidth={1.7} aria-hidden="true" />
-              <p>Foto untuk paving block, cut and fill, cor beton, saluran U-Ditch, dan resapan air belum tersedia di galeri ini. Foto yang tampil sudah mendapat izin untuk dipublikasikan.</p>
+              <p>Arsip dokumentasi pekerjaan jalan. Informasi lokasi, waktu pengerjaan, dan rincian teknis tiap foto belum dicantumkan.</p>
             </div>
           </div>
         </section>

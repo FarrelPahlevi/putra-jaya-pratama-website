@@ -1,0 +1,2013 @@
+{
+  "imported": 198,
+  "source": "https://drive.google.com/drive/folders/14kTnYhFxqW2EmTsJ6o3zremG9hZOlSuc",
+  "bytes": 100144328,
+  "exactDuplicateGroups": [
+    [
+      "IMG-20261014-WA0213.jpg",
+      "IMG-20261014-WA0190.jpg"
+    ],
+    [
+      "IMG-20261014-WA0200.jpg",
+      "IMG-20261014-WA0149.jpg"
+    ],
+    [
+      "IMG-20261014-WA0188.jpg",
+      "IMG-20261014-WA0153.jpg"
+    ],
+    [
+      "IMG-20261014-WA0179.jpg",
+      "IMG-20261014-WA0170.jpg"
+    ],
+    [
+      "IMG-20261014-WA0157.jpg",
+      "IMG-20261014-WA0130.jpg"
+    ],
+    [
+      "IMG-20261014-WA0107.jpg",
+      "IMG-20261014-WA0092.jpg"
+    ]
+  ],
+  "files": [
+    {
+      "index": 1,
+      "id": "1ydtQEwYCME6BZv8wa4DKQ09LPP8O4zPn",
+      "original": "IMG-20261014-WA0248.jpg",
+      "name": "001.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1318392,
+      "sha256": "0c9de8001c7d6ba2e7222b7e94f5614c8b0bcfc6e04406e658b1b5419ef34a45"
+    },
+    {
+      "index": 2,
+      "id": "1IxXU5aR2sX70Dq0Kt9Myndq3eo4Am9nv",
+      "original": "IMG-20261014-WA0244.jpg",
+      "name": "002.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1228652,
+      "sha256": "bfd9bf54ec67c6efd999195e9a1150a1d9196384b46ab38653431d1ac726ee46"
+    },
+    {
+      "index": 3,
+      "id": "1xh_hEVbHmCxPBoL6n2qlilEzRRWgtDR2",
+      "original": "IMG-20261014-WA0230.jpg",
+      "name": "003.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 523140,
+      "sha256": "02f6c006f991b2e6ec6f1e2773afa06388d587f1d059e26cf41b9932a9d1682b"
+    },
+    {
+      "index": 4,
+      "id": "1SIeIWUtM2e_Ewu7nLcgHoYV4qdfEwUc0",
+      "original": "IMG-20261014-WA0235.jpg",
+      "name": "004.webp",
+      "width": 1400,
+      "height": 1867,
+      "bytes": 987124,
+      "sha256": "0a6213938c898f0008f3eb862cdd9865a2db12f34b644cd68b7a77da89d6efb5"
+    },
+    {
+      "index": 5,
+      "id": "186Rer0tLwRX-TiwD0jsXwA3G-d2O2H0-",
+      "original": "IMG-20261014-WA0239.jpg",
+      "name": "005.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 485696,
+      "sha256": "728793a98f6c60fd07dda8dc0118d90ae712e898834fa757143c481eab8ccc77"
+    },
+    {
+      "index": 6,
+      "id": "1Ey8LwO9OUlyGnyDQ0dVwPTNvh984OQag",
+      "original": "IMG-20261014-WA0220.jpg",
+      "name": "006.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1194136,
+      "sha256": "1e4eff6478552f8965bdf3485e70ed5e819ccf5aef22b729114a9c387f9ac04c"
+    },
+    {
+      "index": 7,
+      "id": "1WFXIbBbFBVJcNtXpXz5C2mNjwjOFxOnX",
+      "original": "IMG-20261014-WA0221.jpg",
+      "name": "007.webp",
+      "width": 1400,
+      "height": 1867,
+      "bytes": 856264,
+      "sha256": "1946afcefaa76d3d88c70b93d3dd29faf7409fed1a28fd7531d3f3e8058f7317"
+    },
+    {
+      "index": 8,
+      "id": "16ppTYTkVtb-zMIucsp9C-PipYCsgC5fO",
+      "original": "IMG-20261014-WA0225.jpg",
+      "name": "008.webp",
+      "width": 1400,
+      "height": 1867,
+      "bytes": 902110,
+      "sha256": "8f9008b5720e6342102e941a51f01d809962e58eea70188cb8ca281ecdd11ee6"
+    },
+    {
+      "index": 9,
+      "id": "1uWYkkZe5HJXv6ErC7rxxUulTAFFb2J4-",
+      "original": "IMG-20261014-WA0215.jpg",
+      "name": "009.webp",
+      "width": 1400,
+      "height": 1867,
+      "bytes": 794352,
+      "sha256": "eafa46055c3bb1414d58ee89f6a9fc6b5ad326823ceccfe56713867e7717f389"
+    },
+    {
+      "index": 10,
+      "id": "1pJqUD7caDi-H74H8QywHaQooPqXEBga0",
+      "original": "IMG-20261014-WA0214.jpg",
+      "name": "010.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1287330,
+      "sha256": "3b7477c0592893dc501109a682cf98fd44927753a38cd52a0e7d378825475a44"
+    },
+    {
+      "index": 11,
+      "id": "1Wv6YZ4TpP8BnpszKEz6nMDjsTD01OYcc",
+      "original": "IMG-20261014-WA0213.jpg",
+      "name": "011.webp",
+      "width": 1400,
+      "height": 1051,
+      "bytes": 472338,
+      "sha256": "c9e7d920423d002bad2623897b4288caf75c74e5a8cb4067ed0bfe582aed8fb9"
+    },
+    {
+      "index": 12,
+      "id": "1TlSUf1_nQlj_zWcT0tgKaO53Dnkzzosl",
+      "original": "IMG-20261014-WA0210.jpg",
+      "name": "012.webp",
+      "width": 1400,
+      "height": 1867,
+      "bytes": 900856,
+      "sha256": "2c89b51c0abceeb1e84fca0281da151816bc811ef70b630eed913435521d855a"
+    },
+    {
+      "index": 13,
+      "id": "16hIIExxSVfEUI9vszHafQJc384LdPMmh",
+      "original": "IMG-20261014-WA0211.jpg",
+      "name": "013.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 361212,
+      "sha256": "843ad2912ab34d3713d8307c6498748e221b4e1dcdda1db34107077d6d7ca981"
+    },
+    {
+      "index": 14,
+      "id": "1ZUyrvMlzlsdVxqs6h4GA9qCG_u35lg4m",
+      "original": "IMG-20261014-WA0212.jpg",
+      "name": "014.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 392650,
+      "sha256": "14e1cfbdd522bd35040210be47d641c4ffd523c921926ceb9b9cccf482ed4ada"
+    },
+    {
+      "index": 15,
+      "id": "1Jq-UWRzzSAtPyrT759ON-QuIKJJI3OvP",
+      "original": "IMG-20261014-WA0209.jpg",
+      "name": "015.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 369980,
+      "sha256": "770233dce9e40cfb6ed6c144de9e7309c4ef431363147aacfd08410db4736fef"
+    },
+    {
+      "index": 16,
+      "id": "1OXPYDoBfEcpORYpVftc3p4VRiOQgmU9W",
+      "original": "IMG-20261014-WA0208.jpg",
+      "name": "016.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 483296,
+      "sha256": "4fe8672b7a3c387eca85876e64f4894906a92c939830c315c4e0edba59a7b7f2"
+    },
+    {
+      "index": 17,
+      "id": "1fgpkaMFPZBDYJ3LT2Hzpe1a4mSXTweQ6",
+      "original": "IMG-20261014-WA0207.jpg",
+      "name": "017.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1345612,
+      "sha256": "ded44bfc7b8b46103e665c6fb17798c0d280b0417d0a7a78beb444b97ffbfb6f"
+    },
+    {
+      "index": 18,
+      "id": "1UJavSGuWouJlU7TSe0AIj0xxy6_SI1T7",
+      "original": "IMG-20261014-WA0204.jpg",
+      "name": "018.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 456896,
+      "sha256": "fe53f0295463c94d04047d2ad580ad847f92dd68b42bf4c5c772e68e93301883"
+    },
+    {
+      "index": 19,
+      "id": "19q4phPbja18vCJ5p10VPEKKXsaRVak78",
+      "original": "IMG-20261014-WA0205.jpg",
+      "name": "019.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 338260,
+      "sha256": "a5111ec92af07e2909c953996e55328f0b77a7581af2574d7dfe88d5fd84e35e"
+    },
+    {
+      "index": 20,
+      "id": "1ZWUe9Lr0Sd9ZSMQQN5uwMF2SftWaS0pp",
+      "original": "IMG-20261014-WA0206.jpg",
+      "name": "020.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1210220,
+      "sha256": "2c08ad783df7ef97758fa62bdceda66d5897d2bed3767979fbb48b9d618f71d5"
+    },
+    {
+      "index": 21,
+      "id": "1YTvC-HfiXvRg-toUrnK4Rb0dBCwFGIGD",
+      "original": "IMG-20261014-WA0203.jpg",
+      "name": "021.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1132916,
+      "sha256": "804ee0583941c7263648b45abe8c2cc3829fc7852d82db04b25f3b9e223d66c2"
+    },
+    {
+      "index": 22,
+      "id": "1SQgcqXXUDLV5Msmfe5GQfcWbJq1iIvgM",
+      "original": "IMG-20261014-WA0202.jpg",
+      "name": "022.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 366664,
+      "sha256": "70c753c4bac5d6850d0be78d3217ccbcd2727ebe5ca67d503b88e8ef4d57d6ee"
+    },
+    {
+      "index": 23,
+      "id": "1zs46mRPod9cwNvWgWdly_qFLXKRnGK72",
+      "original": "IMG-20261014-WA0201.jpg",
+      "name": "023.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1125820,
+      "sha256": "1c0a28da9dbd56745d03a8d4eaa4061751db8a86ce9c93ca6499a99a30928a90"
+    },
+    {
+      "index": 24,
+      "id": "1-Mut_SiwMI-qJknzIZQ4Qv6x0L1VskC6",
+      "original": "IMG-20261014-WA0198.jpg",
+      "name": "024.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1108786,
+      "sha256": "f604778bfd74fd6a46dcbe5116f7073d6a3baa64cd52fbcdabe5b56e46476ec7"
+    },
+    {
+      "index": 25,
+      "id": "1qScnKZ1aRMo6k5wSK4837DgDubljU9pE",
+      "original": "IMG-20261014-WA0199.jpg",
+      "name": "025.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1085066,
+      "sha256": "e5a796b18ee5d6bba27d7c4f616f1289b8deaa4658ef7206742d674c3d164bdf"
+    },
+    {
+      "index": 26,
+      "id": "1y8oAIjA6Xw8iTVT7pVy3Fm7a88xelxdL",
+      "original": "IMG-20261014-WA0200.jpg",
+      "name": "026.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1155774,
+      "sha256": "8b9b060723c06db6611802edab47eb521a649f61bff25c54bef121907d795a5f"
+    },
+    {
+      "index": 27,
+      "id": "1vlumTeLPqdQDPX0NjXC6BQsou5bs-C2q",
+      "original": "IMG-20261014-WA0197.jpg",
+      "name": "027.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1011232,
+      "sha256": "66342e8b7ca1fad502e8e1d53d146d32791f4b3facf48736de83ad3f5d44d793"
+    },
+    {
+      "index": 28,
+      "id": "1_0yIfb7DUsKLVYa81tXDXlIMmuoaFGyt",
+      "original": "IMG-20261014-WA0194.jpg",
+      "name": "028.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1195926,
+      "sha256": "f7bdab9bd699af064cf7a26397f98398d3cc16b81f9414ac12c7d1e1b5ffc5dc"
+    },
+    {
+      "index": 29,
+      "id": "1-VBailkec4VxCKwQeMUAdcwzsumCGACO",
+      "original": "IMG-20261014-WA0193.jpg",
+      "name": "029.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 961448,
+      "sha256": "b1a5228ab6970a3abff097f57bc194babb6f11787c7befd8abf936eb3aec81b9"
+    },
+    {
+      "index": 30,
+      "id": "1Qysos4lKacqrNMuOVlvoa1P9gYmKIO6R",
+      "original": "IMG-20261014-WA0188.jpg",
+      "name": "030.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1173916,
+      "sha256": "1381ec874466c6c7b16c814e8ff93a48d1eab5bc3de6401a9a57684c2132e50e"
+    },
+    {
+      "index": 31,
+      "id": "10aNKH3_nKNcIqycdxk3yAfOXFtqJ3s2u",
+      "original": "IMG-20261014-WA0189.jpg",
+      "name": "031.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 307724,
+      "sha256": "961dd5b8c6d1d35b56f4d859a12c87aa7caa1f1b4eb05dd979ca0114cd3c4631"
+    },
+    {
+      "index": 32,
+      "id": "1hkOaTLOvhcPi2vEqiVh_EtYV-zfwLNJ8",
+      "original": "IMG-20261014-WA0190.jpg",
+      "name": "032.webp",
+      "width": 1400,
+      "height": 1051,
+      "bytes": 472338,
+      "sha256": "c9e7d920423d002bad2623897b4288caf75c74e5a8cb4067ed0bfe582aed8fb9"
+    },
+    {
+      "index": 33,
+      "id": "1bD_JopfLuVw3vKDVtXhRSWShpKUG4dQm",
+      "original": "IMG-20261014-WA0187.jpg",
+      "name": "033.webp",
+      "width": 1400,
+      "height": 1865,
+      "bytes": 653664,
+      "sha256": "829ccfa397903fdb7f1d2d39bfc393c942300b24569b3a6272fe559bbfce3318"
+    },
+    {
+      "index": 34,
+      "id": "1f5pjuEYegb5BJXnkVoRrI10RyLJdrp2i",
+      "original": "IMG-20261014-WA0186.jpg",
+      "name": "034.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 362252,
+      "sha256": "0756b7466dd12cc54750971f2d9646a1c2b1fa8e9502f3497e0854c10f870ab1"
+    },
+    {
+      "index": 35,
+      "id": "1rbWEJleF57xaADPDW2H6qjwuE9XxP8xx",
+      "original": "IMG-20261014-WA0185.jpg",
+      "name": "035.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 323858,
+      "sha256": "4d1396f3beb62bb7ddf0b10bff6cd279026401157c5a8cd0b53d11bc8127cd98"
+    },
+    {
+      "index": 36,
+      "id": "1CyH1twyLqnLtWqwLyu__An3E-5SlI5qc",
+      "original": "IMG-20261014-WA0182.jpg",
+      "name": "036.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 938456,
+      "sha256": "48ab7193fb3976e57c87bd6713838e24f3749afdccf9f84d8c076307052f19de"
+    },
+    {
+      "index": 37,
+      "id": "169zRvTe7C7ATSxf-6IisDZYEJrL3NNEp",
+      "original": "IMG-20261014-WA0183.jpg",
+      "name": "037.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 329724,
+      "sha256": "664d13a0fd4046637c57bd3f7f42c4f3eb0c19dac3e236eca34fa6ac725699f8"
+    },
+    {
+      "index": 38,
+      "id": "1CVWD-QdQZdBUBWwxoJLy4TdhXjKFB-Ul",
+      "original": "IMG-20261014-WA0184.jpg",
+      "name": "038.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 358322,
+      "sha256": "d3ce8b0f141298b098116cae031898fd71a9605a57583df2db6fb9dc07444d6a"
+    },
+    {
+      "index": 39,
+      "id": "1wARjmkykOyavIj33228scUVYTiXFgU6O",
+      "original": "IMG-20261014-WA0181.jpg",
+      "name": "039.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 379302,
+      "sha256": "f1ad46fa9b57b4809d5ffc915a29f1b088e25d2a9695813323393c810651ea7d"
+    },
+    {
+      "index": 40,
+      "id": "1nOJ_UM0BufkkslQOPMlDXpKIJNjh_QZY",
+      "original": "IMG-20261014-WA0180.jpg",
+      "name": "040.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1073888,
+      "sha256": "cf399a41c7a3dc3bbc5a6b009c4f9653ece449dd5a2d0640b083cea2702ab1de"
+    },
+    {
+      "index": 41,
+      "id": "1kzc9wNnIpn_Z1UwYLBLiB4nHbhesdM-s",
+      "original": "IMG-20261014-WA0179.jpg",
+      "name": "041.webp",
+      "width": 1400,
+      "height": 1867,
+      "bytes": 783110,
+      "sha256": "69956fe4354f727a94982ad3765254f1a6e4438169a9480041d8476c1b967d1d"
+    },
+    {
+      "index": 42,
+      "id": "1VnLCQnJ1-GG6ksxz6eRV9PBhCFAVTFNO",
+      "original": "IMG-20261014-WA0175.jpg",
+      "name": "042.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 357612,
+      "sha256": "d7a9075c2864038b792026e598eaf6b8ac427100fef1d68eb2dd4792a3ac1dc4"
+    },
+    {
+      "index": 43,
+      "id": "14KLelxjx4ouYp3G_bQyPnq_oRYlYDcs_",
+      "original": "IMG-20261014-WA0177.jpg",
+      "name": "043.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 364018,
+      "sha256": "bc5c4a113e8a548b23aacec79054a59c119c7c667fc6eafb579ff9e809fc6565"
+    },
+    {
+      "index": 44,
+      "id": "15WdY6umjkwoXAbUkKjCYjdt_tPAh3JLC",
+      "original": "IMG-20261014-WA0178.jpg",
+      "name": "044.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 349524,
+      "sha256": "131f7a097ca7c483dd73c307f46c2a305f8929124f08c4ca17378fb9fb5c9755"
+    },
+    {
+      "index": 45,
+      "id": "1YXRSSo9V7MFiO03gBfREdxkFEJ34KSm_",
+      "original": "IMG-20261014-WA0173.jpg",
+      "name": "045.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 344394,
+      "sha256": "55002f6270d4b637e4add103f1db056370d5047943cff797bf89b1d20e4d946a"
+    },
+    {
+      "index": 46,
+      "id": "1T03Ue1jgLr9VL9ALKOJkjbL2lgpjJP7h",
+      "original": "IMG-20261014-WA0172.jpg",
+      "name": "046.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 921716,
+      "sha256": "c6997ac75dac7fe7d21c75741706bbde61a68d371761505c89f47e91669e130d"
+    },
+    {
+      "index": 47,
+      "id": "1Yq_EzUMm9FeITN-t4Bu3Qm-u90LC891S",
+      "original": "IMG-20261014-WA0170.jpg",
+      "name": "047.webp",
+      "width": 1400,
+      "height": 1867,
+      "bytes": 783110,
+      "sha256": "69956fe4354f727a94982ad3765254f1a6e4438169a9480041d8476c1b967d1d"
+    },
+    {
+      "index": 48,
+      "id": "1p110RJbJNuf67tp8GE3WgsZWMxXozelQ",
+      "original": "IMG-20261014-WA0166.jpg",
+      "name": "048.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 323992,
+      "sha256": "0a36dc68880d55d79f0fa9b2a9bd5c04dd53c82299c1794f07ffc88db7246276"
+    },
+    {
+      "index": 49,
+      "id": "1oFZfIZvBAmXR1yu78_iuYNXOsRbOEeVZ",
+      "original": "IMG-20261014-WA0168.jpg",
+      "name": "049.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 376876,
+      "sha256": "0ec5412e5141ff6abb4a549a3c00c068fbb4771ef66b08f76e9f6a5182b4e9e7"
+    },
+    {
+      "index": 50,
+      "id": "1iWsscUHs5hCBNcg4TqZXs1UbhUxWP6X_",
+      "original": "IMG-20261014-WA0169.jpg",
+      "name": "050.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 370550,
+      "sha256": "b30de6ea0a7cc5331a3bd5d62c15501a9fc5d19e3de54ba518db5378b882b63f"
+    },
+    {
+      "index": 51,
+      "id": "1xI0IvUm_R2xxxWco25Gc1Jauua4QWotk",
+      "original": "IMG-20261014-WA0160.jpg",
+      "name": "051.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1123554,
+      "sha256": "80d1d2462622d5dc03c101b736a960ccc5824a6c82c9ac11b185c301adcd5082"
+    },
+    {
+      "index": 52,
+      "id": "1GhHycRRdw753JcPxpy0fmlYSnYp-7mn0",
+      "original": "IMG-20261014-WA0164.jpg",
+      "name": "052.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 469900,
+      "sha256": "f9381e08622c804b5800effaccd7fa33edd6bd82e6f6028a4514baadc8ab5dfa"
+    },
+    {
+      "index": 53,
+      "id": "1ejdFnzmBQ3IWRBIcT8FG3hfTwzplSeBm",
+      "original": "IMG-20261014-WA0162.jpg",
+      "name": "053.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1250932,
+      "sha256": "df4a61cf25664ea6d85c2a9911f0465a40028d1761a691366b53b33f6e20a17f"
+    },
+    {
+      "index": 54,
+      "id": "1VZJE5hRxmgyYH6HzQxVDbJ7bUsAQ6EKI",
+      "original": "IMG-20261014-WA0157.jpg",
+      "name": "054.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1241962,
+      "sha256": "d5a0c656c4d113c81540cb579800132444e5474e7436cd057c6088b0197a5dc3"
+    },
+    {
+      "index": 55,
+      "id": "1ySQGki2JQwwdgewhun3VMpzlA-8e16dx",
+      "original": "IMG-20261014-WA0155.jpg",
+      "name": "055.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 303744,
+      "sha256": "2ddf71409136a06db726e6d894d15258ac209a0fa6b5f79e03b7e6a00b4ac37c"
+    },
+    {
+      "index": 56,
+      "id": "16L9p42UbnCFkJDkLi7wsDun2Hg40cnAV",
+      "original": "IMG-20261014-WA0158.jpg",
+      "name": "056.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1024846,
+      "sha256": "2e002a0466fe0d37d9a99e3de9f70407cd840808faa3f2ef5db41c00d79026fb"
+    },
+    {
+      "index": 57,
+      "id": "1ADvdvg8ebd5MFoF0zuxg5y4DHFq5Kb_D",
+      "original": "IMG-20261014-WA0153.jpg",
+      "name": "057.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1173916,
+      "sha256": "1381ec874466c6c7b16c814e8ff93a48d1eab5bc3de6401a9a57684c2132e50e"
+    },
+    {
+      "index": 58,
+      "id": "1bTmjuNhjUdRv-YGGNYV3epvoaMRQUc1m",
+      "original": "IMG-20261014-WA0151.jpg",
+      "name": "058.webp",
+      "width": 1400,
+      "height": 1867,
+      "bytes": 858788,
+      "sha256": "de1eee003577238fd93ee942cae23d46c15fd04a44de3146b5e1a13e4ebc1ab2"
+    },
+    {
+      "index": 59,
+      "id": "1tNzloavuClC-5dJDsDM4gAYvUpwlDAkT",
+      "original": "IMG-20261014-WA0149.jpg",
+      "name": "059.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1155774,
+      "sha256": "8b9b060723c06db6611802edab47eb521a649f61bff25c54bef121907d795a5f"
+    },
+    {
+      "index": 60,
+      "id": "13n7qlv_C0ssMVGVck-tyvWTiQgYNuMKG",
+      "original": "IMG-20261014-WA0143.jpg",
+      "name": "060.webp",
+      "width": 1400,
+      "height": 1865,
+      "bytes": 601212,
+      "sha256": "8bde295adbabb27842406d7e4478630b7e7be345382a4e51bb7df0f32984e043"
+    },
+    {
+      "index": 61,
+      "id": "1y9qtKkvpiyurcVKqFK7lY7O92szNE2jC",
+      "original": "IMG-20261014-WA0145.jpg",
+      "name": "061.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 434650,
+      "sha256": "e32372ce6287adeab0c8779dc98953c005df922207f9318a54f2671e697972fc"
+    },
+    {
+      "index": 62,
+      "id": "1lZ-kLohnWrjg_iUMnsUh65wlPn-oqQ1i",
+      "original": "IMG-20261014-WA0147.jpg",
+      "name": "062.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1006252,
+      "sha256": "3f9959567182dbe3c1b0f8ee54898f2f6c02b196c822543db280ca7ded66a177"
+    },
+    {
+      "index": 63,
+      "id": "1RzorcWthxj6DjVsr1DtKNLviJN39UeE0",
+      "original": "IMG-20261014-WA0141.jpg",
+      "name": "063.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 349314,
+      "sha256": "e2cc141ba2043fa11faa306ab9538ad2651661600ace38f3a3868ad4a464d9ba"
+    },
+    {
+      "index": 64,
+      "id": "1sl8tRCnufz4QiwW6_5e66Pi3dTnqAjYK",
+      "original": "IMG-20261014-WA0138.jpg",
+      "name": "064.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 977312,
+      "sha256": "f80bfe12e58d5d261ef432f6e9054fe0777a55df33bd168ae3908d0565307bb9"
+    },
+    {
+      "index": 65,
+      "id": "1tA7QhBH5CYtbOgJ8Fg9oRJfpYTr0hsTe",
+      "original": "IMG-20261014-WA0139.jpg",
+      "name": "065.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1023048,
+      "sha256": "99e62c450c59128cd86c293c1c42a7c34b20305ad5e2d6cff2603791f5d7d003"
+    },
+    {
+      "index": 66,
+      "id": "15tY6DnOzt7V_kCSbhVnP9eqBlDCAMWYN",
+      "original": "IMG-20261014-WA0133.jpg",
+      "name": "066.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1029214,
+      "sha256": "8ee9fa9e78df6039367174457b5837ed11f51475588c191175843102234ae14e"
+    },
+    {
+      "index": 67,
+      "id": "1cGJyUQ7ZbViysTsA3GLjLVVFrXmCORy1",
+      "original": "IMG-20261014-WA0135.jpg",
+      "name": "067.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 894126,
+      "sha256": "2c0aec8844d0447c49df017347737425ee440dd6cfc45ba0abc049da641fbfe4"
+    },
+    {
+      "index": 68,
+      "id": "16hzOTOT6jAcz3VsmYxXtBLTUIlRrMjgX",
+      "original": "IMG-20261014-WA0136.jpg",
+      "name": "068.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 897506,
+      "sha256": "5b19ef0b9574b848521ea044e586cf8e627686391083448eca8a19caa9ff60cf"
+    },
+    {
+      "index": 69,
+      "id": "1pX88GpU-yEV3UUYspbxVdVD9TSKhUGdQ",
+      "original": "IMG-20261014-WA0130.jpg",
+      "name": "069.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1241962,
+      "sha256": "d5a0c656c4d113c81540cb579800132444e5474e7436cd057c6088b0197a5dc3"
+    },
+    {
+      "index": 70,
+      "id": "1klU5eZQRtwNgGiL2WAtl7w__8pxD1YhK",
+      "original": "IMG-20261014-WA0128.jpg",
+      "name": "070.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 877724,
+      "sha256": "8633d6e288407fc7c795c803a7c233906d6b85bbcf35acc1706e1ffac59082f2"
+    },
+    {
+      "index": 71,
+      "id": "1rkYDnSgOd0oHsQnGHW5YTT6YIZcF2hKN",
+      "original": "IMG-20261014-WA0126.jpg",
+      "name": "071.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 847706,
+      "sha256": "f05899a3abf3b75827276e167ac40752f00fdee422d91df20f52ff9a4eba90b0"
+    },
+    {
+      "index": 72,
+      "id": "1VflEm5bOtyfpJs7eg9oPrWsInNKegtJf",
+      "original": "IMG-20261014-WA0120.jpg",
+      "name": "072.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 840266,
+      "sha256": "6a758d16bbaac5ffaac96079adbe86397e283f76d31af63d14977773f5582996"
+    },
+    {
+      "index": 73,
+      "id": "1EsoaogR9KQwFImYqn8euvkBU3IJvc19X",
+      "original": "IMG-20261014-WA0122.jpg",
+      "name": "073.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 311112,
+      "sha256": "470d840b953f032d6a1256bf4c534fd7958574eeea5f0e4ea5901cfc9112c026"
+    },
+    {
+      "index": 74,
+      "id": "1hI-7-ixlBg8QmOA8w5fw3OqoOic58Ev8",
+      "original": "IMG-20261014-WA0124.jpg",
+      "name": "074.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 346302,
+      "sha256": "c76f5358a4fe82d1ca9d987accbd679441d0834b6f5afbd5e72a25cf57235840"
+    },
+    {
+      "index": 75,
+      "id": "109mQ0p0ja4ZwzbbekaaragiZFsUSkWYe",
+      "original": "IMG-20261014-WA0118.jpg",
+      "name": "075.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 345108,
+      "sha256": "567f5e8a20cb73adc7781344f4c0a8a019c16614c23da64934f3490ca4dc9da2"
+    },
+    {
+      "index": 76,
+      "id": "1zHGIPYM874mz6ufRcdv7UYeLSQLgziah",
+      "original": "IMG-20261014-WA0116.jpg",
+      "name": "076.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 892458,
+      "sha256": "4ad1cdf3f9cb949327b773ae260d1f77035d3d40d9815f021e3d05600f20c070"
+    },
+    {
+      "index": 77,
+      "id": "1aUKjj2fCBRsFPsknQFF3WbG7LmFH0Ff5",
+      "original": "IMG-20261014-WA0115.jpg",
+      "name": "077.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 349532,
+      "sha256": "31abf383988bbeaa53558daff6927eb4b477cf8f61a267aa4a9f93f864928ee1"
+    },
+    {
+      "index": 78,
+      "id": "1RDfxrh9nngAYDu5h8zTjoJAdcsf458y_",
+      "original": "IMG-20261014-WA0110.jpg",
+      "name": "078.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 344140,
+      "sha256": "f7e4112c1dbcfca6dee3afe8ca7153d4ac69a721a38263932c5bdc5efa4d7b54"
+    },
+    {
+      "index": 79,
+      "id": "1Kqft6YRq3FvhxSMfnK4iPHaICLqpLMQB",
+      "original": "IMG-20261014-WA0112.jpg",
+      "name": "079.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 915226,
+      "sha256": "c1d87d0138a488a4c82ec8f824b8db9a317eaf550f35d6777390a4361941ed80"
+    },
+    {
+      "index": 80,
+      "id": "14EQl2DtLIG6L75eVMtf8KYbDFUpf0VPE",
+      "original": "IMG-20261014-WA0113.jpg",
+      "name": "080.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 993092,
+      "sha256": "e8d8630c83c158185299598d63e444fdb299713ea0643f6277a991dce0e749de"
+    },
+    {
+      "index": 81,
+      "id": "1dE5ezVbcbADYGnDKdB-Mooc_3Edv9Upd",
+      "original": "IMG-20261014-WA0108.jpg",
+      "name": "081.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 333918,
+      "sha256": "001f0a0834202f709622bd75ddb44aa60c9fd764f131ce9eaa62800fb14728e5"
+    },
+    {
+      "index": 82,
+      "id": "11-7SXa70qfWlQtyCcEC6h5kIrAzc5hWM",
+      "original": "IMG-20261014-WA0107.jpg",
+      "name": "082.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 994234,
+      "sha256": "ecd800a26eae2359610dd3661bd6ffd6f73261aa7b9b0054babf8e7ba1d8e0de"
+    },
+    {
+      "index": 83,
+      "id": "1eYIeEH__Yv71_yXyhXguLngYbGAXif2W",
+      "original": "IMG-20261014-WA0106.jpg",
+      "name": "083.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 263364,
+      "sha256": "66e0a8beb40660e85771ca484453a19e307d99bc7027309238fbae09f06d31f4"
+    },
+    {
+      "index": 84,
+      "id": "1T2jt_PAo20oeABT6hZJfIZbGtFfo10Pf",
+      "original": "IMG-20261014-WA0099.jpg",
+      "name": "084.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 310646,
+      "sha256": "3249e07491672f003b69c0390cb51d5f98a6950030ad18215e57213d2b9d5978"
+    },
+    {
+      "index": 85,
+      "id": "11nCJWoTrO_TSKTWdH2UVlt6n4-uCXvHQ",
+      "original": "IMG-20261014-WA0100.jpg",
+      "name": "085.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 728708,
+      "sha256": "9b404c8f345bac71e376d1dbd2bcd1a7836d4fad90bc5a34a256304546b362ec"
+    },
+    {
+      "index": 86,
+      "id": "15Vltop57Zgjjx9VlU6B6_5L-VcXI5Z9E",
+      "original": "IMG-20261014-WA0102.jpg",
+      "name": "086.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 885068,
+      "sha256": "7010f110e4128fe79bbe00c8cbd72a8056a3d5dde19d40e663b83456cf0b8354"
+    },
+    {
+      "index": 87,
+      "id": "1rrbiwfsatjSwfgrx7Mrg3a--j8vJXFci",
+      "original": "IMG-20261014-WA0098.jpg",
+      "name": "087.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 842838,
+      "sha256": "11d661b3bcec6392c2ff5c68a06e503bc8c4d68059199eb4e2a422dac07c0610"
+    },
+    {
+      "index": 88,
+      "id": "1toScSdr-qGuHBLN2THyk86N9BPYOhBFj",
+      "original": "IMG-20261014-WA0097.jpg",
+      "name": "088.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 825328,
+      "sha256": "252dc3ab4c00bcae342c42ccd0b9e039f932cd2ba25e4839901af1e7f81e4f9c"
+    },
+    {
+      "index": 89,
+      "id": "1vkNjmAumNoEibpGa9um3FoW5PxmzUlOh",
+      "original": "IMG-20261014-WA0096.jpg",
+      "name": "089.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 795290,
+      "sha256": "b111f946b7ea1855487e4935b371ca4d703ac372a7a50d30a3c7646498c6f8f1"
+    },
+    {
+      "index": 90,
+      "id": "1zVEI1FSRPE4jB-Jk8xM7gi8Llszstd7w",
+      "original": "IMG-20261014-WA0092.jpg",
+      "name": "090.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 994234,
+      "sha256": "ecd800a26eae2359610dd3661bd6ffd6f73261aa7b9b0054babf8e7ba1d8e0de"
+    },
+    {
+      "index": 91,
+      "id": "1WsnZ87De0WCdKxRYksG_TQEuMVPYCpIJ",
+      "original": "IMG-20261014-WA0094.jpg",
+      "name": "091.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 346142,
+      "sha256": "31897f74c77d4367f6cea03a7de0226dd4aaaf1a48c130a94c222a1bfac7d1dc"
+    },
+    {
+      "index": 92,
+      "id": "1xV537TmchRYucDK7usTBoGlaMgYcf0xU",
+      "original": "IMG-20261014-WA0095.jpg",
+      "name": "092.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 1099682,
+      "sha256": "5c9fa7d2c694c97f8d0e5d51817bf4e72f89568b7cf992b5140e13d18b2ea518"
+    },
+    {
+      "index": 93,
+      "id": "1sbp4xDx3BvpdUYxbaMTNTbzETDUnKrBA",
+      "original": "IMG-20261014-WA0091.jpg",
+      "name": "093.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 603578,
+      "sha256": "83a45fb136a075512865b6593484f20e3668119fde5b805e3e031d33a44c5bd6"
+    },
+    {
+      "index": 94,
+      "id": "19WblpRWaIsH_BSN53R12F1h1ldP1Qp1g",
+      "original": "IMG-20261014-WA0087.jpg",
+      "name": "094.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 315462,
+      "sha256": "87e1437c819e95e9c2e2a82e89de6f66aad739ac71f1a964d0d2e7a6f22f1ee8"
+    },
+    {
+      "index": 95,
+      "id": "1BdIl73WaNzS6_kdeRKEb4dERU3NZbkVQ",
+      "original": "IMG-20261014-WA0083.jpg",
+      "name": "095.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 645182,
+      "sha256": "76fa6b4fa96c29c5ecc9e4cac89a8dc7fd594988e0c4cc13556d01044307726a"
+    },
+    {
+      "index": 96,
+      "id": "1DRa5Fu-GldRQgxBIfFakoiOupI1gYY0S",
+      "original": "IMG-20261014-WA0085.jpg",
+      "name": "096.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 988638,
+      "sha256": "dd368a3b4734815d0a26bce818f91b9c99e6113211e140ac7ea19d0b176f11c2"
+    },
+    {
+      "index": 97,
+      "id": "1uisi-_kz5cfsuOc5zYjvYq8SZiRZSguf",
+      "original": "IMG-20261014-WA0086.jpg",
+      "name": "097.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 717338,
+      "sha256": "5d139ab1642e6979ffa755467f129fa97c21d000ac5d83c6e11dbac909d3470f"
+    },
+    {
+      "index": 98,
+      "id": "1mGNWcn9Rrdsvyb0m1F9LhgjvW6yFQM0u",
+      "original": "IMG-20261014-WA0080.jpg",
+      "name": "098.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 299082,
+      "sha256": "466f5f92fc307aebeeb2ba9c37b8fb74ea3dc74349f5b744a6f6b2463e9d92a5"
+    },
+    {
+      "index": 99,
+      "id": "1R40RIWxEuHZbPv-kqqpJ3hcSnqQOPxi0",
+      "original": "IMG-20261014-WA0079.jpg",
+      "name": "099.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 470224,
+      "sha256": "7348306157dd4a92d97a2f7ab1de4a68b0b2d97d1d5a3cc1f3ae7ce53b1eee6c"
+    },
+    {
+      "index": 100,
+      "id": "1c84mf_evu8w0T5-ZeeckrLX5WEbohW_0",
+      "original": "IMG-20261014-WA0078.jpg",
+      "name": "100.webp",
+      "width": 1400,
+      "height": 2496,
+      "bytes": 777730,
+      "sha256": "14feeb97184a6db5d81d2268649fbffadf0fe7dc78e44c90f1156688bfbfc590"
+    },
+    {
+      "index": 101,
+      "id": "1if7m48otI0peVIFsEQxd-3ZB2j5wBO4a",
+      "original": "IMG-20261014-WA0069.jpg",
+      "name": "101.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 335108,
+      "sha256": "a385220fa38e1f1cf9d1b425a402a9a44af917d4fab2225dd64b1662855faa1f"
+    },
+    {
+      "index": 102,
+      "id": "1nsPDVXiYaT8LTOSTX9o9CrkDxMwqjv7U",
+      "original": "IMG-20261014-WA0075.jpg",
+      "name": "102.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 480172,
+      "sha256": "18eaa29d77da08f1095b5970c9832c5022c0ccacde55a5f32c15f9ae69d8dce7"
+    },
+    {
+      "index": 103,
+      "id": "1zlvVwkCWc5mAlQpskrrkmhi5alpXOZRY",
+      "original": "IMG-20261014-WA0077.jpg",
+      "name": "103.webp",
+      "width": 1400,
+      "height": 787,
+      "bytes": 323440,
+      "sha256": "3dc19096e037a34631bb5f2d3a82a8dcfb319f99b51cb27f5458ccd602aaf530"
+    },
+    {
+      "index": 104,
+      "id": "1MaNT0IvSoIOimaoF41SucMplBD4bWRB0",
+      "original": "IMG-20261014-WA0066.jpg",
+      "name": "104.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 732054,
+      "sha256": "b99d6e415367aefb30f1b067c177ceb93c8a4923c3b3edb3284afc1b3bc7528f"
+    },
+    {
+      "index": 105,
+      "id": "12r2kRNOG-YGGU771fdbRFjFbhfOqr9nF",
+      "original": "IMG-20261014-WA0065.jpg",
+      "name": "105.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 690332,
+      "sha256": "d479de71974ddd0d22a5295c82ecb0953c89629e880591e5d7a6a29dae9bf946"
+    },
+    {
+      "index": 106,
+      "id": "1ho4DUUGc5VGVGaAxM731n6WzMJH2cyuU",
+      "original": "IMG-20261014-WA0061.jpg",
+      "name": "106.webp",
+      "width": 1400,
+      "height": 2496,
+      "bytes": 566316,
+      "sha256": "4a165ae120d4580a58fae0f3fce855f8a5f3f5c84918b6602b5292fe43762243"
+    },
+    {
+      "index": 107,
+      "id": "1bbj3USXtWA4472KIBH69vEGn2DlBz505",
+      "original": "IMG-20261014-WA0057.jpg",
+      "name": "107.webp",
+      "width": 1400,
+      "height": 2496,
+      "bytes": 564806,
+      "sha256": "336bf0f2a77fc285c207d4e75d31514e7895889027d88cd7a8bb59802a87dc53"
+    },
+    {
+      "index": 108,
+      "id": "10Zco4h_wmBN_PsqRUI9aVwNXC1DY40OP",
+      "original": "IMG-20261014-WA0058.jpg",
+      "name": "108.webp",
+      "width": 1400,
+      "height": 2496,
+      "bytes": 534816,
+      "sha256": "bd51685f0435b3f618fda275e54b9635456773c3ef4e169e249be32ff41470d0"
+    },
+    {
+      "index": 109,
+      "id": "16NngT4H9tldS2UxlhQorXAKjGYWy5h12",
+      "original": "IMG-20261014-WA0059.jpg",
+      "name": "109.webp",
+      "width": 1400,
+      "height": 2496,
+      "bytes": 666194,
+      "sha256": "af0a89ba31f16a49a3b320a58777d416b7bc9769d2b7833b5f9ef70ca1172922"
+    },
+    {
+      "index": 110,
+      "id": "1COf0kI_rq4JqOC7n-fJe6g9fGwJDYxsr",
+      "original": "IMG-20261014-WA0056.jpg",
+      "name": "110.webp",
+      "width": 1400,
+      "height": 2496,
+      "bytes": 556930,
+      "sha256": "a8152f8d59bbc7304955f5a415c187e2ce4e49dd4483707dc6c1b4b43392de61"
+    },
+    {
+      "index": 111,
+      "id": "1uHj3QaYqZriCmpscb6yUUJWXAlPg4dx7",
+      "original": "IMG-20261014-WA0051.jpg",
+      "name": "111.webp",
+      "width": 1400,
+      "height": 2496,
+      "bytes": 512004,
+      "sha256": "2cc910307932b8b24f760c715140e53d2cb8d6af31ffc9fc24958be66288d358"
+    },
+    {
+      "index": 112,
+      "id": "1cM-Va3-UnWgrvXyxiXT8Iek7HL8Uxt0B",
+      "original": "IMG-20261014-WA0047.jpg",
+      "name": "112.webp",
+      "width": 1400,
+      "height": 2490,
+      "bytes": 966620,
+      "sha256": "40235024d3e77f53fcc26828c9227a3810e0f2905669be628e9a0532f282976d"
+    },
+    {
+      "index": 113,
+      "id": "18vRsFGW0HNkOMOGSL7KajDWmIThIoqxr",
+      "original": "IMG-20261013-WA0013.jpg",
+      "name": "113.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 133318,
+      "sha256": "27deed222f48bfb0ecb7823be5118aeab689dd055aa6eae65a82c5a0053521b8"
+    },
+    {
+      "index": 114,
+      "id": "1w7NLNJn7FlneDK7-C2WYbApTl9QLC2qs",
+      "original": "IMG-20261013-WA0010.jpg",
+      "name": "114.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 115036,
+      "sha256": "5eb2b032722af4aef353d6dcbce36ef734f0e59847086b51735f9d456e1f7e91"
+    },
+    {
+      "index": 115,
+      "id": "1btO_-mqFRuB8vh44vC49aN-hi_aBiscp",
+      "original": "IMG-20261013-WA0015.jpg",
+      "name": "115.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 74196,
+      "sha256": "f1a0d01a026426b14efafcb8d691137be136dea4ea02bf32211f409622ae921e"
+    },
+    {
+      "index": 116,
+      "id": "1saqogZ4NB2rhqevfbZE3lZQa-1N6889v",
+      "original": "IMG-20261013-WA0011.jpg",
+      "name": "116.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 126504,
+      "sha256": "789454d5ddf874681d9c52e068b0b634c275d6cd90b59236b71611acaa2baace"
+    },
+    {
+      "index": 117,
+      "id": "1loQWuNaYuTUgqoYhhcL33U3SIsk_-cOF",
+      "original": "IMG-20261013-WA0014.jpg",
+      "name": "117.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 203846,
+      "sha256": "33bc2122b22aaa16cc0279bce7b00a8dc869fd8c258447c58a983b7ba96cfd97"
+    },
+    {
+      "index": 118,
+      "id": "1Czgwazi_1oXPi1dEyZ9_gagahk90b1NH",
+      "original": "IMG-20261013-WA0012.jpg",
+      "name": "118.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 176288,
+      "sha256": "b6f4b19a6c31df2421761322f82073f50fdbdb74258c5cfc33bced664ebcf254"
+    },
+    {
+      "index": 119,
+      "id": "1IF9-W5dsFaN3foOt0wfd5jVZOgSQ6uzm",
+      "original": "IMG-20261013-WA0008.jpg",
+      "name": "119.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 102900,
+      "sha256": "30f18fd1d9eb61b9702d701ac81d3d3f6879a9808794aeeac8d80530bf9e3f9c"
+    },
+    {
+      "index": 120,
+      "id": "1mTqfx5uW48tzzDod-c0Ib8dQlCXPwapJ",
+      "original": "IMG-20261013-WA0007.jpg",
+      "name": "120.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 223352,
+      "sha256": "454894c673774da3add9343ad985b9a50261f2f91c71445b9f29e941449fad48"
+    },
+    {
+      "index": 121,
+      "id": "1yjcZxIjaYS5tBnCY9QsitAimtSibHhj8",
+      "original": "IMG-20261013-WA0009.jpg",
+      "name": "121.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 189494,
+      "sha256": "128fe098e010c3bb371d28869c63603b2617497ed764950b8f99d78b61c5edf0"
+    },
+    {
+      "index": 122,
+      "id": "1tjRK9Ug5IjWdEA4zebrgIyM3TRtshGZ9",
+      "original": "IMG-20261013-WA0005.jpg",
+      "name": "122.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 180784,
+      "sha256": "4ad4dbcc4518035e27a47f3275aecbc11de3e3e7edf9ec66b4abf672f61f3bfb"
+    },
+    {
+      "index": 123,
+      "id": "1tJR58uBJW_zyQujRPRdjy9gNAboP-GlV",
+      "original": "IMG-20261013-WA0004.jpg",
+      "name": "123.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 155064,
+      "sha256": "902f9154079fd5a7a283061e2226d7ca0408d488b05e2547d0a85eb2bdd2bd91"
+    },
+    {
+      "index": 124,
+      "id": "11PchwaUW3GeNiWvtEf2-xp_mGri3rX7q",
+      "original": "IMG-20261013-WA0006.jpg",
+      "name": "124.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 106674,
+      "sha256": "4f4c7b5be4187911f49a41702647cca7e4734e61ee76cfdb47564fc4524a1d88"
+    },
+    {
+      "index": 125,
+      "id": "1v4wqFt84yueh9SdLnW5SKoyygUCkYL81",
+      "original": "IMG-20261013-WA0003.jpg",
+      "name": "125.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 58694,
+      "sha256": "ae4294c19b4014b35bb191589db6c72ac601a70d2e9b8f1ebc8704d060c54111"
+    },
+    {
+      "index": 126,
+      "id": "1Y87RYLVMllYKmB1nyuP2vbSeFB-lCTPC",
+      "original": "IMG-20261012-WA0186.jpg",
+      "name": "126.webp",
+      "width": 1400,
+      "height": 646,
+      "bytes": 153190,
+      "sha256": "4fe8905d3dd3a502bc409f1ae9f19771bc4c44e6ef0b8734aa2338636e2059f4"
+    },
+    {
+      "index": 127,
+      "id": "1MlxQ-p9LONsQ_ir5546GKFV1H7Yx4Gdf",
+      "original": "IMG-20261012-WA0184.jpg",
+      "name": "127.webp",
+      "width": 650,
+      "height": 1156,
+      "bytes": 172370,
+      "sha256": "0c148ad14b85df73cc6e720b5d21d71f3dc4a1d4b84bd29b7e9e3d7b423e180f"
+    },
+    {
+      "index": 128,
+      "id": "1dRH60O-vmrSrWLyqLAwnuKRpkNiB64oC",
+      "original": "IMG-20261012-WA0179.jpg",
+      "name": "128.webp",
+      "width": 650,
+      "height": 1156,
+      "bytes": 154736,
+      "sha256": "546c1790a834892784cb9fd6a914a230c007b4b77ed6cf60f60c52e046fcb9db"
+    },
+    {
+      "index": 129,
+      "id": "1__iOoZdvZJxQCb_dyBN31byqwIU48aps",
+      "original": "IMG-20261012-WA0182.jpg",
+      "name": "129.webp",
+      "width": 1156,
+      "height": 650,
+      "bytes": 232632,
+      "sha256": "c3a4462ea2c2984f8eccebde718406e60363ac21a327e31260693674d8d68501"
+    },
+    {
+      "index": 130,
+      "id": "1EEQoftY1QSBXESyFMTkM-0LJxLUbtFIa",
+      "original": "IMG-20261012-WA0180.jpg",
+      "name": "130.webp",
+      "width": 960,
+      "height": 1280,
+      "bytes": 341442,
+      "sha256": "9a591b9d4aaa9c24fa8c26ba87116c91795bd76501750a7b42b805089f260426"
+    },
+    {
+      "index": 131,
+      "id": "1Ixt2UJ9jkYIdYCWsZKrC9pk8zFra7RKQ",
+      "original": "IMG-20261012-WA0168.jpg",
+      "name": "131.webp",
+      "width": 1156,
+      "height": 650,
+      "bytes": 188172,
+      "sha256": "d3af4d17c42dd93f47ffca931cdc7566e51237d2fc49ff68f6b01cb6a3c7174e"
+    },
+    {
+      "index": 132,
+      "id": "1b0vDMA0_iZwcg55ACpc566KI5ZLA9AlQ",
+      "original": "IMG-20261012-WA0174.jpg",
+      "name": "132.webp",
+      "width": 960,
+      "height": 1280,
+      "bytes": 370592,
+      "sha256": "65a595e35d418698d4637d763ac7c3ceb32c6a1ba6d4e231e7a000b5601f2d88"
+    },
+    {
+      "index": 133,
+      "id": "1ckfsrM_BZSS5FCxF7r3_7svP7kt2dfIo",
+      "original": "IMG-20261012-WA0177.jpg",
+      "name": "133.webp",
+      "width": 585,
+      "height": 1040,
+      "bytes": 178008,
+      "sha256": "80413374be7a183c2eb85ba807e1ec921fd3c860164bf8cba93e0f8058be4d44"
+    },
+    {
+      "index": 134,
+      "id": "1tawQwK1gwTCF-_RX7LTzkJzJzNhNZ8x8",
+      "original": "IMG-20261012-WA0169.jpg",
+      "name": "134.webp",
+      "width": 1156,
+      "height": 650,
+      "bytes": 200236,
+      "sha256": "93ed8f4fe7d93cc3fe7ff088e2ad8ae131f0096f4f361ec1d96a204966e8474b"
+    },
+    {
+      "index": 135,
+      "id": "1pcYN5SO4S7NunCaFAYemV0-HiARwnJhr",
+      "original": "IMG-20261012-WA0166.jpg",
+      "name": "135.webp",
+      "width": 585,
+      "height": 1040,
+      "bytes": 196300,
+      "sha256": "4583890e04b6693dab27710d092beb6678c30f3d55afe6d90f7ba04e99de420c"
+    },
+    {
+      "index": 136,
+      "id": "1UgcpFC9zKKWj5qZiJxAMBVqRDgwWCG12",
+      "original": "IMG-20261012-WA0154.jpg",
+      "name": "136.webp",
+      "width": 960,
+      "height": 1280,
+      "bytes": 390922,
+      "sha256": "785ee0e8b97bfa7a6a16b3a277911086cf4bb0f367205e4fdae5bc5b52f16723"
+    },
+    {
+      "index": 137,
+      "id": "1JyZeRFP7odc1-8pCEsDbtnYcANiySf3S",
+      "original": "IMG-20261012-WA0146.jpg",
+      "name": "137.webp",
+      "width": 1280,
+      "height": 960,
+      "bytes": 334058,
+      "sha256": "37b221898b89ba5b27a9efac877f1bd88a5ad2b73b76b3684349028d955d88cb"
+    },
+    {
+      "index": 138,
+      "id": "1ayOI8PzTx1ICh13B59J6kevi3vW_7B1J",
+      "original": "IMG-20261012-WA0171.jpg",
+      "name": "138.webp",
+      "width": 1156,
+      "height": 650,
+      "bytes": 206994,
+      "sha256": "6c22974bb5a6d316367647ac932bef044f368627299638401827fc7fbb22381a"
+    },
+    {
+      "index": 139,
+      "id": "1HJyoaENnvJMM0g2uLf1Ce1u2SltP-bSO",
+      "original": "IMG-20261012-WA0155.jpg",
+      "name": "139.webp",
+      "width": 1280,
+      "height": 960,
+      "bytes": 383620,
+      "sha256": "14b43b22e1d322e2b68a2613bca3679831d4eaf0af2f7d94eae72db5aa85e27e"
+    },
+    {
+      "index": 140,
+      "id": "1c9v85LAOVuwBVbVqZUoH8ZIAHg8McQi5",
+      "original": "IMG-20261012-WA0139.jpg",
+      "name": "140.webp",
+      "width": 718,
+      "height": 1280,
+      "bytes": 170784,
+      "sha256": "2361385b1882ec6a500f9a55b46bc9ee1d4295257f9ec617a27e5793b19d2005"
+    },
+    {
+      "index": 141,
+      "id": "19PUfE1ZmIH61LPwWJSrpOK1r01t2e9eu",
+      "original": "IMG-20261012-WA0133.jpg",
+      "name": "141.webp",
+      "width": 960,
+      "height": 1280,
+      "bytes": 381562,
+      "sha256": "af3d0225c1205f2f3054a51483be30d0df2a303f340364402ce24cae0dc8d601"
+    },
+    {
+      "index": 142,
+      "id": "1DkSmaF724hyO56o0LLIOtf3X7dzQZ_sH",
+      "original": "IMG-20261012-WA0161.jpg",
+      "name": "142.webp",
+      "width": 1280,
+      "height": 960,
+      "bytes": 370070,
+      "sha256": "9eeddd9c21ab3758c382303b1cd1a58977194dafb0c7394f4421fa53d1c3dd06"
+    },
+    {
+      "index": 143,
+      "id": "1fthSm5Z0jme7VQomEamBOiS1AK2JZlqH",
+      "original": "IMG-20261012-WA0143.jpg",
+      "name": "143.webp",
+      "width": 650,
+      "height": 1156,
+      "bytes": 199430,
+      "sha256": "2af8598c4ed9d77c84f5b0abc62e3787633b75bcce9c4e544f05ae44a78347fe"
+    },
+    {
+      "index": 144,
+      "id": "1AfvPQSodqaltvN0XApwjvLT8rU3n8uGf",
+      "original": "IMG-20261012-WA0122.jpg",
+      "name": "144.webp",
+      "width": 650,
+      "height": 1156,
+      "bytes": 220384,
+      "sha256": "a2a886e0746cd78b6d218fba956c75266d8f5ed9e570a27c829e40854d1711d3"
+    },
+    {
+      "index": 145,
+      "id": "1cM1r5XkbpiBCm23hah_LoAnU6ymgehFt",
+      "original": "IMG-20261012-WA0116.jpg",
+      "name": "145.webp",
+      "width": 650,
+      "height": 1156,
+      "bytes": 236348,
+      "sha256": "f85e01308a1c5cf22008a2b9b8daa956012988ac42e7c3fe0d93f0a8284fbf71"
+    },
+    {
+      "index": 146,
+      "id": "14RBaA_adaqhOo2IenIXrqcnZF70UM3Ha",
+      "original": "IMG-20261012-WA0117.jpg",
+      "name": "146.webp",
+      "width": 718,
+      "height": 1280,
+      "bytes": 223192,
+      "sha256": "bd26f913e15e8c11db4186552db07b2d453c0ad67bba811efd524538e579b535"
+    },
+    {
+      "index": 147,
+      "id": "1x5giz5eIP2QqO6Ujqtn9MGWnYkIiRZfR",
+      "original": "IMG-20261012-WA0123.jpg",
+      "name": "147.webp",
+      "width": 650,
+      "height": 1156,
+      "bytes": 207990,
+      "sha256": "e40df8158f53c2a722021176582c3b489c2935a953682e4b2ba67f5873dc1f3e"
+    },
+    {
+      "index": 148,
+      "id": "17psLprNvaIQq8vEraKsPE_r3d04pH-U7",
+      "original": "IMG-20261012-WA0112.jpg",
+      "name": "148.webp",
+      "width": 960,
+      "height": 1280,
+      "bytes": 355758,
+      "sha256": "e5206782bd7ef25a2e84f062bc5490e5ba5969d07d4c179080dff8bdb6ecdba1"
+    },
+    {
+      "index": 149,
+      "id": "16XTIMhZ0067TT6wEMLjNrpxbPSgh5Kc9",
+      "original": "IMG-20261012-WA0118.jpg",
+      "name": "149.webp",
+      "width": 718,
+      "height": 1280,
+      "bytes": 164588,
+      "sha256": "6cdb249b4e25aa31275fe4642b9f312b197027f24e7c8ce8a2e75766a4e52a29"
+    },
+    {
+      "index": 150,
+      "id": "199-hI1zIJb47t_1k9ZCuay0IGTmWmA4k",
+      "original": "IMG-20261012-WA0120.jpg",
+      "name": "150.webp",
+      "width": 1156,
+      "height": 650,
+      "bytes": 194634,
+      "sha256": "ff9ecab234ab7388b2c68469229ba29a5ddea6bf588d279342b5cea94ebaef10"
+    },
+    {
+      "index": 151,
+      "id": "1cvVm96S4y3Kw3_fQCq5fOGjCxHyDSjEo",
+      "original": "IMG-20261012-WA0107.jpg",
+      "name": "151.webp",
+      "width": 650,
+      "height": 1156,
+      "bytes": 244354,
+      "sha256": "6276912387421ac4b96dcbef241e6e6f09f6a2f91661c4bb58e09d56e3747844"
+    },
+    {
+      "index": 152,
+      "id": "15IQodHMxHnEb43K77rWTHP8cbNXrZwmv",
+      "original": "IMG-20261012-WA0091.jpg",
+      "name": "152.webp",
+      "width": 650,
+      "height": 1156,
+      "bytes": 240726,
+      "sha256": "f2eff091a581096bb9c22694a9d5fcc26657e28e9b92a9d8527adb31d7ee9f83"
+    },
+    {
+      "index": 153,
+      "id": "1mncPvGDqAMnjhQrwoeEzA42Xzj18R2wO",
+      "original": "IMG-20261012-WA0096.jpg",
+      "name": "153.webp",
+      "width": 650,
+      "height": 1156,
+      "bytes": 128302,
+      "sha256": "fb8ef69dc324b1c5c07bf414b0490679fcb19d589c1f2556d538e9f1e53e3698"
+    },
+    {
+      "index": 154,
+      "id": "1sSsxckREp2a6wODb2DbxknLFLII7oJsZ",
+      "original": "IMG-20261012-WA0089.jpg",
+      "name": "154.webp",
+      "width": 650,
+      "height": 1156,
+      "bytes": 218388,
+      "sha256": "65dc3bab09b97d39263e2bf9a02535a11a75014f251976c41cece977c058f7dd"
+    },
+    {
+      "index": 155,
+      "id": "1tYx0W5G_Qr4buQsbsD1ruqd54_-i_dCY",
+      "original": "IMG-20261012-WA0079.jpg",
+      "name": "155.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 226368,
+      "sha256": "40defd26c45b185137b0af7d6425bb831a147e0fa315a34c528f42197a275ff3"
+    },
+    {
+      "index": 156,
+      "id": "1H8UWYXngdAKfNMM9sm86tPdbu4nJsLOb",
+      "original": "IMG-20261012-WA0078.jpg",
+      "name": "156.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 299074,
+      "sha256": "28ed49ed3dd4c267c68569447eb18b15f75380ba4ace7808e0bf11fda7bbebfe"
+    },
+    {
+      "index": 157,
+      "id": "1glP7zGqUiNBnBIcM1ouOIVHhZiLl3EZC",
+      "original": "IMG-20261012-WA0070.jpg",
+      "name": "157.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 239664,
+      "sha256": "649ccc18453d8a19c5ce545936e38f753ccb21acd54f116f03dc67d58f7c5004"
+    },
+    {
+      "index": 158,
+      "id": "14QVtqBJWl71i1Xd_gtxKAyzh-4H1eMhz",
+      "original": "IMG-20261012-WA0075.jpg",
+      "name": "158.webp",
+      "width": 960,
+      "height": 1280,
+      "bytes": 126092,
+      "sha256": "0a2d4b9460bee3095da3eb2dda924c37292c540d1bb9903d34dbcdeba739dbe7"
+    },
+    {
+      "index": 159,
+      "id": "1RmQWw-G18-ExPe9BLgrrcl6mAk1SQhFd",
+      "original": "IMG-20261012-WA0076.jpg",
+      "name": "159.webp",
+      "width": 899,
+      "height": 1599,
+      "bytes": 206010,
+      "sha256": "2ef49e3051e1344e952422d3baf096553fd6b9116d73c653629d86f0b936520e"
+    },
+    {
+      "index": 160,
+      "id": "1WrS03DxdbMulETu3Sgybkf8S9B07cDxH",
+      "original": "IMG-20261012-WA0077.jpg",
+      "name": "160.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 303938,
+      "sha256": "e8947f51dba7ee55ae8ce042dc376f4583e1b86beab7847d0fd8237fc8d0486b"
+    },
+    {
+      "index": 161,
+      "id": "1xiTbh3_BhxHhSxfwoOoJ-7JApvWyYU6t",
+      "original": "IMG-20261012-WA0069.jpg",
+      "name": "161.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 215616,
+      "sha256": "36073fb00c6e99dd6c515d7cfa33cc1b7a779f1075d3f8cb983ce0b6ce29f29f"
+    },
+    {
+      "index": 162,
+      "id": "1AlmF3n5QGx8RajhXWsIs2yI9PqPQqjeJ",
+      "original": "IMG-20261012-WA0073.jpg",
+      "name": "162.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 195360,
+      "sha256": "68f8d79984b9a80649162187f1622e2baf3c17e0fd03bd3c4e9bdac76f450971"
+    },
+    {
+      "index": 163,
+      "id": "1lMhPAIZ-nWtpyFdDB_KGLRyCOIS6y06a",
+      "original": "IMG-20261012-WA0074.jpg",
+      "name": "163.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 156620,
+      "sha256": "65dcc46599f64894fb1cb86b65ed65104b5b44c336ff8de85c818b894e80453f"
+    },
+    {
+      "index": 164,
+      "id": "1QP86Hs1C2E5yBbU8tYrhZjm92ctPQXC0",
+      "original": "IMG-20261012-WA0067.jpg",
+      "name": "164.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 204050,
+      "sha256": "325ad7c4aae16e49eaeeae7b6b9f96437a1ef26f330df6d716b54829a2c4471f"
+    },
+    {
+      "index": 165,
+      "id": "1FsbtIA41mbUTHiJ9W4BidpOkAFm3I_Kp",
+      "original": "IMG-20261012-WA0072.jpg",
+      "name": "165.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 214334,
+      "sha256": "7ac03dc2843ff24b025f4edc97bc19a127ead2d4ff6e577066eee0626dfe9399"
+    },
+    {
+      "index": 166,
+      "id": "1uBq_wjCJ5WBZCwbK-M0U3JQOQGPb9a0v",
+      "original": "IMG-20261012-WA0063.jpg",
+      "name": "166.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 227576,
+      "sha256": "3c44dae524b1641374eeb1e814b0f4a8e7df1a25ec89fa607f037dba0d693204"
+    },
+    {
+      "index": 167,
+      "id": "1Pb3GF-bVvQuiaVxcvX76G6S5VSdroP8e",
+      "original": "IMG-20261012-WA0062.jpg",
+      "name": "167.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 233362,
+      "sha256": "3b1d1d8f234991ccf93887e09e1745eaa83f601b464689719c09acfd5a698c90"
+    },
+    {
+      "index": 168,
+      "id": "1hBwgQCl6VO1UDkhw0VbNvzQCIendoLvU",
+      "original": "IMG-20261012-WA0068.jpg",
+      "name": "168.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 180306,
+      "sha256": "3b349ce6704b0222e76a1ed53135559b5844ea6f50dc199701d529eb7a1b115e"
+    },
+    {
+      "index": 169,
+      "id": "1Pp-OC6ZSr5KdlDPDucBM_7Rg3Js-gKqw",
+      "original": "IMG-20261012-WA0066.jpg",
+      "name": "169.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 238410,
+      "sha256": "6d59fc3798e6a4a01ed61c2c67589a7287f99ab3ce12122f452db8780b08b6b5"
+    },
+    {
+      "index": 170,
+      "id": "1jTB4E1c54JhoxeBX5QGf6MW6D7Hdv3Tc",
+      "original": "IMG-20261012-WA0065.jpg",
+      "name": "170.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 224310,
+      "sha256": "dde007922f1a0bd8a569aa8a73ee3ed06288c3f4b9a321e2d41ec0e9ae02e490"
+    },
+    {
+      "index": 171,
+      "id": "1t75084Eorl71eD2XGiFEdaU25atjLT7Y",
+      "original": "IMG-20261012-WA0061.jpg",
+      "name": "171.webp",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 321628,
+      "sha256": "7f4662af5749f37bfc08fc0b0845f24f9744ce2be3d495d13e924f794c35026f"
+    },
+    {
+      "index": 172,
+      "id": "1QVK1Mg5YnxnljG4lDK9Npc16N18xjYIV",
+      "original": "IMG-20261012-WA0064.jpg",
+      "name": "172.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 285884,
+      "sha256": "1a743fc8a8f00b1d43f9d8b7d821a2c14414c551e2dcfe04dc16a2f78c991550"
+    },
+    {
+      "index": 173,
+      "id": "1z4lfnCNKDrqgppUMdjttGoFP5aTp2CuH",
+      "original": "IMG-20261012-WA0051.jpg",
+      "name": "173.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 265802,
+      "sha256": "5244c038b0ed4b4d86a4a0df86d0bfd07ae936d6b80d24f8516fa69e8dd06d65"
+    },
+    {
+      "index": 174,
+      "id": "1pq84qn7JsNUApoH69joGnBi0paJRHMXH",
+      "original": "IMG-20261012-WA0052.jpg",
+      "name": "174.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 302020,
+      "sha256": "2d73700bfa30237b505134457a06d2777f777d223ae2d59a32be0b94c70b2c20"
+    },
+    {
+      "index": 175,
+      "id": "1BWDQdTNbeTqbecryyj8HttS8c3vRF9ke",
+      "original": "IMG-20261012-WA0060.jpg",
+      "name": "175.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 272560,
+      "sha256": "656cb8f577888591bc0658b21b84687de4d9898c0e79892642a03c3813521270"
+    },
+    {
+      "index": 176,
+      "id": "1tlUEVer2j6o5bUt_4m8F0W--Udia5Xr4",
+      "original": "IMG-20261012-WA0055.jpg",
+      "name": "176.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 262462,
+      "sha256": "6736b3ec3cf0858afe612ff98cf637b6b1f787f7b3becf7e0d4bdc442cc58276"
+    },
+    {
+      "index": 177,
+      "id": "18MErqIkS3sw7-sJyjC1WfEBMvW9prZFY",
+      "original": "IMG-20261012-WA0059.jpg",
+      "name": "177.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 167616,
+      "sha256": "0c5aac77c631dfa0dd1e506876e2342e3179e672fe790a66aa0aac7d10e8c376"
+    },
+    {
+      "index": 178,
+      "id": "12xfbxEUetRDcs-RevrwLvNsID-ymtxrh",
+      "original": "IMG-20261012-WA0056.jpg",
+      "name": "178.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 168444,
+      "sha256": "bad463898a2b47d7cd740b0f1d1e3884359215536f23818232e9d7ce1583282c"
+    },
+    {
+      "index": 179,
+      "id": "16k3Lzq33Lmy3TmkbLMdOCVej8yxhpNeG",
+      "original": "IMG-20261012-WA0058.jpg",
+      "name": "179.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 265774,
+      "sha256": "04a29933a9921359c522fe9980a1cf15c4a6b0c6225ebbb882acde8753948b80"
+    },
+    {
+      "index": 180,
+      "id": "1eBggAHS20MHXhxKqShOrcxKatx6vlPQu",
+      "original": "IMG-20261012-WA0054.jpg",
+      "name": "180.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 241156,
+      "sha256": "a1fe069d36c663f1ab95924124010b35b356dab0601d375c2f50a74e74e7aa83"
+    },
+    {
+      "index": 181,
+      "id": "1LEw11X4VlJjszCk6FUygdN2ZbAIhexTb",
+      "original": "IMG-20261012-WA0053.jpg",
+      "name": "181.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 196804,
+      "sha256": "4a0804761160f9b5475645ebde15ced2bc0e551906d75f1f119ecc9c93927a1e"
+    },
+    {
+      "index": 182,
+      "id": "1TanEy3y76xX7NvvlG74nIKqHELsC1wOr",
+      "original": "IMG-20261012-WA0071.jpg",
+      "name": "182.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 209928,
+      "sha256": "d5399822866e30a56f22dbc8fc8f51cff95b7ced6cf3fb2904fb924ce24fd37c"
+    },
+    {
+      "index": 183,
+      "id": "1h4FeDjMR5R7jOtU99ESi7WadjryRJIz9",
+      "original": "IMG-20261012-WA0057.jpg",
+      "name": "183.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 205836,
+      "sha256": "4baf5a3f3f422147645947bc892362836f000422837b7a45c861cfd419927e75"
+    },
+    {
+      "index": 184,
+      "id": "131mjS2VMPvTwdL8MXHXzwe76NBafQP1G",
+      "original": "IMG-20261012-WA0050.jpg",
+      "name": "184.webp",
+      "width": 1125,
+      "height": 1500,
+      "bytes": 234474,
+      "sha256": "99d73f8633265e85895e094980cd36e33181b0a51e7f6ad74dc9720c71430fb0"
+    },
+    {
+      "index": 185,
+      "id": "1qtvk6BYlMp1k0G4nBQeEiA2HfM1FC91t",
+      "original": "IMG-20261012-WA0049.jpg",
+      "name": "185.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 161454,
+      "sha256": "6c6ba6fb5c96c307e6fbae95db0b920dae19c0e1f3d788a4d7fef929332b8cf9"
+    },
+    {
+      "index": 186,
+      "id": "19Me5I2tj7CCycgOrgKlVYsI0qho4DUEs",
+      "original": "IMG-20261012-WA0048.jpg",
+      "name": "186.webp",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 137306,
+      "sha256": "801be15699166017d9b67489d840c4b4a599110609ef5d2b88bf27da24f10187"
+    },
+    {
+      "index": 187,
+      "id": "1pVLk-zQBuj3R9QVuE5rDbt8dW6ijR6AQ",
+      "original": "IMG-20261012-WA0047.jpg",
+      "name": "187.webp",
+      "width": 1280,
+      "height": 960,
+      "bytes": 262650,
+      "sha256": "e2158e51428b9d44ae4b8272a5b3a4e5fe48a3ead3d1ada8ed9de77328518dc1"
+    },
+    {
+      "index": 188,
+      "id": "18UGa16jNEPo5SGGDu0wbz3mJ2F_2djI8",
+      "original": "IMG-20261012-WA0045.jpg",
+      "name": "188.webp",
+      "width": 1280,
+      "height": 960,
+      "bytes": 171174,
+      "sha256": "b3587031e33d8904d825b24fb6294a8a104ffc75435848f3974239523d1af7d1"
+    },
+    {
+      "index": 189,
+      "id": "13UPe53vXCcuLPaiKKs65785u7RZL0Keh",
+      "original": "IMG-20261012-WA0041.jpg",
+      "name": "189.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 422148,
+      "sha256": "0156cf7365616d3d665cd40ea93301887f5792df2bd74a73f7e4a160fced12aa"
+    },
+    {
+      "index": 190,
+      "id": "10EISA_qKD-Kw2Gr8msRTKNmS3islaao4",
+      "original": "IMG-20261012-WA0043.jpg",
+      "name": "190.webp",
+      "width": 1280,
+      "height": 960,
+      "bytes": 199178,
+      "sha256": "197266657069e54976bf098c1cd70f5bfc7307f79ba17b865990d790f0bfaac4"
+    },
+    {
+      "index": 191,
+      "id": "1O1wUDgaeGiRS5XW1QWqId_Whe3Uz4qTc",
+      "original": "IMG-20261012-WA0040.jpg",
+      "name": "191.webp",
+      "width": 1280,
+      "height": 960,
+      "bytes": 174160,
+      "sha256": "ff3dc2fd4a780407172299159e161e7fd1a380bed0a48ae8d5b7eb8825879063"
+    },
+    {
+      "index": 192,
+      "id": "1QzFaiiR1oUsYyxag77iO9aACjRMRvedl",
+      "original": "IMG-20261012-WA0042.jpg",
+      "name": "192.webp",
+      "width": 1280,
+      "height": 960,
+      "bytes": 210996,
+      "sha256": "e88c863687419a9ffb4916f552946416372f899651b2783d8dcade54f37a98b1"
+    },
+    {
+      "index": 193,
+      "id": "1FOmhTgpul-AVsTPAq2aDoNdobBqCYe1b",
+      "original": "IMG-20261012-WA0044.jpg",
+      "name": "193.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 423838,
+      "sha256": "302e484418c734dd9a212917ce29d1147b841842b9244f40bad647824b8251f7"
+    },
+    {
+      "index": 194,
+      "id": "12ReWQvkW0kRYte-IlrPRKWtnHuxQILFb",
+      "original": "IMG-20261012-WA0038.jpg",
+      "name": "194.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 350072,
+      "sha256": "61966272b1af13db2cee941d5bafc16dd58b72c4e54afeb7d4d11c5c224023b5"
+    },
+    {
+      "index": 195,
+      "id": "1TvpY8tpDlwTFYOHfC_IY9yMFgSdkazUq",
+      "original": "IMG-20261012-WA0037.jpg",
+      "name": "195.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 426702,
+      "sha256": "ce9eab64e5f37f254ba4e518e52564a9c4a805ace8231e3f99de83e7f796706d"
+    },
+    {
+      "index": 196,
+      "id": "1nyVmNNihKIeO1TniavGHMBeb7RZZSWBo",
+      "original": "IMG-20261012-WA0039.jpg",
+      "name": "196.webp",
+      "width": 1280,
+      "height": 960,
+      "bytes": 169266,
+      "sha256": "bce0b713f62ed7a11d024c6d5e95e5e5e7fef969d65c270527ac73364a6321de"
+    },
+    {
+      "index": 197,
+      "id": "1xXn_R67GC3zexO8JsoOqpiBGv8-rzOrR",
+      "original": "IMG-20261012-WA0036.jpg",
+      "name": "197.webp",
+      "width": 1280,
+      "height": 960,
+      "bytes": 170072,
+      "sha256": "6496f9db848097c55575be08617e7f0ea50d2d9cd219eb2f6aeefac48bfd7ca7"
+    },
+    {
+      "index": 198,
+      "id": "1itPrQgFnfw-duNYyXzOruReXDsUIHOvy",
+      "original": "IMG-20261012-WA0035.jpg",
+      "name": "198.webp",
+      "width": 1400,
+      "height": 1050,
+      "bytes": 381252,
+      "sha256": "8836aeb808d24249696a16e97b8b2c9680b80a4f508d17a2a8d775a9eed0864e"
+    }
+  ]
+}
