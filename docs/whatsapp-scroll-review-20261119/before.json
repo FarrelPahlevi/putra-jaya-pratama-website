@@ -1,0 +1,158 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "max": 5896,
+    "errors": [],
+    "hiddenSamples": 6,
+    "total": 39,
+    "transitions": [
+      {
+        "y": 0,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "false",
+        "targets": ""
+      },
+      {
+        "y": 3520,
+        "visible": "hidden",
+        "blocked": "true",
+        "inert": true,
+        "footer": "false",
+        "targets": "minimal-container minimal-container--wide"
+      },
+      {
+        "y": 4480,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "false",
+        "targets": ""
+      }
+    ]
+  },
+  {
+    "route": "/galeri-proyek",
+    "width": 390,
+    "max": 7611,
+    "errors": [],
+    "hiddenSamples": 0,
+    "total": 49,
+    "transitions": [
+      {
+        "y": 0,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "false",
+        "targets": ""
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "max": 4536,
+    "errors": [],
+    "hiddenSamples": 7,
+    "total": 30,
+    "transitions": [
+      {
+        "y": 0,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "false",
+        "targets": ""
+      },
+      {
+        "y": 2720,
+        "visible": "hidden",
+        "blocked": "true",
+        "inert": true,
+        "footer": "false",
+        "targets": "minimal-container minimal-container--wide"
+      },
+      {
+        "y": 3840,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "true",
+        "targets": ""
+      }
+    ]
+  },
+  {
+    "route": "/galeri-proyek",
+    "width": 768,
+    "max": 4486,
+    "errors": [],
+    "hiddenSamples": 0,
+    "total": 30,
+    "transitions": [
+      {
+        "y": 0,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "false",
+        "targets": ""
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "max": 4094,
+    "errors": [],
+    "hiddenSamples": 9,
+    "total": 27,
+    "transitions": [
+      {
+        "y": 0,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "false",
+        "targets": ""
+      },
+      {
+        "y": 2240,
+        "visible": "hidden",
+        "blocked": "true",
+        "inert": true,
+        "footer": "false",
+        "targets": "minimal-container minimal-container--wide"
+      },
+      {
+        "y": 3680,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "true",
+        "targets": ""
+      }
+    ]
+  },
+  {
+    "route": "/galeri-proyek",
+    "width": 1440,
+    "max": 3060,
+    "errors": [],
+    "hiddenSamples": 0,
+    "total": 21,
+    "transitions": [
+      {
+        "y": 0,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "false",
+        "targets": ""
+      }
+    ]
+  }
+]

@@ -92,8 +92,13 @@ try {
       await page.setViewportSize({ width: 390, height: 844 })
     })
     await check('all home consultation triggers open and cancel the form', async () => {
-      for (const selector of ['.minimal-hero__buttons button','.minimal-text-button','#kontak button','.minimal-footer__links button']) {
-        await page.locator(selector).click()
+      for (const trigger of [
+        page.locator('.minimal-hero__buttons button'),
+        page.locator('.minimal-text-button'),
+        page.locator('#kontak button'),
+        page.locator('footer button[aria-haspopup="dialog"]').first(),
+      ]) {
+        await trigger.click()
         await page.getByRole('button', { name: 'Batal', exact: true }).click()
         assert.equal(await page.getByRole('dialog').isVisible(), false)
       }
@@ -136,23 +141,27 @@ try {
       assert.equal(await page.getByRole('dialog').isVisible(), false)
     })
     await check('gallery link navigates to its own page', async () => {
-      await page.locator('.minimal-gallery-teaser__link').click()
+      await page.locator('#proyek a[href="/galeri-proyek"]').click()
       await page.waitForURL('**/galeri-proyek')
       assert.equal(await page.title(), 'Galeri Proyek | Putra Jaya Pratama')
     })
     await check('gallery filter selection announces count', async () => {
-      await page.getByRole('button', { name: 'Pengaspalan hotmix', exact: true }).click()
-      assert.equal(await page.getByRole('button', { name: 'Pengaspalan hotmix', exact: true }).getAttribute('aria-pressed'), 'true')
-      assert.equal(await page.locator('.project-filter-status').textContent(), '4 foto ditampilkan')
-      await page.getByRole('button', { name: 'Semua foto', exact: true }).click()
+      const filters = page.getByRole('group', { name: 'Filter berdasarkan layanan' })
+      const hotmix = filters.getByRole('button', { name: 'Pengaspalan hotmix', exact: true })
+      await hotmix.click()
+      assert.equal(await hotmix.getAttribute('aria-pressed'), 'true')
+      const displayed = await page.locator('.project-photo__button').count()
+      const total = parseInt(await page.locator('.project-category__head > span').innerText(), 10)
+      assert.equal(await page.locator('.project-filter-status').textContent(), displayed + ' dari ' + total + ' foto ditampilkan')
+      await filters.getByRole('button', { name: 'Semua foto', exact: true }).click()
     })
     await check('lightbox: every photo, arrows, keyboard, Escape and focus restore', async () => {
       const photos = page.locator('.project-photo__button')
       for (let i = 0; i < await photos.count(); i++) {
         await photos.nth(i).click()
         assert.equal(await page.locator('.project-lightbox__photo img').getAttribute('src'), await photos.nth(i).locator('img').getAttribute('src'))
-        await page.getByRole('button', { name: 'Foto berikutnya' }).click()
-        await page.getByRole('button', { name: 'Foto sebelumnya' }).click()
+        await page.getByRole('button', { name: 'Foto berikutnya', exact: true }).click()
+        await page.getByRole('button', { name: 'Foto sebelumnya', exact: true }).click()
         await page.keyboard.press('ArrowRight')
         await page.keyboard.press('ArrowLeft')
         await page.keyboard.press('Escape')
@@ -181,15 +190,15 @@ try {
       await page.getByRole('button', { name: 'Tutup foto' }).click()
     })
     await check('gallery consultation and footer consultation work', async () => {
-      for (const selector of ['.project-bottom-cta button','.minimal-footer__links button']) {
-        await page.locator(selector).click()
+      for (const trigger of [page.locator('.project-bottom-cta button'), page.locator('footer button[aria-haspopup="dialog"]').first()]) {
+        await trigger.click()
         await page.keyboard.press('Escape')
       }
     })
     await check('every internal navigation link has an existing destination', async () => {
       for (const route of ['/', '/galeri-proyek']) {
         await page.goto(baseURL + route, { waitUntil: 'networkidle' })
-        const links = await page.locator('a[href]:not(.project-photo__button)').evaluateAll(elements => elements.map(element => element.getAttribute('href')))
+        const links = await page.locator('a[href]:not([href^="/assets/"])').evaluateAll(elements => elements.map(element => element.getAttribute('href')))
         for (const href of new Set(links)) {
           const url = new URL(href, baseURL + route)
           if (url.origin !== new URL(baseURL).origin) continue
@@ -214,7 +223,7 @@ try {
       await page.getByRole('button', { name: 'Batal', exact: true }).click()
       await page.goto(baseURL + '/galeri-proyek')
       await page.locator('.project-photo__button').first().click()
-      await page.getByRole('button', { name: 'Foto berikutnya' }).click()
+      await page.getByRole('button', { name: 'Foto berikutnya', exact: true }).click()
       await page.getByRole('button', { name: 'Tutup foto' }).click()
     })
     await check('200% text scaling keeps copy and controls within viewport', async () => {

@@ -24,7 +24,7 @@ body:has(dialog[open], [aria-modal="true"]:not(dialog), .minimal-header--menu-op
   box-sizing: border-box;
   border: 1px solid #ffffff38;
   border-radius: 999px;
-  background: #b55514;
+  background: #147a43;
   color: #fff;
   box-shadow: 0 5px 18px #17171326;
   font-size: 16px;
@@ -44,27 +44,29 @@ body:has(dialog[open], [aria-modal="true"]:not(dialog), .minimal-header--menu-op
 }
 
 .pjp-floating-contact__link:focus-visible {
-  outline: 3px solid #171713;
+  outline: 3px solid #063c24;
   outline-offset: 4px;
   box-shadow: 0 0 0 4px #fff, 0 5px 18px #17171326;
 }
 
 @media (hover: hover) and (pointer: fine) {
   .pjp-floating-contact__link:hover {
-    background: #91410e;
+    background: #0d6536;
     transform: translateY(-2px);
     box-shadow: 0 7px 20px #17171330;
   }
 }
 
 .pjp-floating-contact__link:active {
-  background: #7d380c;
+  background: #09522d;
   transform: translateY(0) scale(0.97);
 }
 
 @media (max-width: 1199px) {
   .pjp-floating-contact { --floating-offset: 20px; }
-  .pjp-floating-contact__link { min-height: 50px; }
+  /* Keep the shortcut present without covering nearby service and gallery links on tablets. */
+  .pjp-floating-contact__link { width: 50px; min-height: 50px; padding: 10px; }
+  .pjp-floating-contact__link span { display: none; }
 }
 
 @media (max-width: 479px) {

@@ -63,20 +63,11 @@
 .project-lightbox__controls>span {font-size:12px;color:#e4d7ce;letter-spacing:.07em;margin-right:7px;white-space:nowrap;}
 .project-photo__button:focus-visible,.project-filter:focus-visible {outline:3px solid #944009;outline-offset:3px;}
 .project-lightbox button:focus-visible,.project-bottom-cta :focus-visible {outline:3px solid #ffddb9;outline-offset:3px;}
-/* Deliberately quiet homepage gallery link */
-.minimal-gallery-teaser {background:#f3f0eb;padding:clamp(48px,5vw,72px) 0;}
-.minimal-gallery-teaser__inner {display:flex;align-items:center;justify-content:space-between;gap:32px;border-top:1px solid #d8d2ca;border-bottom:1px solid #d8d2ca;padding:32px 0;}
-.minimal-gallery-teaser__inner>div {min-width:0;}
-.minimal-gallery-teaser h2 {font-family:'Barlow Semi Condensed','Arial Narrow',Arial,sans-serif;font-size:clamp(2.7rem,4.4vw,4.7rem);font-weight:700;line-height:1.08;letter-spacing:-.022em;margin-top:13px;}
-.minimal-gallery-teaser h2 em {color:#ae551b;}
-.minimal-gallery-teaser p {max-width:610px;margin-top:14px;color:#68635d;line-height:1.7;}
-.minimal-gallery-teaser__link {flex:none;display:inline-flex;align-items:center;gap:16px;color:#a64c14;font-size:14px;font-weight:700;border-bottom:1px solid #b05b22;padding:12px 0;}
-.minimal-gallery-teaser__link:hover {color:#713109;}
 @media(max-width:900px) {
  .project-gallery-heading {align-items:start;flex-direction:column;gap:20px;}
  .project-photo-grid {grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:265px;}
  .project-photo--feature,.project-photo--last {grid-column:span 2;}
- .project-bottom-cta__inner,.minimal-gallery-teaser__inner {align-items:flex-start;flex-direction:column;}
+ .project-bottom-cta__inner {align-items:flex-start;flex-direction:column;}
 }
 @media(max-width:620px) {
  .project-gallery-section {padding:calc(var(--mi-header-height) + 40px) 0 80px;}
@@ -92,8 +83,7 @@
  .project-gallery-note p {font-size:16px;}
  .project-bottom-cta h2 {font-size:clamp(2.5rem,9.4vw,3.75rem);}
  .project-bottom-cta__inner {gap:23px;}
- .minimal-gallery-teaser h2 {font-size:clamp(2.5rem,9.4vw,3.75rem);}
- .project-bottom-cta .minimal-button,.minimal-gallery-teaser__link {width:100%;justify-content:space-between;}
+ .project-bottom-cta .minimal-button {width:100%;justify-content:space-between;}
  .project-lightbox {max-width:calc(100vw - 16px);max-height:calc(100dvh - 24px);}
  .project-lightbox__inner {max-height:calc(100dvh - 24px);}
  .project-lightbox__top,.project-lightbox__foot {padding:12px;}

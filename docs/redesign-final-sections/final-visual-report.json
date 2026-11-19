@@ -1,0 +1,267 @@
+[
+  {
+    "width": 390,
+    "concept": "editorial",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112-400.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/035-400.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/142-400.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "concept": "portfolio",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112-400.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "concept": "filmstrip",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112-400.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/035-400.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/142-400.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/198-400.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "concept": "editorial",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112-700.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/035-700.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/142-700.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "concept": "portfolio",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112-700.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "concept": "filmstrip",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112-700.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/035-700.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/142-700.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/198-700.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "concept": "editorial",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/035-700.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/142-700.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "concept": "portfolio",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "concept": "filmstrip",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/035.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/142.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/198.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "concept": "editorial",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/035-700.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/142-700.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "concept": "portfolio",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "concept": "filmstrip",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/035.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/142.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/198.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "concept": "editorial",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/035-700.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/142-700.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "concept": "portfolio",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112.webp",
+        "loaded": true
+      }
+    ]
+  },
+  {
+    "width": 1920,
+    "concept": "filmstrip",
+    "pass": true,
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/project-gallery/112.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/035.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/142.webp",
+        "loaded": true
+      },
+      {
+        "src": "http://localhost:5173/assets/project-gallery/198.webp",
+        "loaded": true
+      }
+    ]
+  }
+]

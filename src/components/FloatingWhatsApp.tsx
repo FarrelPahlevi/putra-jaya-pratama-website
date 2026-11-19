@@ -24,6 +24,8 @@ export function FloatingWhatsApp({ isInquiryOpen = false }: { isInquiryOpen?: bo
     return () => observer.disconnect()
   }, [])
 
+  // Ordinary sections and their containers must not hide a persistent contact shortcut.
+  // Only actual blocking UI (modal dialogs and open navigation) suppresses interaction.
   const blocked = isInquiryOpen || overlayOpen
 
   return (

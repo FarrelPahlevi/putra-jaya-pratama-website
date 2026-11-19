@@ -1,0 +1,1557 @@
+{
+  "baseURL": "http://127.0.0.1:4173",
+  "engine": "157.0.8103.79",
+  "externalLinks": "Intercepted in Chrome with local responses.",
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "images": [
+        {
+          "src": "/assets/project-gallery/112-400.webp",
+          "alt": "Permukaan jalan aspal di antara pepohonan, dokumentasi asli PJP arsip 112",
+          "loaded": true,
+          "displayWidth": 350,
+          "displayHeight": 304,
+          "width": 350,
+          "height": 304,
+          "nativeWidth": "1400",
+          "nativeHeight": "2490",
+          "fit": "cover",
+          "pos": "50% 57%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 90vw, (max-width: 1100px) 55vw, (max-width: 1600px) 59vw, 931px",
+          "srcset": "/assets/project-gallery/112-400.webp 400w, /assets/project-gallery/112-700.webp 700w, /assets/project-gallery/112.webp 1400w"
+        },
+        {
+          "src": "/assets/project-gallery/035-400.webp",
+          "alt": "Tim lapangan mengerjakan permukaan aspal dengan alat perata, arsip PJP 035",
+          "loaded": true,
+          "displayWidth": 169,
+          "displayHeight": 147,
+          "width": 169,
+          "height": 147,
+          "nativeWidth": "1400",
+          "nativeHeight": "787",
+          "fit": "cover",
+          "pos": "50% 50%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 45vw, (max-width: 1100px) 34vw, (max-width: 1600px) 31vw, 490px",
+          "srcset": "/assets/project-gallery/035-400.webp 400w, /assets/project-gallery/035-700.webp 700w, /assets/project-gallery/035.webp 1400w"
+        },
+        {
+          "src": "/assets/project-gallery/142-400.webp",
+          "alt": "Alat pemadat Sakai pada permukaan jalan aspal, arsip PJP 142",
+          "loaded": true,
+          "displayWidth": 169,
+          "displayHeight": 147,
+          "width": 169,
+          "height": 147,
+          "nativeWidth": "1280",
+          "nativeHeight": "960",
+          "fit": "cover",
+          "pos": "50% 58%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 45vw, (max-width: 1100px) 34vw, (max-width: 1600px) 31vw, 490px",
+          "srcset": "/assets/project-gallery/142-400.webp 400w, /assets/project-gallery/142-700.webp 700w, /assets/project-gallery/142.webp 1280w"
+        }
+      ],
+      "differences": [
+        {
+          "element": "#proyek",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__intro",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__intro h2",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "42px",
+          "prototypeFontSize": "42px"
+        },
+        {
+          "element": ".home-gallery__photos",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__photos > .home-gallery__photo",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__supporting",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__end",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": "#kontak",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-consultation__grid",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-consultation__action",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-consultation__preparation",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        }
+      ],
+      "footerHeight": 792.140625,
+      "prototypeFooterHeight": 848.140625
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "images": [
+        {
+          "src": "/assets/project-gallery/112-700.webp",
+          "alt": "Permukaan jalan aspal di antara pepohonan, dokumentasi asli PJP arsip 112",
+          "loaded": true,
+          "displayWidth": 415,
+          "displayHeight": 377,
+          "width": 415,
+          "height": 377,
+          "nativeWidth": "1400",
+          "nativeHeight": "2490",
+          "fit": "cover",
+          "pos": "50% 57%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 90vw, (max-width: 1100px) 55vw, (max-width: 1600px) 59vw, 931px",
+          "srcset": "/assets/project-gallery/112-400.webp 400w, /assets/project-gallery/112-700.webp 700w, /assets/project-gallery/112.webp 1400w"
+        },
+        {
+          "src": "/assets/project-gallery/035-400.webp",
+          "alt": "Tim lapangan mengerjakan permukaan aspal dengan alat perata, arsip PJP 035",
+          "loaded": true,
+          "displayWidth": 259,
+          "displayHeight": 173,
+          "width": 259,
+          "height": 173,
+          "nativeWidth": "1400",
+          "nativeHeight": "787",
+          "fit": "cover",
+          "pos": "50% 50%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 45vw, (max-width: 1100px) 34vw, (max-width: 1600px) 31vw, 490px",
+          "srcset": "/assets/project-gallery/035-400.webp 400w, /assets/project-gallery/035-700.webp 700w, /assets/project-gallery/035.webp 1400w"
+        },
+        {
+          "src": "/assets/project-gallery/142-400.webp",
+          "alt": "Alat pemadat Sakai pada permukaan jalan aspal, arsip PJP 142",
+          "loaded": true,
+          "displayWidth": 259,
+          "displayHeight": 173,
+          "width": 259,
+          "height": 173,
+          "nativeWidth": "1280",
+          "nativeHeight": "960",
+          "fit": "cover",
+          "pos": "50% 58%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 45vw, (max-width: 1100px) 34vw, (max-width: 1600px) 31vw, 490px",
+          "srcset": "/assets/project-gallery/142-400.webp 400w, /assets/project-gallery/142-700.webp 700w, /assets/project-gallery/142.webp 1280w"
+        }
+      ],
+      "differences": [
+        {
+          "element": "#proyek",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__intro",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__intro h2",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "54px",
+          "prototypeFontSize": "54px"
+        },
+        {
+          "element": ".home-gallery__photos",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__photos > .home-gallery__photo",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__supporting",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__end",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": "#kontak",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-consultation__grid",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-consultation__action",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "17px",
+          "prototypeFontSize": "17px"
+        },
+        {
+          "element": ".home-consultation__preparation",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        }
+      ],
+      "footerHeight": 726,
+      "prototypeFooterHeight": 726
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "images": [
+        {
+          "src": "/assets/project-gallery/112-700.webp",
+          "alt": "Permukaan jalan aspal di antara pepohonan, dokumentasi asli PJP arsip 112",
+          "loaded": true,
+          "displayWidth": 556,
+          "displayHeight": 505,
+          "width": 556,
+          "height": 505,
+          "nativeWidth": "1400",
+          "nativeHeight": "2490",
+          "fit": "cover",
+          "pos": "50% 57%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 90vw, (max-width: 1100px) 55vw, (max-width: 1600px) 59vw, 931px",
+          "srcset": "/assets/project-gallery/112-400.webp 400w, /assets/project-gallery/112-700.webp 700w, /assets/project-gallery/112.webp 1400w"
+        },
+        {
+          "src": "/assets/project-gallery/035-400.webp",
+          "alt": "Tim lapangan mengerjakan permukaan aspal dengan alat perata, arsip PJP 035",
+          "loaded": true,
+          "displayWidth": 348,
+          "displayHeight": 232,
+          "width": 348,
+          "height": 232,
+          "nativeWidth": "1400",
+          "nativeHeight": "787",
+          "fit": "cover",
+          "pos": "50% 50%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 45vw, (max-width: 1100px) 34vw, (max-width: 1600px) 31vw, 490px",
+          "srcset": "/assets/project-gallery/035-400.webp 400w, /assets/project-gallery/035-700.webp 700w, /assets/project-gallery/035.webp 1400w"
+        },
+        {
+          "src": "/assets/project-gallery/142-400.webp",
+          "alt": "Alat pemadat Sakai pada permukaan jalan aspal, arsip PJP 142",
+          "loaded": true,
+          "displayWidth": 348,
+          "displayHeight": 232,
+          "width": 348,
+          "height": 232,
+          "nativeWidth": "1280",
+          "nativeHeight": "960",
+          "fit": "cover",
+          "pos": "50% 58%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 45vw, (max-width: 1100px) 34vw, (max-width: 1600px) 31vw, 490px",
+          "srcset": "/assets/project-gallery/142-400.webp 400w, /assets/project-gallery/142-700.webp 700w, /assets/project-gallery/142.webp 1280w"
+        }
+      ],
+      "differences": [
+        {
+          "element": "#proyek",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__intro",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__intro h2",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "68.608px",
+          "prototypeFontSize": "68.608px"
+        },
+        {
+          "element": ".home-gallery__photos",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__photos > .home-gallery__photo",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__supporting",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__end",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": "#kontak",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-consultation__grid",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-consultation__action",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "17px",
+          "prototypeFontSize": "17px"
+        },
+        {
+          "element": ".home-consultation__preparation",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        }
+      ],
+      "footerHeight": 444,
+      "prototypeFooterHeight": 444
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "images": [
+        {
+          "src": "/assets/project-gallery/112.webp",
+          "alt": "Permukaan jalan aspal di antara pepohonan, dokumentasi asli PJP arsip 112",
+          "loaded": true,
+          "displayWidth": 834,
+          "displayHeight": 583,
+          "width": 834,
+          "height": 583,
+          "nativeWidth": "1400",
+          "nativeHeight": "2490",
+          "fit": "cover",
+          "pos": "50% 57%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 90vw, (max-width: 1100px) 55vw, (max-width: 1600px) 59vw, 931px",
+          "srcset": "/assets/project-gallery/112-400.webp 400w, /assets/project-gallery/112-700.webp 700w, /assets/project-gallery/112.webp 1400w"
+        },
+        {
+          "src": "/assets/project-gallery/035-700.webp",
+          "alt": "Tim lapangan mengerjakan permukaan aspal dengan alat perata, arsip PJP 035",
+          "loaded": true,
+          "displayWidth": 439,
+          "displayHeight": 283,
+          "width": 439,
+          "height": 283,
+          "nativeWidth": "1400",
+          "nativeHeight": "787",
+          "fit": "cover",
+          "pos": "50% 50%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 45vw, (max-width: 1100px) 34vw, (max-width: 1600px) 31vw, 490px",
+          "srcset": "/assets/project-gallery/035-400.webp 400w, /assets/project-gallery/035-700.webp 700w, /assets/project-gallery/035.webp 1400w"
+        },
+        {
+          "src": "/assets/project-gallery/142-700.webp",
+          "alt": "Alat pemadat Sakai pada permukaan jalan aspal, arsip PJP 142",
+          "loaded": true,
+          "displayWidth": 439,
+          "displayHeight": 283,
+          "width": 439,
+          "height": 283,
+          "nativeWidth": "1280",
+          "nativeHeight": "960",
+          "fit": "cover",
+          "pos": "50% 58%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 45vw, (max-width: 1100px) 34vw, (max-width: 1600px) 31vw, 490px",
+          "srcset": "/assets/project-gallery/142-400.webp 400w, /assets/project-gallery/142-700.webp 700w, /assets/project-gallery/142.webp 1280w"
+        }
+      ],
+      "differences": [
+        {
+          "element": "#proyek",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__intro",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__intro h2",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "96.48px",
+          "prototypeFontSize": "96.48px"
+        },
+        {
+          "element": ".home-gallery__photos",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__photos > .home-gallery__photo",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__supporting",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__end",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": "#kontak",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-consultation__grid",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-consultation__action",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "17px",
+          "prototypeFontSize": "17px"
+        },
+        {
+          "element": ".home-consultation__preparation",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        }
+      ],
+      "footerHeight": 444,
+      "prototypeFooterHeight": 444
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "images": [
+        {
+          "src": "/assets/project-gallery/112.webp",
+          "alt": "Permukaan jalan aspal di antara pepohonan, dokumentasi asli PJP arsip 112",
+          "loaded": true,
+          "displayWidth": 930,
+          "displayHeight": 651,
+          "width": 930,
+          "height": 651,
+          "nativeWidth": "1400",
+          "nativeHeight": "2490",
+          "fit": "cover",
+          "pos": "50% 57%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 90vw, (max-width: 1100px) 55vw, (max-width: 1600px) 59vw, 931px",
+          "srcset": "/assets/project-gallery/112-400.webp 400w, /assets/project-gallery/112-700.webp 700w, /assets/project-gallery/112.webp 1400w"
+        },
+        {
+          "src": "/assets/project-gallery/035-700.webp",
+          "alt": "Tim lapangan mengerjakan permukaan aspal dengan alat perata, arsip PJP 035",
+          "loaded": true,
+          "displayWidth": 490,
+          "displayHeight": 316,
+          "width": 490,
+          "height": 316,
+          "nativeWidth": "1400",
+          "nativeHeight": "787",
+          "fit": "cover",
+          "pos": "50% 50%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 45vw, (max-width: 1100px) 34vw, (max-width: 1600px) 31vw, 490px",
+          "srcset": "/assets/project-gallery/035-400.webp 400w, /assets/project-gallery/035-700.webp 700w, /assets/project-gallery/035.webp 1400w"
+        },
+        {
+          "src": "/assets/project-gallery/142-700.webp",
+          "alt": "Alat pemadat Sakai pada permukaan jalan aspal, arsip PJP 142",
+          "loaded": true,
+          "displayWidth": 490,
+          "displayHeight": 316,
+          "width": 490,
+          "height": 316,
+          "nativeWidth": "1280",
+          "nativeHeight": "960",
+          "fit": "cover",
+          "pos": "50% 58%",
+          "loading": "lazy",
+          "sizes": "(max-width: 760px) 45vw, (max-width: 1100px) 34vw, (max-width: 1600px) 31vw, 490px",
+          "srcset": "/assets/project-gallery/142-400.webp 400w, /assets/project-gallery/142-700.webp 700w, /assets/project-gallery/142.webp 1280w"
+        }
+      ],
+      "differences": [
+        {
+          "element": "#proyek",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__intro",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__intro h2",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "104px",
+          "prototypeFontSize": "104px"
+        },
+        {
+          "element": ".home-gallery__photos",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__photos > .home-gallery__photo",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__supporting",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-gallery__end",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": "#kontak",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-consultation__grid",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        },
+        {
+          "element": ".home-consultation__action",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "17px",
+          "prototypeFontSize": "17px"
+        },
+        {
+          "element": ".home-consultation__preparation",
+          "x": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "prototypeFontSize": "16px"
+        }
+      ],
+      "footerHeight": 444,
+      "prototypeFooterHeight": 444
+    }
+  ],
+  "checks": [
+    {
+      "name": "390 homepage layout, approved geometry, assets and screenshot",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "differences": [
+          {
+            "element": "#proyek",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__intro",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__intro h2",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "42px",
+            "prototypeFontSize": "42px"
+          },
+          {
+            "element": ".home-gallery__photos",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__photos > .home-gallery__photo",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__supporting",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__end",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": "#kontak",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-consultation__grid",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-consultation__action",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-consultation__preparation",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "390 homepage lightbox, keyboard, modulo navigation and focus",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "keys": [
+          "Tab",
+          "Shift+Tab",
+          "Enter",
+          "ArrowLeft",
+          "ArrowRight",
+          "Escape"
+        ]
+      }
+    },
+    {
+      "name": "390 homepage consultation form and focus",
+      "pass": true
+    },
+    {
+      "name": "390 homepage floating contact and clearance",
+      "pass": true,
+      "details": {
+        "shown": 33,
+        "hidden": 21,
+        "sampleCount": 54,
+        "collisions": [],
+        "atFooter": true
+      }
+    },
+    {
+      "name": "390 homepage footer services, links, keyboard and back to top",
+      "pass": true
+    },
+    {
+      "name": "390 homepage accessibility scan of final sections",
+      "pass": true,
+      "details": {
+        "violations": 0
+      }
+    },
+    {
+      "name": "390 gallery navigation and existing photo viewer",
+      "pass": true
+    },
+    {
+      "name": "390 gallery footer floating contact clearance",
+      "pass": true,
+      "details": {
+        "shown": 19,
+        "hidden": 0,
+        "sampleCount": 19,
+        "collisions": [],
+        "atFooter": true
+      }
+    },
+    {
+      "name": "390 gallery footer services, links, keyboard and back to top",
+      "pass": true
+    },
+    {
+      "name": "390 gallery footer directs to the homepage consultation anchor",
+      "pass": true
+    },
+    {
+      "name": "768 homepage layout, approved geometry, assets and screenshot",
+      "pass": true,
+      "details": {
+        "width": 768,
+        "differences": [
+          {
+            "element": "#proyek",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__intro",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__intro h2",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "54px",
+            "prototypeFontSize": "54px"
+          },
+          {
+            "element": ".home-gallery__photos",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__photos > .home-gallery__photo",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__supporting",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__end",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": "#kontak",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-consultation__grid",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-consultation__action",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "17px",
+            "prototypeFontSize": "17px"
+          },
+          {
+            "element": ".home-consultation__preparation",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "768 homepage lightbox, keyboard, modulo navigation and focus",
+      "pass": true,
+      "details": {
+        "width": 768,
+        "keys": [
+          "Tab",
+          "Shift+Tab",
+          "Enter",
+          "ArrowLeft",
+          "ArrowRight",
+          "Escape"
+        ]
+      }
+    },
+    {
+      "name": "768 homepage consultation form and focus",
+      "pass": true
+    },
+    {
+      "name": "768 homepage floating contact and clearance",
+      "pass": true,
+      "details": {
+        "shown": 18,
+        "hidden": 25,
+        "sampleCount": 43,
+        "collisions": [],
+        "atFooter": true
+      }
+    },
+    {
+      "name": "768 homepage footer services, links, keyboard and back to top",
+      "pass": true
+    },
+    {
+      "name": "768 homepage accessibility scan of final sections",
+      "pass": true,
+      "details": {
+        "violations": 0
+      }
+    },
+    {
+      "name": "768 gallery navigation and existing photo viewer",
+      "pass": true
+    },
+    {
+      "name": "768 gallery footer floating contact clearance",
+      "pass": true,
+      "details": {
+        "shown": 18,
+        "hidden": 0,
+        "sampleCount": 18,
+        "collisions": [],
+        "atFooter": true
+      }
+    },
+    {
+      "name": "768 gallery footer services, links, keyboard and back to top",
+      "pass": true
+    },
+    {
+      "name": "768 gallery footer directs to the homepage consultation anchor",
+      "pass": true
+    },
+    {
+      "name": "1024 homepage layout, approved geometry, assets and screenshot",
+      "pass": true,
+      "details": {
+        "width": 1024,
+        "differences": [
+          {
+            "element": "#proyek",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__intro",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__intro h2",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "68.608px",
+            "prototypeFontSize": "68.608px"
+          },
+          {
+            "element": ".home-gallery__photos",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__photos > .home-gallery__photo",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__supporting",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__end",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": "#kontak",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-consultation__grid",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-consultation__action",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "17px",
+            "prototypeFontSize": "17px"
+          },
+          {
+            "element": ".home-consultation__preparation",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "1024 homepage lightbox, keyboard, modulo navigation and focus",
+      "pass": true,
+      "details": {
+        "width": 1024,
+        "keys": [
+          "Tab",
+          "Shift+Tab",
+          "Enter",
+          "ArrowLeft",
+          "ArrowRight",
+          "Escape"
+        ]
+      }
+    },
+    {
+      "name": "1024 homepage consultation form and focus",
+      "pass": true
+    },
+    {
+      "name": "1024 homepage floating contact and clearance",
+      "pass": true,
+      "details": {
+        "shown": 12,
+        "hidden": 28,
+        "sampleCount": 40,
+        "collisions": [],
+        "atFooter": true
+      }
+    },
+    {
+      "name": "1024 homepage footer services, links, keyboard and back to top",
+      "pass": true
+    },
+    {
+      "name": "1024 homepage accessibility scan of final sections",
+      "pass": true,
+      "details": {
+        "violations": 0
+      }
+    },
+    {
+      "name": "1024 gallery navigation and existing photo viewer",
+      "pass": true
+    },
+    {
+      "name": "1024 gallery footer floating contact clearance",
+      "pass": true,
+      "details": {
+        "shown": 12,
+        "hidden": 0,
+        "sampleCount": 12,
+        "collisions": [],
+        "atFooter": true
+      }
+    },
+    {
+      "name": "1024 gallery footer services, links, keyboard and back to top",
+      "pass": true
+    },
+    {
+      "name": "1024 gallery footer directs to the homepage consultation anchor",
+      "pass": true
+    },
+    {
+      "name": "1440 homepage layout, approved geometry, assets and screenshot",
+      "pass": true,
+      "details": {
+        "width": 1440,
+        "differences": [
+          {
+            "element": "#proyek",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__intro",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__intro h2",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "96.48px",
+            "prototypeFontSize": "96.48px"
+          },
+          {
+            "element": ".home-gallery__photos",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__photos > .home-gallery__photo",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__supporting",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__end",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": "#kontak",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-consultation__grid",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-consultation__action",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "17px",
+            "prototypeFontSize": "17px"
+          },
+          {
+            "element": ".home-consultation__preparation",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "1440 homepage lightbox, keyboard, modulo navigation and focus",
+      "pass": true,
+      "details": {
+        "width": 1440,
+        "keys": [
+          "Tab",
+          "Shift+Tab",
+          "Enter",
+          "ArrowLeft",
+          "ArrowRight",
+          "Escape"
+        ]
+      }
+    },
+    {
+      "name": "1440 homepage consultation form and focus",
+      "pass": true
+    },
+    {
+      "name": "1440 homepage floating contact and clearance",
+      "pass": true,
+      "details": {
+        "shown": 14,
+        "hidden": 31,
+        "sampleCount": 45,
+        "collisions": [],
+        "atFooter": true
+      }
+    },
+    {
+      "name": "1440 homepage footer services, links, keyboard and back to top",
+      "pass": true
+    },
+    {
+      "name": "1440 homepage accessibility scan of final sections",
+      "pass": true,
+      "details": {
+        "violations": 0
+      }
+    },
+    {
+      "name": "1440 gallery navigation and existing photo viewer",
+      "pass": true
+    },
+    {
+      "name": "1440 gallery footer floating contact clearance",
+      "pass": true,
+      "details": {
+        "shown": 12,
+        "hidden": 0,
+        "sampleCount": 12,
+        "collisions": [],
+        "atFooter": true
+      }
+    },
+    {
+      "name": "1440 gallery footer services, links, keyboard and back to top",
+      "pass": true
+    },
+    {
+      "name": "1440 gallery footer directs to the homepage consultation anchor",
+      "pass": true
+    },
+    {
+      "name": "1920 homepage layout, approved geometry, assets and screenshot",
+      "pass": true,
+      "details": {
+        "width": 1920,
+        "differences": [
+          {
+            "element": "#proyek",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__intro",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__intro h2",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "104px",
+            "prototypeFontSize": "104px"
+          },
+          {
+            "element": ".home-gallery__photos",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__photos > .home-gallery__photo",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__supporting",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-gallery__end",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": "#kontak",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-consultation__grid",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          },
+          {
+            "element": ".home-consultation__action",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "17px",
+            "prototypeFontSize": "17px"
+          },
+          {
+            "element": ".home-consultation__preparation",
+            "x": 0,
+            "width": 0,
+            "height": 0,
+            "fontSize": "16px",
+            "prototypeFontSize": "16px"
+          }
+        ]
+      }
+    },
+    {
+      "name": "1920 homepage lightbox, keyboard, modulo navigation and focus",
+      "pass": true,
+      "details": {
+        "width": 1920,
+        "keys": [
+          "Tab",
+          "Shift+Tab",
+          "Enter",
+          "ArrowLeft",
+          "ArrowRight",
+          "Escape"
+        ]
+      }
+    },
+    {
+      "name": "1920 homepage consultation form and focus",
+      "pass": true
+    },
+    {
+      "name": "1920 homepage floating contact and clearance",
+      "pass": true,
+      "details": {
+        "shown": 47,
+        "hidden": 0,
+        "sampleCount": 47,
+        "collisions": [],
+        "atFooter": true
+      }
+    },
+    {
+      "name": "1920 homepage footer services, links, keyboard and back to top",
+      "pass": true
+    },
+    {
+      "name": "1920 homepage accessibility scan of final sections",
+      "pass": true,
+      "details": {
+        "violations": 0
+      }
+    },
+    {
+      "name": "1920 gallery navigation and existing photo viewer",
+      "pass": true
+    },
+    {
+      "name": "1920 gallery footer floating contact clearance",
+      "pass": true,
+      "details": {
+        "shown": 12,
+        "hidden": 0,
+        "sampleCount": 12,
+        "collisions": [],
+        "atFooter": true
+      }
+    },
+    {
+      "name": "1920 gallery footer services, links, keyboard and back to top",
+      "pass": true
+    },
+    {
+      "name": "1920 gallery footer directs to the homepage consultation anchor",
+      "pass": true
+    },
+    {
+      "name": "1440 default motion, hover feedback and live reduced motion",
+      "pass": true
+    },
+    {
+      "name": "390 prerendered content and native links without JavaScript",
+      "pass": true
+    },
+    {
+      "name": "All checked pages free of browser warnings, errors and failed HTTP responses",
+      "pass": true
+    }
+  ],
+  "browserMessages": []
+}

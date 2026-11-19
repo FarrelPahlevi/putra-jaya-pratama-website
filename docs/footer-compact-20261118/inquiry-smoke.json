@@ -1,0 +1,50 @@
+[
+  {
+    "width": 320,
+    "route": "/",
+    "pass": true,
+    "checks": [
+      "required validation",
+      "encoded WhatsApp handoff (mocked)",
+      "native fallback link",
+      "clipboard denied fallback",
+      "footer overflow"
+    ]
+  },
+  {
+    "width": 320,
+    "route": "/galeri-proyek",
+    "pass": true,
+    "checks": [
+      "required validation",
+      "encoded WhatsApp handoff (mocked)",
+      "native fallback link",
+      "clipboard denied fallback",
+      "footer overflow"
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "pass": true,
+    "checks": [
+      "required validation",
+      "encoded WhatsApp handoff (mocked)",
+      "native fallback link",
+      "clipboard denied fallback",
+      "footer overflow"
+    ]
+  },
+  {
+    "width": 1440,
+    "route": "/galeri-proyek",
+    "pass": true,
+    "checks": [
+      "required validation",
+      "encoded WhatsApp handoff (mocked)",
+      "native fallback link",
+      "clipboard denied fallback",
+      "footer overflow"
+    ]
+  }
+]

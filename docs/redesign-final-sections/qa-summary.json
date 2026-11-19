@@ -1,0 +1,416 @@
+[
+  {
+    "name": "editorial 390: layout, actual images and Barlow",
+    "pass": true
+  },
+  {
+    "name": "editorial 390: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "editorial 390: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "editorial 390: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "portfolio 390: layout, actual images and Barlow",
+    "pass": true
+  },
+  {
+    "name": "portfolio 390: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "portfolio 390: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "portfolio 390: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "portfolio 390: photo selection is real and stable",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 390: layout, actual images and Barlow",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 390: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 390: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 390: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 390: horizontal rail uses native scrolling",
+    "pass": true
+  },
+  {
+    "name": "editorial 768: layout, actual images and Barlow",
+    "pass": true
+  },
+  {
+    "name": "editorial 768: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "editorial 768: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "editorial 768: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "portfolio 768: layout, actual images and Barlow",
+    "pass": true
+  },
+  {
+    "name": "portfolio 768: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "portfolio 768: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "portfolio 768: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "portfolio 768: photo selection is real and stable",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 768: layout, actual images and Barlow",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 768: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 768: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 768: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 768: horizontal rail uses native scrolling",
+    "pass": true
+  },
+  {
+    "name": "editorial 1024: layout, actual images and Barlow",
+    "pass": true
+  },
+  {
+    "name": "editorial 1024: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "editorial 1024: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "editorial 1024: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1024: layout, actual images and Barlow",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1024: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1024: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1024: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1024: photo selection is real and stable",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 1024: layout, actual images and Barlow",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 1024: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 1024: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 1024: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 1024: horizontal rail uses native scrolling",
+    "pass": true
+  },
+  {
+    "name": "editorial 1440: layout, actual images and Barlow",
+    "pass": true
+  },
+  {
+    "name": "editorial 1440: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "editorial 1440: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "editorial 1440: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1440: layout, actual images and Barlow",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1440: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1440: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1440: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1440: photo selection is real and stable",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 1440: layout, actual images and Barlow",
+    "pass": true,
+    "details": {
+      "initial": [
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/112.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/035.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/142.webp"
+        },
+        {
+          "loaded": false,
+          "src": ""
+        }
+      ],
+      "final": [
+        {
+          "loaded": true,
+          "width": 789,
+          "height": 547
+        },
+        {
+          "loaded": true,
+          "width": 427,
+          "height": 547
+        },
+        {
+          "loaded": true,
+          "width": 789,
+          "height": 547
+        },
+        {
+          "loaded": true,
+          "width": 427,
+          "height": 547
+        }
+      ],
+      "note": "Off-screen native lazy images are checked after scrolling them into view."
+    },
+    "recheckedAfter": "The expression evaluated to a falsy value:\n\n  assert(view.images.every(image => image.loaded && image.width > 0 && image.height > 0))\n"
+  },
+  {
+    "name": "filmstrip 1440: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 1440: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 1440: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 1440: horizontal rail uses native scrolling",
+    "pass": true
+  },
+  {
+    "name": "editorial 1920: layout, actual images and Barlow",
+    "pass": true
+  },
+  {
+    "name": "editorial 1920: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "editorial 1920: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "editorial 1920: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1920: layout, actual images and Barlow",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1920: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1920: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1920: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "portfolio 1920: photo selection is real and stable",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 1920: layout, actual images and Barlow",
+    "pass": true,
+    "details": {
+      "initial": [
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/112.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/035.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/142.webp"
+        },
+        {
+          "loaded": false,
+          "src": ""
+        }
+      ],
+      "final": [
+        {
+          "loaded": true,
+          "width": 878,
+          "height": 609
+        },
+        {
+          "loaded": true,
+          "width": 475,
+          "height": 609
+        },
+        {
+          "loaded": true,
+          "width": 878,
+          "height": 609
+        },
+        {
+          "loaded": true,
+          "width": 475,
+          "height": 609
+        }
+      ],
+      "note": "Off-screen native lazy images are checked after scrolling them into view."
+    },
+    "recheckedAfter": "The expression evaluated to a falsy value:\n\n  assert(view.images.every(image => image.loaded && image.width > 0 && image.height > 0))\n"
+  },
+  {
+    "name": "filmstrip 1920: accessible names and contrast",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 1920: image dialog, arrows, Escape and focus return",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 1920: enquiry and floating-control clearance",
+    "pass": true
+  },
+  {
+    "name": "filmstrip 1920: horizontal rail uses native scrolling",
+    "pass": true
+  },
+  {
+    "name": "Default motion: visible content, settled photos and hover feedback",
+    "pass": true
+  },
+  {
+    "name": "Keyboard: all footer controls have sequential focus and a visible ring",
+    "pass": true
+  },
+  {
+    "name": "Six services retain form preselection and back-to-top retains prototype",
+    "pass": true
+  },
+  {
+    "name": "Contact links and routes remain real",
+    "pass": true
+  },
+  {
+    "name": "Approved source files unchanged against pre-prototype hashes",
+    "pass": true
+  },
+  {
+    "name": "Browser console and runtime errors",
+    "pass": true
+  },
+  {
+    "name": "Built prototype: SSR hydration and enquiry",
+    "pass": true,
+    "details": {
+      "errors": []
+    }
+  },
+  {
+    "name": "Built prototype: content remains readable with JavaScript disabled",
+    "pass": true
+  },
+  {
+    "name": "Static review bundle: approved comparison and gallery navigation",
+    "pass": true
+  },
+  {
+    "name": "Final visual refinement: 15 responsive compositions and AA contrast",
+    "pass": true,
+    "details": {
+      "compositions": 15
+    }
+  }
+]

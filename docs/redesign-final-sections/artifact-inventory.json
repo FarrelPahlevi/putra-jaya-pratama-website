@@ -1,0 +1,1060 @@
+[
+  {
+    "file": "docs/redesign-final-sections/additional-board-0.jpg",
+    "bytes": 125701,
+    "sha256": "d1b020b0f56378f6e628ccb05deca41b30661ccc831da953d12d6216df3f81a6",
+    "width": 1440,
+    "height": 1020
+  },
+  {
+    "file": "docs/redesign-final-sections/additional-board-1.jpg",
+    "bytes": 138314,
+    "sha256": "1e818de61d87fb8b28d86fa156af46a97d7e5f53f5f04913ef9b9ec0eefcd6b4",
+    "width": 1440,
+    "height": 1020
+  },
+  {
+    "file": "docs/redesign-final-sections/additional-board-2.jpg",
+    "bytes": 49961,
+    "sha256": "e58d0de62e1263ad8f8e0f663d407459ca12f7f2edfba40b9a65a96d7e1540e7",
+    "width": 1440,
+    "height": 1020
+  },
+  {
+    "file": "docs/redesign-final-sections/approved-source-hashes.json",
+    "bytes": 1122,
+    "sha256": "d7752706d74b08dfca0c4ac3cd15d5d7fb97771e6e5505706d8349384f2aee3c"
+  },
+  {
+    "file": "docs/redesign-final-sections/capture-additional.mjs",
+    "bytes": 2594,
+    "sha256": "58c7ddf7c489ed0eda626505d927f62f5cd49b4f9cadc87c370744d195dc4ef3"
+  },
+  {
+    "file": "docs/redesign-final-sections/capture-contact.mjs",
+    "bytes": 1648,
+    "sha256": "affee065af5aad7db0a88e25cc8d0dd10a6ec7da049344f6759a9d7aeb747433"
+  },
+  {
+    "file": "docs/redesign-final-sections/checkpoint-review-0.jpg",
+    "bytes": 140532,
+    "sha256": "295b274e1fb3fde9a55ca2897a61761b5e02bdb3104c39d2981fdd9acbbfd7f9",
+    "width": 1440,
+    "height": 1010
+  },
+  {
+    "file": "docs/redesign-final-sections/checkpoint-review-1.jpg",
+    "bytes": 70056,
+    "sha256": "ed7687bc366cb42ca59fead60bb572d1adddd4c76360fcd6c3ed1ee10dace62f",
+    "width": 1440,
+    "height": 1010
+  },
+  {
+    "file": "docs/redesign-final-sections/checkpoint-review-2.jpg",
+    "bytes": 32243,
+    "sha256": "1762d149c5d45257b3f60147a184972dadd968fd9d6b34c5cb177af81af10aa5",
+    "width": 1440,
+    "height": 1010
+  },
+  {
+    "file": "docs/redesign-final-sections/CONCEPTS.md",
+    "bytes": 5258,
+    "sha256": "ceeb42a6eace887ac2fbb469320062ff45cc93b030ba0302787fc58ae160c0c9"
+  },
+  {
+    "file": "docs/redesign-final-sections/contact-board-0.jpg",
+    "bytes": 117798,
+    "sha256": "779659c232d452fbae22ec085b26348900c140bd15c733da58be3060fb43e98f",
+    "width": 1440,
+    "height": 1020
+  },
+  {
+    "file": "docs/redesign-final-sections/contact-board-1.jpg",
+    "bytes": 24568,
+    "sha256": "8e04a928139a39cef98459d9b4fc4b07328e0118be6784309dd588320b006a13",
+    "width": 1440,
+    "height": 1020
+  },
+  {
+    "file": "docs/redesign-final-sections/dev-server-error.log",
+    "bytes": 343,
+    "sha256": "670c8917732ea102f91099afd6f6e99523247dfd8f64797c1da6bda2ef47339f"
+  },
+  {
+    "file": "docs/redesign-final-sections/dev-server.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "docs/redesign-final-sections/final-visual-report.json",
+    "bytes": 5989,
+    "sha256": "e80402af76d99567e95c42186023d0cfceaa17f156eac713eeaa355cdaa5b114"
+  },
+  {
+    "file": "docs/redesign-final-sections/inventory-0.jpg",
+    "bytes": 71781,
+    "sha256": "e68a919dc5e212ff90692ce9875578d026cef21d40744295cc93bab81cc9bf76",
+    "width": 1440,
+    "height": 1080
+  },
+  {
+    "file": "docs/redesign-final-sections/inventory-1.jpg",
+    "bytes": 106001,
+    "sha256": "19f5a742c68acc0b6269706e8c742b0d3f7093ddc93a2770a9c00d654c5d0d4b",
+    "width": 1440,
+    "height": 1080
+  },
+  {
+    "file": "docs/redesign-final-sections/photo-selection.jpg",
+    "bytes": 324930,
+    "sha256": "f982e1afb8c0c21eb5a9211f2609edfb15f44d5d6c7ce348d2c3c8b2319c4569",
+    "width": 1400,
+    "height": 1100
+  },
+  {
+    "file": "docs/redesign-final-sections/PLAN.md",
+    "bytes": 1935,
+    "sha256": "1051e8b787598691050e92e068d5d09f54043dc5ddc06d33c4dcf8c1aadf4070"
+  },
+  {
+    "file": "docs/redesign-final-sections/preview-server-error.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "docs/redesign-final-sections/preview-server.log",
+    "bytes": 39,
+    "sha256": "ecbd7eb35ac4acd913ff89a5390ee30069b6e910709e5626dc3f8fc34eadb53f"
+  },
+  {
+    "file": "docs/redesign-final-sections/qa-initial-harness.json",
+    "bytes": 5722,
+    "sha256": "8ce13e837af3b2926edbd9efd6c6eb775e970d5cdd15a28ce20a85050721e536"
+  },
+  {
+    "file": "docs/redesign-final-sections/qa-report.json",
+    "bytes": 26212,
+    "sha256": "389702bd710f614c89347cf9c415d73aa4bf08c684a0d1f577fec0e0d5946e61"
+  },
+  {
+    "file": "docs/redesign-final-sections/qa-summary.json",
+    "bytes": 9911,
+    "sha256": "b1cca21085997434d5e91ee27fe3b1ff29daf926cafeb58aae7bd633eb7f46e1"
+  },
+  {
+    "file": "docs/redesign-final-sections/QA.md",
+    "bytes": 12113,
+    "sha256": "ec0a566c1ae77f8ad93847ff0d2a1086985106dd6ac5faffc00a12f521d1aa28"
+  },
+  {
+    "file": "docs/redesign-final-sections/README.md",
+    "bytes": 1559,
+    "sha256": "fc62c7de3578156e746003efcae6d6206fb65c6ec9d0a96b98675bf158df21ed"
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/awwwards-grids-mobile.jpg",
+    "bytes": 35418,
+    "sha256": "309a7c42a3075683d5d59cb4d27ce4a9e32b0a2daa2ec92ca3623a00b29306f5",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/awwwards-grids-top.jpg",
+    "bytes": 79638,
+    "sha256": "27a05fb161258405863fdd8705169c479f7cca9f48785477bd4cf2abe0231359",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/awwwards-kononenko-mobile.jpg",
+    "bytes": 49842,
+    "sha256": "31a99eea49ea217ce1f3fbf7a663bd7605697c9cb1cf052d18078c9b9283facf",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/awwwards-kononenko-top.jpg",
+    "bytes": 91307,
+    "sha256": "707682f3867fbec2ebea89ae04752f1d6a7a7660160e60ea9a541ec2fdacdba3",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/basic-top.jpg",
+    "bytes": 155583,
+    "sha256": "719476433e618abf58ebd28dbda159fe58d10df6d588904324113f2111b64bff",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/basic-work.jpg",
+    "bytes": 80191,
+    "sha256": "9144d6ab96e4612e4e9f8252b4f1c6a32acca47c5a707cbcd2e03b2fcee64471",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/chipperfield-contact-mobile.jpg",
+    "bytes": 76113,
+    "sha256": "dc1ffbaaa802c5da4f90c93df1001aacf48e24b839563abcef00b4033f0d3cf7",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/chipperfield-contact-top.jpg",
+    "bytes": 178784,
+    "sha256": "76a4acb4ab393b39b8bec5ac68cefe7742f1ede5a1a85554e1a6c7566799a17e",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/chipperfield-mobile.jpg",
+    "bytes": 41845,
+    "sha256": "dce25e20a5a2092b198e51bac1ccc411c8594f92fc014bfe5b6e51aae9eea8aa",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/chipperfield-top.jpg",
+    "bytes": 111388,
+    "sha256": "22397297d813099e16b4798f48449ac130756403494514a057e13e20d176b53f",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/chipperfield-work.jpg",
+    "bytes": 128611,
+    "sha256": "7aa2618d32fea6e2cbe468f9fee143ac0356233a240a50713122f297af45dfa6",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/collins-top.jpg",
+    "bytes": 130377,
+    "sha256": "4d5920d48bd4424491e43e1a5c0028151e407014e39f8bf49ab3cde3e745fe14",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/collins-work.jpg",
+    "bytes": 137838,
+    "sha256": "f3411329b6fd583256cf7da0e6d19584937ed9b29c94e54e53fee34094b65ccd",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/contact-inspection.json",
+    "bytes": 17609,
+    "sha256": "320b705d7eddfd4d6ef18bcc2b6def3e2f63377efcd6a0f49c038598c43b1391"
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/foster-top.jpg",
+    "bytes": 41492,
+    "sha256": "5a1862e8ded9b19bcfbd9611e680614dd70b655c62c829556cc97f09730b88e5",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/foster-work.jpg",
+    "bytes": 41461,
+    "sha256": "31d4b59813a05df85e6eb4dfe3ab1e7e2518467cfb7ae43b9585243f4cd3d071",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/godly-top.jpg",
+    "bytes": 135184,
+    "sha256": "4ec196b88e7e1b5dd2a55f3458b7a299f1ca16e40f6411b9f8dd1285885bc386",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/godly-work.jpg",
+    "bytes": 166174,
+    "sha256": "16734469ece72b9569deb5e2e4f5689f91afe30eb5da153bc74ad870f4d4e7aa",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/henning-top.jpg",
+    "bytes": 88990,
+    "sha256": "2d7b054133a4b8c8aa8742b8406674ebe0a5921ce99c186f360e9e1b1caab53b",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/henning-work.jpg",
+    "bytes": 107318,
+    "sha256": "52097b83adbfce84a246b617c223fb55ca58195853c5b0bb4f4dc9f44c8304c6",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/inspection.json",
+    "bytes": 65729,
+    "sha256": "215b521d6701f02688b5540979bbb05f7d7eb8a611c8ecdda484361e6a8f6db0"
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/instrument-contact-mobile.jpg",
+    "bytes": 23179,
+    "sha256": "937df80c9a358b8fec6fd95557a88733cbdae488bd44c87c6e7d3da911f2f3dc",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/instrument-contact-top.jpg",
+    "bytes": 16153,
+    "sha256": "82a024281633ff07447eb37d7d2289131859a94c5c89ed4ca46da18d80af3c18",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/instrument-mobile.jpg",
+    "bytes": 36696,
+    "sha256": "f52915e5956dd84dcbf90c5fbf683284f3f08f9ba860b15b6cec3655d356c7da",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/instrument-top.jpg",
+    "bytes": 86883,
+    "sha256": "eb7def8b8d7c011bf70ea54bc3fef44e946a8b8e6b1880b3adbbeabeb209bb94",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/instrument-work.jpg",
+    "bytes": 62293,
+    "sha256": "8f2167bfacef03851fb6338bee6de9b6184ffe2f6eedc77f3d92cff40b3b1d31",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/nendo-top.jpg",
+    "bytes": 9263,
+    "sha256": "3aba22ed078a198498ed1200862df20c3f2b25e4648fd399dd35bc085880e3fe",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/nendo-work.jpg",
+    "bytes": 9263,
+    "sha256": "3aba22ed078a198498ed1200862df20c3f2b25e4648fd399dd35bc085880e3fe",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/norm-contact-mobile.jpg",
+    "bytes": 36293,
+    "sha256": "98a987898317b3c915a9b7853e149a3eb20abd2366a600f7217af299dbe1bd3f",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/norm-contact-top.jpg",
+    "bytes": 126909,
+    "sha256": "cdcc19dacc214c2f846ef0e8618ce13f8144a77a09ac4d3491728b1da30da8cb",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/norm-mobile.jpg",
+    "bytes": 39578,
+    "sha256": "bc24e6462e39f6d2615f116f709032c93df9c1133bfa11bc4b65388c29f39d85",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/norm-top.jpg",
+    "bytes": 142852,
+    "sha256": "b83089d59ece7d3e97846371065ff7070289184b883f0bf4d4c674644c38c2e5",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/norm-work.jpg",
+    "bytes": 117473,
+    "sha256": "e6bb0db989fba63dc6994b0de29dcd7aecbfef5fbc5abf7470f3b9b653e3d6bb",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/olsonkundig-top.jpg",
+    "bytes": 252632,
+    "sha256": "2ea6c64f4ed180270ee91f1729d2a86ff037ac67f787735a3017789cbf18a0ff",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/olsonkundig-work.jpg",
+    "bytes": 270386,
+    "sha256": "f9f0be6f5aa334529cfb7d50b23816b8cb628334824ecf8f684cec5372caf317",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/pentagram-top.jpg",
+    "bytes": 175430,
+    "sha256": "838331132cdbbc8e37e03cbb18a3cf7d062c9f961781d16e4adcd4c911510aff",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/pentagram-work.jpg",
+    "bytes": 150712,
+    "sha256": "f38ec418df3d42225433b4a0f8eedee1a5ecb1f68f616df6e401fecf9cebd4d7",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/shape-contact-mobile.jpg",
+    "bytes": 33524,
+    "sha256": "765c3a5de3e08a1dcba5ea79e0f5a59de2c609ec00f1ba5bf26bcdc00ae8dc7d",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/shape-contact-top.jpg",
+    "bytes": 95889,
+    "sha256": "a57b111d6958cc07b8ddd715d83d275d8998750373ff79115afe0da1cb29931f",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/shape-top.jpg",
+    "bytes": 134695,
+    "sha256": "4fd0cc4c292a2bf4488dee1686c8a51a595a31d563a007316e9596297f317ff0",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/shape-work.jpg",
+    "bytes": 161448,
+    "sha256": "4353376056a7270cf114ce29dea229c3dc2d9c928624882a402e41e77637539e",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/snohetta-contact-mobile.jpg",
+    "bytes": 30622,
+    "sha256": "465a7517a79d0702a284188beb567d87126a632ce4bf2015ec6730e893fbb7a6",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/snohetta-contact-top.jpg",
+    "bytes": 79732,
+    "sha256": "8185a04e70554a0bc0f3498ecba825789d43bd38e251164b360a2fc6642411a6",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/snohetta-mobile.jpg",
+    "bytes": 29623,
+    "sha256": "3e2ec8d2fdccbd475b1557139255ab41ed1ee0a2993f1ba4260b483dc8f0f469",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/snohetta-top.jpg",
+    "bytes": 96796,
+    "sha256": "2450c9fa890e8ad0f723cce1ba608b16db3bff7fea919432aa7bb2ebbcd2d86f",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/additional/snohetta-work.jpg",
+    "bytes": 240028,
+    "sha256": "da7ae3aad9b3b25c51e6e5f46185249d87425d1f6d097fd23d5cd6e553fcbd4f",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/aperios-design-desktop-footer.png",
+    "bytes": 75774,
+    "sha256": "f575916e8ea5b11a7c1fb14ca8e3d4ba2361b08e5438d334df56b344027b9e14",
+    "width": 1440,
+    "height": 807
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/aperios-design-desktop.png",
+    "bytes": 91696,
+    "sha256": "4dd9733c098fec843ddbbfd68e65cd4bcac4332350392d1aedbcef21c0d594bb",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/aperios-design-mobile-footer.png",
+    "bytes": 49108,
+    "sha256": "14fa88f7761ab757181a31c70a47a2030cb532c62061f6f28031c5ffca7ab34c",
+    "width": 390,
+    "height": 1027
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/aperios-design-mobile.png",
+    "bytes": 44368,
+    "sha256": "b3949c5ba777930353d2274964d12fc6b35b63c1ae3e45fe0b1dec3330a27a13",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/aperios-design-showcase.png",
+    "bytes": 144112,
+    "sha256": "f791b9ad50cacbb6f91ea2fd8058bf3333915703fd6cb391bb3f0a5fd6e74d8b",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/capture-results.json",
+    "bytes": 140059,
+    "sha256": "9f8fb3eec8b5a03e6a12f304d0add69b0f67d1e62b396f500d2bb41caa008625"
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/capture.mjs",
+    "bytes": 3771,
+    "sha256": "58ee2672ade759e21d81b5deb7783249ae1279028128d4b073b7bd093b8dacb8"
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/digital-metal-desktop-footer.png",
+    "bytes": 488029,
+    "sha256": "8eee75bb7fbc53e65c641a937510731ce2b0dc36f7c172a598333dccd8fef5e8",
+    "width": 1440,
+    "height": 752
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/digital-metal-desktop.png",
+    "bytes": 659890,
+    "sha256": "ae073d826a220b301d7d9e0369336b8779a36b1201001aee77b084d2a5acf0b0",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/digital-metal-mobile-footer.png",
+    "bytes": 124247,
+    "sha256": "87a74c3332f8900e70008a46adb0b91dafe7a3af91fb57832b3656aaf6a4bd51",
+    "width": 390,
+    "height": 750
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/digital-metal-mobile.png",
+    "bytes": 128246,
+    "sha256": "47ce6f9a5e30db1038efa348de43daf191f77938b32d706f6ffd2297e51adf20",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/digital-metal-showcase.png",
+    "bytes": 376779,
+    "sha256": "eb0133b57e50bd54084902ea50813ad596a0965b6520500022cc27eb76af57d8",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/hellohello-desktop-footer.png",
+    "bytes": 323600,
+    "sha256": "51160b23c5bd57402074f0c1abf4afb1580f4976e9ad17ba4f6d9206ba90e8e9",
+    "width": 1440,
+    "height": 1001
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/hellohello-desktop.png",
+    "bytes": 168338,
+    "sha256": "8c469bbc393725bf4f5f3cb0c5fc13625ad0b08233cdde63e6736268782fcd07",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/hellohello-mobile-footer.png",
+    "bytes": 43862,
+    "sha256": "de40c3b59637d36fe842813af5b6eefc32873bc90e93ace51634859681442791",
+    "width": 390,
+    "height": 434
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/hellohello-mobile.png",
+    "bytes": 2737,
+    "sha256": "b3e5a8ee09aabb518edfe9a512dc3830f291b55c6673b494f7fa01582fc34963",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/hellohello-showcase.png",
+    "bytes": 218647,
+    "sha256": "77aa26406dcc52d98f0b9ca4f543053d533d7d7aaa5e3b99b68335994ffcf285",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/united-carriers-desktop-footer.png",
+    "bytes": 153792,
+    "sha256": "f09b7ae13e49a1a2608bb771bf8648ece13b7c01a41a172549b404bb0d6ea86e",
+    "width": 1440,
+    "height": 865
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/united-carriers-desktop.png",
+    "bytes": 156229,
+    "sha256": "c4443705cb78079edef00a2f8220a99c4961c482e77775bf90461bfc6aad0b55",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/united-carriers-mobile.png",
+    "bytes": 199904,
+    "sha256": "6a2190f8b5cf232367ca432e3b3758ab5e165490ab8f2d79585ab3ce73f32264",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/footer-design/united-carriers-showcase.png",
+    "bytes": 191704,
+    "sha256": "538cad520a1fd8bac487914ce28da9fa6ca589f8430b5a57fd4405c37abc4bf5",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/intrepid-error.png",
+    "bytes": 124232,
+    "sha256": "78a6b9ea93d88bb554dbf8ab75dd58fd0531c65333d1f8f1844e448f8a590814",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/intrepid-inspection.json",
+    "bytes": 6033,
+    "sha256": "f8ee357bbd1c9688c6940195777b5d9e185a0e8c2a318d843f225152dff73314"
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/intrepid-lapa-page.png",
+    "bytes": 64342,
+    "sha256": "e8c1899c5a0947a4fd07e759c88d88b32634ea0074c1a4e846d6d5a85a4c6b32",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/jumelle-desktop-contact.png",
+    "bytes": 9138,
+    "sha256": "963645a9a3bf37d30bf979a5387cba21403a3cef575010c177c231f3c100756c",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/jumelle-desktop-footer.png",
+    "bytes": 9138,
+    "sha256": "963645a9a3bf37d30bf979a5387cba21403a3cef575010c177c231f3c100756c",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/jumelle-inspection.json",
+    "bytes": 6970,
+    "sha256": "3656a0e5be73a86559a20bfeaf0fc4c137dbd9e0d9d01d8f632e84a13ffcaa7a"
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/jumelle-lapa-page.png",
+    "bytes": 64660,
+    "sha256": "e315bd86eded5c50d14c71d01571e3e214c5a3d8e25fff569b37173d136ab923",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/jumelle-mobile-contact.png",
+    "bytes": 2740,
+    "sha256": "fb32313e11bc8ffbd5310a1660e630b64cedb4622f8462a5eae2d5464ac8279e",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/jumelle-mobile-footer.png",
+    "bytes": 2740,
+    "sha256": "fb32313e11bc8ffbd5310a1660e630b64cedb4622f8462a5eae2d5464ac8279e",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/lapa-capture.mjs",
+    "bytes": 4525,
+    "sha256": "f95770ee920d95350ed582efb7cc51b0bbe0f3f3189185bd18b25f8914d89ae6"
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/lapa-results.json",
+    "bytes": 29689,
+    "sha256": "fb1f209a0dda102c33a5cc2eb87ce672c6ae9dbedda66de442a88c6803904747"
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/scalvini-error.png",
+    "bytes": 415142,
+    "sha256": "4050d85264389984b450bc3f1e21d2cb19358edc75458f4819f0772cd2509165",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/scalvini-inspection.json",
+    "bytes": 4506,
+    "sha256": "e9bc7f5c6e0080fb10c668671862121c8fa56df1987101b8b3ad64629cbbb8b1"
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/scalvini-lapa-page.png",
+    "bytes": 64615,
+    "sha256": "54672116c7b357d55f99f162f6396695f1fe0514e3a5d084aa0e90f6f4e9a782",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/union-inspection.json",
+    "bytes": 10382,
+    "sha256": "702a8f44f84f1635c81d15412eac760e6f96f1148118d487b92f2edbbd5b84d0"
+  },
+  {
+    "file": "docs/redesign-final-sections/references/closure/union-lapa-page.png",
+    "bytes": 64606,
+    "sha256": "bf26bb0bee0c2443b73e40825f697963ede6aa627a9991d12ad376e17050b974",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/gallery/bd-behance-architecture-studio-access.png",
+    "bytes": 15058,
+    "sha256": "f074dade8f9ed88d971a5046e2170b7a56fc9f4b4068bd3a0b7354a2384358a1",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/gallery/bd-behance-interior-studio-access.png",
+    "bytes": 15058,
+    "sha256": "f074dade8f9ed88d971a5046e2170b7a56fc9f4b4068bd3a0b7354a2384358a1",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/gallery/bd-dribbble-arleth-access.png",
+    "bytes": 323209,
+    "sha256": "21f56f657a55312647bc3586bcdcb38294002f819ac9410213e4dfeba29813ce",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/gallery/bd-dribbble-tubik-access.png",
+    "bytes": 484187,
+    "sha256": "f72aa003a919efadb961342157ac2b4d071f3374c1f1644f22b4a33450d98c29",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/gallery/sl-landbook-access.png",
+    "bytes": 31324,
+    "sha256": "900513c39eebd8a8622e2371be431f04f01fcadbac85cfe92320477ad0f8ea8e",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/gallery/sl-taylorhare-desktop.png",
+    "bytes": 6737,
+    "sha256": "16733f4bdec6c11e19f66ea60997e4892bbcf7f913a6ece3699a59539fd05395",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/interaction/access.json",
+    "bytes": 23521,
+    "sha256": "526db4c24a8d2d3372c811412382aa188718692fdbe4509ca39fa703749efd6b"
+  },
+  {
+    "file": "docs/redesign-final-sections/references/interaction/accordion.jpg",
+    "bytes": 43033,
+    "sha256": "213a1e66e46a0f599bb9d14c9291f711afe82efc7ed5158fb6f8b0e24176dd86",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/interaction/blur-fade.jpg",
+    "bytes": 156070,
+    "sha256": "3e52ff73a0d558bdcbe47400a493ea65723f82f0847fe1094f08e68327815209",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/interaction/capture.mjs",
+    "bytes": 1931,
+    "sha256": "b8fac3b18777db16bb315232dbc6c4fcf08ecb62254bd049922f7d555159da17"
+  },
+  {
+    "file": "docs/redesign-final-sections/references/interaction/designeer.jpg",
+    "bytes": 113006,
+    "sha256": "1df991be50e3cccdb3175062285872cbd11b093b6f7528cbfbd1ff6c260d131e",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/interaction/hover-button.jpg",
+    "bytes": 98900,
+    "sha256": "546c4f287961669045af21635561fd680124570d9e2e982d4cb7e405bc280a29",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/interaction/masonry.jpg",
+    "bytes": 52216,
+    "sha256": "9d92af4cd9fcffc18fce2bea8688e4da24869d43ac6a4e05948e3d6f9961b8be",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/interaction/scroll-reveal.jpg",
+    "bytes": 46540,
+    "sha256": "ec7f474bd729f5f581a5ef4ea410f44cddd06a6b17009d5cca95dbff3555dbe3",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/interaction/scroll-stack.jpg",
+    "bytes": 42612,
+    "sha256": "532e1fa9f8b03f7f144a9a452acf3c1bb4f0d9220bd2af9481b005a951b425c2",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/interaction/serein-footer.jpg",
+    "bytes": 117174,
+    "sha256": "43827dd38532f89f2ad2c8f5d6652bf0133c74e7b0bc7bfda7b8967c57708c49",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/interaction/serein.jpg",
+    "bytes": 114402,
+    "sha256": "78a370c053cbd00fde0dfde4e82298fe20ddee9410578133b25ff03aa514cc31",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/interaction/taste.jpg",
+    "bytes": 109918,
+    "sha256": "e358b99283b225ade2bb98ad008c6339184ac002c7d8a5a91e6969ce93b33528",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/references/interaction/velocity.jpg",
+    "bytes": 109420,
+    "sha256": "262af225df3168b49cd9aaa66ae2fc0c4346750b2f7288fad2e8f24df879a059",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/RESEARCH.md",
+    "bytes": 30451,
+    "sha256": "2bf24a37c4d78616c4ca6807dbb9fa1825529c38995b229ea52cd42ef0cb7205"
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/approved-1024.jpg",
+    "bytes": 97965,
+    "sha256": "83b07b03c01c958eefe76825d2e3f3e483fa16681dae61609b2e953947e18949",
+    "width": 1024,
+    "height": 1210
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/approved-1440.jpg",
+    "bytes": 123765,
+    "sha256": "f2d49240fdde08b26e0d261854929926d65447cac43686626e9dd6b5b43e0d2b",
+    "width": 1440,
+    "height": 1374
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/approved-1920.jpg",
+    "bytes": 139953,
+    "sha256": "b6aef51dd38692e0b38eb1c4851877d0dd01656e803ec0e872493c32b2e66891",
+    "width": 1920,
+    "height": 1438
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/approved-390.jpg",
+    "bytes": 87562,
+    "sha256": "9a138c77d8732f9eca3cb7cd412fbda736dd4c822c17c2623507a8983e6601bc",
+    "width": 390,
+    "height": 2024
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/approved-768.jpg",
+    "bytes": 96245,
+    "sha256": "36dc9aac2f72c074562170fce7ce358bbb69e099e4d50011b069c39b26ded45c",
+    "width": 768,
+    "height": 1645
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/comparison-1440.jpg",
+    "bytes": 200060,
+    "sha256": "7ff23dfb7f4c7a95944a0f2561fcd4f64a7445dfd9695505205ec10fbd37b8c0",
+    "width": 1456,
+    "height": 1121
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/comparison-390.jpg",
+    "bytes": 298884,
+    "sha256": "3687754ad0c21a56b7accbd9417fc2d350963aff9c7bd1c2365c49326436c083",
+    "width": 796,
+    "height": 2778
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/editorial-1024.jpg",
+    "bytes": 275371,
+    "sha256": "a6eb3588742718f48d988355a2d441f589a0403870b3a779c2a70e57e730e314",
+    "width": 1024,
+    "height": 1961
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/editorial-1440.jpg",
+    "bytes": 374363,
+    "sha256": "4311acf43962fea64fede64fbbf2f00bf7050a7beccba7e4bb1beb457357bb9d",
+    "width": 1440,
+    "height": 2170
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/editorial-1920.jpg",
+    "bytes": 431665,
+    "sha256": "3054e3b5f7af448a30188785cbcbb52f9ec3fafe6d5b3355888bed19e79eac39",
+    "width": 1920,
+    "height": 2292
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/editorial-390.jpg",
+    "bytes": 140515,
+    "sha256": "4d201a560a3bbe60b4f0e922ad66aad0c5ebab2679da673749239b1a61b220d0",
+    "width": 390,
+    "height": 2742
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/editorial-768.jpg",
+    "bytes": 193717,
+    "sha256": "55d829502ad5a628e59465868c99ed3eaa0e366d9d2fab94956a7f28bf5c6b67",
+    "width": 768,
+    "height": 2113
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/editorial-hover.jpg",
+    "bytes": 275683,
+    "sha256": "7b9900cc2d957921901a0ee3db116083a576ed2417e43b9ec2baeefbb505a2dc",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/filmstrip-1024.jpg",
+    "bytes": 224698,
+    "sha256": "4638eea53f07193cc1dee926b59c4d1ab7b7901be77561b79bf0ba06101c29a4",
+    "width": 1024,
+    "height": 1698
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/filmstrip-1440.jpg",
+    "bytes": 345854,
+    "sha256": "a8b6d797c0b94db948c0caea425b301cdd57a306fd74d635705680dd4414a234",
+    "width": 1440,
+    "height": 1981
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/filmstrip-1920.jpg",
+    "bytes": 402292,
+    "sha256": "8a7723c795195656d573ce0b1e6d1c143b51c0e7ef23f9147befa1be937f3f37",
+    "width": 1920,
+    "height": 2106
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/filmstrip-390.jpg",
+    "bytes": 117683,
+    "sha256": "beee1359e3c4c539dc97b3ea7df10e8aa7edd98f32f6c1d09d5e9fef592bc7c9",
+    "width": 390,
+    "height": 2303
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/filmstrip-768.jpg",
+    "bytes": 158928,
+    "sha256": "6f6d660a0f549cc3ecb1ea0226b97040a57f52a0820b485330325f3f57b6e1de",
+    "width": 768,
+    "height": 1958
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/first-1440.jpg",
+    "bytes": 377452,
+    "sha256": "64c67830b70ddf935abad8729c2ff1dcc90464540e6b534c80c9c36e1abaa96e",
+    "width": 1440,
+    "height": 2170
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/first-390.jpg",
+    "bytes": 141924,
+    "sha256": "42a04c7ff2b655166956e8c3623d4debb8379a6e514badef71821588d44ae407",
+    "width": 390,
+    "height": 2742
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/no-javascript-390.jpg",
+    "bytes": 144685,
+    "sha256": "adf5e219bf88856a25e83a224778fe8227017667a7a69af7aa8d89d01076f08d",
+    "width": 390,
+    "height": 2793
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/portfolio-1024.jpg",
+    "bytes": 235911,
+    "sha256": "2e22691c39a7f5e6ee38831d450f4dd4491e85ea7c210f6dd7b3987e1c1a3bf7",
+    "width": 1024,
+    "height": 1961
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/portfolio-1440.jpg",
+    "bytes": 348241,
+    "sha256": "6c88bf153ccbe520de60ed25c0b28ac223df2b0844722413ce0ad608527e7371",
+    "width": 1440,
+    "height": 2263
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/portfolio-1920.jpg",
+    "bytes": 395907,
+    "sha256": "4eff97ab2da82da92f5691c1655491362c5f1e1c00a38d32f97770f078f402d0",
+    "width": 1920,
+    "height": 2379
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/portfolio-390.jpg",
+    "bytes": 132810,
+    "sha256": "7643366701a5e487c3f55980c20e0b31956b86bfca4a23825330d6bae5d3883f",
+    "width": 390,
+    "height": 2744
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/portfolio-768.jpg",
+    "bytes": 169840,
+    "sha256": "1903d266515a91f55f8b3bc37fbcc4a0ffdf8633a26d924bb7be5ebd68eade28",
+    "width": 768,
+    "height": 2149
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/review-alternatives-mobile.jpg",
+    "bytes": 370295,
+    "sha256": "c69e64c59ba02e42fd674f13535478c971a3273ce2f3e4c76676be073aae5524",
+    "width": 796,
+    "height": 2774
+  },
+  {
+    "file": "docs/redesign-final-sections/screenshots/review-responsive.jpg",
+    "bytes": 263345,
+    "sha256": "5446536965274ad791a471035398f37beb098f743f2bf8fb67773433f397945b",
+    "width": 1464,
+    "height": 1351
+  },
+  {
+    "file": "docs/redesign-final-sections/smoke-report.json",
+    "bytes": 2629,
+    "sha256": "3466395c32fa6c607a71064a71849df69f2dfc928633d5ced5834c104c6a7557"
+  },
+  {
+    "file": "docs/redesign-final-sections/taste-gate-first.txt",
+    "bytes": 25830,
+    "sha256": "1ccc4af167fde221dcd6484d44eb444c219bc4f7f610ca872332ade5dccc0854"
+  },
+  {
+    "file": "docs/redesign-final-sections/taste-gate.txt",
+    "bytes": 23936,
+    "sha256": "cf010f4ccb07be4a593138d71bac106e21f9a2442c43e4fd03df91cc8c15ee98"
+  }
+]

@@ -1,0 +1,430 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "collisions": [
+      {
+        "y": 3840,
+        "hits": [
+          {
+            "name": "Perbesar foto: Permukaan jalan, arsip 112",
+            "cls": "home-gallery__photo"
+          }
+        ]
+      },
+      {
+        "y": 4080,
+        "hits": [
+          {
+            "name": "Perbesar foto: Pemadatan aspal, arsip 142",
+            "cls": "home-gallery__photo"
+          }
+        ]
+      }
+    ],
+    "collisionPositions": 2,
+    "errors": [],
+    "state": {
+      "blocked": "false",
+      "visible": "visible"
+    },
+    "overflow": false
+  },
+  {
+    "route": "/galeri-proyek",
+    "width": 390,
+    "collisions": [
+      {
+        "y": 0,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 002",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 240,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 003",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 480,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 004",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 720,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 005",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 960,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 006",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 1200,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 006",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 1440,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 007",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 1680,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 008",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 1920,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 009",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 2160,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 010",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 2400,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 011",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 2640,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 012",
+            "cls": "project-photo__button"
+          }
+        ]
+      }
+    ],
+    "collisionPositions": 27,
+    "errors": [],
+    "state": {
+      "blocked": "false",
+      "visible": "visible"
+    },
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "collisions": [
+      {
+        "y": 2880,
+        "hits": [
+          {
+            "name": "Perbesar foto: Pekerjaan di lapangan, arsip 035",
+            "cls": "home-gallery__photo"
+          }
+        ]
+      },
+      {
+        "y": 3120,
+        "hits": [
+          {
+            "name": "Perbesar foto: Pemadatan aspal, arsip 142",
+            "cls": "home-gallery__photo"
+          }
+        ]
+      }
+    ],
+    "collisionPositions": 2,
+    "errors": [],
+    "state": {
+      "blocked": "false",
+      "visible": "visible"
+    },
+    "overflow": false
+  },
+  {
+    "route": "/galeri-proyek",
+    "width": 768,
+    "collisions": [
+      {
+        "y": 0,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 003",
+            "cls": "project-photo__button"
+          },
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 004",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 240,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 004",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 480,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 006",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 720,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 008",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 960,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 010",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 1200,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 012",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 1440,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 014",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 1680,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 014",
+            "cls": "project-photo__button"
+          },
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 016",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 1920,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 016",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 2160,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 018",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 2400,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 020",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 2640,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 022",
+            "cls": "project-photo__button"
+          }
+        ]
+      }
+    ],
+    "collisionPositions": 13,
+    "errors": [],
+    "state": {
+      "blocked": "false",
+      "visible": "visible"
+    },
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "collisions": [
+      {
+        "y": 2640,
+        "hits": [
+          {
+            "name": "Perbesar foto: Pekerjaan di lapangan, arsip 035",
+            "cls": "home-gallery__photo"
+          }
+        ]
+      },
+      {
+        "y": 2880,
+        "hits": [
+          {
+            "name": "Perbesar foto: Pemadatan aspal, arsip 142",
+            "cls": "home-gallery__photo"
+          }
+        ]
+      }
+    ],
+    "collisionPositions": 2,
+    "errors": [],
+    "state": {
+      "blocked": "false",
+      "visible": "visible"
+    },
+    "overflow": false
+  },
+  {
+    "route": "/galeri-proyek",
+    "width": 1440,
+    "collisions": [
+      {
+        "y": 0,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 004",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 240,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 007",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 480,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 010",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 720,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 013",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 960,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 016",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 1200,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 016",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 1440,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 019",
+            "cls": "project-photo__button"
+          }
+        ]
+      },
+      {
+        "y": 1680,
+        "hits": [
+          {
+            "name": "Perbesar foto Dokumentasi lapangan 022",
+            "cls": "project-photo__button"
+          }
+        ]
+      }
+    ],
+    "collisionPositions": 8,
+    "errors": [],
+    "state": {
+      "blocked": "false",
+      "visible": "visible"
+    },
+    "overflow": false
+  }
+]

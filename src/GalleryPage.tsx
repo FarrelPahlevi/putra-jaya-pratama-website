@@ -4,7 +4,7 @@ import { SERVICES_LIST } from './data/mockData'
 import { PROJECT_PHOTOS, projectPhotoSrcSet } from './data/projectGallery'
 import { SiteHeader } from './SiteHeader'
 import { SiteFooter } from './SiteFooter'
-import { keepDialogFocus } from './utils/focus'
+import { usePhotoLightbox } from './components/usePhotoLightbox'
 import { useSiteMotion } from './motion/useSiteMotion'
 
 type Props = { onOpenInquiry: (serviceName?: string) => void }
@@ -13,9 +13,6 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
   const motionRoot = useSiteMotion()
   const [selected, setSelected] = useState('semua')
   const [visibleCount, setVisibleCount] = useState(24)
-  const [activeIndex, setActiveIndex] = useState<number | null>(null)
-  const dialogRef = useRef<HTMLDialogElement>(null)
-  const triggerRef = useRef<HTMLAnchorElement | null>(null)
   const touchStart = useRef<{ x: number; y: number } | null>(null)
 
   const categories = useMemo(
@@ -28,6 +25,7 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
   )
   const visiblePhotos = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount])
   const displayedCategories = categories.filter(service => selected === 'semua' ? visiblePhotos.some(photo => photo.serviceId === service.id) : selected === service.id)
+  const { activeIndex, dialogProps, openPhoto, closePhoto, movePhoto } = usePhotoLightbox(filtered.length)
   const activePhoto = activeIndex === null ? undefined : filtered[activeIndex]
 
   useEffect(() => {
@@ -35,44 +33,6 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
     const description = document.querySelector<HTMLMetaElement>('meta[name="description"]')
     if (description) description.content = 'Foto pengaspalan dan pekerjaan jalan Putra Jaya Pratama. Pilih jenis pekerjaan untuk melihat dokumentasi yang tersedia.'
   }, [])
-
-  useEffect(() => {
-    if (activeIndex === null) return
-    const dialog = dialogRef.current
-    if (!dialog) return
-    const previousOverflow = document.body.style.overflow
-    if (!dialog.open) dialog.showModal()
-    document.body.style.overflow = 'hidden'
-    return () => {
-      document.body.style.overflow = previousOverflow
-      if (dialog.open) dialog.close()
-    }
-  }, [activeIndex !== null])
-
-  useEffect(() => {
-    if (activeIndex === null) return
-    const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === 'ArrowRight') {
-        event.preventDefault()
-        setActiveIndex(i => i === null ? null : (i + 1) % filtered.length)
-      }
-      if (event.key === 'ArrowLeft') {
-        event.preventDefault()
-        setActiveIndex(i => i === null ? null : (i - 1 + filtered.length) % filtered.length)
-      }
-    }
-    document.addEventListener('keydown', onKeyDown)
-    return () => document.removeEventListener('keydown', onKeyDown)
-  }, [activeIndex !== null, filtered.length])
-
-  const openPhoto = (index: number, element: HTMLAnchorElement) => {
-    triggerRef.current = element
-    setActiveIndex(index)
-  }
-  const closePhoto = () => dialogRef.current?.close()
-  const movePhoto = (offset: number) => {
-    setActiveIndex(i => i === null ? null : (i + offset + filtered.length) % filtered.length)
-  }
 
   return (
     <div ref={motionRoot} className="minimal-site gallery-page">
@@ -89,13 +49,13 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
             <div className="project-filter-area">
               <div className="project-filter-scroll" role="group" aria-label="Filter berdasarkan layanan">
                 <button type="button" className="project-filter" aria-pressed={selected === 'semua'}
-                  onClick={() => { setSelected('semua'); setVisibleCount(24); setActiveIndex(null) }}>
+                  onClick={() => { setSelected('semua'); setVisibleCount(24); closePhoto() }}>
                   Semua foto
                 </button>
                 {categories.map(service => (
                   <button type="button" key={service.id} className="project-filter"
                     aria-pressed={selected === service.id}
-                    onClick={() => { setSelected(service.id); setVisibleCount(24); setActiveIndex(null) }}>
+                    onClick={() => { setSelected(service.id); setVisibleCount(24); closePhoto() }}>
                     {service.title}
                   </button>
                 ))}
@@ -122,11 +82,7 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
                         <article className={'project-photo' + (index === 0 ? ' project-photo--feature' : '') + (index === 3 ? ' project-photo--last' : '')}
                           key={photo.id} data-motion="photo" data-motion-order={Math.min(index, 5)}>
                           <a href={photo.image} className="project-photo__button"
-                            onClick={event => {
-                              if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
-                              event.preventDefault()
-                              openPhoto(absoluteIndex, event.currentTarget)
-                            }}
+                            onClick={event => openPhoto(absoluteIndex, event)}
                             aria-label={'Perbesar foto ' + photo.title}>
                             <img src={photo.image} srcSet={projectPhotoSrcSet(photo)}
                               sizes={'(max-width:360px) calc(100vw - 32px), (max-width:620px) 90vw, (max-width:900px) ' + (wide ? '90vw' : '44vw') + ', (max-width:1440px) ' + (wide ? '60vw, 842px' : '30vw, 415px')}
@@ -174,15 +130,8 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
       </main>
       <SiteFooter onOpenInquiry={onOpenInquiry} galleryPage />
 
-      <dialog ref={dialogRef} className="project-lightbox" aria-label="Foto pekerjaan"
-        onKeyDown={keepDialogFocus}
-        onClose={() => {
-          setActiveIndex(null)
-          triggerRef.current?.focus()
-        }}
-        onClick={event => { if (event.target === dialogRef.current) closePhoto() }}
-      >
-        {activePhoto && (
+      <dialog className="project-lightbox" aria-label="Foto pekerjaan" {...dialogProps}>
+        {activePhoto && activeIndex !== null && (
           <div className="project-lightbox__inner">
             <div className="project-lightbox__top">
               <div><span>GALERI PROYEK / PJP</span><strong>{activePhoto.title}</strong></div>
@@ -212,7 +161,7 @@ export const GalleryPage: React.FC<Props> = ({ onOpenInquiry }) => {
                 <span>{activePhoto.caption}</span>
               </div>
               <div className="project-lightbox__controls">
-                <span role="status" aria-atomic="true">{String(activeIndex! + 1).padStart(2,'0')} / {String(filtered.length).padStart(2,'0')}</span>
+                <span role="status" aria-atomic="true">{String(activeIndex + 1).padStart(2,'0')} / {String(filtered.length).padStart(2,'0')}</span>
                 <button type="button" aria-label="Foto sebelumnya" onClick={() => movePhoto(-1)}><ChevronLeft size={22} aria-hidden="true" /></button>
                 <button type="button" aria-label="Foto berikutnya" onClick={() => movePhoto(1)}><ChevronRight size={22} aria-hidden="true" /></button>
               </div>

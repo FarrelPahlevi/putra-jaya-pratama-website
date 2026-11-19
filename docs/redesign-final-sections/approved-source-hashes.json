@@ -1,0 +1,34 @@
+﻿[
+    {
+        "file":  "src/App.tsx",
+        "hash":  "C30FD70150DEB6BDC701503B027B359FDA94D65F771702F137026E74A53DB001"
+    },
+    {
+        "file":  "src/MinimalIndustrial.tsx",
+        "hash":  "A78C38743B70CC3B205C60529299FB08EEFF3687A9122FEE0A4CA13DEE5BF693"
+    },
+    {
+        "file":  "src/SiteHeader.tsx",
+        "hash":  "E7558DE13711322AFD28408004F1F235E45A8D2297B10E2B6FF1D3B175660845"
+    },
+    {
+        "file":  "src/SiteFooter.tsx",
+        "hash":  "4A65919F8C46005B2F4E5BA47807A7007BF61E20D8BA128D5766DC117580BC19"
+    },
+    {
+        "file":  "src/site-footer.css",
+        "hash":  "F03B4FCE82A96544BEF53198E92B8F044402ADF4FD2219E11F84F98F410DD4FC"
+    },
+    {
+        "file":  "src/config/contact.ts",
+        "hash":  "00463CAC8EA9C074832D3717D0A89D66C52040A5AD0130A7B05DE5675C68E35F"
+    },
+    {
+        "file":  "vite.config.ts",
+        "hash":  "2D349DD531EBC438776F51E3BCF28064538B7E19339285AAAAF6D429724ACA70"
+    },
+    {
+        "file":  "package.json",
+        "hash":  "57445BF8553E09D24808A21CABD14D4FF435E5AF97DF5584DB53EB9310C657AF"
+    }
+]

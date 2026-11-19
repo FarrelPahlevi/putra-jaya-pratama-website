@@ -18,7 +18,7 @@ Tampilan menggunakan identitas **Minimal Industrial** dengan palet oranye, hitam
 
 - **Beranda (`/`):** pengenalan PJP, enam layanan, dokumentasi, alur pekerjaan, dan ajakan konsultasi.
 - **Galeri Proyek (`/galeri-proyek`):** dokumentasi pekerjaan, filter layanan, dan galeri interaktif.
-- **Form konsultasi:** menyusun serta menyalin ringkasan kebutuhan pekerjaan. Pengiriman WhatsApp otomatis **belum diaktifkan**, karena kontak bisnis resmi belum ditambahkan.
+- **Form konsultasi:** membuka WhatsApp resmi PJP dengan pesan kebutuhan pekerjaan yang sudah disiapkan. Pelanggan memeriksa dan mengirim pesan dari WhatsApp; opsi salin ringkasan tetap tersedia. Konfigurasi nomor berada di `src/config/contact.ts`.
 - **Responsivitas dan aksesibilitas:** layout desktop, tablet, dan mobile; interaksi keyboard; dukungan reduced motion.
 
 ## Teknologi
@@ -70,6 +70,6 @@ Dokumen bertanggal sebelumnya tetap disimpan sebagai riwayat pekerjaan, bukan ac
 
 ## Status dan Batasan
 
-Situs saat ini masih dalam tahap finalisasi informasi bisnis. Kontak resmi dan detail perusahaan perlu dikonfirmasi sebelum peluncuran penuh. Karena itu, metadata `robots` tetap diatur `noindex,nofollow` untuk sementara.
+Nomor WhatsApp bisnis resmi sudah dikonfirmasi dan terhubung ke alur konsultasi lokal. Detail perusahaan lainnya masih dalam tahap finalisasi. Metadata `robots` tetap diatur `noindex,nofollow` untuk sementara; perubahan lokal ini belum memperbarui website production.
 
 **Cloudflare Pages menggunakan Direct Upload.** Push ke GitHub hanya menyinkronkan source; untuk memperbarui website publik, jalankan build dan deployment secara terpisah sesuai panduan.

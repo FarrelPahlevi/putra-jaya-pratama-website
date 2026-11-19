@@ -1,0 +1,208 @@
+{
+  "browser": "157.0.8103.79",
+  "checks": [
+    {
+      "name": "editorial 390: layout, actual images and Barlow",
+      "pass": true
+    },
+    {
+      "name": "editorial 390: accessible names and contrast",
+      "pass": false,
+      "error": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "name": "editorial 390: image dialog, arrows, Escape and focus return",
+      "pass": true
+    },
+    {
+      "name": "editorial 390: enquiry and floating-control clearance",
+      "pass": true
+    },
+    {
+      "name": "portfolio 390: layout, actual images and Barlow",
+      "pass": true
+    },
+    {
+      "name": "portfolio 390: accessible names and contrast",
+      "pass": false,
+      "error": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "name": "portfolio 390: image dialog, arrows, Escape and focus return",
+      "pass": true
+    },
+    {
+      "name": "portfolio 390: enquiry and floating-control clearance",
+      "pass": true
+    },
+    {
+      "name": "portfolio 390: photo selection is real and stable",
+      "pass": true
+    },
+    {
+      "name": "filmstrip 390: layout, actual images and Barlow",
+      "pass": true
+    },
+    {
+      "name": "filmstrip 390: accessible names and contrast",
+      "pass": false,
+      "error": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    },
+    {
+      "name": "filmstrip 390: image dialog, arrows, Escape and focus return",
+      "pass": true
+    },
+    {
+      "name": "filmstrip 390: enquiry and floating-control clearance",
+      "pass": true
+    },
+    {
+      "name": "filmstrip 390: horizontal rail uses native scrolling",
+      "pass": true
+    }
+  ],
+  "views": [
+    {
+      "width": 390,
+      "concept": "editorial",
+      "overflow": false,
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/112-400.webp",
+          "width": 350,
+          "height": 304
+        },
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/035-400.webp",
+          "width": 169,
+          "height": 147
+        },
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/142-400.webp",
+          "width": 169,
+          "height": 147
+        }
+      ],
+      "footerHeight": 848.140625,
+      "heading": "\"Barlow Semi Condensed\", \"Arial Narrow\", sans-serif"
+    },
+    {
+      "width": 390,
+      "concept": "portfolio",
+      "overflow": false,
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/112.webp",
+          "width": 350,
+          "height": 318
+        }
+      ],
+      "footerHeight": 848.140625,
+      "heading": "\"Barlow Semi Condensed\", \"Arial Narrow\", sans-serif"
+    },
+    {
+      "width": 390,
+      "concept": "filmstrip",
+      "overflow": false,
+      "images": [
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/112.webp",
+          "width": 301,
+          "height": 334
+        },
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/035-400.webp",
+          "width": 301,
+          "height": 334
+        },
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/142-400.webp",
+          "width": 301,
+          "height": 334
+        },
+        {
+          "loaded": true,
+          "src": "http://localhost:5173/assets/project-gallery/198-400.webp",
+          "width": 301,
+          "height": 334
+        }
+      ],
+      "footerHeight": 848.140625,
+      "heading": "\"Barlow Semi Condensed\", \"Arial Narrow\", sans-serif"
+    }
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/112-400.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/035-400.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/142-400.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/112.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/035.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/112.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/112-400.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/035-400.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/142-400.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/035.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/112.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/112-400.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/035-400.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/142-400.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/198-400.webp"
+    },
+    {
+      "width": 390,
+      "url": "http://localhost:5173/assets/project-gallery/035.webp"
+    }
+  ]
+}

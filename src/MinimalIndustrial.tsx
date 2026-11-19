@@ -3,9 +3,11 @@ import { ArrowRight, ArrowUpRight } from 'lucide-react'
 import { SERVICES_LIST } from './data/mockData'
 import { SiteHeader } from './SiteHeader'
 import { SiteFooter } from './SiteFooter'
+import { EditorialGallery } from './components/EditorialGallery'
 import { SERVICE_ILLUSTRATIONS } from './data/serviceIllustrations'
 import { useSiteMotion } from './motion/useSiteMotion'
 import { CONTACT, getWhatsAppUrl } from './config/contact'
+import './home-final-sections.css'
 
 type Props = {
   onOpenInquiry: (serviceName?: string) => void
@@ -50,7 +52,7 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
             <div className="minimal-kicker minimal-kicker--light">
               <span className="minimal-kicker__line" /> PUTRA JAYA PRATAMA / KONSTRUKSI JALAN
             </div>
-            <h1 id="minimal-hero-title"><span className="motion-hero-line" data-hero-line>Pengaspalan dan</span><br /><em className="motion-hero-line" data-hero-line>konstruksi jalan.</em></h1>
+            <h1 id="minimal-hero-title"><span className="motion-hero-line" data-hero-line>Pengaspalan dan</span><br /><em className="motion-hero-line" data-hero-line>konstruksi jalan</em></h1>
             <p data-hero-support>Kami melayani pengaspalan hotmix, perkerasan, dan pekerjaan pendukung jalan. Ceritakan kondisi lokasi dan rencana Anda.</p>
             <div className="minimal-hero__buttons" data-hero-support>
               <a className="minimal-button minimal-button--primary" href="#layanan" onClick={(event) => goTo(event, '#layanan')}>
@@ -109,7 +111,7 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
           </div>
           <div className="minimal-story__copy">
             <div className="minimal-story__copy-inner">
-              <span className="minimal-kicker minimal-kicker--light">02 / PENDEKATAN KAMI</span>
+              <span className="minimal-kicker minimal-kicker--light">02 / TENTANG KAMI</span>
               <h2 id="minimal-story-title" data-motion="title">Kami mulai dari <em>kondisi lapangan.</em></h2>
               <p data-motion="copy">Kami mulai dengan memahami kondisi jalan dan lahan, beban kendaraan, serta aliran air. Setelah itu, kami bahas cara pengerjaan yang sesuai dengan kebutuhan Anda.</p>
               <div className="minimal-story__facts" data-motion="copy">
@@ -124,31 +126,32 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
           </div>
         </section>
 
-        <section id="proyek" tabIndex={-1} className="minimal-gallery-teaser" aria-labelledby="minimal-gallery-teaser-title">
-          <div className="minimal-container minimal-gallery-teaser__inner">
-            <div>
-              <span className="minimal-kicker">03 / DOKUMENTASI PROYEK</span>
-              <h2 id="minimal-gallery-teaser-title" data-motion="title">Dokumentasi <em>pekerjaan jalan.</em></h2>
-              <p>Lihat dokumentasi pengaspalan dan pemadatan jalan, tersusun berdasarkan jenis pekerjaan.</p>
-            </div>
-            <a className="minimal-gallery-teaser__link" href="/galeri-proyek">
-              Lihat foto proyek <ArrowUpRight size={20} aria-hidden="true" />
-            </a>
-          </div>
-        </section>
+        <EditorialGallery />
 
-        <section id="kontak" tabIndex={-1} className="minimal-contact" aria-labelledby="minimal-contact-title">
-          <div className="minimal-container minimal-contact__inner">
-            <div>
-              <span className="minimal-kicker minimal-kicker--light">04 / KONSULTASI</span>
-              <h2 id="minimal-contact-title" data-motion="title">Ada rencana<br />pekerjaan <em>jalan?</em></h2>
-              <p>Ceritakan kondisi lokasi dan pekerjaan yang Anda butuhkan. Kami mulai dari informasi tersebut untuk membahas rencana pengerjaannya.</p>
-              <a className="minimal-contact__whatsapp" href={getWhatsAppUrl()} target="_blank" rel="noopener noreferrer">WhatsApp: {CONTACT.whatsappDisplay}</a>
+        <section id="kontak" tabIndex={-1} className="home-consultation" aria-labelledby="home-consultation-title">
+          <div className="minimal-container minimal-container--wide home-consultation__grid">
+            <div className="home-consultation__main" data-avoid-floating-contact>
+              <h2 id="home-consultation-title">Mulai dari<br /><em>kondisi lokasi.</em></h2>
+              <p>Ceritakan pekerjaan yang Anda butuhkan. Kita bahas kondisi lapangan dan rencana pengerjaannya bersama.</p>
+              <button className="home-consultation__action" type="button" onClick={() => onOpenInquiry()} aria-haspopup="dialog">
+                Ceritakan kebutuhan proyek <ArrowUpRight size={23} aria-hidden="true" />
+              </button>
             </div>
-            <button type="button" onClick={() => onOpenInquiry()} className="minimal-button minimal-button--dark" data-motion="settle">
-              Isi kebutuhan proyek <ArrowUpRight size={18} aria-hidden="true" />
-            </button>
+            <div className="home-consultation__preparation" data-avoid-floating-contact>
+              <h3>Untuk memulai percakapan</h3>
+              <dl>
+                <div><dt>Pekerjaan</dt><dd>Apa yang ingin dikerjakan?</dd></div>
+                <div><dt>Lokasi</dt><dd>Di mana rencananya?</dd></div>
+                <div><dt>Ukuran</dt><dd>Perkiraan luas, jika sudah ada.</dd></div>
+              </dl>
+              <p>Belum lengkap? Sampaikan yang Anda ketahui dulu.</p>
+            </div>
           </div>
+          <noscript>
+            <p className="minimal-container minimal-container--wide home-consultation__fallback">
+              Anda dapat langsung menghubungi <a href={getWhatsAppUrl()} target="_blank" rel="noopener noreferrer">WhatsApp PJP: {CONTACT.whatsappDisplay}</a>.
+            </p>
+          </noscript>
         </section>
       </main>
 

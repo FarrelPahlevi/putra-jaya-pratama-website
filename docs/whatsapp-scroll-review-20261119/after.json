@@ -1,0 +1,110 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "max": 5896,
+    "errors": [],
+    "hiddenSamples": 0,
+    "total": 39,
+    "transitions": [
+      {
+        "y": 0,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "false",
+        "targets": ""
+      }
+    ]
+  },
+  {
+    "route": "/galeri-proyek",
+    "width": 390,
+    "max": 7611,
+    "errors": [],
+    "hiddenSamples": 0,
+    "total": 49,
+    "transitions": [
+      {
+        "y": 0,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "false",
+        "targets": ""
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "max": 4536,
+    "errors": [],
+    "hiddenSamples": 0,
+    "total": 30,
+    "transitions": [
+      {
+        "y": 0,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "false",
+        "targets": ""
+      }
+    ]
+  },
+  {
+    "route": "/galeri-proyek",
+    "width": 768,
+    "max": 4486,
+    "errors": [],
+    "hiddenSamples": 0,
+    "total": 30,
+    "transitions": [
+      {
+        "y": 0,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "false",
+        "targets": ""
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "max": 4094,
+    "errors": [],
+    "hiddenSamples": 0,
+    "total": 27,
+    "transitions": [
+      {
+        "y": 0,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "false",
+        "targets": ""
+      }
+    ]
+  },
+  {
+    "route": "/galeri-proyek",
+    "width": 1440,
+    "max": 3060,
+    "errors": [],
+    "hiddenSamples": 0,
+    "total": 21,
+    "transitions": [
+      {
+        "y": 0,
+        "visible": "visible",
+        "blocked": "false",
+        "inert": false,
+        "footer": "false",
+        "targets": ""
+      }
+    ]
+  }
+]
