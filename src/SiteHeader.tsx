@@ -96,10 +96,9 @@ export const SiteHeader: React.FC<Props> = ({ onOpenInquiry, galleryPage = false
   return (
     <header ref={headerRef} className={'minimal-header' + (galleryPage ? ' minimal-header--solid' : '') + (scrolled ? ' minimal-header--scrolled' : '') + (menuOpen ? ' minimal-header--menu-open' : '')}>
       <div className="minimal-container minimal-header__inner">
-        <a href={galleryPage ? '/#beranda' : '#beranda'} className="minimal-brand"
+        <a href={galleryPage ? '/#beranda' : '#beranda'} className="minimal-brand minimal-brand--text-only"
           onClick={event => handleLink(event, '#beranda')}
           aria-label="Putra Jaya Pratama, kembali ke beranda">
-          <span className="minimal-brand__symbol">P<span>.</span></span>
           <span className="minimal-brand__name">PUTRA JAYA<strong>PRATAMA</strong></span>
         </a>
         <nav className="minimal-nav" aria-label="Navigasi utama">

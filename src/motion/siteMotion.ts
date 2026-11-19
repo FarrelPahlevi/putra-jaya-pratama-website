@@ -150,12 +150,8 @@ export function createSiteMotion(root: HTMLElement) {
         const heroImage = hero?.querySelector<HTMLElement>('.minimal-hero__image')
         if (hero && heroImage) depth(hero, heroImage, desktop.matches ? '1.8%' : '0.8%', 1.045, ['start start', 'end start'])
       }
-      if (desktop.matches) {
-        const story = root.querySelector<HTMLElement>('.minimal-story')
-        const image = story?.querySelector<HTMLElement>('.minimal-story__image img')
-        if (story && image) depth(story, image, '1.8%', 1.07, ['start end', 'end start'])
-        root.dataset.motionDepth = 'desktop'
-      }
+      // About-section imagery stays static. Scroll-linked scaling and vertical offsets
+      // made its crop jump relative to the adjacent copy, especially on desktop.
       root.dataset.motionState = 'active'
     } catch {
       disposeScene()

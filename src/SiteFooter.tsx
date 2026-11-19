@@ -45,9 +45,8 @@ export const SiteFooter: React.FC<Props> = ({ onOpenInquiry, galleryPage = false
       <div className="minimal-container minimal-container--wide">
         <div className="pjp-site-footer__information">
           <div className="pjp-site-footer__identity">
-            <a className="minimal-brand pjp-site-footer__logo" href={hrefFor('#beranda')}
+            <a className="minimal-brand minimal-brand--text-only pjp-site-footer__logo" href={hrefFor('#beranda')}
               aria-label="Putra Jaya Pratama, beranda" onClick={event => navigateSection(event, '#beranda')}>
-              <span className="minimal-brand__symbol" aria-hidden="true">P<span>.</span></span>
               <span className="minimal-brand__name" aria-hidden="true">PUTRA JAYA<strong>PRATAMA</strong></span>
             </a>
             <p>Kami melayani pengaspalan, perkerasan, dan pekerjaan konstruksi jalan.</p>

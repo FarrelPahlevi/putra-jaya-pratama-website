@@ -107,7 +107,6 @@ export const MinimalIndustrial: React.FC<Props> = ({ onOpenInquiry }) => {
               srcSet="/assets/pjp-preview/road-roller-preview-400.webp 400w, /assets/pjp-preview/road-roller-preview-700.webp 700w, /assets/pjp-preview/road-roller-preview.webp 1200w"
               sizes="(max-width:950px) 100vw, 50vw"
               alt="Pemadatan jalan menggunakan road roller." width={1200} height={900} />
-            <span>DOKUMENTASI PEMADATAN JALAN</span>
           </div>
           <div className="minimal-story__copy">
             <div className="minimal-story__copy-inner">

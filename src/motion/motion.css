@@ -1,17 +1,7 @@
 .motion-hero-line {display:inline-block;max-width:100%;vertical-align:bottom;}
 [data-motion="line"] {transform-origin:left center;}
 
-/* Reserve native sticky geometry before the deferred motion module loads. */
-@media(min-width:1200px) and (min-height:800px) and (prefers-reduced-motion:no-preference) {
-  .minimal-story__image {
-    position:sticky;
-    top:calc(var(--mi-header-height) + 24px);
-    align-self:start;
-    height:calc(100svh - var(--mi-header-height) - 48px);
-    min-height:0;
-    max-height:800px;
-  }
-}
+/* Keep the About photo aligned with its text as one stable editorial section. */
 
 @media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
   .minimal-service__visual img {transition:transform .45s var(--mi-ease);}
